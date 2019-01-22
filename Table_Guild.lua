@@ -1,0 +1,16 @@
+--md5:593084bbd04f9093ceb1d7a750805ffc
+Table_Guild = { 
+	[1] = {id = 1, ReviewFund = 0, UpperLimit = 6000, LevelupFund = 0, DeductItem = {0}, MemberNum = 46, Management = 2, maintenanceCharge = 0, GuildQuestNumber = 18, BeliefUL = 20, DojoGroup = {1000}, DojoTxt = '????????????', DonateListLimit = 5, ChallengeCount = 2},
+	[2] = {id = 2, ReviewFund = 20765, UpperLimit = 6500, LevelupFund = 20740, DeductItem = {5500,1}, MemberNum = 52, Management = 2, maintenanceCharge = 100, GuildQuestNumber = 21, BeliefUL = 40, DojoGroup = {2000}, DojoTxt = '??????????????????2???', DonateListLimit = 5, ChallengeCount = 2},
+	[3] = {id = 3, ReviewFund = 46490, UpperLimit = 7000, LevelupFund = 46400, DeductItem = {5500,2}, MemberNum = 58, Management = 2, maintenanceCharge = 300, GuildQuestNumber = 24, BeliefUL = 60, DojoGroup = {3000}, DojoTxt = '??????????????????3???', DonateListLimit = 6, ChallengeCount = 3},
+	[4] = {id = 4, ReviewFund = 77225, UpperLimit = 7500, LevelupFund = 76980, DeductItem = {5500,3}, MemberNum = 64, Management = 3, maintenanceCharge = 500, GuildQuestNumber = 27, BeliefUL = 80, DojoGroup = {4000}, DojoTxt = '??????????????????4???', DonateListLimit = 6, ChallengeCount = 3},
+	[5] = {id = 5, ReviewFund = 114540, UpperLimit = 8000, LevelupFund = 113980, DeductItem = {5500,4}, MemberNum = 70, Management = 3, maintenanceCharge = 700, GuildQuestNumber = 28, BeliefUL = 100, DojoGroup = {5000}, DojoTxt = '??????????????????5???', DonateListLimit = 7, ChallengeCount = 3},
+	[6] = {id = 6, ReviewFund = 160160, UpperLimit = 8500, LevelupFund = 158900, DeductItem = {5500,5}, MemberNum = 76, Management = 3, maintenanceCharge = 900, GuildQuestNumber = 30, BeliefUL = 100, DojoGroup = _EmptyTable, DojoTxt = '????????????', DonateListLimit = 7, ChallengeCount = 4},
+	[7] = {id = 7, ReviewFund = 245140, UpperLimit = 9000, LevelupFund = 242340, DeductItem = {5500,6}, MemberNum = 82, Management = 4, maintenanceCharge = 1100, GuildQuestNumber = 32, BeliefUL = 100, DojoGroup = _EmptyTable, DojoTxt = '????????????', DonateListLimit = 8, ChallengeCount = 4},
+	[8] = {id = 8, ReviewFund = 373405, UpperLimit = 9500, LevelupFund = 368400, DeductItem = {5500,7}, MemberNum = 88, Management = 4, maintenanceCharge = 1300, GuildQuestNumber = 33, BeliefUL = 100, DojoGroup = _EmptyTable, DojoTxt = '????????????', DonateListLimit = 8, ChallengeCount = 4},
+	[9] = {id = 9, ReviewFund = 560220, UpperLimit = 10000, LevelupFund = 553080, DeductItem = {5500,8}, MemberNum = 94, Management = 4, maintenanceCharge = 1500, GuildQuestNumber = 34, BeliefUL = 100, DojoGroup = _EmptyTable, DojoTxt = '????????????', DonateListLimit = 9, ChallengeCount = 4},
+	[10] = {id = 10, ReviewFund = 832185, UpperLimit = 0, LevelupFund = 822630, DeductItem = {5500,9}, MemberNum = 100, Management = 5, maintenanceCharge = 1700, GuildQuestNumber = 35, BeliefUL = 100, DojoGroup = _EmptyTable, DojoTxt = '????????????', DonateListLimit = 10, ChallengeCount = 4},
+}
+
+Table_Guild_fields = { "id","ReviewFund","UpperLimit","LevelupFund","DeductItem","MemberNum","Management","maintenanceCharge","GuildQuestNumber","BeliefUL","DojoGroup","DojoTxt","DonateListLimit","ChallengeCount",}
+return Table_Guild

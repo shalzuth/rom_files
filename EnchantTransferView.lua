@@ -1,0 +1,410 @@
+EnchantTransferView = class("EnchantView",BaseView)
+autoImport("EnchantTransferCell")
+EnchantTransferView.ViewType = UIViewType.NormalLayer
+
+local PERSENT_FORMAT = "%s    [c][1B5EB1]+%s%%[-][/c]"
+local VALUE_FORMAT = "%s    [c][1B5EB1]+%s[-][/c]"
+local WORKTIP_FORMAT = "[c][9c9c9c]%s:%s(%s)[-][/c]"
+local COMBINE_FORMAT = "[c][222222]%s:%s[-][/c]"
+local NOENCHANT_FORMAT = "[c][9c9c9c]%s[-][/c]"
+local STR_FORMAT = string.format
+local _WhiteUIWidget = ColorUtil.WhiteUIWidget
+local tempColor = LuaColor.white
+local _ArrayClear = TableUtility.ArrayClear
+local COST_CFG = GameConfig.Lottery.TransferCost
+
+function EnchantTransferView:Init()
+	self:FindObjs()
+	self:LisEvent()
+	self:AddEvts()
+	self:InitView()
+	self:UpdataMainBord()
+end
+
+function EnchantTransferView:FindObjs()
+	self.transferText = self:FindComponent("TransferText",UILabel)
+	self.cost = self:FindComponent("Cost",UISprite)
+	self.costNum = self:FindComponent("CostNum",UILabel)
+	self.transferDesc = self:FindComponent("TransferDesc",UILabel)
+	self.filterName = self:FindComponent("FilterName",UILabel)
+	self.addItemInButton = self:FindComponent("AddItemInButton",UISprite);
+	self:AddClickEvent(self.addItemInButton.gameObject, function (go)
+		self:clickTargetInItem();
+	end);
+	self.addItemOutButton = self:FindComponent("AddItemOutButton",UISprite);
+	self:AddClickEvent(self.addItemOutButton.gameObject, function (go)
+		self:clickTargetOutItem();
+	end);
+	self.targetInGo = self:FindGO("TargetInCell");
+	self.targetInItemCell = BaseItemCell.new(self.targetInGo);
+	self.targetInItemCell:AddEventListener(MouseEvent.MouseClick, self.clickTargetInItem, self);
+
+	self.targetOutGo = self:FindGO("TargetOutCell");
+	self.targetOutItemCell = BaseItemCell.new(self.targetOutGo);
+	self.targetOutItemCell:AddEventListener(MouseEvent.MouseClick, self.clickTargetOutItem, self);
+	self.scrollView = self:FindGO("EnchantScrollView")
+	local enchantInfoTable = self:FindGO("EnchantInfoTable");
+	local wrapConfig = {
+		wrapObj = enchantInfoTable, 
+		pfbNum = 5, 
+		cellName = "EnchantTransferCell", 
+		control = EnchantTransferCell, 
+	}
+	self.chooseCtl = WrapCellHelper.new(wrapConfig);
+	self.chooseCtl:AddEventListener(MouseEvent.MouseClick, self.HandleChooseItem, self);
+	self.chooseCtl:AddEventListener(EnchantTransferCellEvent.ClickItemIcon,self.ClickItemIcon,self)
+	self.chooseBord = self:FindGO("EnchantInfoBord")
+	self.tipLabel = self:FindGO("TipLabel")
+	----[[
+		-- todo xde ???????????????????????????+?????????????????????????????? ???
+		-- ????????????????????????
+	local sp = self:FindGO("Sprite", self.tipLabel)
+	local lbl2 = self:FindGO("TipLabel", self.tipLabel)
+	self:Hide(sp)
+	self:Hide(lbl2)
+	local txt = self.tipLabel:GetComponent("UILabel")
+	txt.text = ZhString.Oversea_Prefab_1
+	txt.width = 400
+	local pos = txt.transform.localPosition
+	txt.transform.localPosition = Vector3(286, pos.y, pos.z)
+	txt.maxLineCount = 3
+	txt.overflowMethod = 3
+	--]] 
+	----[[ todo xde ?????????????????? lbl ????????????????????????
+	local bgWidget = self:FindComponent("Attri", UIWidget, self.transferDesc.gameObject)
+	bgWidget.rightAnchor.target = self.transferDesc.gameObject.transform
+	bgWidget.rightAnchor.relative = 1
+	bgWidget.rightAnchor.absolute = 20
+	bgWidget.leftAnchor.target = self.transferDesc.gameObject.transform
+	bgWidget.leftAnchor.relative = 0
+	bgWidget.leftAnchor.absolute = -20
+	--]]
+
+	local table = self:FindComponent("previewTable", UITable);
+	self.attrPreviewCtl = UIGridListCtrl.new(table, TipLabelCell, "TipLabelCell");
+	self.filter = self:FindGO("Filter"):GetComponent(UIPopupList)
+	self.closecomp = self.chooseBord:GetComponent(CloseWhenClickOtherPlace);
+	self.empty = self:FindComponent("Empty",UILabel)
+	self.btn=self:FindComponent("TransferBtn",UISprite)
+	self.effContainer = self:FindGO("EffContainer");
+	
+	--todo xde fix ui
+	self.empty.pivot = UIWidget.Pivot.Top
+	self.empty.transform.localPosition = Vector3(0,0,0)
+	OverseaHostHelper:FixLabelOverV1(self.empty,3,340)
+
+	local img = self:FindGO("Img"):GetComponent(UISprite);
+	img.pivot = UIWidget.Pivot.Center
+	img.transform.localPosition = Vector3(0,50,0)
+end
+
+function EnchantTransferView:AddEvts()
+	self:AddClickEvent(self.btn.gameObject,function (go)
+		self:OnTransfer()
+	end)
+
+	EventDelegate.Add(self.filter.onChange, function()
+		if self.filter.data == nil then
+			return
+		end
+		if self.filterData ~= self.filter.data then
+			local data = EnchantTransferProxy.Instance:GetFilterData(self.filter.data)
+			if(0<#data)then
+				self.filterData = self.filter.data
+				self.chooseCtl:UpdateInfo(data)
+				self.chooseCtl:ResetPosition()
+				self.curFilterValue=self.filter.value
+			else
+				self.filterName.text = self.curFilterValue
+				MsgManager.ShowMsgByID(290)
+			end
+		end
+	end)
+end
+
+function EnchantTransferView:SelectFirst()
+	local first = self.chooseCtl:GetCellCtls()[1]
+	if first then
+		self:HandleChooseItem(first)
+	end
+end
+
+function EnchantTransferView:ClickItemIcon(cell)
+	local data = cell.data
+	if nil~=data then
+		self.tipData.itemdata = data
+		self:ShowItemTip(self.tipData, cell.icon, NGUIUtil.AnchorSide.Right, {220,0})		
+	end
+end
+
+local filter = {}
+local function _getFilter(filterData)
+	_ArrayClear(filter)
+	for k,v in pairs(filterData) do
+		table.insert(filter,k)
+	end
+	return filter
+end
+
+function EnchantTransferView:InitFilter()
+	self.filter:Clear()
+	local makeFilter = GameConfig.Lottery.TransferFilter
+	local rangeList = _getFilter(makeFilter)
+	for i=1,#rangeList do
+		local rangeData = makeFilter[rangeList[i]]
+		self.filter:AddItem(rangeData , rangeList[i])
+	end
+	if #rangeList > 0 then
+		local range = rangeList[1]
+		self.filterData = range
+		local rangeData = makeFilter[range]
+		self.filter.value = rangeData
+		self.curFilterValue=self.filter.value
+	end
+end
+
+local lineTab = {453,229}
+function EnchantTransferView:SetBordAttr()
+	if(nil==self.contextDatas)then
+		self.contextDatas={}
+	else
+		_ArrayClear(self.contextDatas)
+	end
+
+	if(self.transferInData and self.transferInData.enchantInfo)then
+		local attri = self.transferInData.enchantInfo:GetEnchantAttrs()
+		if(0<#attri)then
+			for i=1,#attri do
+				local content = {}
+				if(attri[i].propVO.isPercent)then
+					content.label = STR_FORMAT(PERSENT_FORMAT, attri[i].name, attri[i].value)
+				else
+					content.label = STR_FORMAT(VALUE_FORMAT, attri[i].name, attri[i].value)
+				end
+				content.hideline=false
+				content.lineTab=lineTab
+				self.contextDatas[#self.contextDatas+1] = content;
+			end
+			local combineEffects = self.transferInData.enchantInfo:GetCombineEffects()
+			for i=1,#combineEffects do
+				local content = {}
+				local combineEffect = combineEffects[i]
+				local buffData = combineEffect and combineEffect.buffData
+				if(buffData)then
+					if(combineEffect.isWork)then
+						content.label = STR_FORMAT(WORKTIP_FORMAT, buffData.BuffName, buffData.BuffDesc)
+					else
+						content.label = STR_FORMAT(COMBINE_FORMAT, buffData.BuffName, buffData.BuffDesc, combineEffect.WorkTip)
+					end
+					content.hideline=false
+					content.lineTab=lineTab
+					self.contextDatas[#self.contextDatas+1] = content;
+				end
+			end
+		end
+	end
+	if(0<#self.contextDatas)then
+		self.contextDatas[#self.contextDatas].hideline=true
+	end
+	self.attrPreviewCtl:ResetDatas(self.contextDatas);
+end
+
+function EnchantTransferView:LisEvent()
+	self:AddListenEvt(ServiceEvent.ItemEnchantTransItemCmd, self.HandleTransfer)
+end
+
+function EnchantTransferView:HandleTransfer(note)
+	local data = note.body
+	if(true==data.success)then
+		-- TODO play successful effect
+
+	self:PlayUIEffect(EffectMap.UI.EnchantTransfer, 
+								self.effContainer, 
+								true, 
+								self.SuccessEffectHandle, 
+								self)
+	end
+end
+
+function EnchantTransferView:_CloseUI()
+	MsgManager.ShowMsgByID(293)
+	LeanTween.cancel(self.gameObject)
+	LeanTween.delayedCall(self.gameObject,3,function ()
+		self:CloseSelf()
+		self.forbiddenFlag = false
+	end)
+end
+
+function EnchantTransferView.SuccessEffectHandle(effectHandle, owner)
+	if(owner)then
+		owner:_CloseUI()
+	end
+end
+
+function EnchantTransferView:InitView()
+	ServiceItemProxy.Instance:CallQueryLotteryHeadItemCmd()
+	local iconName = Table_Item[COST_CFG.itemid] and Table_Item[COST_CFG.itemid].Icon or ""
+	IconManager:SetItemIcon(iconName,self.cost)
+	self.costNum.text = COST_CFG.num
+	self.transferText.text =ZhString.EnchantTransferView_BtnName
+	self.empty.text = ZhString.EnchantTransferView_Empty
+	self.tipData = {}
+	tempColor:Set(1.0/255.0,2.0/255.0,3.0/255.0,160/255)
+	self:InitFilter()
+	self:SelectFirst()
+
+	----[[ todo xde ???????????? popuplist
+	local filterRoot = self:FindGO("FilterRoot")
+	local filterBg = self:FindComponent("Sprite", UISprite, filterRoot)
+	local delta = 0
+
+	-- filterName ???????????????????????????????????????
+	local trueLabelWidth = 0
+	if (self.hiddenLabel == nil) then
+		-- printData('Instantiate', 'called')
+		self.hiddenLabel = GameObject.Instantiate(self.filterName)
+		self.hiddenLabel.name = "HiddenLabel"
+		self.hiddenLabel.gameObject.transform:SetParent(self.filterName.transform.parent, false)
+		self.hiddenLabel.gameObject:SetActive(false)
+		self.hiddenLabel.maxLineCount = 1
+		trueLabelWidth = self.hiddenLabel.localSize.x
+		-- printData('self.hiddenLabel.text', self.hiddenLabel.text)
+		-- printData('self.hiddenLabel.width', self.hiddenLabel.width)
+		-- printData('self.hiddenLabel.localSize.x', self.hiddenLabel.localSize.x)
+	end
+
+	self.filterName.maxLineCount = 1
+
+	-- printData('self.filterName.text', self.filterName.text)
+	-- printData('self.filterName.width', self.filterName.width)
+	-- printData('self.filterName.localSize.x', self.filterName.localSize.x)
+
+	filterBg.pivot = UIWidget.Pivot.Left
+	filterBg.width = trueLabelWidth + 60
+	local collider = self.filter.gameObject:GetComponent("BoxCollider")
+	local offset = filterBg.transform.localPosition.x
+	collider.center = Vector3(offset + filterBg.width / 2, 0, 0)
+	collider.size = Vector3(filterBg.width, filterBg.height, 0)
+	-- printData('filterBg.width', filterBg.width)
+	local widget = self:FindComponent("FilterNext", UIWidget, filterRoot)
+	widget.rightAnchor.target = filterBg.gameObject.transform
+	widget.rightAnchor.relative = 1
+	widget.rightAnchor.absolute = -10
+	widget.leftAnchor.target = filterBg.gameObject.transform
+	widget.leftAnchor.relative = 1
+	widget.leftAnchor.absolute = -30
+
+	widget = self.filterName.gameObject:GetComponent(UIWidget)
+	widget.leftAnchor.target = filterBg.gameObject.transform
+	widget.leftAnchor.relative = 0
+	widget.leftAnchor.absolute = 16
+	widget.rightAnchor.target = filterBg.gameObject.transform
+	widget.rightAnchor.relative = 0
+	widget.rightAnchor.absolute = 16 + trueLabelWidth + delta
+	--]]
+end
+
+function EnchantTransferView:HandleChooseItem(cellctl)
+	local data = cellctl and cellctl.data;
+	if(EnchantTransferProxy.Instance.chooseTransferInData)then
+		EnchantTransferProxy.Instance:ResetChooseData(data)
+		self.transferInData=data
+		self.targetInItemCell:SetData(data);
+		self.targetInItemCell:UpdateMyselfInfo(data)
+		self:Show(self.targetInGo)
+		self:ResetTransOutData()
+	else
+		self.transferOutData=data
+		self.targetOutItemCell:SetData(data);
+		self.targetOutItemCell:UpdateMyselfInfo(data)
+		self:Show(self.targetOutGo)
+	end
+	self:Hide(self.chooseBord)
+	self:UpdataMainBord()
+	self:SetBordAttr()
+end
+
+function EnchantTransferView:ResetTransOutData()
+	if(self.transferOutData and self.transferOutData.staticData.Type~=self.transferInData.staticData.Type)then
+		self.transferOutData = nil
+		self:Hide(self.targetOutGo)
+	end
+end
+
+function EnchantTransferView:UpdataMainBord()
+	if(self.transferInData)then
+		self:Hide(self.tipLabel)
+		self.addItemInButton.enabled = false
+	else
+		self:Show(self.tipLabel)
+		self.addItemInButton.enabled = true
+		_WhiteUIWidget(self.addItemInButton)
+	end
+	if(self.transferOutData)then
+		self.addItemOutButton.enabled = false
+	else
+		self.addItemOutButton.enabled = true
+		if(self.transferInData)then
+			_WhiteUIWidget(self.addItemOutButton)
+		else
+			self.addItemOutButton.color=tempColor
+		end
+	end
+	if(self.transferInData and self.transferOutData)then
+		_WhiteUIWidget(self.btn)
+		_WhiteUIWidget(self.cost)
+		self.transferText.effectStyle =UILabel.Effect.Outline
+	else
+		self.btn.color=tempColor
+		self.cost.color=tempColor
+		self.transferText.effectStyle =UILabel.Effect.None
+	end
+end
+
+function EnchantTransferView:clickTargetInItem(cellCtl)
+	EnchantTransferProxy.Instance:ResetPhase(true)
+	self:Show(self.filter.gameObject)
+	local data = EnchantTransferProxy.Instance:GetEnchantInData()
+	self:_resetChooseInfo(data)
+end
+
+function EnchantTransferView:clickTargetOutItem(cellCtl)
+	if(not self.transferInData)then return end
+	EnchantTransferProxy.Instance:ResetPhase(false)
+	self:Hide(self.filter.gameObject)
+	local data = EnchantTransferProxy.Instance:GetEnchantOutData()
+	self:_resetChooseInfo(data)
+end
+
+function EnchantTransferView:_resetChooseInfo(data)
+	self:Show(self.chooseBord)
+	self.chooseCtl:UpdateInfo(data)
+	self.chooseCtl:ResetPosition()
+	self.scrollView:SetActive(#data>0)
+	self.empty.gameObject:SetActive(#data==0)
+end
+
+function EnchantTransferView:OnTransfer()
+	if(self.forbiddenFlag)then
+		return
+	end
+
+	if(not self.transferInData or not self.transferOutData)then
+		return
+	end
+	if(BagProxy.Instance:GetItemNumByStaticID(COST_CFG.itemid) < COST_CFG.num)then
+		MsgManager.ShowMsgByID(292)
+		return
+	end
+	
+	local dont = LocalSaveProxy.Instance:GetDontShowAgain(291)
+	if nil == dont then
+		MsgManager.DontAgainConfirmMsgByID(291, function ()
+				ServiceItemProxy.Instance:CallEnchantTransItemCmd(self.transferInData.id, self.transferOutData.id) 
+				self.forbiddenFlag = true
+			end)
+	else
+		ServiceItemProxy.Instance:CallEnchantTransItemCmd(self.transferInData.id, self.transferOutData.id) 
+		self.forbiddenFlag = true
+	end
+end
