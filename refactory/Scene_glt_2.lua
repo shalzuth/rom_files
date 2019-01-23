@@ -5072,4 +5072,4 @@ local Scene_glt_2={
 		}
 	}
 }
-return Scene_glt_2
+return Scene_glt_2

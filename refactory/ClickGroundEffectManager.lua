@@ -80,4 +80,4 @@ function ClickGroundEffectManager:_DestroyEffect()
 	end
 	self._clickGroundEffect = nil
 	self._clickGroundGO = nil
-end
+end

@@ -29,4 +29,4 @@ function LotteryMonthGroupCell:SetChoose(isChoose)
 	else
 		ColorUtil.WhiteUIWidget(self.content)
 	end
-end
+end

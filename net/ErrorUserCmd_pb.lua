@@ -370,4 +370,3 @@ REG_ERR_USER_CMD = 1
 REG_KICK_USER_CMD = 2
 RegErrUserCmd = protobuf.Message(REGERRUSERCMD)
 
-

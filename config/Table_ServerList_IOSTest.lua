@@ -28,4 +28,4 @@ Table_ServerList_IOSTest = {
 }
 
 Table_ServerList_IOSTest_fields = { "id","name","type","serverid","state",}
-return Table_ServerList_IOSTest
+return Table_ServerList_IOSTest

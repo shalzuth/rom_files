@@ -59,4 +59,3 @@ function HairCutCell:SetData(data)
 end
 
 
-

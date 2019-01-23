@@ -390,4 +390,4 @@ function EquipAlchemyView:OnExit()
 
 	PictureManager.Instance:UnLoadUI("alchemy_bg_bar", self.vmSlider_Foreground)
 	PictureManager.Instance:UnLoadUI("alchemy_bg_bar", self.mmSlider_Foreground)
-end
+end

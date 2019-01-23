@@ -720,4 +720,3 @@ function AutoBattle:LoopGetValidSkill(creature, skillItems, startIndex, filter, 
 	-- return attackSkillItem, attackSkillIndex, attackSkillNoTarget, forceLockCreature
 	return attackSkillItem, nil, attackSkillNoTarget, forceLockCreature
 end
-

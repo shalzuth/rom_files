@@ -68,4 +68,4 @@ function FunctionPlayerDistance:UnMaskUI(creature)
 	FunctionPlayerUI.Me():UnMaskHurtNum(creature,self.reason,false)
 	FunctionPlayerUI.Me():UnMaskChatSkill(creature,self.reason,false)
 	FunctionPlayerUI.Me():UnMaskEmoji(creature,self.reason,false)
-end
+end

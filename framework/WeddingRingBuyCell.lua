@@ -57,4 +57,4 @@ function WeddingRingBuyCell:Confirm()
 			end
 		end
 	end
-end
+end

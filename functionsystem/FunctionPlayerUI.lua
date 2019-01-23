@@ -146,4 +146,4 @@ end
 
 function FunctionPlayerUI:UnMaskFloatRoleTop(creature,reason,autoSend)
 	return self:UnMaskUI(creature,reason,MaskPlayerUIType.FloatRoleTop,autoSend)
-end
+end

@@ -140,4 +140,4 @@ local Scene_room_gef_top2___ct={
 		}
 	}
 }
-return Scene_room_gef_top2___ct
+return Scene_room_gef_top2___ct

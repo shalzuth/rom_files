@@ -1728,4 +1728,4 @@ local Scene_aldebaran={
 		}
 	}
 }
-return Scene_aldebaran
+return Scene_aldebaran

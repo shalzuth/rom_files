@@ -50,4 +50,4 @@ function AdventrueDataCommand:NeedServerSync(type)
 	-- 	end
 	-- end
 	return true
-end
+end

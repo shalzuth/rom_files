@@ -72,4 +72,4 @@ end
 
 function ClickEffectView:ExitHandUpMode()
 	self.collider:SetActive(false);
-end
+end

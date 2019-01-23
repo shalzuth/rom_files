@@ -151,4 +151,3 @@ setmetatable(Table_GuildFunction[233],{__index = Table_GuildFunction[1]})
 setmetatable(Table_GuildFunction[119],{__index = Table_GuildFunction[107]})
 setmetatable(Table_GuildFunction[234],{__index = Table_GuildFunction[113]})
 return Table_GuildFunction
-

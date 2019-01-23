@@ -6,4 +6,4 @@ function EventManager.Me()
 		EventManager.me = EventManager.new()
 	end
 	return EventManager.me
-end
+end

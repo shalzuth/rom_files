@@ -256,4 +256,4 @@ function LuaProfiler.PrintPercentage()
 		end
 		LogUtility.Info(LuaProfilerSample.printLog)
 	end
-end
+end

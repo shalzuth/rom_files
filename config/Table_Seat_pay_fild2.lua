@@ -37,4 +37,4 @@ Table_Seat_pay_fild2 = {
 }
 
 Table_Seat_pay_fild2_fields = { "id","StandPot","SeatPot","Dir",}
-return Table_Seat_pay_fild2
+return Table_Seat_pay_fild2

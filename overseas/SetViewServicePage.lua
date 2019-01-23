@@ -54,4 +54,4 @@ function SetViewServicePage:Save()
     helplog("save")
     helplog(self.notiToggle.value)
     OverSeas_TW.OverSeasManager.GetInstance():SetNotification(self.notiToggle.value)
-end
+end

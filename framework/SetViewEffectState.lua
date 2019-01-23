@@ -173,4 +173,3 @@ function SetViewEffectState:GetIntByBit(num, index, b)
     end
     return num
 end
-

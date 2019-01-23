@@ -2161,4 +2161,3 @@ TakeAuctionRecordCCmd = protobuf.Message(TAKEAUCTIONRECORDCCMD)
 UpdateAuctionFlowingWaterCCmd = protobuf.Message(UPDATEAUCTIONFLOWINGWATERCCMD)
 UpdateAuctionInfoCCmd = protobuf.Message(UPDATEAUCTIONINFOCCMD)
 
-

@@ -269,4 +269,4 @@ function FunctionSceneFilter:FilterAllEffect(val)
 		end
 	end
 		-- helplog("FilterAllEffect",allEffectFilter)
-end
+end

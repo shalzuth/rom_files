@@ -137,4 +137,3 @@ function BoothRecordCell:SetResult(isActive)
 	self.objRecieveBtn:SetActive(false)
 	self.labResult.gameObject:SetActive(isActive)
 end
-

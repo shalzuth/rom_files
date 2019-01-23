@@ -879,4 +879,4 @@ function AI_Myself:_DoRequest(time, deltaTime, creature)
 		self:_BreakAll(time, deltaTime, creature)
 	end
 end
--- override end
+-- override end

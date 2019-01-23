@@ -20,4 +20,4 @@ function AdventureIndicatorCell:SetData( data)
 		tempColor:Set(1,1,1,1)
 		self.bg.color = tempColor
 	end
-end
+end

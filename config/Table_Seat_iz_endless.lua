@@ -27,4 +27,4 @@ Table_Seat_iz_endless = {
 }
 
 Table_Seat_iz_endless_fields = { "id","StandPot","SeatPot","Dir",}
-return Table_Seat_iz_endless
+return Table_Seat_iz_endless

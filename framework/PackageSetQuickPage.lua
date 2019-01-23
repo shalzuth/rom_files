@@ -77,4 +77,4 @@ function PackageSetQuickPage:AddViewEvts()
 	self:AddListenEvt(ItemEvent.ItemUpdate,self.UpdateQuickUse);
 	self:AddListenEvt(ServiceEvent.NUserPutShortcut,self.UpdateQuickUse);
 	self:AddListenEvt(MyselfEvent.ResetHpShortCut,self.UpdateQuickUse);
-end
+end

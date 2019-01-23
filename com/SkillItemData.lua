@@ -408,4 +408,4 @@ end
 -- 		self.cdTime = 0
 -- 		TimeTickManager.Me():ClearTick(self)
 -- 	end	
--- end
+-- end

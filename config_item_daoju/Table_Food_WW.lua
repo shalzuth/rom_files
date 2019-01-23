@@ -5,4 +5,4 @@ Table_Food_WW = {
 }
 
 Table_Food_WW_fields = { "id","Name","CookHard","CookerExp","TasterExp","FullProgress","Height","Weight","Duration","BuffEffect","NpcId","MultiEat","HatReward","HealHP","HealSP","SaveHP","SaveSP","CookLvAttr","TasteLvAttr","CycleLimit",}
-return Table_Food_WW
+return Table_Food_WW

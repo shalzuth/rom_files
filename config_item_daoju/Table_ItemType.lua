@@ -158,4 +158,4 @@ Table_ItemType = {
 }
 
 Table_ItemType_fields = { "id","Name","icon","Typegroup","AdventureLogGroup","Order1","Function","EffectShow","UseNumber",}
-return Table_ItemType
+return Table_ItemType

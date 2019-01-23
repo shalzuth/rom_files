@@ -26,4 +26,3 @@ Table_Pet_Capture = {
 }
 Table_Pet_Capture_fields = { "id","PetID","CatchNpcID","GiftItemID","EggID",}
 return Table_Pet_Capture
-

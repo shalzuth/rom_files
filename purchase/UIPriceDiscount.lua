@@ -18,4 +18,4 @@ function UIPriceDiscount.SetDiscount(percent, sp_percent_bg, lab_percent, lab_pe
 	lab_percent.effectColor = color
 	lab_percent_symbol.effectColor = color
 	sp_percent_bg.CurrentState = mulSpriteState
-end
+end

@@ -122,4 +122,3 @@ FRR_LOWPOW = 2
 FRR_OK = 1
 FRR_REJECT = 3
 
-

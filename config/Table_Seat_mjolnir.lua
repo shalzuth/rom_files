@@ -31,4 +31,4 @@ Table_Seat_mjolnir = {
 }
 
 Table_Seat_mjolnir_fields = { "id","StandPot","SeatPot","Dir",}
-return Table_Seat_mjolnir
+return Table_Seat_mjolnir

@@ -38,4 +38,3 @@ Table_Help = {
 }
 Table_Help_fields = { "id","Desc","Title",}
 return Table_Help
-

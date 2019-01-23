@@ -15,4 +15,4 @@ function RepositoryItemCell:SetCellLock()
 	if self.data then
 		self:SetIconGrey( self:IsLock() )
 	end
-end
+end

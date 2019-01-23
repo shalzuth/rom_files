@@ -17,4 +17,4 @@ end
 
 function AEResetData:GetDataByType(type)
 	return self.map[type]
-end
+end

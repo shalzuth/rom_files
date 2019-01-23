@@ -68,4 +68,3 @@ function RoleEquipItemCell:SetMark(b)
 		self.redMark.gameObject:SetActive(true)
 	end
 end
-

@@ -6,4 +6,4 @@ function ReplaceEquipItemCell:SetData(data)
 	if(not self.invalid.activeSelf and data.id == "LackItem")then
 		self.invalid:SetActive(true);
 	end
-end
+end

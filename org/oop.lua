@@ -291,4 +291,4 @@ ClassNeedGetSet = false
 
 if(ClassNeedGetSet) then
 	class = getsetclass
-end
+end

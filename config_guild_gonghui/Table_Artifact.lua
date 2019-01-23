@@ -52,4 +52,4 @@ Table_Artifact = {
 }
 
 Table_Artifact_fields = { "id","Name","NextLevelID","Type","Level","BuildingType","Material","QuestID","DistributeCount",}
-return Table_Artifact
+return Table_Artifact

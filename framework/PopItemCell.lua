@@ -14,4 +14,3 @@ function PopItemCell:SetData(data)
 		self:Hide()
 	end
 end
-

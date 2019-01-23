@@ -67,4 +67,3 @@ function BaseAttributeMoneyCell:checkForbid( key )
 		end
 	end
 end
-

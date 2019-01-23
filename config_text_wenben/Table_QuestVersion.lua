@@ -8,4 +8,4 @@ Table_QuestVersion = {
 }
 
 Table_QuestVersion_fields = { "id","version","name","icon","PuzzleUnder","VersionStory","StoryName",}
-return Table_QuestVersion
+return Table_QuestVersion

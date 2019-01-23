@@ -127,4 +127,4 @@ function LogicalConditionCheckWithDirty:RemoveReason(reason)
 		self.reasons[reason] = false
 		self.dirty = true
 	end
-end
+end

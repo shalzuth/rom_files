@@ -650,4 +650,4 @@ local Scene_Guild_battle1_gef={
 		}
 	}
 }
-return Scene_Guild_battle1_gef
+return Scene_Guild_battle1_gef

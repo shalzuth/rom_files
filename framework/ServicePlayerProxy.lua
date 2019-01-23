@@ -249,4 +249,4 @@ function ServicePlayerProxy:SkillBroadcast(data)
 	-- self:Notify(ServiceEvent.PlayerSkillBroadcast, data)
 end
 
-return ServicePlayerProxy
+return ServicePlayerProxy

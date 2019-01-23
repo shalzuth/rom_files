@@ -141,4 +141,4 @@ end
 
 function LogicManager_Myself_Userdata:UpdateMarital(ncreature,userDataID,oldValue,newValue)
 	WeddingProxy.Instance:UpdateMarital(oldValue,newValue)
-end
+end

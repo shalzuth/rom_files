@@ -39,4 +39,4 @@ end
 
 function MessageFlyer2D:ResetLab()
 	self.lab.text = ""
-end
+end

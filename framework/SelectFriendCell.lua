@@ -49,4 +49,4 @@ function SelectFriendCell:SetGuild(isActive)
 	self.emptyGuild:SetActive(not isActive)
 	self.guildName.gameObject:SetActive(isActive)
 	self.guildIcon.gameObject:SetActive(isActive)
-end
+end

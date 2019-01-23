@@ -173,4 +173,4 @@ function WebPanelProxy:ClearList()
 	self.isInLive = false
 end
 
-return WebPanelProxy
+return WebPanelProxy

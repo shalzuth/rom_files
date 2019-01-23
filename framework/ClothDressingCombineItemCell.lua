@@ -10,4 +10,4 @@ function ClothDressingCombineItemCell:FindObjs()
 		go = self:FindChild("ClothDressingCell"..i);
 		self.childrenObjs[i] = ClothDressingCell.new(go)
 	end
-end
+end

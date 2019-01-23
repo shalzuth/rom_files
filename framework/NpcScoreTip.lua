@@ -429,4 +429,4 @@ function NpcScoreTip:OnExit()
 	UIModelUtil.Instance:ResetTexture( self.modeltexture )
 
 	Game.GOLuaPoolManager:AddToUIPool(self.resID,self.gameObject)
-end
+end

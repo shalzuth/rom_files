@@ -326,4 +326,4 @@ end
 
 function MainViewGvgPage:handleFireStopFubenCmd()
 
-end
+end

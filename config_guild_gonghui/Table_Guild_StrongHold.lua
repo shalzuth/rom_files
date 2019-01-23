@@ -19,4 +19,4 @@ Table_Guild_StrongHold = {
 }
 
 Table_Guild_StrongHold_fields = { "id","Name","MapId","Text","TelePort","RaidId","Gvg_Group",}
-return Table_Guild_StrongHold
+return Table_Guild_StrongHold

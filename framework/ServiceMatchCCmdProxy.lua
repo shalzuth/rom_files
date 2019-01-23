@@ -169,4 +169,4 @@ end
 function ServiceMatchCCmdProxy:CallTutorMatchResponseMatchCCmd(response)
 	helplog("Call-->CallTutorMatchResponseMatchCCmd")
 	self.super.CallTutorMatchResponseMatchCCmd(self,response)
-end
+end

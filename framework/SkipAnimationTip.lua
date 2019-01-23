@@ -68,4 +68,4 @@ end
 
 function SkipAnimationTip:CloseSelf()
 	TipsView.Me():HideCurrent()
-end
+end

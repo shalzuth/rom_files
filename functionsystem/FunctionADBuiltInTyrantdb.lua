@@ -24,4 +24,4 @@ function FunctionADBuiltInTyrantdb:OnCreateRole()
 		end
 	end
 	--FunctionTyrantdb.Instance:OnCreateRole(roleName)
-end
+end

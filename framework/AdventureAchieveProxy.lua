@@ -275,4 +275,3 @@ function AdventureAchieveProxy:getAchieveAndTotalNum(categoryId,SubGroup)
 	end
 	return unlock,total
 end
-

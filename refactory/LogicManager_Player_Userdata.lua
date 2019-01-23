@@ -87,4 +87,4 @@ function LogicManager_Player_Userdata:UpdatePeakEffect(ncreature,userDataID,oldV
 	elseif newValue == 0 then
 		ncreature:RemovePeakEffect()
 	end
-end
+end

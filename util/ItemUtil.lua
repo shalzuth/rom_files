@@ -329,4 +329,4 @@ function ItemUtil.HandleUseCodeCmd(data)
 		local url = string.format(ZhString.KFCShareURL,Game.Myself.data.id,data.code)
 		Application.OpenURL(url)
 	end
-end
+end

@@ -46,4 +46,4 @@ local Scene_iz_endless={
 		}
 	}
 }
-return Scene_iz_endless
+return Scene_iz_endless

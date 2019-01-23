@@ -92,4 +92,4 @@ function EquipMakeProxy:GetItemNumByStaticID(itemid)
 		count = count + _BagProxy:GetItemNumByStaticID(itemid, packageCheck[i])
 	end
 	return count
-end
+end

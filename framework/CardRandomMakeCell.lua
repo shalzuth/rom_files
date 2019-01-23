@@ -58,4 +58,4 @@ end
 function CardRandomMakeCell:SetChoose()
 	self.data:SetChoose()
 	self.choose:SetActive(self.data.isChoose)
-end
+end

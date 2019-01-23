@@ -8,4 +8,4 @@ function LParallelNode:Update()
 		self.childrenNodes [i]:Update()
 	end
 	return TaskState.Running;
-end
+end

@@ -7,4 +7,4 @@ end
 function DojoRewardData:SetData(data)
 	self.id = data.id
 	self.count = data.count
-end
+end

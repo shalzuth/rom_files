@@ -412,4 +412,4 @@ end
 
 function NMyselfPlayer:Client_GetAutoEndlessTowerSweep()
 	return self.ai:GetAuto_EndlessTowerSweep(self)
-end
+end

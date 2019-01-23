@@ -228,4 +228,3 @@ function FunctionBus:GO(line, progressCallback, arrivedCallback)
 end
 
 
-

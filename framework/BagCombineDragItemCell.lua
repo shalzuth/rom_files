@@ -6,4 +6,3 @@ autoImport("BagDragItemCell");
 function BagCombineDragItemCell:Init()
 	self:InitCells(5, "BagItemCell", BagDragItemCell);
 end
-

@@ -6,4 +6,4 @@ function BackGroundView:Init()
 	
 end
 
-return BackGroundView
+return BackGroundView

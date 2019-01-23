@@ -1199,4 +1199,4 @@ end
 function NCreature:OnObserverDestroyed(k, obj)
 	self:OnObserverEffectDestroyed(k,obj)
 end
--- override end
+-- override end

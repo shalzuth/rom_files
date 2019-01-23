@@ -17,4 +17,4 @@ function TutorItemCell:SetData(data)
 
 		TutorItemCell.super.SetData(self, itemData)
 	end
-end
+end

@@ -67,4 +67,4 @@ function PetInfoLabelCell:PlayResetEffect()
 			end
 		end
 	end
-end
+end

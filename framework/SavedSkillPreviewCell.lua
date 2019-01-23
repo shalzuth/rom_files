@@ -44,4 +44,4 @@ function SavedSkillPreviewCell:SetData(skillsavedata)
 			self.icon.spriteName = nil
 		end
 	end
-end
+end

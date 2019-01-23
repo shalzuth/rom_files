@@ -64,4 +64,4 @@ end
 
 function LogicManager_Myself_Props:UpdateStateEffect(ncreature,propName,oldValue,p)
 	ItemsWithRoleStatusChange:Instance():OnReceiveStatusChange(p)
-end
+end

@@ -279,4 +279,3 @@ setmetatable(Table_RedTip[10048],{__index = Table_RedTip[34]})
 setmetatable(Table_RedTip[10049],{__index = Table_RedTip[34]})
 setmetatable(Table_RedTip[10050],{__index = Table_RedTip[34]})
 return Table_RedTip
-

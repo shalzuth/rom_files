@@ -181,4 +181,4 @@ function GuildHeadChoosePopUp:OnExit()
 	-- local myGuildData = GuildProxy.Instance.myGuildData;
 	-- local guildid = myGuildData and myGuildData.id;
 	-- GuildHeadCell.ClearCustomPicCache(guildid)
-end
+end

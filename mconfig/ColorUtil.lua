@@ -144,4 +144,3 @@ function ColorUtil.Print(color)
 		print("b is "..color.b*255)
 	end
 end
-

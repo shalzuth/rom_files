@@ -105,4 +105,3 @@ function ReturnArtifactView:OnExit()
 	self:CameraReset()
 end
 
-

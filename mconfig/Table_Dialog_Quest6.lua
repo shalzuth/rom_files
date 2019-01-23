@@ -5145,4 +5145,3 @@ Table_Dialog_Quest6_s = {
  
 }
 return Table_Dialog_Quest6
-

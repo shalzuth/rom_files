@@ -115,4 +115,4 @@ end
 
 function RepairSealConfirmPopUp:OnExit()
 	RepairSealConfirmPopUp.super.OnExit(self);
-end
+end

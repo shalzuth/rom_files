@@ -78,4 +78,3 @@ function ReplenishCell:number_format(num,deperator)
     end
     return str1
 end 
-

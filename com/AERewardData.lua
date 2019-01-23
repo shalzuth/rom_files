@@ -43,4 +43,4 @@ function AERewardData:GetRewardByType(type)
 	if self.rewardMap[type] and self.rewardMap[type]:IsInActivity() then
 		return self.rewardMap[type]
 	end
-end
+end

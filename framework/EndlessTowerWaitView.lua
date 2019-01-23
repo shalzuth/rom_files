@@ -64,4 +64,4 @@ function EndlessTowerWaitView:HandleFollowStateChange(note)
 			end
 		end	
 	end
-end
+end

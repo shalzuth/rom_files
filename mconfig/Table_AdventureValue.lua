@@ -40,4 +40,4 @@ Table_AdventureValue={
 		count=205,
 		adventureValues=34373
 	}
-}
+}

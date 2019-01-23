@@ -74,4 +74,4 @@ end
 function HairStyleCell:CancelSelected()
 	self.isSelected = false
 	self.spSelected.enabled = false
-end
+end

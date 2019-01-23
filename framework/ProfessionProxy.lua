@@ -699,4 +699,3 @@ function ProfessionTree.ParsePath(skills,paths)
 	end
 end
 
-

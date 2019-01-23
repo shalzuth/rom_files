@@ -18,4 +18,4 @@ end
 
 function NMyselfPlayer:ChangeJobEnd()
 	GameFacade.Instance:sendNotification(MyselfEvent.ChangeJobEnd, nil)
-end
+end

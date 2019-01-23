@@ -70,4 +70,4 @@ end
 -- 召集队友
 function RaidInfoPopUp:CallTeamSummon()
 	ServiceSessionTeamAutoProxy:CallTeamSummon(self.raidid) 
-end
+end

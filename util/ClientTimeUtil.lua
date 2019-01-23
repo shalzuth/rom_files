@@ -112,4 +112,4 @@ function ClientTimeUtil.FormatTimeBySec( totalSec )
 	local sec = math.floor( totalSec - daySec * day - hour * hourSec - min * minSec );
 
 	return day,hour,min,sec
-end
+end

@@ -119,4 +119,4 @@ function BoothItemCell:OnDestroy()
 		TimeTickManager.Me():ClearTick(self)
 		self.timeTick = nil
 	end
-end
+end

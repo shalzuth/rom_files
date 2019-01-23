@@ -286,4 +286,4 @@ function UIListItemViewControllerRoleSlot:CloseMyTick()
 		TimeTickManager.Me():ClearTick(self, 1)
 		self.tick = nil
 	end
-end
+end

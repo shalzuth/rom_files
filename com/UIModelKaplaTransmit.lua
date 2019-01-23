@@ -108,4 +108,4 @@ end
 -- others defect
 function UIModelKaplaTransmit:IsTeammate(player_id)
 	return TeamProxy.Instance:IsInMyTeam(player_id)
-end
+end

@@ -145,4 +145,4 @@ function LogicManager_Creature:UpdateMyself(time, deltaTime)
 		myselfPropsManager:CheckDirtyDatas(myself)
 		myself:Update(time,deltaTime)
 	end
-end
+end

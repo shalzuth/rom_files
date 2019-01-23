@@ -23,4 +23,4 @@ function LayoutUtil.FitAspect(uiwidget,panelWidth,panelHeight,width,height)
 		uiwidget.width = imgWidth * panelWidth / width
 		uiwidget.height = math.floor(uiwidget.width/widgetAspect) * imgHeight / height
 	end
-end
+end

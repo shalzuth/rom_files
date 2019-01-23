@@ -257,4 +257,4 @@ function FuncPurchase:Purchase(product_conf_id, callbacks)
 			end
 		end
 	end
-end
+end

@@ -141,4 +141,4 @@ function PictureWallCell:checkNewTag(  )
 		FunctionPlayerPrefs.Me():SetBool(key,false)
 		self:Show(self.newTag)
 	end
-end
+end

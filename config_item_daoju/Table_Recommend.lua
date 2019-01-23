@@ -77,4 +77,3 @@ Table_Recommend = {
 }
 Table_Recommend_fields = { "id","Icon","Name","Title","PageType","Reward","Favorability","Recycle","NeedDel","GotoMode",}
 return Table_Recommend
-

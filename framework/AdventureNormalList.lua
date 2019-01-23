@@ -417,4 +417,4 @@ function AdventureNormalList:GetTabDatas()
 	else
 		printRed("category is nil")
 	end
-end
+end

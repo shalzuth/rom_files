@@ -275,4 +275,4 @@ end
 
 function DefaultLoadModeView:LoadFinish()
 	self.container:FireLoadFinishEvent()
-end
+end

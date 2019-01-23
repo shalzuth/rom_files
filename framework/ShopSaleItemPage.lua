@@ -150,4 +150,3 @@ function ShopSaleItemPage:HandleItemUpdate( )
 	ShopSaleProxy.Instance.waitSaleItemsDic={}
 	self:UpdateShopSaleInfo()
 end
-

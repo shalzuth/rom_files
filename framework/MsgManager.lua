@@ -391,4 +391,3 @@ MsgManager.TypeTableHandler[MsgManager.MsgType.AchievementPopupTip] = MsgManager
 MsgManager.TypeTableHandler[MsgManager.MsgType.RaidMsg] = MsgManager.NoticeRaidMsgById
 MsgManager.TypeTableHandler[MsgManager.MsgType.OverSeaMsg] = MsgManager.OverSeaMsgTableParam
 
-

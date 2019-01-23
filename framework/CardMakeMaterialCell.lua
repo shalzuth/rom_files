@@ -36,4 +36,4 @@ function CardMakeMaterialCell:SetData(data)
 	end
 
 	self.data = data
-end
+end

@@ -100,4 +100,4 @@ function Occupation:SetExp(exp)
 	self.exp = exp
 end
 
--- return Prop
+-- return Prop

@@ -331,4 +331,4 @@ function ItemHandleCommand:TestAddSame(bagData,datas)
 	bagData:UpdateItems(newAdd)
 end
 
-return ItemHandleCommand
+return ItemHandleCommand

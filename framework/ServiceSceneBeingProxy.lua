@@ -60,4 +60,3 @@ function ServiceSceneBeingProxy:CallChangeBodyBeingCmd(beingid, body)
 	helplog("Call-->ChangeBodyBeingCmd", beingid, body);
 	ServiceSceneBeingProxy.super.CallChangeBodyBeingCmd(self, beingid, body);
 end
-

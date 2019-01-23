@@ -154,4 +154,4 @@ function ChatKeywordList:ResetList()
 	end
 
 	self:ResetData()
-end
+end

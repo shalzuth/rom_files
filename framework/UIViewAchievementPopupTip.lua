@@ -140,4 +140,4 @@ function UIViewAchievementPopupTip:OpenAchievementDetailUI(achievement_conf_id)
 			end
 		end
 	end
-end
+end

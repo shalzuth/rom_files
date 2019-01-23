@@ -23,4 +23,4 @@ end
 
 function PanelProxy:GetData(id)
 	return self.panelMap[id]
-end
+end

@@ -54,4 +54,4 @@ RoleDefines = {
 		Team2 = 2,
 		Team3 = 3,
 	}
-}
+}

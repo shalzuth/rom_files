@@ -102,4 +102,3 @@ Table_AttributePoint = {
 }
 Table_AttributePoint_fields = { "id","NeedPoint",}
 return Table_AttributePoint
-

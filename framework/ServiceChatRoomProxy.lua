@@ -92,4 +92,4 @@ function ServiceChatRoomProxy:RecvKickChatMember(data)
 
 	InputManager.Instance.disableMove = InputManager.Instance.disableMove - 1
 	Game.Myself:Client_NoMove(false)
-end
+end

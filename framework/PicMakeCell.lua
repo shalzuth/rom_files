@@ -380,4 +380,3 @@ function PicMakeCell:OnRemove()
 	self:RemoveModel();
 end
 
-

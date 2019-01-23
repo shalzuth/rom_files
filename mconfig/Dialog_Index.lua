@@ -38978,4 +38978,4 @@ Dialog_Index =
 	[6] = 'Table_Dialog_NpcDefault', 
 	[5] = 'Table_Dialog_Left', 
 	[4] = 'Table_Dialog_Left',
-}
+}

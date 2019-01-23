@@ -23,4 +23,4 @@ end
 
 function SubViewMap:GetSubView(id)
 	return self.subMap[id];
-end
+end

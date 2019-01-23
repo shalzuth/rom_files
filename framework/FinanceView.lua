@@ -321,4 +321,4 @@ function FinanceView:TransNum(num)
 		end
 	end
 	return math.floor(num)
-end
+end

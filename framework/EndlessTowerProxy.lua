@@ -205,4 +205,3 @@ end
 function EndlessTowerProxy:Get_ResetTime()
 	return self.resettime;
 end
-

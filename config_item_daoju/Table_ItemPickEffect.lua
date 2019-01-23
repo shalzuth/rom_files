@@ -20,4 +20,4 @@ Table_ItemPickEffect = {
 }
 
 Table_ItemPickEffect_fields = { "id","Effect",}
-return Table_ItemPickEffect
+return Table_ItemPickEffect

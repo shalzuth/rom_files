@@ -34,4 +34,4 @@ Table_Guild_Incident = {
 }
 
 Table_Guild_Incident_fields = { "id","Page","txt",}
-return Table_Guild_Incident
+return Table_Guild_Incident

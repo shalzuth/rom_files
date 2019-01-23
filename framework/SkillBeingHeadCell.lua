@@ -76,4 +76,4 @@ function SkillBeingHeadCell:SetData(data)
 	end
 	self:SetSelect(data.isSelect)
 	self:SetActive(data.isEnabled)
-end
+end

@@ -161,4 +161,3 @@ ServiceEvent.ActivityCmdStopActCmd = "ServiceEvent_ActivityCmdStopActCmd"
 ServiceEvent.ActivityCmdBCatUFOPosActCmd = "ServiceEvent_ActivityCmdBCatUFOPosActCmd"
 ServiceEvent.ActivityCmdActProgressNtfCmd = "ServiceEvent_ActivityCmdActProgressNtfCmd"
 ServiceEvent.ActivityCmdStartGlobalActCmd = "ServiceEvent_ActivityCmdStartGlobalActCmd"
-

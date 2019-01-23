@@ -67,4 +67,4 @@ function PhotoData:updatePersonalPhoto( serverData )
 	self.sourceid = self.index
 	self.source = ProtoCommon_pb.ESOURCE_PHOTO_SELF
 	self.charid = serverData.charid
-end
+end

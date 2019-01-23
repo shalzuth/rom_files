@@ -57,4 +57,4 @@ function UILongPressManager:_GetTouchPos()
 	end
 
 	return x,y
-end
+end

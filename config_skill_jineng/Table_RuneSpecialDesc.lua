@@ -375,4 +375,4 @@ Table_RuneSpecialDesc = {
 }
 
 Table_RuneSpecialDesc_fields = { "id","Text",}
-return Table_RuneSpecialDesc
+return Table_RuneSpecialDesc

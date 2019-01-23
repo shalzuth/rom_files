@@ -71128,4 +71128,4 @@ Table_MonsterOrigin =
 			mapID=43
 		}
 	}
-}
+}

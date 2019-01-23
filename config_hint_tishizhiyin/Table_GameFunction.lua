@@ -49,4 +49,4 @@ Table_GameFunction = {
 }
 
 Table_GameFunction_fields = { "id","Name","icon","Order","des","MenuID","GotoMode",}
-return Table_GameFunction
+return Table_GameFunction

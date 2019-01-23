@@ -373,4 +373,4 @@ function RedTip:TestPrint()
 		count = count + 1
 	end
 	print("注册的个数:",count)
-end
+end

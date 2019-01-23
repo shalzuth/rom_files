@@ -43,4 +43,4 @@ end
 
 function TXWYPlatPanel:OnExit()
     TXWYPlatPanel.super.OnExit(self);
-end
+end

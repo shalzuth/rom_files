@@ -33,4 +33,4 @@ function ProfessionDesSkillCell:GetDesc(data)
 		desc = desc..string.format(Table_SkillDesc[config.id].Desc,unpack(config.params))..(i~=#data.Desc and "\n" or "")
 	end
 	return desc
-end
+end

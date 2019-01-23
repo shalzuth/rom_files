@@ -86,4 +86,4 @@ end
 
 function AI_CMD_SetAngleY.ToString()
 	return "AI_CMD_SetAngleY",AI_CMD_SetAngleY
-end
+end

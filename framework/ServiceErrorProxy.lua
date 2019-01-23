@@ -20,4 +20,4 @@ function ServiceErrorProxy:onRegister()
 	end)	
 end
 
-return ServiceErrorProxy
+return ServiceErrorProxy

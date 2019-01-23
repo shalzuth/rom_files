@@ -228,4 +228,4 @@ end
 function FunctionBGMCmd:Clear(fallbackDuration,fallbackFadeStartVolumn)
 	LogUtility.Info(string.format("播放结束 fallbackDuration:%s fallbackFadeStartVolumn:%s", fallbackDuration, fallbackFadeStartVolumn))
 	self:SetCurrentBgm(self.defaultBgm,true,nil,fallbackDuration,fallbackFadeStartVolumn)
-end
+end

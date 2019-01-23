@@ -21,4 +21,4 @@ function ExchangeBuyNormalInfoCell:SetData(data)
 		self.info.text = string.format(ZhString.ShopMall_ExchangeBuyInfo , data.name)
 		self.time.text = ClientTimeUtil.GetFormatOfflineTimeStr(data.time)
 	end
-end
+end

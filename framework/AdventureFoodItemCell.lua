@@ -108,4 +108,3 @@ function AdventureFoodItemCell:PlayUnlockEffect()
 	self:PlayUIEffect(EffectMap.UI.Activation,self.effectContainer,true)
 end
 
-

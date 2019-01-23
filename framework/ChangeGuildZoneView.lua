@@ -101,4 +101,4 @@ end
 function ChangeGuildZoneView:OnEnter()
 	ChangeGuildZoneView.super.OnEnter(self);
 	FunctionGuild.Me():QueryGuildItemList()
-end
+end

@@ -514,4 +514,3 @@ function test()
   PetFun.calcDuringTime(starttime, endtime, frequency, count, daymaxreward, lastcount)
 end
 --test()
-

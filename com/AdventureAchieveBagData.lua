@@ -113,4 +113,3 @@ end
 function AdventureAchieveBagData:GetItemByStaticID(id)
 	return self.wholeTab:GetItemByStaticID(id)
 end
-

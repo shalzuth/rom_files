@@ -52,4 +52,4 @@ end
 function CommonUnlockInfo:OnExit()
 	CommonUnlockInfo.super.OnExit(self);
 	self.gameObject:SetActive(false);
-end
+end

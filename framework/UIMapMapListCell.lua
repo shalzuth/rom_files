@@ -135,4 +135,4 @@ end
 function UIMapMapListCell:IsCurrentMap()
 	if self.mapInfo == nil then return false end
 	return self.mapInfo.id == Game.MapManager:GetMapID()
-end
+end

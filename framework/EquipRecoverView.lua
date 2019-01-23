@@ -143,4 +143,4 @@ function EquipRecoverView:HandleRecover()
 
 	self:ChooseItem()
 	self.left:SetActive(true)
-end
+end

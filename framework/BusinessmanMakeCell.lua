@@ -44,4 +44,4 @@ function BusinessmanMakeCell:SetCanMakeNum(data)
 	else
 		self.numLab.gameObject:SetActive(false)
 	end
-end
+end

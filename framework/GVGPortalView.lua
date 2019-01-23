@@ -110,4 +110,3 @@ function GVGPortalView:SceneLoadFinishHandler( note )
 		self:CloseSelf()
 	end
 end
-

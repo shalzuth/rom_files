@@ -319,4 +319,4 @@ function FunctionGuide:CheckBubbleGuideRepeat( questId,step,delayTime )
 		end
 	end)
 	
-end
+end

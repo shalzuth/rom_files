@@ -450,4 +450,4 @@ function BeingSkillContentPage:GetBeings()
 	else
 		return SaveInfoProxy.Instance:GetBeingsArray(multiSaveId, self.container.multiSaveType)
 	end
-end
+end

@@ -54,4 +54,3 @@ function ActivityGroupData:getMultLanContent( serverData,key )
 	end
 	return val
 end
-

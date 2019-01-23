@@ -156,4 +156,4 @@ function MainViewPolyFightPage:updatePvpTime( )
 	local leftTimeStr = string.format("%02d:%02d",m,sd)
 	self.progressLabel.text = leftTimeStr
 	self.progressSlider.value = leftTime/self.totalTime
-end
+end

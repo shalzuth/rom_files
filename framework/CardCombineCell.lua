@@ -43,4 +43,4 @@ function CardCombineCell:HideAttri()
 	for i=1,#self.childCell do
 		self.childCell[i]:HideAttri();
 	end
-end
+end

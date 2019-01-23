@@ -38,4 +38,3 @@ function SceneDropNameCell:DoDeconstruct(asArray)
 	self.gameObject = nil;
 end
 -- override end
-

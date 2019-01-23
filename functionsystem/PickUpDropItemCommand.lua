@@ -101,4 +101,4 @@ function PickUpDropItemCommand:GetPickUpItem(items,calCount)
 		end
 	end
 	return (minGetCountItem or minDisItem)
-end
+end

@@ -1297,4 +1297,4 @@ Table_Dialog_Quest9 =
 	[101616] = { id = 101616, Voice = '', Text = '冒险者大人，您知道朱诺最缺什么东西嘛？', Speaker = 9504, Option = '{爱？,3},{勇气！,3},{福利！,3},{材料…,2}', Action = _EmptyTable,},
 }
 return Table_Dialog_Quest9
-	
+	

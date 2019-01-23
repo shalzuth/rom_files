@@ -67,4 +67,4 @@ function DojoGroupCell:SetSpriteColor(color,sprite)
 	if(hasC)then
 		sprite.color = resultC
 	end	
-end
+end

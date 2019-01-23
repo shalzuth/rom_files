@@ -332,4 +332,4 @@ end
 
 function MainViewAutoAimMonster:UpdateSweepCheckmark(isShow)
 	self.sweepCheckmark:SetActive(isShow)
-end
+end

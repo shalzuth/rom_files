@@ -191,4 +191,4 @@ function BaseView:handleNotification(note)
 			evt(self,note)
 		end
 	end
-end
+end

@@ -382,4 +382,3 @@ ServiceEvent.PhotoCmdFramePhotoUpdatePhotoCmd = "ServiceEvent_PhotoCmdFramePhoto
 ServiceEvent.PhotoCmdQueryMd5ListPhotoCmd = "ServiceEvent_PhotoCmdQueryMd5ListPhotoCmd"
 ServiceEvent.PhotoCmdAddMd5PhotoCmd = "ServiceEvent_PhotoCmdAddMd5PhotoCmd"
 ServiceEvent.PhotoCmdRemoveMd5PhotoCmd = "ServiceEvent_PhotoCmdRemoveMd5PhotoCmd"
-

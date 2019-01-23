@@ -157,4 +157,3 @@ function BoothRecordView:ClearQuickTakeLt()
 		self.quickTakeLt = nil
 	end
 end
-

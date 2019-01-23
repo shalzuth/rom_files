@@ -28,4 +28,4 @@ function ServiceGMProxy:Call(command)
 	self:SendProto(msg)
 end
 
-return ServiceGMProxy
+return ServiceGMProxy

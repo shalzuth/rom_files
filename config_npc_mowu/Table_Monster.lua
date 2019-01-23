@@ -3564,4 +3564,3 @@ Table_Monster_s = {
  
 }
 return Table_Monster
-

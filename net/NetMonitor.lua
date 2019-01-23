@@ -47,4 +47,4 @@ function NetMonitor:ListenSkillUseSendCallBack()
 		end
 		self.skillUsedServerTime = ServerTime.CurServerTime()
 	end)
-end
+end

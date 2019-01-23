@@ -82,4 +82,4 @@ Table_Seat_Prontera = {
 }
 
 Table_Seat_Prontera_fields = { "id","StandPot","SeatPot","Dir","SeverShow","PrefabID","PrefabDir","ActionID",}
-return Table_Seat_Prontera
+return Table_Seat_Prontera

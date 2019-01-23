@@ -21,4 +21,3 @@ Table_Seat_amatsu = {
 ----------
 }
 return Table_Seat_amatsu
-

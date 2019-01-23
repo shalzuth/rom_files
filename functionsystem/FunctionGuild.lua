@@ -523,4 +523,4 @@ function FunctionGuild:GetGuildStrongHoldPosition(id)
 			return mapId, v.position;
 		end
 	end
-end
+end

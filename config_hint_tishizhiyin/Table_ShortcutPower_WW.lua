@@ -14,4 +14,4 @@ Table_ShortcutPower_WW = {
 }
 
 Table_ShortcutPower_WW_fields = { "id","Type","Event",}
-return Table_ShortcutPower_WW
+return Table_ShortcutPower_WW

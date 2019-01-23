@@ -300,4 +300,3 @@ function WorldMapMenuCell:GetEventInfos(mapid)
 	end
 	return tempArray;
 end
-

@@ -394,4 +394,4 @@ function PersonalListPage:GetItemCells()
 		end
 	end
 	return result;
-end
+end

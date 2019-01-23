@@ -11381,4 +11381,3 @@ setmetatable(Table_Skill[104130008],{__index = Table_Skill[104130001]})
 setmetatable(Table_Skill[104130009],{__index = Table_Skill[104130001]})
 setmetatable(Table_Skill[109010002],{__index = Table_Skill[109010001]})
 return Table_Skill
-

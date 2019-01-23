@@ -42,4 +42,4 @@ end
 
 function LuaRolesOnCurrentMap:Reset()
 	self.roles = nil
-end
+end

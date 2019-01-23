@@ -492,4 +492,4 @@ function ChatMessageData:DoDeconstruct(asArray)
 	self.roleType = nil
 	TableUtility.ArrayClear(self)
 end
--- override end
+-- override end

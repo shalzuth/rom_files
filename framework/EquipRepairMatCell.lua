@@ -36,4 +36,4 @@ end
 
 function EquipRepairMatCell:SetForbidState()
 	self.forbidTip:SetActive(true);
-end
+end

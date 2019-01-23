@@ -44,4 +44,4 @@ function GamePhoto.GetTFFromExtension(extension)
 		textureFormat = TextureFormat.RGB24
 	end
 	return textureFormat
-end
+end

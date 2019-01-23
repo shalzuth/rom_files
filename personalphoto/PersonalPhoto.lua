@@ -541,4 +541,4 @@ function PersonalPhoto:GetPhotoID(role_id, pos_index)
 	-- todo xde change photo id
 	--	return role_id .. '_' .. pos_index
 	return pos_index
-end
+end

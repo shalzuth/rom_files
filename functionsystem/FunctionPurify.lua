@@ -138,4 +138,4 @@ function FunctionPurify:RefreshFlagTime(delta)
 	if(count==0) then
 		self.timeTick:ClearTick()
 	end
-end
+end

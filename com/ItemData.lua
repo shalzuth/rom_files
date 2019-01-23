@@ -829,4 +829,4 @@ end
 
 function ItemData:SetItemNum( num )
 	self.num = num
-end
+end

@@ -246,4 +246,4 @@ function WrapListCtrl:Destroy()
 			end
 		end
 	end
-end
+end

@@ -653,4 +653,4 @@ local Scene_room_T1={
 		}
 	}
 }
-return Scene_room_T1
+return Scene_room_T1

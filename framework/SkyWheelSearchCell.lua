@@ -45,4 +45,4 @@ function SkyWheelSearchCell:SetData(data)
 			self.selectLabel.effectColor = ColorUtil.NGUIGray
 		end
 	end
-end
+end

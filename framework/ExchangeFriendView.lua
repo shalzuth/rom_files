@@ -58,4 +58,4 @@ function ExchangeFriendView:UpdateFriend()
 	end
 
 	self.loading:SetActive(not isQuerySocialData)
-end
+end

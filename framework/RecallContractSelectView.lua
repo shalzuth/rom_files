@@ -29,4 +29,4 @@ function RecallContractSelectView:HandleClickItem(cell)
 		self:sendNotification(RecallEvent.Select, data)
 		self:CloseSelf()
 	end
-end
+end

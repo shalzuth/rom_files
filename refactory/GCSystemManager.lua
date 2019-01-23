@@ -133,4 +133,4 @@ end
 
 function GCSystemManager:Log()
 	LogUtility.Info(self.systemSizeOfRAM)
-end
+end

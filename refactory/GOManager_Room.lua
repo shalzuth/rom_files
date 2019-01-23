@@ -42,4 +42,3 @@ function GOManager_Room:UnregisterGameObject(obj)
 
 	return true
 end
-

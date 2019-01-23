@@ -557,4 +557,3 @@ SelectPveCardCmd = protobuf.Message(SELECTPVECARDCMD)
 SyncProcessPveCardCmd = protobuf.Message(SYNCPROCESSPVECARDCMD)
 UpdateProcessPveCardCmd = protobuf.Message(UPDATEPROCESSPVECARDCMD)
 
-

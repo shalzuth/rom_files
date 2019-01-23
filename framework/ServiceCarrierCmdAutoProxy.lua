@@ -390,4 +390,3 @@ ServiceEvent.CarrierCmdFerrisWheelInviteCarrierCmd = "ServiceEvent_CarrierCmdFer
 ServiceEvent.CarrierCmdFerrisWheelProcessInviteCarrierCmd = "ServiceEvent_CarrierCmdFerrisWheelProcessInviteCarrierCmd"
 ServiceEvent.CarrierCmdStartFerrisWheelUserCmd = "ServiceEvent_CarrierCmdStartFerrisWheelUserCmd"
 ServiceEvent.CarrierCmdCatchUserJoinCarrierUserCmd = "ServiceEvent_CarrierCmdCatchUserJoinCarrierUserCmd"
-

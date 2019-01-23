@@ -509,4 +509,3 @@ ServiceEvent.LoginUserCmdConfirmAuthorizeUserCmd = "ServiceEvent_LoginUserCmdCon
 ServiceEvent.LoginUserCmdSyncAuthorizeGateCmd = "ServiceEvent_LoginUserCmdSyncAuthorizeGateCmd"
 ServiceEvent.LoginUserCmdRealAuthorizeUserCmd = "ServiceEvent_LoginUserCmdRealAuthorizeUserCmd"
 ServiceEvent.LoginUserCmdRealAuthorizeServerCmd = "ServiceEvent_LoginUserCmdRealAuthorizeServerCmd"
-

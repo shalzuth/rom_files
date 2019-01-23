@@ -41,4 +41,4 @@ function ChatItemCell:SetData(data)
 			self.equip:SetActive(false)
 		end
 	end
-end
+end

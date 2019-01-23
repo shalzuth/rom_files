@@ -121,4 +121,3 @@ function FunctionWedding:EndWeddingCememony()
 	GameFacade.Instance:sendNotification(UIEvent.CloseUI, UIViewType.NormalLayer);
 end
 -- 婚礼仪式 End
-

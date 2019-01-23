@@ -98,4 +98,4 @@ Table_QuestPuzzle = {
 }
 
 Table_QuestPuzzle_fields = { "id","version","type","PicId","indexss","QuestIDs","reward",}
-return Table_QuestPuzzle
+return Table_QuestPuzzle

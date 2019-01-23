@@ -17,4 +17,4 @@ Table_PlotQuest_8 = {
 }
 
 Table_PlotQuest_8_fields = { "id","Type","Params",}
-return Table_PlotQuest_8
+return Table_PlotQuest_8

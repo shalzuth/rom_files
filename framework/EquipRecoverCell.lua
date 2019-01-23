@@ -85,4 +85,4 @@ function EquipRecoverCell:HandleCell(desc,cost,toggle)
 	self.cost.text = cost
 	self.toggle.enabled = true
 	self.toggle:Set(toggle)
-end
+end

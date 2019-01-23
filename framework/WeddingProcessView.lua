@@ -18,4 +18,4 @@ function WeddingProcessView:InitShow()
 	end
 
 	table:Reposition()
-end
+end

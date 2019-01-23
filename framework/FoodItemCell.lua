@@ -68,4 +68,4 @@ function FoodItemCell:UpdateRemoveState(selectIds)
 		self.leftNum = 0;
 		self.remove:SetActive(false);
 	end
-end
+end

@@ -124,4 +124,3 @@ function GainWayItemCellData:IsTradeOrigin()
 	end
 	return false;
 end
-

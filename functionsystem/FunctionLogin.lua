@@ -891,4 +891,3 @@ function FunctionLogin:SyncServerDID(  )
 		helplog("同步设备DID完成！",status,content)
 	end)
 end
-

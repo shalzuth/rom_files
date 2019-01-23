@@ -155,4 +155,4 @@ function LotteryGiftView:CloseView()
 	else
 		self:UpdateView()
 	end
-end
+end

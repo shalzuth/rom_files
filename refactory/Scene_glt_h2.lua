@@ -930,4 +930,4 @@ local Scene_glt_h2={
 		}
 	}
 }
-return Scene_glt_h2
+return Scene_glt_h2

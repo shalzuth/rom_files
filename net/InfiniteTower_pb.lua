@@ -682,4 +682,3 @@ UserTowerInfo = protobuf.Message(USERTOWERINFO)
 UserTowerInfoCmd = protobuf.Message(USERTOWERINFOCMD)
 UserTowerLayer = protobuf.Message(USERTOWERLAYER)
 
-

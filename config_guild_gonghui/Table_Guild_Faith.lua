@@ -36,4 +36,4 @@ Table_Guild_Faith = {
 }
 
 Table_Guild_Faith_fields = { "id","Index","Name","Attr","AttrName","Type",}
-return Table_Guild_Faith
+return Table_Guild_Faith

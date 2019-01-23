@@ -3440,4 +3440,3 @@ WORLD_STAGE_USER_CMD = 5
 WorldStageItem = protobuf.Message(WORLDSTAGEITEM)
 WorldStageUserCmd = protobuf.Message(WORLDSTAGEUSERCMD)
 
-

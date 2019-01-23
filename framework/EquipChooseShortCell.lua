@@ -7,4 +7,4 @@ end
 
 function EquipChooseShortCell:SetData(data)
 	
-end
+end

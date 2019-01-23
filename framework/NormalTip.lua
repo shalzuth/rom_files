@@ -94,4 +94,3 @@ function NormalTip:OnExit()
 	end
 	return true
 end
-

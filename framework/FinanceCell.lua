@@ -108,4 +108,4 @@ function FinanceCell:ShowDetail(isShow)
 	else
 		self.cellBg.height = 112
 	end
-end
+end

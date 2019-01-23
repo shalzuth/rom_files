@@ -366,4 +366,4 @@ function QuickUsePopupFuncCell:RefreshNum()
 	if(func)then
 		func(self);
 	end
-end
+end

@@ -18,4 +18,4 @@ function SceneNameView:Init()
 	
 end
 
-return SceneNameView
+return SceneNameView

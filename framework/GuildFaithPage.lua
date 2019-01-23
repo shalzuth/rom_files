@@ -237,4 +237,3 @@ function GuildFaithPage:HandleLongPress(param)
 		end
 	end
 end
-

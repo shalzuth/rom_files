@@ -11,4 +11,4 @@ end
 
 function FinanceItemDetailData:SetRankType(rankType)
 	self.rankType = rankType
-end
+end

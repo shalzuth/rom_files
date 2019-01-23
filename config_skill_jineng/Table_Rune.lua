@@ -1138,4 +1138,4 @@ Table_Rune = {
 }
 
 Table_Rune_fields = { "id","Cost","StarPoint","ResetCost","Swordman_Attr","Magician_Attr","Thief_Attr","Archer_Attr","Acolyte_Attr","Merchant_Attr","Monk_Attr","Crusader_Attr","Alchemist_Attr","Rogue_Attr",}
-return Table_Rune
+return Table_Rune

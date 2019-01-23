@@ -12,4 +12,4 @@ function CardMakeMaterialData:SetData(data)
 			self.itemData.num = data.num
 		end
 	end
-end
+end

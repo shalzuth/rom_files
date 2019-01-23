@@ -36,4 +36,4 @@ function PanelJumpCommand:UnOpenJump(config,vdata)
 	else
 		FunctionUnLockFunc.Me():CheckCanOpenByPanelId(config.id, true)
 	end
-end
+end

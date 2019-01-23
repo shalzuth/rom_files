@@ -79,4 +79,3 @@ function HHChatTextEmojiPage:HandleClickItem(cellctl)
 	local ci = self.container.uiInput
 	self.container:InsertInput(data.Emoji)
 end
-

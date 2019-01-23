@@ -16,4 +16,3 @@ function XDEBaseAttributeCell:SetData( data )
 --	self.value.pivot = UIWidget.Pivot.Left
 --	self.value.transform.localPosition = Vector3(0,0,0)
 end
-

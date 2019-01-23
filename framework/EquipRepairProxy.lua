@@ -116,4 +116,4 @@ function EquipRepairProxy:GetEquipVIDCache(itemid)
 	local vid_end = math.floor(vid%1000);
 	local keyId = vid_start * 10000 + 1000 + vid_end;
 	return self.equipData_VID_map[keyId];
-end
+end

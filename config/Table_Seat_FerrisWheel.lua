@@ -53,4 +53,3 @@ setmetatable(Table_Seat_FerrisWheel[22],{__index = Table_Seat_FerrisWheel[21]})
 setmetatable(Table_Seat_FerrisWheel[24],{__index = Table_Seat_FerrisWheel[23]})
 setmetatable(Table_Seat_FerrisWheel[26],{__index = Table_Seat_FerrisWheel[25]})
 return Table_Seat_FerrisWheel
-

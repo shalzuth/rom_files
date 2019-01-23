@@ -16,4 +16,3 @@ function SceneUICommand:execute(note)
 		end
 	end
 end
-

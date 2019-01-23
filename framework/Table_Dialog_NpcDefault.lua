@@ -2337,4 +2337,4 @@ Table_Dialog_NpcDefault =
 	[6] = { id = 6, Voice = '', Text = '世界各地都有不安的魔力涌动，导致很多地方出现了裂隙，真让人头疼。', Speaker = 1499, Option = '', Action = _EmptyTable,},
 }
 return Table_Dialog_NpcDefault
-	
+	

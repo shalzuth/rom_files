@@ -11,4 +11,3 @@ function ServiceRedisProxy:ctor(proxyName)
 		ServiceRedisProxy.Instance = self
 	end
 end
-

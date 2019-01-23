@@ -42,4 +42,4 @@ local Enviroment_10={
 		exposure=0.730000019073486
 	}
 }
-return Enviroment_10
+return Enviroment_10

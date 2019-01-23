@@ -264,4 +264,4 @@ function I:Destroy()
 	destroyer(self)
 end
 
-setmetatable(LuaColor,LuaColor)
+setmetatable(LuaColor,LuaColor)

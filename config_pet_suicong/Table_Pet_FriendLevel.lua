@@ -23,4 +23,3 @@ Table_Pet_FriendLevel = {
 }
 Table_Pet_FriendLevel_fields = { "id","AmityReward_1","Event_1","AmityReward_2","Event_2","AmityReward_3","Event_3","AmityReward_4","Event_4","AmityReward_5","Event_5","AmityReward_6","Event_6","AmityReward_7","Event_7","AmityReward_8","Event_8","AmityReward_9","Event_9","AmityReward_10","Event_10",}
 return Table_Pet_FriendLevel
-

@@ -310,4 +310,4 @@ function TeamProxy:GetCatMasterName(catid)
 			return memberData.mastername;
 		end
 	end
-end
+end

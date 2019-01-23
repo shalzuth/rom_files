@@ -839,4 +839,3 @@ function InviteConfirmView:HandleAltmanInviteMsg(note)
 
 	self.conformCtl:AddInvite(InviteType.AltMan , data);
 end
-

@@ -178,4 +178,4 @@ function FMEmission:RemoveFromFlyersOnJob(pos)
 	if self.flyersOnJob ~= nil then
 		table.remove(self.flyersOnJob, pos)
 	end
-end
+end

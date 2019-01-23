@@ -76,4 +76,3 @@ function ShopSale:OnExit()
 	self:CameraReset()
 	TipsView.Me():HideCurrent()
 end
-

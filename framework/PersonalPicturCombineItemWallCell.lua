@@ -6,4 +6,3 @@ autoImport("PersonalPictureWallCell");
 function PersonalPicturCombineItemWallCell:Init()
 	self:InitCells(4, "PersonalPictureWallCell", PersonalPictureWallCell);
 end
-

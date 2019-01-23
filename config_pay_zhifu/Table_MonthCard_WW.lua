@@ -7,4 +7,4 @@ Table_MonthCard_WW = {
 }
 
 Table_MonthCard_WW_fields = { "id","Year","Month","Picture","NpcPicture","HeadDress",}
-return Table_MonthCard_WW
+return Table_MonthCard_WW

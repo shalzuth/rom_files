@@ -31,4 +31,4 @@ Table_ScreenFilter = {
 }
 
 Table_ScreenFilter_fields = { "id","Group","Targets","Range","Content","Name",}
-return Table_ScreenFilter
+return Table_ScreenFilter

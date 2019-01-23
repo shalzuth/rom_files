@@ -77,4 +77,4 @@ function RepositoryViewProxy:CanTakeOut()
 		return MyselfProxy.Instance:RoleLevel() >= GameConfig.Item.store_takeout_baselv_req
 	end
 	return true	
-end
+end

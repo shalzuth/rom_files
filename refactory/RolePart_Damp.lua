@@ -120,4 +120,4 @@ function RolePart_Damp:DoDeconstruct(asArray)
 	self.args[2] = 0
 	self.params = nil
 end
--- override end
+-- override end

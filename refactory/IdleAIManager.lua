@@ -120,4 +120,3 @@ function IdleAIManager:_SwitchAI(newAI, idleElapsed, time, deltaTime, creature)
 	end
 end
 
-

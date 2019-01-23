@@ -44,4 +44,4 @@ function QuotaDetailCell:SetExpireTime(expireTime)
 			end
 		end
 	end
-end
+end

@@ -52,4 +52,4 @@ end
 
 function AudioController:IsPlaying()
 	return self.source.isPlaying
-end
+end

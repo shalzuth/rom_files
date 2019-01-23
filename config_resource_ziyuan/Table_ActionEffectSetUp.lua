@@ -18,4 +18,3 @@ Table_ActionEffectSetUp = {
 }
 Table_ActionEffectSetUp_fields = { "id","Path","EPID","EPFollow","Loop",}
 return Table_ActionEffectSetUp
-

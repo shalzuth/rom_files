@@ -73,4 +73,4 @@ end
 
 function ExchangeIntroduceData:GetItemId()
 	return self.itemData and self.itemData.staticData.id or self.itemid
-end
+end

@@ -293,4 +293,4 @@ function MemberWantedQuest:update(charId,questId,action,step,questDataServer)
 	if(not self.questData.wantedData)then
 		LogUtility.ErrorFormat("MemberWantedQuest:update can't find id:{0} in Table_WantedQuest",questId)
 	end
-end
+end

@@ -383,4 +383,3 @@ setmetatable(Table_Seat_aldebaran[44],{__index = Table_Seat_aldebaran[43]})
 setmetatable(Table_Seat_aldebaran[46],{__index = Table_Seat_aldebaran[45]})
 setmetatable(Table_Seat_aldebaran[48],{__index = Table_Seat_aldebaran[47]})
 return Table_Seat_aldebaran
-

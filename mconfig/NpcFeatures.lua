@@ -106,4 +106,3 @@ NpcFeatures.GoBack={
 NpcFeatures.AIParams = {
   run_away_time = 2,
 }
-

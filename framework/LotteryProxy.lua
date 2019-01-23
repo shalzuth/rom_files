@@ -564,4 +564,4 @@ function LotteryProxy:IsLotteryEquip(itemid)
 		return false;
 	end
 	return self.equipLottery_Map[itemid] ~= nil;
-end
+end

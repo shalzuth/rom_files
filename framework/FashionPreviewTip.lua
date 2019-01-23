@@ -214,4 +214,3 @@ function FashionPreviewTip:OnExit()
 	self:PassEvent(FashionPreviewEvent.Close);
 	return true	
 end
-

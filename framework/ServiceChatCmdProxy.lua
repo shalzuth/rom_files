@@ -174,4 +174,4 @@ end
 function ServiceChatCmdProxy:RecvQueryRealtimeVoiceIDCmd(data) 
 	GVoiceProxy.Instance:RecvQueryRealtimeVoiceIDCmd(data)
 	self:Notify(ServiceEvent.ChatCmdQueryRealtimeVoiceIDCmd, data)
-end
+end

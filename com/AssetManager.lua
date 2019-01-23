@@ -252,4 +252,4 @@ function AssetInfo:IsResID(testResID)
 		eq = testResID.IDStr == self.resID.IDStr
 	end
 	return eq
-end
+end

@@ -378,4 +378,4 @@ function SkillBase:Update(time, deltaTime, creature)
 			self:_End(creature)
 		end
 	end
-end
+end

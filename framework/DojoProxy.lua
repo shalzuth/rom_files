@@ -308,4 +308,4 @@ function DojoProxy:GetGroupLvreq(dojoid)
 		end
 	end
 	return lvreq
-end
+end

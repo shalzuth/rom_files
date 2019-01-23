@@ -29,4 +29,3 @@ function QueueBaseCell:SetPos(pos)
 		self.gameObject.transform.localPosition = Vector3(x,y,z);
 	end
 end
-

@@ -71,4 +71,4 @@ function NoticeMsgView:PlayReverseNoticeMsg()
 			end
 		end)
 	end)
-end
+end

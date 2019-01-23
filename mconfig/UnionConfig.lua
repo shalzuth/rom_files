@@ -64,4 +64,4 @@ UnionConfig.PVPConfig=
 		countDownTime=10,
                 MaxCanJoinRoom=60,
   },
-}
+}

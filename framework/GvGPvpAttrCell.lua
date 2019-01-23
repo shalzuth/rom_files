@@ -25,4 +25,4 @@ function GvGPvpAttrCell:SetData(data)
 			end
 		end
 	end
-end
+end

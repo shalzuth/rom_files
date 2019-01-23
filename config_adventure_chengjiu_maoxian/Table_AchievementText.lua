@@ -332,4 +332,3 @@ Table_AchievementText = {
 }
 Table_AchievementText_fields = { "id","Text",}
 return Table_AchievementText
-

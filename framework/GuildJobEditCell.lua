@@ -112,4 +112,3 @@ function GuildJobEditCell:UpdateEditSymbol()
 		authInfo.symbol:MakePixelPerfect();
 	end
 end
-

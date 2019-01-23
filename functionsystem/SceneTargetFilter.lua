@@ -30,4 +30,4 @@ end
 
 function SceneTargetFilter.CheckIsPet(creature)
 	return creature:GetCreatureType() == Creature_Type.Pet
-end
+end

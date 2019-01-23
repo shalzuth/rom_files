@@ -119,4 +119,4 @@ function UIViewControllerMiyinStrengthen:FocusOnNPC()
 		local transNPC = npcCreature.assetRole.completeTransform;
 		self:CameraFocusAndRotateTo(transNPC, viewPort, rotation)
 	end
-end
+end

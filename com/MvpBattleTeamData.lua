@@ -36,4 +36,4 @@ end
 
 function MvpBattleTeamData:GetKillMiniCount()
 	return #self.killMinis
-end
+end

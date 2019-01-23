@@ -279,4 +279,4 @@ function LogicManager_HandInHand:LateUpdate(time, deltaTime)
 
 		end
 	end
-end
+end

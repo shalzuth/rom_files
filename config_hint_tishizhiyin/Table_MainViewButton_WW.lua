@@ -4,4 +4,4 @@ Table_MainViewButton_WW = {
 }
 
 Table_MainViewButton_WW_fields = { "id","name","icon","panelid","redtiptype","Enterhide","guideiconID","BranchHide","GroupID",}
-return Table_MainViewButton_WW
+return Table_MainViewButton_WW

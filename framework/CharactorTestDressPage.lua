@@ -139,4 +139,4 @@ end
 
 function CharactorTestDressPage:HandleChangeDress(note)
 	print("---------------------------服务器返回换装成功")
-end
+end

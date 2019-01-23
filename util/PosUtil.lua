@@ -47,4 +47,4 @@ function PosUtil.DistanceVector2(a,b)
 	local x = a.x-b.x
 	local z = a.z-b.z
 	return math.sqrt(x * x + z * z)
-end
+end

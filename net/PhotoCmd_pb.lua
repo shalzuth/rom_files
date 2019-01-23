@@ -920,4 +920,3 @@ QueryUserPhotoListPhotoCmd = protobuf.Message(QUERYUSERPHOTOLISTPHOTOCMD)
 RemoveMd5PhotoCmd = protobuf.Message(REMOVEMD5PHOTOCMD)
 UpdateFrameShowPhotoCmd = protobuf.Message(UPDATEFRAMESHOWPHOTOCMD)
 
-

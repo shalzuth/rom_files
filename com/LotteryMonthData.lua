@@ -55,4 +55,4 @@ end
 
 function LotteryMonthData._SortMonthGroup(l, r)
 	return l.id > r.id
-end
+end

@@ -24904,4 +24904,3 @@ function CommonFun.calcArtifactMaterialItemCount(type,num,count)
 	end
 end
 
-

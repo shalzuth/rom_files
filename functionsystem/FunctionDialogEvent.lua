@@ -704,4 +704,3 @@ function FunctionDialogEvent.UpJobLevel( npcInfo )
 	end
 	FunctionDialogEvent.Me():SetEventDialog(dialogId, nil, npcInfo)
 end
-

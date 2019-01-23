@@ -18,4 +18,4 @@ function PetDropItemData:SetCount(serviceCount,count)
 		self.num=serviceCount
 	end
 	self.rewardCount=count
-end
+end

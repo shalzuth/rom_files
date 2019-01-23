@@ -180,4 +180,4 @@ function AdventureTab:Reset()
 	self.itemsMap = {}
 	self.parsedItems = {}
 end
--- return Prop
+-- return Prop

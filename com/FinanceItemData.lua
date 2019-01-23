@@ -80,4 +80,4 @@ function FinanceItemData:GetMiddleDetailRatio()
 	end
 
 	return 0
-end
+end

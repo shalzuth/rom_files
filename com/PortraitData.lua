@@ -103,4 +103,4 @@ function PortraitData:GetOrderFrames()
 		return a.id < b.id;
 	end);
 	return result;
-end
+end

@@ -179,4 +179,4 @@ function SkillSimulateData:IsSimulating()
 		return true
 	end
 	return false
-end
+end

@@ -46,4 +46,3 @@ function CreaturePropCommand:UpdatePropHp(target,data)
 	end
 end
 
-

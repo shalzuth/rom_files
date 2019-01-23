@@ -48,4 +48,4 @@ function ActionCommand:RolePlayNormalAction(role, name, num, normalizedTime)
 	else
 		role:Action(name, num, normalizedTime);
 	end
-end
+end

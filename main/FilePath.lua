@@ -17,4 +17,3 @@ PfbPath = {
 	ui = "GUI/v1/",
 	effectCommon = "Public.Effect.Common.",		
 }
-

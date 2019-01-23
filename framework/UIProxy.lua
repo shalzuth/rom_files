@@ -91,4 +91,4 @@ function UIProxy:SetViewData(viewTypeName,data)
 	self.viewMap[viewTypeName] = data
 end
 
-return UIProxy
+return UIProxy

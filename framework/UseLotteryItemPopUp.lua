@@ -68,4 +68,4 @@ end
 
 function UseLotteryItemPopUp:OnExit()
 	UseLotteryItemPopUp.super.OnExit(self);
-end
+end

@@ -38,4 +38,4 @@ function ShopMultiplePriceCell:SetTotalPrice(price)
 	if price ~= nil then
 		self.totalPrice.text = StringUtil.NumThousandFormat(price)
 	end
-end
+end

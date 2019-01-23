@@ -71,4 +71,3 @@ function HairCutPage:RefreshChooseUI(chooseData)
 	self.container:RefreshSelectedROB(pageType,precost,moneyID,itemCount,hairID)
 end
 
-

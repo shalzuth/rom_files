@@ -36,4 +36,4 @@ function SceneFilterInActiveNode:DoAction()
 		SceneFilterProxy.Instance:SceneFilterUnCheck(k,self.behaviorTree.blackBoard.creature)
 	end
 	return TaskState.Running
-end
+end

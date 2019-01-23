@@ -223,4 +223,4 @@ end
 
 function FunctionInteractionGrass:Reset()
 	self.cachedPlayersOnFarmlands = {}
-end
+end

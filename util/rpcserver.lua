@@ -76,4 +76,3 @@ function serve(luaClass, packReturn)
   cgilua.put( json.encode( jsonResponse ) )
 end
 
-

@@ -252,4 +252,4 @@ View.instanceMap = {}
 ]]
 View.MULTITON_MSG = "View instance for this Multiton key already constructed!"
 
-return View
+return View

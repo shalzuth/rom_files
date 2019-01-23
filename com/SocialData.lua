@@ -224,4 +224,4 @@ function SocialData:DoDeconstruct(asArray)
 	self.unreadCount = nil
 	self:Clear()
 end
--- override end
+-- override end

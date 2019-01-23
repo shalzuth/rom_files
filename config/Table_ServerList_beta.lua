@@ -4,4 +4,4 @@ Table_ServerList_beta = {
 }
 
 Table_ServerList_beta_fields = { "id","name","type","serverid","state",}
-return Table_ServerList_beta
+return Table_ServerList_beta

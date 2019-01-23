@@ -60,4 +60,4 @@ end
 
 function AEGuildBuildingData:GetRewardInc()
 	return self.rewardinc
-end
+end

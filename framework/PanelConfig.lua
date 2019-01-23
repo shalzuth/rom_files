@@ -418,4 +418,3 @@ PanelConfig = {
     LotteryMagicView = {id=994,tab=nil,name="扭蛋魔力",desc="",prefab="LotteryMagicView",class="LotteryMagicView"},
 
 }
-

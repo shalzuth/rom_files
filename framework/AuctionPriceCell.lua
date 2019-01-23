@@ -73,4 +73,4 @@ function AuctionPriceCell:PlayForward(finishCallback)
 	self.finishCallback = finishCallback
 
 	self.effect:SetActive(false)
-end
+end

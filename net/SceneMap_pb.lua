@@ -2008,4 +2008,3 @@ SpEffectCmd = protobuf.Message(SPEFFECTCMD)
 UserHandNpcCmd = protobuf.Message(USERHANDNPCCMD)
 UserHandsCmd = protobuf.Message(USERHANDSCMD)
 
-

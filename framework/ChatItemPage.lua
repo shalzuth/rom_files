@@ -70,4 +70,4 @@ function ChatItemPage:ReUniteCellData(datas, perRowNum)
 			end
 		end
 	end
-end
+end

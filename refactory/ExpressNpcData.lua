@@ -42,4 +42,4 @@ end
 
 function ExpressNpcData:GetFollowEP()
 	return RoleDefines_EP.Bottom
-end
+end

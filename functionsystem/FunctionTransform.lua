@@ -81,4 +81,4 @@ function FunctionTransform:TrySetOtherTransformedAtk(player)
 	if(player and player.data:GetProfesstion() ~= RoleDefines_Profession.Novice and self:IsTransformAtkMap()) then
 		player.data:Camp_SetIsOtherTransformedAtk(true)
 	end
-end
+end

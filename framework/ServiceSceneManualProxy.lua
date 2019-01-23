@@ -47,4 +47,4 @@ end
 function ServiceSceneManualProxy:RecvUpdateSolvedPhotoManualCmd(data)
 	AdventureDataProxy.Instance:UpdateResolvedPhotoManualCmd(data)
 	self:Notify(ServiceEvent.SceneManualUpdateSolvedPhotoManualCmd, data)
-end
+end

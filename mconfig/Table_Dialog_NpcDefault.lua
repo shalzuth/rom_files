@@ -2508,4 +2508,3 @@ Table_Dialog_NpcDefault_s = {
  
 }
 return Table_Dialog_NpcDefault
-

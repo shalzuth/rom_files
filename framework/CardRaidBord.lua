@@ -224,4 +224,4 @@ function CardRaidBord:Destroy()
 		GameObject.DestroyImmediate(self.gameObject);
 	end
 	self.gameObject = nil;
-end
+end

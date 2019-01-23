@@ -415,4 +415,4 @@ end
 function PrivateChatView:SetCurChatId(id)
 	self.curChatId = id
 	ChatRoomProxy.Instance:SetCurrentPrivateChatId(id)
-end
+end

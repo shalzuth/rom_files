@@ -283,4 +283,4 @@ function CollectScoreTip:OnExit()
 	self.appCtl:ResetDatas()
 	CollectScoreTip.super.OnExit(self);
 	Game.GOLuaPoolManager:AddToUIPool(self.resID,self.gameObject)
-end
+end

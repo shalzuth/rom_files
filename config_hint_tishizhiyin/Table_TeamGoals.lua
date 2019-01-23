@@ -20,4 +20,4 @@ Table_TeamGoals = {
 }
 
 Table_TeamGoals_fields = { "id","NameZh","type","Filter","SetShow","Level",}
-return Table_TeamGoals
+return Table_TeamGoals

@@ -145,4 +145,4 @@ function TransSexPreView:ObserverDestroyed(obj)
 	if(obj == self.model)then
 		self.model = nil;
 	end
-end
+end

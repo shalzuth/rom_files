@@ -12,4 +12,4 @@ function Game.PreprocessHelper_BuildMap(array, idKey)
 		return map
 	end
 	return nil
-end
+end

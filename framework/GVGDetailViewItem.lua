@@ -113,4 +113,3 @@ function GVGDetailViewItem:LoadSetCustomPic(data)
 					is_keep_previous_callback, 
 					is_through_personalphotocallback);
 end
-

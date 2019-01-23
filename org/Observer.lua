@@ -95,4 +95,4 @@ function Observer:compareNotifyContext(object)
 	return object == self.context
 end
 
-return Observer
+return Observer

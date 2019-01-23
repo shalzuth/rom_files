@@ -90,4 +90,4 @@ end
 
 function EquipChooseTip:DestroySelf()
 	GameObject.Destroy(self.gameObject)
-end
+end

@@ -54,4 +54,4 @@ function LStack:GetDepthByFunc(obj,func,owner)
 		end
 	end
 	return 0
-end
+end

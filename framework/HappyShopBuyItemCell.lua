@@ -283,4 +283,4 @@ end
 function HappyShopBuyItemCell:ShowMultiplePrice(isShow)
 	self.multiplePriceRoot:SetActive(isShow)
 	self.priceRoot:SetActive(not isShow)
-end
+end

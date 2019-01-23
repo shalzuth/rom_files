@@ -19,4 +19,4 @@ function Structure.QueuePeekByIndex(array, index)
 		return nil
 	end
 	return array[index]
-end
+end

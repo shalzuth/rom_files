@@ -177,4 +177,3 @@ function TabNameTip:SetTweenAlpha()
 	end
 end
 
-

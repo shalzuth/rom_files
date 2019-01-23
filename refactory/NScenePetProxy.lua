@@ -169,4 +169,3 @@ function NScenePetProxy:Clear()
 	end
 	self:Reset()
 end
-

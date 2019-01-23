@@ -201,4 +201,3 @@ ServiceEvent.SceneSealEndSeal = "ServiceEvent_SceneSealEndSeal"
 ServiceEvent.SceneSealSealUserLeave = "ServiceEvent_SceneSealSealUserLeave"
 ServiceEvent.SceneSealSealQueryList = "ServiceEvent_SceneSealSealQueryList"
 ServiceEvent.SceneSealSealAcceptCmd = "ServiceEvent_SceneSealSealAcceptCmd"
-

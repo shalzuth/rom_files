@@ -52,4 +52,4 @@ function AchievementPreQuestCell:GetQuestType(data)
 		end
 	end
 	return hasAccept,hasSubmit
-end
+end

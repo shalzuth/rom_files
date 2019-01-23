@@ -239,4 +239,4 @@ end
 
 function UIVictoryView:_StartTimeTick()
 	TimeTickManager.Me():CreateTick(0,50,self._Tick,self,1,true)
-end
+end

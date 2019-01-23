@@ -99,4 +99,4 @@ function GuildTreasureRewardPopUp:UpdateUI()
 		end
 		self.headCell:SetData(headData);
 	end
-end
+end

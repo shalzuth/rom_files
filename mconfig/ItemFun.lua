@@ -274,4 +274,3 @@ function ItemFun.canQuickSell(id)
 
   return true
 end
-

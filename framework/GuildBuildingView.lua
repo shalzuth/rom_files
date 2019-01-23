@@ -133,4 +133,3 @@ function GuildBuildingView:OnExit()
 	PictureManager.Instance:UnLoadUI()
 	GuildBuildingView.super.OnExit(self);
 end
-

@@ -148,4 +148,4 @@ function AuctionSignUpView:HandleSelect(cell)
 		self.tipData.itemdata = data.itemData
 		self:ShowItemTip(self.tipData, cell.icon, NGUIUtil.AnchorSide.Left, {-220,0})
 	end	
-end
+end

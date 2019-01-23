@@ -42,4 +42,3 @@ function RefineTypeData:GetData(quality,level)
 	end
 	return nil
 end
-

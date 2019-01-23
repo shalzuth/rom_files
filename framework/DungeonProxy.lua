@@ -340,4 +340,3 @@ function DungeonProxy:GetAltManRaidInfo()
 	return self.altman_lefttime, self.altman_killcount, self.altman_selfkill;
 end
 -- Altman End
-

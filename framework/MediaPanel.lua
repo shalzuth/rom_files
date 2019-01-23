@@ -81,4 +81,4 @@ function MediaPanel:FinishPlaying()
 	self.videoCanvas.mainTexture = nil
 	self:sendNotification(MediaPanel.PlayVideoFinish)
 	self:CloseSelf()
-end
+end

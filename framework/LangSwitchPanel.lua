@@ -57,4 +57,4 @@ end
 
 function LangSwitchPanel:OnExit()
     LangSwitchPanel.super.OnExit(self);
-end
+end

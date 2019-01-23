@@ -149,4 +149,4 @@ end
 
 function ShortCutProxy:ShortCutListIsEnable(id)
 	return self.shortCutData:ShortCutListIsEnable(id)
-end
+end

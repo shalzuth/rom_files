@@ -117,4 +117,4 @@ Table_HairStyle = {
 }
 
 Table_HairStyle_fields = { "id","ItemID","Icon","HairFront","HairBack","HairAdornment","DefaultColor","PaintColor","AvatarColor","Sex","IsPro","OnSale",}
-return Table_HairStyle
+return Table_HairStyle

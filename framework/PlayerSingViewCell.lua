@@ -97,4 +97,4 @@ function PlayerSingViewCell:delayProcess(  )
 	-- else
 		self:stopProcess()
 	-- end
-end
+end

@@ -99,4 +99,4 @@ Table_Lottery_WW = {
 }
 
 Table_Lottery_WW_fields = { "id","itemid","FemaleItemid","type",}
-return Table_Lottery_WW
+return Table_Lottery_WW

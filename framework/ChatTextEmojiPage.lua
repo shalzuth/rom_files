@@ -60,4 +60,4 @@ function ChatTextEmojiPage:HandleClickItem(cellctl)
 	if self.container.contentInput.gameObject.activeInHierarchy then
 		self.container:SetContentInputValue(cellctl.data.Emoji)
 	end
-end
+end

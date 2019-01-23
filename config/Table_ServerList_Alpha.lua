@@ -28,4 +28,4 @@ Table_ServerList_Alpha = {
 }
 
 Table_ServerList_Alpha_fields = { "id","name","type","serverid","state",}
-return Table_ServerList_Alpha
+return Table_ServerList_Alpha

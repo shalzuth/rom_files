@@ -79,4 +79,4 @@ function AuguryProxy:GetTable()
 	end
 
 	return nil
-end
+end

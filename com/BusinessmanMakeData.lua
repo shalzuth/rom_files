@@ -61,4 +61,4 @@ end
 
 function BusinessmanMakeData:GetProductNum()
 	return self.productNum or 0
-end
+end

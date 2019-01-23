@@ -65,4 +65,4 @@ function LoveLetterData:GetType(itemid)
 	end
 
 	return nil
-end
+end

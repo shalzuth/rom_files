@@ -70,4 +70,4 @@ function FunctionPhoto:StartCommand(cmdClass)
 		self.cmds[cmdClass] = cmd
 	end
 	cmd:Launch()
-end
+end

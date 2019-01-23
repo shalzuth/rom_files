@@ -23,4 +23,3 @@ function ServicePvpCmdProxy:CallJoinTeamMatch(pvp_type)
 	helplog("PvpCmd c2s JoinTeamMatch", pvp_type);
 	ServicePvpCmdProxy.super.CallJoinTeamMatch(self, pvp_type);
 end
-

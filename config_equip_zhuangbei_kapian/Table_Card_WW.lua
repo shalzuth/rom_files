@@ -4,4 +4,4 @@ Table_Card_WW = {
 }
 
 Table_Card_WW_fields = { "id","Name","Quality","Position","CardType","CardLv","CardID","Anchor","Picture","monsterID","BuffEffect","NoShow","Type",}
-return Table_Card_WW
+return Table_Card_WW

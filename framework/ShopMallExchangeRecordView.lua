@@ -271,4 +271,4 @@ function ShopMallExchangeRecordView:ClearQuickTakeLt()
 		self.quickTakeLt:cancel()
 		self.quickTakeLt = nil
 	end
-end
+end

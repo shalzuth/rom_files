@@ -40,4 +40,4 @@ function CullingIDUtility.ClearID(i)
 			-- LogUtility.InfoFormat("CullingIDUtility.ClearID {0}",i)
 		end
 	end
-end
+end

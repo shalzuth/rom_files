@@ -88,4 +88,4 @@ function PhotoCommandShowGhost:GhostOutSight( creature )
 		Game.LogicManager_Npc_Props:UpdateHiding(creature,nil,nil,creature.data.props.Hiding)
 		self:RemoveCreature(creature)
 	end
-end
+end

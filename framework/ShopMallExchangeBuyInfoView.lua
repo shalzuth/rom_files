@@ -113,4 +113,4 @@ function ShopMallExchangeBuyInfoView:RecvInfo(note)
 			self.introCell:UpdateSend(canExpress, isQuotaEnough)
 		end)
 	end
-end
+end

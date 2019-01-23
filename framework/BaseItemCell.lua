@@ -102,4 +102,3 @@ end
 function BaseItemCell:ClearCD()
 	self.coldDown.fillAmount = 0
 end
-

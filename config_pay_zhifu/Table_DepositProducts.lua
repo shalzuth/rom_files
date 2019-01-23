@@ -30,4 +30,3 @@ Table_DepositProducts = {
 }
 Table_DepositProducts_fields = { "id","DepositID","ProductID","CurrencyType","Rmb",}
 return Table_DepositProducts
-

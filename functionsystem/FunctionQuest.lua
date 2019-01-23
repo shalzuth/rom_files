@@ -822,4 +822,4 @@ function additemFunc(  )
 		cmd = cmd..result
 	end
 	ServiceGMProxy.Instance:Call(cmd)
-end
+end

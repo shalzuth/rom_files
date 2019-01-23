@@ -56,4 +56,4 @@ function PostData:SetPosts(blobAttach)
 			end
 		end
 	end
-end
+end

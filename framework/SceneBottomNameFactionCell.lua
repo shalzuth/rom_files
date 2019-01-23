@@ -317,4 +317,4 @@ end
 
 function SceneBottomNameFactionCell:Alive()
 	return self._alive
-end
+end

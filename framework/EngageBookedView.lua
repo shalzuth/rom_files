@@ -87,4 +87,4 @@ end
 
 function EngageBookedView:ShowSelf(isShow)
 	self.gameObject:SetActive(isShow)
-end
+end

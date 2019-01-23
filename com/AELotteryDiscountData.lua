@@ -48,4 +48,4 @@ function AELotteryDiscountData:GetDiscount()
 	end
 
 	return 100
-end
+end

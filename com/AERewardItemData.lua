@@ -17,4 +17,4 @@ end
 
 function AERewardItemData:GetMultipleAcclimitCharid()
 	return self.multipleacclimitcharid
-end
+end

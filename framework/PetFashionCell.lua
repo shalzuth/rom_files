@@ -54,4 +54,3 @@ function PetFashionCell:ObserverDestroyed(obj)
 		self.model = nil;
 	end
 end
-

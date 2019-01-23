@@ -48,4 +48,4 @@ function GuidePanel:OnExit()
 			printRed("quest faild questData or FailJump is nil")
 		end
 	end
-end
+end

@@ -24,4 +24,4 @@ end
 
 function ArtifactMakeData:IsChoose()
 	return self.isChoose
-end
+end

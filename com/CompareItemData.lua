@@ -7,4 +7,4 @@ end
 
 function CompareItemData:SetComparedSite(site)
 	self.site = site
-end
+end

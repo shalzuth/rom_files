@@ -32,4 +32,4 @@ end
 function CostInfoCell:SetSize(w,h)
 	self.symbol.width = w;
 	self.symbol.heigth = h;
-end
+end

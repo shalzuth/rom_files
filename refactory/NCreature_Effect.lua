@@ -88,4 +88,4 @@ function NCreature:PlayDamage_Effect(damage,damageType)
 			end
 		end
 	end
-end
+end

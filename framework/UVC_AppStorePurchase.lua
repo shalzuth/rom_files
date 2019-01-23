@@ -197,4 +197,4 @@ function UVC_AppStorePurchase:GetOriginProduct(activity_product)
 		end
 	end
 	return nil
-end
+end

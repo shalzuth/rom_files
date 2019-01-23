@@ -25,4 +25,4 @@ end
 
 function ExchangeLogNameData:GetCount()
 	return self.count or 0
-end
+end

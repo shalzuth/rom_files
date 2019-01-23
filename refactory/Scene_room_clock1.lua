@@ -2070,4 +2070,4 @@ local Scene_room_clock1={
 		}
 	}
 }
-return Scene_room_clock1
+return Scene_room_clock1

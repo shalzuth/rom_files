@@ -50,4 +50,4 @@ end
 function PhotographSingleFilterText:getIsSelect(  )
 	-- body
 	return self.toggle.value
-end
+end

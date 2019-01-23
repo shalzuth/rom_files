@@ -34,4 +34,4 @@ function QuotaLogCell:UpdateLockTip()
 	end
 
 	self.lockTip.text = ""
-end
+end

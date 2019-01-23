@@ -586,4 +586,4 @@ local Scene_researchlab={
 		}
 	}
 }
-return Scene_researchlab
+return Scene_researchlab

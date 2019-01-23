@@ -255,4 +255,3 @@ SkillHelperFunc.DynamicCostFunc = {
   [3] = SkillHelperFunc.DoDynamicCost_Lianhuan -- 连环全身掌
 }
 
-

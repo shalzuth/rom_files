@@ -26,4 +26,4 @@ function MonthCardDetailPanel:OnExit(  )
 	if(self.monthCardData and self.monthCardData.Picture)then
 		PictureManager.Instance:UnLoadMonthCard(self.monthCardData.Picture, self.ModelTexture);
 	end
-end
+end

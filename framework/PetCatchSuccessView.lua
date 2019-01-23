@@ -38,4 +38,3 @@ function PetCatchSuccessView:OnExit()
 	PetCatchSuccessView.super.OnExit(self);
 	self.effect:SetActive(false);
 end
-

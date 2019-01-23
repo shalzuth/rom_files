@@ -47,4 +47,4 @@ end
 
 function MessageFlyer:ResetLab()
 	self.lab.text = ""
-end
+end

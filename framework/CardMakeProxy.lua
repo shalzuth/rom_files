@@ -537,4 +537,4 @@ function CardMakeProxy:GetDecomposeMaterialItemData()
 	end
 
 	return self.decomposeMaterialItemData
-end
+end

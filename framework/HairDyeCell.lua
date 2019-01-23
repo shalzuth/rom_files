@@ -50,4 +50,3 @@ function HairDyeCell:UnChoose()
 	self:Hide(self.chooseImg);
 end
 
-

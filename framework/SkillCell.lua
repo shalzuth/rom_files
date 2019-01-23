@@ -373,4 +373,4 @@ function AdventureSkillCell:SetLevel(level,color)
 	else
 		self.skillLevel.text = "Lv."..level
 	end
-end
+end

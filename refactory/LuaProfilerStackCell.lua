@@ -91,4 +91,4 @@ function LuaProfilerStackCell:PercentageStatistics()
 	concatTable3[12] = "%"
 	concatTable3[13] = "\n"
 	LuaProfilerSample.printLog = concat(concatTable3)
-end
+end

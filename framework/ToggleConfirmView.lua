@@ -71,4 +71,4 @@ function ToggleConfirmView:FillCheckLabel(text)
 	local checkLabelX = self.checkLabel.transform.localPosition.x
 	local p = Vector3(-(checkLabelX - self.checkBg.width/2 + self.checkLabel.width)/2,108,0)
 	self.checkBtn.transform.localPosition = p
-end
+end

@@ -6,4 +6,4 @@ Table_Being = {
 }
 
 Table_Being_fields = { "id","Name","StaticSkill","Skill_1","Skill_2","Skill_3","Skill_4","Color",}
-return Table_Being
+return Table_Being

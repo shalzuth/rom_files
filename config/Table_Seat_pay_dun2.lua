@@ -34,4 +34,4 @@ Table_Seat_pay_dun2 = {
 }
 
 Table_Seat_pay_dun2_fields = { "id","StandPot","SeatPot","Dir",}
-return Table_Seat_pay_dun2
+return Table_Seat_pay_dun2

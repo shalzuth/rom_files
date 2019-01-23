@@ -55,4 +55,3 @@ function ServantSubView:ShowNpcModel()
 		self.model:SetScale( otherScale );
 	end
 end
-

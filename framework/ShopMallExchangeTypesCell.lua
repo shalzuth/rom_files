@@ -20,4 +20,4 @@ end
 function ShopMallExchangeTypesCell:SetChoose(choose)
 	self.choose = choose
 	self.label.color = self.choose and self.ChooseColor or self.NormalColor
-end
+end

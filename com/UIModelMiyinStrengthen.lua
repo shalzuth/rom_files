@@ -77,4 +77,4 @@ end
 local miyinConfID = 5030
 function UIModelMiyinStrengthen:GetOwnMiyinCount()
 	return BagProxy.Instance:GetItemNumByStaticID(miyinConfID)
-end
+end

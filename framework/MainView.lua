@@ -281,4 +281,4 @@ function MainView:OnShow()
 	end
 end
 
-return MainView
+return MainView

@@ -269,4 +269,4 @@ function WeddingManualMainView:SetPlayerModelTex(userdata, index)
 		ReusableTable.DestroyAndClearTable(args[6])
 		ReusableTable.DestroyAndClearArray(args)
 	end
-end
+end

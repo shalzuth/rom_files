@@ -64,4 +64,3 @@ function ShowyMsg:SetExitCall(func)
 	self.exitCall = func;
 end
 
-

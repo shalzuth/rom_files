@@ -85,4 +85,4 @@ function AchievementQuestCell:SetData( data )
 		OverseaHostHelper:FixAnchor(self.questStatus.rightAnchor,self.bg.transform,1,-12)
 	end
 	-- self.preQuestGrid:RemoveAll()
-end
+end

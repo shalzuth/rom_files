@@ -168,4 +168,4 @@ end
 
 function LuaDynamicGrass:ObserverDestroyed(effect)
 	self.playingEffect = false
-end
+end

@@ -29,4 +29,4 @@ function ProfessionSkillCell:SetData(obj)
 			errorLog("can't find skillData in table Skill,Skill id:",obj)
 		end
 	end
-end
+end

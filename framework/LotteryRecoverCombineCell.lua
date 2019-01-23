@@ -43,4 +43,4 @@ function LotteryRecoverCombineCell:UpdateInfo()
 		cell:SetData(cData)
 		cell.gameObject:SetActive( cData ~= nil )
 	end
-end
+end

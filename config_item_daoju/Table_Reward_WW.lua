@@ -240,4 +240,4 @@ Table_Reward_WW = {
 }
 
 Table_Reward_WW_fields = { "id","team","type","item",}
-return Table_Reward_WW
+return Table_Reward_WW

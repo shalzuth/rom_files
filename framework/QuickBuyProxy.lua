@@ -419,4 +419,4 @@ function QuickBuyProxy:GetTotalCost()
 		end
 	end
 	return zenyCost, happyCost, lotteryCost
-end
+end

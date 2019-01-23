@@ -30,4 +30,4 @@ end
 
 function TeamOptionGSonCell:SetChoose(b)
 	self.tog.value = b;
-end
+end

@@ -49,4 +49,3 @@ function PetDropItemCell:SetData(data)
 	end
 	self.data = data
 end
-

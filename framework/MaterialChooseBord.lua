@@ -251,4 +251,4 @@ function MaterialChooseBord:Set_CheckValidFunc(checkFunc, checkFuncParam, checkT
 	self.checkFunc = checkFunc;
 	self.checkFuncParam = checkFuncParam;
 	self.checkTip = checkTip;
-end
+end

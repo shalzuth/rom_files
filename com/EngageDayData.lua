@@ -51,4 +51,4 @@ function EngageDayData:GetEndTimeData()
 	end
 
 	return self.endTimeData
-end
+end

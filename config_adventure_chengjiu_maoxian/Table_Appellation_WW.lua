@@ -4,4 +4,4 @@ Table_Appellation_WW = {
 }
 
 Table_Appellation_WW_fields = { "id","Name","GroupID","TitleSort","PostID","Level","OrderType","BaseProp",}
-return Table_Appellation_WW
+return Table_Appellation_WW

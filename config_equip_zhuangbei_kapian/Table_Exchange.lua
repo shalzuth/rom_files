@@ -3815,4 +3815,3 @@ setmetatable(Table_Exchange[45955],{__index = Table_Exchange[45940]})
 setmetatable(Table_Exchange[45956],{__index = Table_Exchange[45940]})
 setmetatable(Table_Exchange[48663],{__index = Table_Exchange[45940]})
 return Table_Exchange
-

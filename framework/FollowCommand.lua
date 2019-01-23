@@ -18,4 +18,4 @@ function FollowCommand:execute(note)
 		-- LogUtility.InfoFormat(" ServiceEvent.NUserGoMapFollowUserCmd map :{0} ", note.body.mapid)
 		Game.Myself:Client_SetFollowLeaderMoveToMap(note.body.mapid);
 	end
-end
+end

@@ -1619,4 +1619,4 @@ local Scene_prt_maze1={
 		}
 	}
 }
-return Scene_prt_maze1
+return Scene_prt_maze1

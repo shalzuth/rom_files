@@ -23,4 +23,4 @@ function MyselfDeathCommand:execute(note)
 			Game.HandUpManager:EndHandUp()
 		end
 	end
-end
+end

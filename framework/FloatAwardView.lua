@@ -689,4 +689,4 @@ end
 
 function FloatAwardView:handleEffectStart(  )
 	-- body
-end
+end

@@ -11,4 +11,4 @@ Table_Menu_WW = {
 }
 
 Table_Menu_WW_fields = { "id","type","PanelID","text","Condition","event","sysMsg","Tip","Show","Acc","Icon","GuideID","Enterhide",}
-return Table_Menu_WW
+return Table_Menu_WW

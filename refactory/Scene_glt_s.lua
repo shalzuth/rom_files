@@ -2426,4 +2426,4 @@ local Scene_glt_s={
 		}
 	}
 }
-return Scene_glt_s
+return Scene_glt_s

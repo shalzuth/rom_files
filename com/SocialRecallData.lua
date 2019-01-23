@@ -10,4 +10,4 @@ end
 
 function SocialRecallData:GetName()
 	return Game.SocialManager:GetName(self.guid)
-end
+end

@@ -181,4 +181,4 @@ end
 
 function NewExploreModeView:LoadFinish()
 	self.container:FireLoadFinishEvent()
-end
+end

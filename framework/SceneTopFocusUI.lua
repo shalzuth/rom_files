@@ -136,4 +136,4 @@ end
 
 function SceneTopFocusUI:Alive()
 	return self._alive
-end
+end

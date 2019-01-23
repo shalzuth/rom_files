@@ -84,4 +84,4 @@ function WeddingInviteCell:SetData(data)
 			self.inviteBtnLabel.effectStyle = UILabel.Effect.Outline
 		end
 	end
-end
+end

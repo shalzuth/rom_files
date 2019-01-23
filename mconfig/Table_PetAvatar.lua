@@ -318,4 +318,4 @@ Table_PetAvatar = {
 }
 
 Table_PetAvatar_fields = {"id", "EquipPoint", "Position", "Euler", "Scale", "IsRandom"}
-return Table_PetAvatar
+return Table_PetAvatar

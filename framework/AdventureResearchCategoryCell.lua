@@ -47,4 +47,3 @@ function AdventureResearchCategoryCell:setSelected(isSelect)
 		self:Hide(self.selected)
 	end
 end
-

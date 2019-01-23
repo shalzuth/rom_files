@@ -361,4 +361,3 @@ function HighRefinePanel:OnExit()
 
 	self:CameraReset()
 end
-

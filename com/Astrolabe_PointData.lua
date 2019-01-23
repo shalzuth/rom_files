@@ -236,4 +236,3 @@ function Astrolabe_PointData:GetSpecialEffect()
 	end
 end
 -- pro data end
-

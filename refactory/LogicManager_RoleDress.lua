@@ -312,4 +312,3 @@ function LogicManager_RoleDress:_TryUndressOne()
 	end
 	return false
 end
-

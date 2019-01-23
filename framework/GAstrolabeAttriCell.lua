@@ -31,4 +31,3 @@ function GAstrolabeAttriCell:SetData(data)
 	end
 end
 
-

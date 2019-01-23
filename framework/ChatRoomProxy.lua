@@ -1094,4 +1094,4 @@ function ChatRoomProxy:RecvNpcChatNtf(data)
 
 		ReusableTable.DestroyAndClearTable(chat)
 	end
-end
+end

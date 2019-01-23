@@ -118,4 +118,4 @@ function UniqueConfirmView_GvgLandGiveUp:OnExit()
 
 	self:RemoveTimeTick();
 	self.cd = nil;
-end
+end

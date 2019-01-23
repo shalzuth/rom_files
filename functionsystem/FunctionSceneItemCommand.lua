@@ -50,4 +50,4 @@ end
 
 function FunctionSceneItemCommand:RemoveItems(items)
 	self.dropCmd:RemoveItems(items)
-end
+end

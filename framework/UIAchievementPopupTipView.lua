@@ -178,4 +178,4 @@ end
 function UIAchievementPopupTipView:OnViewClick()
 	UIViewAchievementPopupTip.Instance:StopShowAchievementPopupTip()
 	UIViewAchievementPopupTip.Instance:OpenAchievementDetailUI(self.achievementConfID)
-end
+end

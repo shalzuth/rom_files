@@ -501,4 +501,4 @@ function CullingObjectManager:LateUpdate(time, deltaTime)
 		TableUtility.ArrayClearWithCount(cullingStateChangedArray, index-1)
 	end
 	-- Profiler.EndSample()
-end
+end

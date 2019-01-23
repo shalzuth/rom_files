@@ -21,4 +21,4 @@ function DojoRewardCell:SetData(data)
 
 		self.count.text = data.count
 	end
-end
+end

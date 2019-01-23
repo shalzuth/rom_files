@@ -1547,4 +1547,3 @@ setmetatable(Table_AdventureAppend[750],{__index = Table_AdventureAppend[749]})
 setmetatable(Table_AdventureAppend[751],{__index = Table_AdventureAppend[749]})
 setmetatable(Table_AdventureAppend[752],{__index = Table_AdventureAppend[749]})
 return Table_AdventureAppend
-

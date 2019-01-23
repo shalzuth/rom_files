@@ -10,4 +10,4 @@ Table_NPCFollow = {
 }
 
 Table_NPCFollow_fields = { "id","NameZh","NameEn","FollowType","FollowEP","FollowDistance_Stop","FollowDistance_Start","FollowHighly","FollowEasingTime","ChooseUILocation","ChooseUIRotating","RideVehicle",}
-return Table_NPCFollow
+return Table_NPCFollow

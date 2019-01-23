@@ -85,4 +85,4 @@ function SpeechRecognizerView:SetSpeechView(isSpeech)
 	end
 
 	self.isInRange = isSpeech
-end
+end

@@ -49,4 +49,4 @@ function CardMakeCell:SetChoose(isChoose)
 		self.data:SetChoose(isChoose)
 		self.choose:SetActive(isChoose)
 	end
-end
+end

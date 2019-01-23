@@ -307,4 +307,4 @@ end
 
 function BaseAttributeCell:HideLine()
 	self.line.gameObject:SetActive(false)
-end	
+end	

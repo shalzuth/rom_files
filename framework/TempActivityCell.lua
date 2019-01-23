@@ -66,4 +66,3 @@ function TempActivityCell:SetData(config)
 	end
 end
 
-

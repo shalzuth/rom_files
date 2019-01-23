@@ -461,4 +461,4 @@ local Scene_room_class={
 		}
 	}
 }
-return Scene_room_class
+return Scene_room_class

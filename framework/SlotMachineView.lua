@@ -184,4 +184,4 @@ function SlotMachineView:OnExit()
 	SlotMachineView.super.OnExit(self);
 
 	Game.Myself:Client_ResumeIdleAI();
-end
+end

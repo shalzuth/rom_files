@@ -151,4 +151,4 @@ end
 
 function QuickBuyItemData:IsBuySuccess()
 	return self.buyResult == true
-end
+end

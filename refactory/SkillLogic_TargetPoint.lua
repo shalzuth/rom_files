@@ -96,4 +96,4 @@ function SkillLogic_TargetPoint.Fire(self, creature)
 	end
 	return SuperClass.Fire(self, creature)
 end
--- override end
+-- override end

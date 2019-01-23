@@ -217,4 +217,4 @@ UDEnum = {
 	BOOTH_SCORE = "BOOTH_SCORE",
   
 	SELLDISCOUNT = "SELLDISCOUNT",
-}
+}

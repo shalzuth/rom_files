@@ -28,4 +28,4 @@ end
 
 function FrameRateSpeedUpChecker:OnTick()
 	self:RequestTellFrameCount()
-end
+end

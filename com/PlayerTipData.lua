@@ -171,4 +171,4 @@ function PlayerTipData:SetByMatcherData(matcherdata)
 	self.headData = HeadImageData.new();
 	self.headData:TransByMatcherData(matcherdata);
 	
-end
+end

@@ -243,4 +243,4 @@ Table_EquipLottery = {
 }
 
 Table_EquipLottery_fields = { "id","ItemId","Level","Attr",}
-return Table_EquipLottery
+return Table_EquipLottery

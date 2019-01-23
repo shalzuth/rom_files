@@ -18,4 +18,3 @@ Table_ActionEffect = {
 }
 Table_ActionEffect_fields = { "id","NameAction","BodyID","EffectID",}
 return Table_ActionEffect
-

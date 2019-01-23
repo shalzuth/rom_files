@@ -58,4 +58,4 @@ end
 
 function LuaStringBuilder:DoDeconstruct()
 	self:Clear()
-end
+end

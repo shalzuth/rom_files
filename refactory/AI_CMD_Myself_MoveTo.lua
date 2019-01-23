@@ -100,4 +100,4 @@ end
 
 function AI_CMD_Myself_MoveTo.ToString()
 	return "AI_CMD_Myself_MoveTo",AI_CMD_Myself_MoveTo
-end
+end

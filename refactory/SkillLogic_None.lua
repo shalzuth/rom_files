@@ -6,4 +6,4 @@ local SuperClass = SkillLogic_TargetNone
 -- override begin
 -- override end
 
-return SelfClass
+return SelfClass

@@ -655,4 +655,4 @@ function SkillContentPage:HandleMyDataChange(note)
 			end
 		end
 	end
-end
+end

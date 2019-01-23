@@ -32,4 +32,4 @@ function ShortCutOptionPopUp:OnEnter()
 		end
 		self.ctl:ResetDatas(datas);
 	end
-end
+end

@@ -59,4 +59,4 @@ end
 
 function SSPUploadStatusManager:RequestUploadOkSceneryUserCmd(ss_id, status)
 	ServiceNUserProxy.Instance:CallUploadOkSceneryUserCmd(ss_id, status)
-end
+end

@@ -37,4 +37,3 @@ function PropTypeCell:SetData(data)
 end
 
 
-

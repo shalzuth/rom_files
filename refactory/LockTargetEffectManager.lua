@@ -125,4 +125,4 @@ function LockTargetEffectManager:RefreshEffect()
 			end
 		end
 	end
-end
+end

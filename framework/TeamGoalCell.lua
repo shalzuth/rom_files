@@ -28,4 +28,4 @@ end
 function TeamGoalCell:SetChoose(choose)
 	self.choose = choose;
 	self.label.color = self.choose and TeamGoalCell.ChooseColor or TeamGoalCell.NormalColor;
-end
+end

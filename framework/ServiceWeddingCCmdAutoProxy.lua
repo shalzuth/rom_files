@@ -1063,4 +1063,3 @@ ServiceEvent.WeddingCCmdEnterWeddingMapCCmd = "ServiceEvent_WeddingCCmdEnterWedd
 ServiceEvent.WeddingCCmdMissyouInviteWedCCmd = "ServiceEvent_WeddingCCmdMissyouInviteWedCCmd"
 ServiceEvent.WeddingCCmdMisccyouReplyWedCCmd = "ServiceEvent_WeddingCCmdMisccyouReplyWedCCmd"
 ServiceEvent.WeddingCCmdWeddingCarrierCCmd = "ServiceEvent_WeddingCCmdWeddingCarrierCCmd"
-

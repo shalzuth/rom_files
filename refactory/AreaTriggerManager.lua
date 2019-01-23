@@ -73,4 +73,4 @@ function AreaTriggerManager:Update(time, deltaTime)
 	end
 	
 	self.atExitPoint:Update(time, deltaTime)
-end
+end

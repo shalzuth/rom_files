@@ -104,4 +104,3 @@ end
 function ActivityDataProxy:getActivitys(  )
 	return self.activitys
 end
-

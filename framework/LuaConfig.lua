@@ -84,4 +84,3 @@ CardPosIconConfig = {
 	[19] = "icon_20",
 	[20] = "icon_20",
 }
-

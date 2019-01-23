@@ -147,4 +147,3 @@ function StorePayPanel:OnExit()
     StorePayPanel.super.OnExit(self);
 end
 
-

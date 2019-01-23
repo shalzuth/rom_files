@@ -13,4 +13,4 @@ Table_BuffStateOdds = {
 }
 
 Table_BuffStateOdds_fields = { "id","Odds","Effect","EP",}
-return Table_BuffStateOdds
+return Table_BuffStateOdds

@@ -6,4 +6,3 @@ autoImport("AdventrueResearchItemCell");
 function AdventureResearchCombineItemCell:Init()
 	self:InitCells(5, "AdventrueResearchItemCell", AdventrueResearchItemCell);
 end
-

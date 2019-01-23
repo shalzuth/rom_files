@@ -16,4 +16,3 @@ end
 function XDEAdventureBaseAttrCell:SetData( data )
 	XDEAdventureBaseAttrCell.super.SetData(self, data);
 end
-

@@ -558,4 +558,4 @@ function ItemCell:UpdateNumLabel( count )
 			self.numLab.gameObject:SetActive(false);
 		end
 	end
-end
+end

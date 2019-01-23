@@ -11,4 +11,4 @@ function SceneLItem:ResetData( guid,staticData,equipStaticData,pos)
 	self.pos = PosUtil.DevideVector3(pos.x,pos.y,pos.z)
 end
 
--- return Creature
+-- return Creature

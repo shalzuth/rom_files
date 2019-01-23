@@ -415,4 +415,4 @@ function FunctionQuestDisChecker:getRotationByIconPosAndTarPos( iconObj,worldTar
 			-- return float
 		end
 	end
-end
+end

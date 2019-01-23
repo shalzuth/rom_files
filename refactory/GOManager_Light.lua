@@ -45,4 +45,3 @@ function GOManager_Light:UnregisterGameObject(obj)
 	return true
 end
 
-

@@ -8,4 +8,4 @@ function BossCommand:execute(note)
 			role:PlayKilledMVPEffect()
 		end
 	end
-end
+end

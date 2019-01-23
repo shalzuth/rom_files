@@ -176,4 +176,4 @@ end
 
 function LocalUnionWallPhoto:AssemblePathOfLocal_FileName(file_name, o_or_t)
 	return self:GetRootPathOfLocal(o_or_t) .. '/' .. file_name
-end
+end

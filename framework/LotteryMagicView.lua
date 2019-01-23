@@ -270,4 +270,4 @@ function LotteryMagicView:HandleLotteryRateQuery(note)
 
  		TipsView.Me():ShowGeneralHelp(self.rateSb:ToString(), "")
  	end
-end
+end

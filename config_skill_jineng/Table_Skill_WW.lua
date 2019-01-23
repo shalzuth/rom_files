@@ -34,4 +34,4 @@ Table_Skill_WW = {
 }
 
 Table_Skill_WW_fields = { "id","NameZh","Share","Level","Class","Icon","Cost","Contidion","NextID","NextBreakID","PeakLevel","NextNewID","Desc","RollType","SkillHit","Launch_Type","SkillType","Camps","TargetFilter","Launch_Range","Fire_EP","Target_EP","Attack_EP","CD","FixCD","SkillCost","StrengthenCost","DelayCD","PreCondition","AutoCondition","NoTargetAutoCast","AutoCondition_Groove","Lead_Type","Logic","Logic_Param","Damage","DamTime","HitEffects","AttackEffects","SuperUse","SuperUseEffect","NoHpBreak","BuffBreakLimit","Buff","Pvp_buff","ForbidUse","AttackStatus","EndAct","CastAct","AttackAct","E_Cast","E_Attack","E_Attack_On","E_Fire","E_Hit","E_Miss","E_CastLock","CastLock_EP","SE_cast","SE_attack","SE_fire","SE_hit","SE_miss","SE_bg",}
-return Table_Skill_WW
+return Table_Skill_WW

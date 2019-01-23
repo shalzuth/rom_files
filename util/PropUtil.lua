@@ -43,4 +43,4 @@ function PropUtil.GetProp(effect)
 	end
 	res:CreateByConfig(effect.effect,effect.lv)
 	return res
-end
+end

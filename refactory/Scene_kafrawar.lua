@@ -57,4 +57,4 @@ local Scene_kafrawar={
 		}
 	}
 }
-return Scene_kafrawar
+return Scene_kafrawar

@@ -29,4 +29,4 @@ function QuickItemCell:ActiveTip(b)
 	if(self.tipEffect.activeSelf~=b)then
 		self.tipEffect:SetActive(b);
 	end
-end
+end

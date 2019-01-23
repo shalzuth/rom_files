@@ -22,4 +22,4 @@ Table_UseItem_WW = {
 }
 
 Table_UseItem_WW_fields = { "id","Class","AlertMode","UsingSys","UseEffect","CDTime","TipsInfo","WeekLimit","UseMultiple","UseLimit","PVPCDtime","UseStartTime","UseEndTime","Alert_LimitLevel",}
-return Table_UseItem_WW
+return Table_UseItem_WW

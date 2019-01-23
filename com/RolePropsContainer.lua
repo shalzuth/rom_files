@@ -64,4 +64,4 @@ end
 -- 	local p= self:GetPropByID(id)
 -- 	stack("prop type:"..p.propVO.id.." name:"..p.propVO.displayName.."  value:"..value)
 -- 	RolePropsContainer.super.SetValueById(self,id,value)
--- end
+-- end

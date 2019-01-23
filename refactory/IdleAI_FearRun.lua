@@ -78,4 +78,4 @@ function IdleAI_FearRun:_Step(idleElapsed, time, deltaTime, creature)
 		LuaVector3.Better_Add(p, dir, self.rotateDir)
 		creature:Logic_MoveTo(self.targetPosition, self.rotateDir)
 	end
-end
+end

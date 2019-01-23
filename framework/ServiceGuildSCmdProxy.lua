@@ -11,4 +11,3 @@ function ServiceGuildSCmdProxy:ctor(proxyName)
 		ServiceGuildSCmdProxy.Instance = self
 	end
 end
-

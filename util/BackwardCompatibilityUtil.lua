@@ -53,4 +53,4 @@ SelfClass.CompatibilityMode_V20 = SelfClass.CompatibilityMode(20)
 SelfClass.CompatibilityMode_V21 = SelfClass.CompatibilityMode(21)
 SelfClass.CompatibilityMode_V22 = SelfClass.CompatibilityMode(22)
 SelfClass.CompatibilityMode_V23 = SelfClass.CompatibilityMode(23)
-SelfClass.CompatibilityMode_V24 = SelfClass.CompatibilityMode(24)
+SelfClass.CompatibilityMode_V24 = SelfClass.CompatibilityMode(24)

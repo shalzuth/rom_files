@@ -21,4 +21,4 @@ Table_Compose_WW = {
 }
 
 Table_Compose_WW_fields = { "id","ROB","Diamond","BeCostItem","FailStayItem","DynamicRate","Product","GreatProduct","RandomProduct","FemaleRandomProduct","Type","NpcId","Category","MenuID","MenuDes","IsTop",}
-return Table_Compose_WW
+return Table_Compose_WW

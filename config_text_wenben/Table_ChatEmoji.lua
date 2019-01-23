@@ -78,4 +78,4 @@ Table_ChatEmoji = {
 }
 
 Table_ChatEmoji_fields = { "id","Type","Emoji",}
-return Table_ChatEmoji
+return Table_ChatEmoji

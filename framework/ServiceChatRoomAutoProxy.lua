@@ -264,4 +264,3 @@ ServiceEvent.ChatRoomRoomMemberUpdate = "ServiceEvent_ChatRoomRoomMemberUpdate"
 ServiceEvent.ChatRoomEnterChatRoom = "ServiceEvent_ChatRoomEnterChatRoom"
 ServiceEvent.ChatRoomChatRoomDataSync = "ServiceEvent_ChatRoomChatRoomDataSync"
 ServiceEvent.ChatRoomChatRoomTip = "ServiceEvent_ChatRoomChatRoomTip"
-

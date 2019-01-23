@@ -89,4 +89,3 @@ function StrengthBagCell:SetIconType( site )
 	self:Show(self.icon.gameObject)
 	self.icon.transform.localScale = Vector3(0.8,0.8,1)
 end
-

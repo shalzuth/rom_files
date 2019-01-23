@@ -31,4 +31,4 @@ function PlayerLevelUpCommand:MyBaseLevelUp(i_level)
 	end
 end
 
-return PlayerLevelUpCommand
+return PlayerLevelUpCommand

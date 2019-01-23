@@ -267,4 +267,4 @@ function SetViewSystemState:HandleJPushTagOperateResult(note)
 	if data then
 
 	end
-end
+end

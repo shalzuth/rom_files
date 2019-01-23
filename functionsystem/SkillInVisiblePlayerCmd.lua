@@ -138,4 +138,4 @@ function SkillInVisiblePlayerCmd:MeExitTeamHandler(evt)
 			end
 		end
 	end
-end
+end

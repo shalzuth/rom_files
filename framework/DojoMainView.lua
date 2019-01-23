@@ -193,4 +193,4 @@ function DojoMainView:SetChooseCell(isChoose)
 			break
 		end
 	end
-end
+end

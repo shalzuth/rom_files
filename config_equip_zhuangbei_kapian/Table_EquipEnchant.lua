@@ -231,4 +231,3 @@ setmetatable(Table_EquipEnchant[112],{__index = Table_EquipEnchant[94]})
 setmetatable(Table_EquipEnchant[113],{__index = Table_EquipEnchant[94]})
 setmetatable(Table_EquipEnchant[107],{__index = Table_EquipEnchant[95]})
 return Table_EquipEnchant
-

@@ -53,4 +53,3 @@ function AttributePointSolutionView:ClickHandler( obj)
 	self:PassEvent(AttributePointSolutionView.SelectCell,obj.data)
 end
 
-

@@ -1195,4 +1195,4 @@ local Scene_morocc_bt={
 		}
 	}
 }
-return Scene_morocc_bt
+return Scene_morocc_bt

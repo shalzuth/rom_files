@@ -351,4 +351,4 @@ end
 
 function FaceBookFavPanel:shareFBMsg()
     OverSeas_TW.OverSeasManager.GetInstance():ShareMsg("","")
-end
+end

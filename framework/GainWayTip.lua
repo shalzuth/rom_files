@@ -105,4 +105,3 @@ function GainWayTip:SetAnchorPos(isright)
 end
 
 
-

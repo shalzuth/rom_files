@@ -407,4 +407,4 @@ function EnchantTransferView:OnTransfer()
 		ServiceItemProxy.Instance:CallEnchantTransItemCmd(self.transferInData.id, self.transferOutData.id) 
 		self.forbiddenFlag = true
 	end
-end
+end

@@ -32,4 +32,4 @@ end
 
 function AI_CMD_Revive.ToString()
 	return "AI_CMD_Revive",AI_CMD_Revive
-end
+end

@@ -13,4 +13,4 @@ function SceneAnimationPanel:SceneLoadFinishHandler( note )
 	if(note.type == LoadSceneEvent.StartLoad) then
 		self:CloseSelf()
 	end
-end
+end

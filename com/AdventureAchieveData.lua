@@ -64,4 +64,4 @@ end
 function AdventureAchieveData:canGetReward(  )
 	-- body
 	return self.dateStr and not self.reward_get or false
-end
+end

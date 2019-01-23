@@ -58,4 +58,3 @@ function GOManager_CullingObject:UnregisterGameObject(obj)
 	Game.CullingObjectManager:Unregister_CullingObject(obj)
 	return true
 end
-

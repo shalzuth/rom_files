@@ -106,4 +106,3 @@ function LotteryExpressView:UpdateMoney()
 end
 
 
-

@@ -107,4 +107,4 @@ function Trap:DoDeconstruct(asArray)
 		self.effect = nil
 	end
 end
--- override end
+-- override end

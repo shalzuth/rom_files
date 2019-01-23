@@ -1869,4 +1869,3 @@ QueryUserInfo = protobuf.Message(QUERYUSERINFO)
 QueryUserInfoChatCmd = protobuf.Message(QUERYUSERINFOCHATCMD)
 QueryVoiceUserCmd = protobuf.Message(QUERYVOICEUSERCMD)
 
-

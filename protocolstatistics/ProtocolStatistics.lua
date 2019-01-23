@@ -240,4 +240,4 @@ function ProtocolStatistics:MakeStatistics()
 			end
 		end
 	end
-end
+end

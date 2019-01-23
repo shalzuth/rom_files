@@ -17,4 +17,4 @@ function ShopView:OnExit()
 	self.super.OnExit(self)
 end
 
-return ShopView
+return ShopView

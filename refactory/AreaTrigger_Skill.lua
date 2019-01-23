@@ -156,4 +156,4 @@ end
 function SkillAreaTrigger:DoDeconstruct(asArray)
 	self.creature = nil
 end
--- override end
+-- override end

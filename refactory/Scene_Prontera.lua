@@ -1812,4 +1812,4 @@ local Scene_Prontera={
 		}
 	}
 }
-return Scene_Prontera
+return Scene_Prontera

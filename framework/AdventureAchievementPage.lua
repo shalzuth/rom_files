@@ -799,4 +799,4 @@ function AdventureAchievementPage:UpdateHead(  )
 	headData.frame = nil;
 	headData.job = nil;
 	self.targetCell:SetData(headData);
-end
+end

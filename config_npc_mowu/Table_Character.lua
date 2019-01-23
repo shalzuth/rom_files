@@ -39,4 +39,4 @@ Table_Character = {
 }
 
 Table_Character_fields = { "id","Name","NameColor",}
-return Table_Character
+return Table_Character

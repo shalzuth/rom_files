@@ -229,4 +229,4 @@ function FunctionBarrage:GetPercent()
 	-- print("euler y",y)
 	y = (y<0) and 360+y or y
 	return (math.abs(y))/360
-end
+end

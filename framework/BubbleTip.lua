@@ -146,4 +146,3 @@ function BubbleTip:OnExit()
 
 	return true
 end
-

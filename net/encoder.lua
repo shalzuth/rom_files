@@ -469,4 +469,3 @@ function MessageEncoder(field_number, is_repeated, is_packed)
     end
 end
 
-

@@ -329,4 +329,4 @@ end
 function SecurityPanel:addListEventListener(  )
 	-- body
 	self:AddListenEvt(ServiceEvent.LoginUserCmdConfirmAuthorizeUserCmd,self.HandleRecvAuthorizeInfo)
-end
+end

@@ -1206,4 +1206,3 @@ function ProfessionInfoViewMP:HandleShortCutSwitchActive(note)
 		end
 	end
 end
-

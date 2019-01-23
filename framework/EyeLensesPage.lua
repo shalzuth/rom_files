@@ -63,4 +63,3 @@ function EyeLensesPage:RefreshChooseUI(chooseData)
 	local itemCount = chooseData.ItemCount
 	self.container:RefreshLensesROB(moneyID,itemCount,eyeID)
 end
-

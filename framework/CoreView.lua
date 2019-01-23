@@ -566,4 +566,4 @@ function CoreView:LogError(prefix, data)
 			printData(data);
 		end
 	end
-end
+end

@@ -876,4 +876,4 @@ function StartGamePanel:HideAnnouncement()
 	end
 end
 
-return StartGamePanel
+return StartGamePanel

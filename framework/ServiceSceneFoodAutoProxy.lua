@@ -398,4 +398,3 @@ ServiceEvent.SceneFoodUnlockRecipeNtf = "ServiceEvent_SceneFoodUnlockRecipeNtf"
 ServiceEvent.SceneFoodQueryFoodManualData = "ServiceEvent_SceneFoodQueryFoodManualData"
 ServiceEvent.SceneFoodNewFoodDataNtf = "ServiceEvent_SceneFoodNewFoodDataNtf"
 ServiceEvent.SceneFoodClickFoodManualData = "ServiceEvent_SceneFoodClickFoodManualData"
-

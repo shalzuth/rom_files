@@ -222,4 +222,4 @@ function ProfessionTypeIconCell:ShowJinJie()
 	self.state = 4
 	self.jinjie.gameObject:SetActive(true)
 	self.name.text = "进阶"
-end
+end

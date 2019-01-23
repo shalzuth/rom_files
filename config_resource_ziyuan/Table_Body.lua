@@ -980,4 +980,3 @@ Table_Body = {
 }
 Table_Body_fields = { "id","AssesoriesDiePoint","Texture","AvatarBody","Feature","AlwaysAnimate","ShowWeaponType","DefaultColor","PaintColor","HeadIcon",}
 return Table_Body
-

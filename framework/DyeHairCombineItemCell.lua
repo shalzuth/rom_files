@@ -10,4 +10,4 @@ function DyeHairCombineItemCell:FindObjs()
 		go = self:FindChild("HairDyeCell"..i);
 		self.childrenObjs[i] = HairDyeCell.new(go)
 	end
-end
+end

@@ -368,4 +368,4 @@ function IdleAI_AutoBattle:AutoBattleLost()
 	end
 end
 -- auto battle manager end
--- ocontrol end
+-- ocontrol end

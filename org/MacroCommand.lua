@@ -92,4 +92,4 @@ function MacroCommand:execute(note)
     end
 end
 
-return MacroCommand
+return MacroCommand

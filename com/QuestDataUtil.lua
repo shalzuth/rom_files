@@ -360,4 +360,4 @@ function QuestDataUtil.parseWantedQuestTranceInfo( questData,wantedData )
 		return value
 	end)
 	return result
-end
+end

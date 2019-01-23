@@ -27,4 +27,4 @@ function PrayToggleCell:SetData(data)
 		IconManager:SetItemIcon(Table_Item[itemId].Icon,self.icon)
 		-- self.icon:MakePixelPerfect();
 	end
-end
+end

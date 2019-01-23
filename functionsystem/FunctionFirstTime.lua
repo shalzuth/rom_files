@@ -39,4 +39,4 @@ function FunctionFirstTime:DoneFirstTime(flag)
 		self.firstTime = newfirstTime
 		ServiceUserEventProxy.Instance:CallFirstActionUserEvent(newfirstTime)
 	end
-end
+end

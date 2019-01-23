@@ -41,4 +41,4 @@ end
 
 function ChangeSaveNamePopUp:AddViewEvt()
 	self:AddListenEvt(ServiceEvent.NUserChangeRecordNameUserCmd,self.CloseSelf)
-end
+end

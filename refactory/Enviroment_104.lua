@@ -26,4 +26,4 @@ local Enviroment_104={
 		fogEndDistance=180
 	}
 }
-return Enviroment_104
+return Enviroment_104

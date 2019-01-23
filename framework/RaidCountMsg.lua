@@ -25,4 +25,4 @@ function RaidCountMsg:Exit()
 		GameObject.Destroy(self.gameObject)
 		self.gameObject=nil
 	end
-end
+end

@@ -88,4 +88,4 @@ function GeneralShareView:ClickSina()
 	else
 		MsgManager.ShowMsgByIDTable(563)
 	end
-end
+end

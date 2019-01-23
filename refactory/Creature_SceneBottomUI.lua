@@ -452,4 +452,3 @@ function Creature_SceneBottomUI:SetQuestPrefixVisible(creature,isShow)
 		self.nameFactionCell:SetQuestPrefixName(creature,isShow)
 	end
 end
-

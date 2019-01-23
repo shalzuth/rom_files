@@ -84,4 +84,4 @@ function TutorCell:TaskDetail()
 
 		RedTipProxy.Instance:SeenNew(SceneTip_pb.EREDSYS_TUTOR_TASK, self.data.guid)
 	end
-end
+end

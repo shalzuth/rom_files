@@ -11,4 +11,4 @@ Table_Pet_WorkSpace = {
 }
 
 Table_Pet_WorkSpace_fields = { "id","Name","Gate","UnlockMenu","Level","Frequency","Max_reward","Reward","Work_limit","Desc","Reward_desc",}
-return Table_Pet_WorkSpace
+return Table_Pet_WorkSpace

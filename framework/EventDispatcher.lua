@@ -92,4 +92,4 @@ end
 
 function EventDispatcher:ClearEvent()
 	self.handlers = nil
-end
+end

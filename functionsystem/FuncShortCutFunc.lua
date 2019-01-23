@@ -118,4 +118,3 @@ function FuncShortCutFunc:NpcFunc(data, param)
 end
 
 
-

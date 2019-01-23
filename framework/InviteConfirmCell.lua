@@ -146,4 +146,4 @@ function InviteConfirmCell:Exit()
 	Game.GOLuaPoolManager:AddToUIPool(InviteConfirmCell.resID, self.gameObject)
 	self.gameObject = nil;
 	InviteConfirmCell.super.Exit(self);
-end
+end

@@ -93,4 +93,4 @@ function FloatMessage:NextToPush()
 		self.data.text = MsgParserProxy.Instance:TryParse(self.data.text,self.data.params)
 	end
 	self:SetMsg(self.data.text)
-end
+end

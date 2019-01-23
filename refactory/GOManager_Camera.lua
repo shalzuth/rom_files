@@ -166,4 +166,3 @@ function GOManager_Camera:CancelActiviteLt()
 
 end
 
-

@@ -41,4 +41,4 @@ function DesertWolfJoinView:ClickJoin()
 	else
 		MsgManager.ShowMsgByIDTable(883)
 	end
-end
+end

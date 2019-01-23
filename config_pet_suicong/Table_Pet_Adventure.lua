@@ -46,4 +46,3 @@ Table_Pet_Adventure = {
 }
 Table_Pet_Adventure_fields = { "id","QuestType","NameZh","Quality","Level","ConsumeTime","PetNum","Cost","CostFightTime","BigArea","SmallArea","Desc","TextureName","Condition","MonsterReward","Baseexp","Times","UnlockArea","info",}
 return Table_Pet_Adventure
-

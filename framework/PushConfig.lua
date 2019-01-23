@@ -14,4 +14,4 @@ PushConfig.ChannelConfig = {
 	OR = "OR",		--海外
 }
 
-PushConfig.Channel = PushConfig.ChannelConfig.CN
+PushConfig.Channel = PushConfig.ChannelConfig.CN

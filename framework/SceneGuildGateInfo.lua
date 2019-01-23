@@ -57,4 +57,4 @@ function SceneGuildGateInfo:DoDeconstruct(asArray)
 	self.gameObject = nil;
 
 end
--- override end
+-- override end

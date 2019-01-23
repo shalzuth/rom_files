@@ -91,4 +91,3 @@ function GuildTreasurePopUp:OnExit()
 end
 
 
-

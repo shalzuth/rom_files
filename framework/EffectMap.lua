@@ -148,4 +148,4 @@ EffectMap.UI = {
 EffectMap.UIEffect_IdMap = {
 	[76] = "76BigCat_Warnning",
 	[81] = "81Happy_2017",
-}
+}

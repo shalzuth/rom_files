@@ -205,4 +205,4 @@ function PersonalPhotoHelper:StopGetThumbnail(pos_index)
 		self.tabStopFlagT[pos_index] = 0
 	end
 	PersonalPhoto.Ins():StopGetThumbnail(pos_index)
-end
+end

@@ -18,4 +18,4 @@ function ShopSaleBagCell:SetData(data)
 	else
 		self.cantSale:SetActive(false)
 	end
-end
+end

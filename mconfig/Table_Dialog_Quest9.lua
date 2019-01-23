@@ -1018,4 +1018,4 @@ Table_Dialog_Quest9 =
 }
 Table_Dialog_Quest9_fields = {"id", "Speaker", "Text", "Option", "Emoji", "Action", "Voice", "SubViewId" }
 return Table_Dialog_Quest9
-	
+	

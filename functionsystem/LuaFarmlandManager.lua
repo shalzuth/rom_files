@@ -184,4 +184,4 @@ function LuaFarmlandManager:TryHandleCreatureLeaving(luaFarmland,creatureID)
 			self.creatureInLand[creatureID] = nil
 		end
 	end
-end
+end

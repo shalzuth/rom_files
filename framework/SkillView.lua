@@ -599,4 +599,4 @@ function SkillView:GetJobLevel()
 		end
 	end
 	return MyselfProxy.Instance:JobLevel()
-end
+end

@@ -81,4 +81,4 @@ function IllustrationModeView:StartLoadScene(note)
 end
 
 function IllustrationModeView:Update(delta)
-end
+end

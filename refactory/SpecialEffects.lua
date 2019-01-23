@@ -105,4 +105,4 @@ function TrackEffect:DoDeconstruct(asArray)
 	self[3] = nil
 	self[4] = nil
 end
--- override end
+-- override end

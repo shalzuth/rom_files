@@ -237,4 +237,3 @@ setmetatable(Table_Appellation[1215],{__index = Table_Appellation[1126]})
 setmetatable(Table_Appellation[1217],{__index = Table_Appellation[1126]})
 setmetatable(Table_Appellation[1219],{__index = Table_Appellation[1126]})
 return Table_Appellation
-

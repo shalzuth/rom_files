@@ -67,4 +67,3 @@ function ArtifactTypeData:SetData(data)
 	self.maxLv=data.maxlevel
 end
 
-

@@ -17,4 +17,3 @@ end
 function EquipsSaveData:GetEquipInfos()
 	return self.equipsSave;
 end
-

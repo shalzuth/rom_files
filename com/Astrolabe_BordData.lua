@@ -635,4 +635,4 @@ function Astrolabe_BordData:ClearTarjanCache()
 	low = {}
 	cutVertexes = {}
 	queue = {}
-end
+end

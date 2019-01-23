@@ -41,4 +41,4 @@ function UIListItemViewControllerItem:OnClickForSelf()
 	tab.itemdata = itemData
 	self:ShowItemTip(tab, UISubViewControllerMonthlyVIP.instance.goBoardE:GetComponent(UIWidget), NGUIUtil.AnchorSide.Left, {-168, -28})
 	ReusableTable.DestroyAndClearTable(tab)
-end
+end

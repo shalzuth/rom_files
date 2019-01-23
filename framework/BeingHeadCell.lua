@@ -58,4 +58,3 @@ function BeingHeadCell:UpdateBeingHp()
 		self:SetIconActive(true, true);
 	end
 end
-

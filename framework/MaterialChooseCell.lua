@@ -66,4 +66,4 @@ end
 
 function MaterialChooseCell:SetItemNameText(text)
 	-- self.nameLab.text = text;
-end
+end

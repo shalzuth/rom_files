@@ -108,4 +108,4 @@ end
 
 function AuctionItemData:GetMyPrice()
 	return self.myPrice
-end
+end

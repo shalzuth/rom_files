@@ -93,4 +93,3 @@ function ExchangeFriendCell:_refreshUI(flag)
 end
 
 
-

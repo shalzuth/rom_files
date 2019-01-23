@@ -546,4 +546,3 @@ Table_Map = {
 }
 Table_Map_fields = { "id","NameZh","NameEn","CallZh","LvRange","Type","Mode","Range","MoneyType","Money","MapTips","MapScale","MonsterRatio","Desc","ShowInList","AdventureValue","SceneAnimation","PVPmap","Position","Camera","MapArea","LeapsMapNavigation","MapNavigation","MapUi","EnterCond","IsDangerous","IndexRange",}
 return Table_Map
-

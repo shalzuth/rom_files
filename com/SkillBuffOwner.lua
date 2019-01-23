@@ -64,4 +64,4 @@ function SkillBuffOwner:Remove(id,paramType,key)
 			params[key] = nil
 		end
 	end
-end
+end

@@ -68,4 +68,4 @@ function FunctionGuideChecker:tryStartGuide(questData)
 	else
 		self:RemoveGuideCheckById(questData.id)
 	end
-end
+end

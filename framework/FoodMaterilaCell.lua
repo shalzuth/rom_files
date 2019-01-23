@@ -28,4 +28,4 @@ function FoodMaterilaCell:SetData(data)
 		self.icon:MakePixelPerfect();
 	end
 	self.countLabel.text = data.num
-end
+end

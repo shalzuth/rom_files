@@ -63,4 +63,4 @@ function EndLessTowerCountDownInfo:OnExit()
 		GameObject.Destroy(self.gameObject);
 		self.gameObject = nil;
 	end
-end
+end

@@ -68,4 +68,4 @@ end
 
 function ApplicationInfo:IsRunOnWindowns()
 	return false
-end
+end

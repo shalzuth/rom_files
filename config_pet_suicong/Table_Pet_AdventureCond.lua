@@ -47,4 +47,4 @@ Table_Pet_AdventureCond = {
 }
 
 Table_Pet_AdventureCond_fields = { "id","Type","TypeID","Param","Icon","Desc",}
-return Table_Pet_AdventureCond
+return Table_Pet_AdventureCond

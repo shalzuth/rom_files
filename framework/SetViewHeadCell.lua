@@ -110,4 +110,4 @@ function SetViewHeadCell:initHead(  )
 	self:AddClickEvent(cellObj,function ()
 		self:PassEvent(MouseEvent.MouseClick, self);
 	end)
-end
+end

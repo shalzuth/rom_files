@@ -82,4 +82,4 @@ end
 
 function AI_CMD_Myself_Die.ToString()
 	return "AI_CMD_Myself_Die",AI_CMD_Myself_Die
-end
+end

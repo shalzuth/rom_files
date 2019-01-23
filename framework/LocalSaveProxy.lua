@@ -275,4 +275,3 @@ end
 function LocalSaveProxy:GetFoodBuffOverrideNoticeShow(value)
 	return FunctionPlayerPrefs.Me():GetBool(LocalSaveProxy.SAVE_KEY.FoodBuffOverrideNoticeShow, true)
 end
-

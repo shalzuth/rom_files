@@ -89,4 +89,4 @@ function ToolsProxy:GetGmInput(cmdId)
 	end
 
 	return result
-end
+end

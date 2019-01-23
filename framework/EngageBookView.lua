@@ -151,4 +151,4 @@ end
 
 function EngageBookView:ShowSelf(isShow)
 	self.gameObject:SetActive(isShow)
-end
+end

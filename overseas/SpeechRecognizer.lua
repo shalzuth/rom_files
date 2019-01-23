@@ -64,4 +64,4 @@ function RedefineSpeechRecognizer(t)
     end
     local ft = FindFunctionTable(mett, "GetAudio")
     rawset(ft, "GetAudio", GetAudio)
-end
+end

@@ -48,4 +48,3 @@ function Listener(parent_message)
     return setmetatable(o, _listener_meta)
 end
 
-

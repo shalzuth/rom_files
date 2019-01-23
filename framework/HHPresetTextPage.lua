@@ -106,4 +106,3 @@ function HHPresetTextPage:SavePresetText()
 		ServiceNUserProxy.Instance:CallPresetMsgCmd(datas)
 	end
 end
-

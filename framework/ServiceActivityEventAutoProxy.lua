@@ -77,4 +77,3 @@ ServiceEvent = _G["ServiceEvent"] or {}
 ServiceEvent.ActivityEventActivityEventNtf = "ServiceEvent_ActivityEventActivityEventNtf"
 ServiceEvent.ActivityEventActivityEventUserDataNtf = "ServiceEvent_ActivityEventActivityEventUserDataNtf"
 ServiceEvent.ActivityEventActivityEventNtfEventCntCmd = "ServiceEvent_ActivityEventActivityEventNtfEventCntCmd"
-

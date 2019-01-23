@@ -25,4 +25,4 @@ end
 function ServiceAchieveCmdProxy:RecvNewAchieveNtfAchCmd(data) 
 	AdventureAchieveProxy.Instance:QueryAchieveDataAchCmd(data)
 	self:Notify(ServiceEvent.AchieveCmdNewAchieveNtfAchCmd, data)
-end
+end

@@ -257,4 +257,4 @@ Table_BuffState = {
 }
 
 Table_BuffState_fields = { "id","Logic","GroupID","EffectGroup","EffectGroup_around","EP","Effect_start","Effect","Follow","Effect_around","Effect_end","Effect_hit","SE_start","SE_end","SE_hit","Myself",}
-return Table_BuffState
+return Table_BuffState

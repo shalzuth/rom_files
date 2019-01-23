@@ -27,4 +27,3 @@ function AdventureTitleBufferCell:SetData( data )
 	end
 	
 end
-

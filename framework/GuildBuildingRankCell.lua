@@ -23,4 +23,3 @@ function GuildBuildingRankCell:SetData(data)
 		self.gameObject:SetActive(false)
 	end
 end
-

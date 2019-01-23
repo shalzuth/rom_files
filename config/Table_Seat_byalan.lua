@@ -51,4 +51,3 @@ setmetatable(Table_Seat_byalan[22],{__index = Table_Seat_byalan[20]})
 setmetatable(Table_Seat_byalan[24],{__index = Table_Seat_byalan[23]})
 setmetatable(Table_Seat_byalan[25],{__index = Table_Seat_byalan[23]})
 return Table_Seat_byalan
-

@@ -146,4 +146,4 @@ function PictureWallPersonalListPage:UpdateList(noResetPos)
 	end)
 	self:SetData(datas, noResetPos);
 	self:RefreshUIByMode()	
-end
+end

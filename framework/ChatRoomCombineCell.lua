@@ -62,4 +62,4 @@ end
 
 function ChatRoomCombineCell:GetCurrentCell()
 	return self.lastCell
-end
+end

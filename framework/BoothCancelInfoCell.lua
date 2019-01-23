@@ -83,4 +83,4 @@ function BoothCancelInfoCell:GetPrice()
 		return self.price * (1 + self.priceRate / 100)
 	end
 	return 0
-end
+end

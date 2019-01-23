@@ -50,4 +50,4 @@ function TestScreenFilterPanelCell:ctor(toggle,data)
 		end
 		print(data.id,toggle.value)
 	end)
-end 
+end 

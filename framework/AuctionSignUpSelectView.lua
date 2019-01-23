@@ -81,4 +81,4 @@ function AuctionSignUpSelectView:SetConfirm(isGray)
 		self.confirmBtn.CurrentState = 0
 		self.confirmLabel.effectStyle = UILabel.Effect.Outline
 	end
-end
+end

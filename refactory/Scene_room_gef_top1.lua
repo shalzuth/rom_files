@@ -347,4 +347,4 @@ local Scene_room_gef_top1={
 		}
 	}
 }
-return Scene_room_gef_top1
+return Scene_room_gef_top1

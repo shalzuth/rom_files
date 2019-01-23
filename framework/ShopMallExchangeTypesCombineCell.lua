@@ -99,4 +99,4 @@ end
 function ShopMallExchangeTypesCombineCell:PlayAnim(forward)
 	self.animDir = forward
 	self.tweenPlay:Play(forward)
-end
+end

@@ -79,4 +79,4 @@ function MessageFlyer3dTo2d:RegisterPosSimulation(pos, speed)
 		selfQuaternion.eulerAngles = selfEulerAngles
 		self.transform.localRotation = selfQuaternion
 	end)
-end
+end

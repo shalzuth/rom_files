@@ -19,4 +19,4 @@ function ItemInfo:SetItemInfo(itemId)
 		--print(self.id)
 		--print(self.quality)
 	end
-end
+end

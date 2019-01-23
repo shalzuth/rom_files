@@ -99,4 +99,3 @@ function MainViewAddTrace:AddOrUpdateTraceItem(itemid, monsterid, withTip)
 end
 
 
-

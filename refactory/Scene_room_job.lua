@@ -12543,4 +12543,4 @@ local Scene_room_job={
 		}
 	}
 }
-return Scene_room_job
+return Scene_room_job

@@ -1319,4 +1319,4 @@ Table_ItemBeTransformedWay ={
 	[45055]={
 		composeWay=14055
 	}
-}
+}

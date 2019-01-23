@@ -154,4 +154,4 @@ end
 
 function EffectAndAudioForInteractionGrass_NoAppropriate:Reset()
 	TableUtility.TableClear(cachedEffectiveBodysCount)
-end
+end

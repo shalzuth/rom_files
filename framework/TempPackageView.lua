@@ -178,4 +178,3 @@ function TempPackageView:OnExit()
 
 	ServiceSceneTipProxy.Instance:CallBrowseRedTipCmd(SceneTip_pb.EREDSYS_PACK_TEMP);
 end
-

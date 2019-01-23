@@ -40,4 +40,3 @@ function AchievementSocialCell:SetData(data)
 	end
 	self.content.text = text
 end
-

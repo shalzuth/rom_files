@@ -14,4 +14,4 @@ Table_KeywordAnimation = {
 }
 
 Table_KeywordAnimation_fields = { "id","Type","Keyword","Animation","Particles","TimeInterval","LifeInterval","SizeInterval",}
-return Table_KeywordAnimation
+return Table_KeywordAnimation

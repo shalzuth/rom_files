@@ -196,4 +196,3 @@ function ZenyConvertPanel:HandleConvertResult(data)
     self.progress.value = self.readyConvertCount/self.maxLimit
 end
 
-

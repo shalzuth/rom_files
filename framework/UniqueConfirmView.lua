@@ -106,4 +106,4 @@ function UniqueConfirmView:FillButton()
 	self.cancelLabel.text = canceltext;
 end
 
-return UniqueConfirmView
+return UniqueConfirmView

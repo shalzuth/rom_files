@@ -24,4 +24,4 @@ end
 
 function BagDragItemCell:CanDrag(value)
 	self.dragDrop:SetDragEnable(value)
-end
+end

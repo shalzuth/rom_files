@@ -1668,4 +1668,4 @@ local Scene_gef_kobold2={
 		}
 	}
 }
-return Scene_gef_kobold2
+return Scene_gef_kobold2

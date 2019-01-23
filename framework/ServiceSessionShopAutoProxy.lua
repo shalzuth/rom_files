@@ -167,4 +167,3 @@ ServiceEvent.SessionShopQueryQuickBuyConfigCmd = "ServiceEvent_SessionShopQueryQ
 ServiceEvent.SessionShopQueryShopSoldCountCmd = "ServiceEvent_SessionShopQueryShopSoldCountCmd"
 ServiceEvent.SessionShopShopDataUpdateCmd = "ServiceEvent_SessionShopShopDataUpdateCmd"
 ServiceEvent.SessionShopUpdateShopConfigCmd = "ServiceEvent_SessionShopUpdateShopConfigCmd"
-

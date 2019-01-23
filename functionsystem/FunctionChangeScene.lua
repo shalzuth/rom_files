@@ -207,4 +207,4 @@ function FunctionChangeScene:ClearScene(loadOtherScene)
 
 	-- 清除Gvg旗帜信息
 	GvgProxy.Instance:ClearRuleGuildInfos()
-end
+end

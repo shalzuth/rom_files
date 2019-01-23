@@ -1781,4 +1781,3 @@ ECoinType_Ticket = 2
 EUserType_Acc = 2
 EUserType_Char = 1
 
-

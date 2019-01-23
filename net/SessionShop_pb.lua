@@ -1020,4 +1020,3 @@ ShopItem = protobuf.Message(SHOPITEM)
 ShopSoldItem = protobuf.Message(SHOPSOLDITEM)
 UpdateShopConfigCmd = protobuf.Message(UPDATESHOPCONFIGCMD)
 
-

@@ -46,4 +46,4 @@ function LotteryMonthGroupData:GetLotteryItemData(itemid)
 	end
 
 	return nil
-end
+end

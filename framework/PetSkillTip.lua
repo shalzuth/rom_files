@@ -72,4 +72,3 @@ function PetSkillTip:GetCD(skillData)
 	end
 	return str
 end
-

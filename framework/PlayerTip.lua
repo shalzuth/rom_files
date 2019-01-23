@@ -310,4 +310,4 @@ end
 
 function PlayerTip:HideGuildInfo()
 	self.guildName.gameObject:SetActive(false)
-end
+end

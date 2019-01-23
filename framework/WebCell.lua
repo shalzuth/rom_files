@@ -71,4 +71,4 @@ function WebCell:GetInsets()
 	local anchor = WebPanelProxy.Instance:GetAnchor()
 	if not anchor then return end
 	return WebViewConfig.new(nil,FSWebView.GetInsets(anchor))
-end
+end

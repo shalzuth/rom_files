@@ -14,4 +14,3 @@ function AdventureAchievementCell:SetData(data)
 	-- self.level.text = data:GetLevelText()
 	IconManager:SetUIIcon(data.staticData.Icon,self.icon)
 end
-

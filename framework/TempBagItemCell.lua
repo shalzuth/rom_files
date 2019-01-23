@@ -26,4 +26,3 @@ function TempBagItemCell:RefreshDelWarning()
 
 	self:ActiveNewTag(false);
 end
-

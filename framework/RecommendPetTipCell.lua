@@ -40,4 +40,3 @@ function RecommendPetTipCell:SetData(data)
 		self.table.repositionNow = true;
 	end
 end
-

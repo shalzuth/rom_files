@@ -22,4 +22,4 @@ end
 function LoadingCardCell:DisposeTexture()
 	self.card.mainTexture = nil
 	PictureManager.Instance:UnLoadCard(self.data.Picture,self.card)
-end
+end

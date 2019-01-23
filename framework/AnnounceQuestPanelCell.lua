@@ -578,4 +578,4 @@ end
 function AnnounceQuestPanelCell:OnExit()
 	self.super.OnExit(self)
 	LeanTween.cancel(self.gameObject)
-end
+end

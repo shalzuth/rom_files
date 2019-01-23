@@ -31,4 +31,4 @@ end
 
 function AutoAimMonsterData:GetLevel()
 	return self.level
-end
+end

@@ -658,4 +658,3 @@ function WeddingWallPicManager:WeddingPicDownloadErrorCallback1(index,time,error
 	self:log("WeddingPicDownloadErrorCallback1",index, time,errorMessage)
 	GameFacade.Instance:sendNotification(WeddingWallPicManager.WeddingPicDownloadErrorCallback,{index = index,time = time,errorMessage = errorMessage})
 end
-

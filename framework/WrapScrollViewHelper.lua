@@ -108,4 +108,4 @@ end
 
 function WrapScrollViewHelper:GetCells()
 	return self.cellCtrlMap
-end
+end

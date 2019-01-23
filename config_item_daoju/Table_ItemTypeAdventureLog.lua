@@ -88,4 +88,4 @@ Table_ItemTypeAdventureLog = {
 }
 
 Table_ItemTypeAdventureLog_fields = { "id","Name","NameEn","icon","type","Order","Position","RidTip","MenuID","GuideID","Classify","ExchangeType","ExchangeOrder","JobOption","LevelOption","RefineOption",}
-return Table_ItemTypeAdventureLog
+return Table_ItemTypeAdventureLog

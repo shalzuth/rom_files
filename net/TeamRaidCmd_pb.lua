@@ -312,4 +312,3 @@ TeamRaidEnterCmd = protobuf.Message(TEAMRAIDENTERCMD)
 TeamRaidInviteCmd = protobuf.Message(TEAMRAIDINVITECMD)
 TeamRaidReplyCmd = protobuf.Message(TEAMRAIDREPLYCMD)
 
-

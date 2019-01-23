@@ -28,4 +28,4 @@ function LogicManager:LateUpdate(time, deltaTime)
 	self.logicCreature:LateUpdate(time, deltaTime)
 	-- self.logicSkill:LateUpdate(time, deltaTime)
 	self.logicRolePart:LateUpdate(time, deltaTime)
-end
+end

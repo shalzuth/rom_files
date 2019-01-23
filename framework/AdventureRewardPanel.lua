@@ -149,4 +149,4 @@ end
 function AdventureRewardPanel:addListEventListener(  )
 	-- body
 	self:AddListenEvt(AdventureDataEvent.SceneManualManualUpdate,self.setData)
-end
+end

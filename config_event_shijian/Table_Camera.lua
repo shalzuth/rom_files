@@ -14,4 +14,4 @@ Table_Camera = {
 }
 
 Table_Camera_fields = { "id","Danmaku","NearChat","Close","Emoji","Act","Y_Limit","Radius","Composition","Zoom","ClippingPlanes","DefaultMode","SwitchMode","DefaultDir","DefaultZoom","DefaultHide","TiledBg","Icon","SaveSetting","StickArea","DefaultRoleDir",}
-return Table_Camera
+return Table_Camera

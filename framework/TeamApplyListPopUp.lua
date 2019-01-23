@@ -61,4 +61,4 @@ function TeamApplyListPopUp:AddViewEvts()
   	self:AddListenEvt(ServiceEvent.SessionTeamClearApplyList, self.UpdateApplyList);
 	self:AddListenEvt(ServiceEvent.SessionTeamTeamApplyUpdate, self.UpdateApplyList);
 	self:AddListenEvt(ServiceEvent.SessionTeamTeamMemberApply, self.UpdateApplyList);
-end
+end

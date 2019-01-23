@@ -155,4 +155,3 @@ ServiceEvent.SceneAuguryAuguryChat = "ServiceEvent_SceneAuguryAuguryChat"
 ServiceEvent.SceneAuguryAuguryTitle = "ServiceEvent_SceneAuguryAuguryTitle"
 ServiceEvent.SceneAuguryAuguryAnswer = "ServiceEvent_SceneAuguryAuguryAnswer"
 ServiceEvent.SceneAuguryAuguryQuit = "ServiceEvent_SceneAuguryAuguryQuit"
-

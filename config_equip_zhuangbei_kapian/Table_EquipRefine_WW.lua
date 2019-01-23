@@ -9,4 +9,4 @@ Table_EquipRefine_WW = {
 }
 
 Table_EquipRefine_WW_fields = { "id","EuqipType","RefineLv","RefineCost","RefineZenyReturn","SafeRefineCost",}
-return Table_EquipRefine_WW
+return Table_EquipRefine_WW

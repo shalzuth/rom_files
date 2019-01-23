@@ -415,4 +415,4 @@ end
 
 function SocialManager:_ContractAddResult(guid, success)
 	FriendProxy.Instance:AddContractResult(guid, success)
-end
+end

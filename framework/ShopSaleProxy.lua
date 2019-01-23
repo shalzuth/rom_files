@@ -398,4 +398,4 @@ function ShopSaleProxy:GetTotalSellDiscount(totalCost)
 	local sellDiscount = Game.Myself.data.props.SellDiscount:GetValue() / 1000
 	local discount = math.floor(totalCost * sellDiscount)
 	return sellDiscount, discount, totalCost + discount
-end
+end

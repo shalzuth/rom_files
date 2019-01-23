@@ -51,4 +51,3 @@ Table_EquipGender = {
 }
 Table_EquipGender_fields = { "id","male","female",}
 return Table_EquipGender
-

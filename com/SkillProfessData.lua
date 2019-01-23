@@ -150,4 +150,4 @@ function SkillProfessData:SortSkills()
 	-- 	t = t..self.skills[i].id.." "..self.skills[i].staticData.NameZh.."\n"
 	-- end
 	-- print(t)
-end
+end

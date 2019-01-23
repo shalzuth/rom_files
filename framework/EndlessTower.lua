@@ -196,4 +196,4 @@ function  EndlessTower:ClickChallenge(go)
 	else
 		MsgManager.ShowMsgByIDTable(1302)
 	end
-end
+end

@@ -89,4 +89,4 @@ function ActivityButtonCell:setTexture( texture )
 		self.activity_texture.mainTexture = texture
 		self.activity_texture:MakePixelPerfect()
 	end
-end
+end

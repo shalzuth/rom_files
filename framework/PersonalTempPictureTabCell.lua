@@ -33,4 +33,3 @@ function PersonalTempPictureTabCell:SetData(data)
 	self.data = data
 	self.label.text = data.name
 end
-

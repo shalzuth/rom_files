@@ -44,4 +44,4 @@ function AuctionEventCell:SetData(data)
 		pos:Set(pos.x, self.contentOffset * (rate - 1), pos.z)
 		self.root.transform.localPosition = pos
 	end
-end
+end

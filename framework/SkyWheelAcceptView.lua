@@ -84,4 +84,4 @@ function SkyWheelAcceptView:UpdateCountDown()
 	end
 	self.countdown.text =OverSea.LangManager.Instance():GetLangByKey(ZhString.SkyWheelAcceptViewTitle) .. 
 			string.format(ZhString.SkyWheel_Countdown , tostring(self.totalCountdown)) --todo xde
-end
+end

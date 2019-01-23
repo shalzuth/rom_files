@@ -39,4 +39,4 @@ function SealTaskCell:SetData(data)
 	self.level.text = data.SealLevel.."";
 	self.getBtnLab.text = self.data.accept and ZhString.SealTaskCell_GiveUp or ZhString.SealTaskCell_Accept;
 	self.dropCtl:ResetDatas(reward);
-end
+end

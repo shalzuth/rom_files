@@ -573,4 +573,4 @@ function AdventureHomePage:showPropView(  )
 			self:Hide(self.emptyCt)
 		end
 	end
-end
+end

@@ -59,4 +59,4 @@ Table_Guild_Treasure = {
 }
 
 Table_Guild_Treasure_fields = { "id","Name","Order","NPC","Type","GuildReward","GuildMemberReward","Desc","CityID",}
-return Table_Guild_Treasure
+return Table_Guild_Treasure

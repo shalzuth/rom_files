@@ -179,4 +179,4 @@ Table_PveCard = {
 }
 
 Table_PveCard_fields = { "id","Name","Type","Difficulty","MonsterID","Effect","Message","Weight","Resource","HeadIcon","Tips",}
-return Table_PveCard
+return Table_PveCard

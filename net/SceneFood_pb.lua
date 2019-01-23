@@ -1438,4 +1438,3 @@ StopEat = protobuf.Message(STOPEAT)
 UnlockRecipeNtf = protobuf.Message(UNLOCKRECIPENTF)
 UpdateFoodInfo = protobuf.Message(UPDATEFOODINFO)
 
-

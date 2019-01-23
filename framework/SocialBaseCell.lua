@@ -64,4 +64,4 @@ function SocialBaseCell:SetData(data)
 		self.name.text = AppendSpace2Str(data.name)
 		--]]
 	end
-end
+end

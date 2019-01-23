@@ -123,4 +123,3 @@ end
 function GuildActivityCell:OnRemove()
 	self:UnRegisteRedTip();
 end
-

@@ -43,4 +43,4 @@ Table_GuideID = {
 }
 
 Table_GuideID_fields = { "id","Explain","Preguide","optionId","uiID","ButtonID","targetID","BubbleID","text","position","rotation","press","ServerEvent","RepeatDeltaTime","guideLockMonster","FailJump",}
-return Table_GuideID
+return Table_GuideID

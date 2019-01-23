@@ -115,4 +115,4 @@ function CreateChatRoom:OnReceiveEnterChatZoom(data)
 
 		SceneUIManager.Instance:AddRoleTopFuncWords(Game.Myself, CreateChatRoom.Icon, {left = str1, right = str2}, nil, true, 10)
 	end
-end
+end

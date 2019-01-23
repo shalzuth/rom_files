@@ -374,4 +374,3 @@ function isEncodable(o)
   return (t=='string' or t=='boolean' or t=='number' or t=='nil' or t=='table') or (t=='function' and o==null) 
 end
 
-

@@ -178,4 +178,4 @@ function StudentView:ChangeView()
 
 		self.init = true
 	end
-end
+end

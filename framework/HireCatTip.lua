@@ -260,4 +260,3 @@ function HireCatTip:DestroySelf()
 		GameObject.Destroy(self.gameObject);
 	end	
 end
-

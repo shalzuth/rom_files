@@ -162,4 +162,4 @@ function HTTPRequest.QueueHeadDo()
 	if requestParam.method == 'HEAD' then
 		HTTPRequest.DoHead(requestParam.url, requestParam.completeCallback)
 	end
-end
+end

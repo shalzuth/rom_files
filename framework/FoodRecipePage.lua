@@ -138,4 +138,3 @@ function FoodRecipePage:OnEnter()
 	
 	self:UpdateRecipes(1, 0);
 end
-

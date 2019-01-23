@@ -47,4 +47,4 @@ function GameAfterLoadSceneState:TotalFinishLoad(sceneInfo)
 	FunctionMapEnd.Me():TempSetDurationToTimeLine()
 	ServiceHandlerOnLoadedProxy.Instance:Call()
 	FunctionGameState.Me():EnteredScene()
-end
+end

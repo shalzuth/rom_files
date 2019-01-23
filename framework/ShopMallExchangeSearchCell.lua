@@ -21,4 +21,4 @@ function ShopMallExchangeSearchCell:SetData(data)
 			errorLog(string.format("ShopMallExchangeSearchCell SetData : self.itemData = %s , self.itemData.NameZh = %s",tostring(self.itemData),tostring(self.itemData.NameZh)))
 		end
 	end
-end
+end

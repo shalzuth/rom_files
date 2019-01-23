@@ -197,4 +197,4 @@ function FunctionSecurity:TryDoRealNameCentify( callback,callbackParam )
 --		callbackParam = callbackParam,
 --	};
 --	GameFacade.Instance:sendNotification(UIEvent.JumpPanel, { view = PanelConfig.RealNameCentifyView, viewdata = viewdata })	
-end
+end

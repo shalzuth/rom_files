@@ -65,4 +65,4 @@ Table_Seat_gef_kobold = {
 }
 
 Table_Seat_gef_kobold_fields = { "id","StandPot","SeatPot","Dir",}
-return Table_Seat_gef_kobold
+return Table_Seat_gef_kobold

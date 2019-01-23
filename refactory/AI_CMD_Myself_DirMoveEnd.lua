@@ -27,4 +27,4 @@ end
 
 function AI_CMD_Myself_DirMoveEnd.ToString()
 	return "AI_CMD_Myself_DirMoveEnd",AI_CMD_Myself_DirMoveEnd
-end
+end

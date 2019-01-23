@@ -48,4 +48,4 @@ Table_Body_WW = {
 }
 
 Table_Body_WW_fields = { "id","AssesoriesDiePoint","Texture","AvatarBody","Feature","AlwaysAnimate","ShowWeaponType","DefaultColor","PaintColor","HeadIcon",}
-return Table_Body_WW
+return Table_Body_WW

@@ -61,4 +61,3 @@ Table_GuildBuilding = {
 }
 Table_GuildBuilding_fields = { "id","Name","NpcID","Type","Level","Desc","Material","FuncDesc","LevelUpPreview","Texture","Icon","UnlockParam","LevelUpCond",}
 return Table_GuildBuilding
-

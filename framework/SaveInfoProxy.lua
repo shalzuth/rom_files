@@ -172,4 +172,4 @@ function SaveInfoProxy:GetSkillData(id,type)
 	elseif type == SaveInfoEnum.Record then
 		return _MultiProfessionSaveProxy.Instance:GetSkillData(id)
 	end
-end
+end

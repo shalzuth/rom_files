@@ -6,4 +6,4 @@ end
 
 function SceneUtil.AsyncLoad(scene)
 	SceneManagement.SceneManager.LoadLevelAsync(scene)
-end
+end

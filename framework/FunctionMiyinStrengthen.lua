@@ -35,4 +35,4 @@ end
 
 function FunctionMiyinStrengthen:BuildingIsPlayingStrengthenAnim()
 	return self.npcCreature.assetRole:IsPlayingActionRaw(strengthenAnimName)
-end
+end

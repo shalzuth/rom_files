@@ -155,4 +155,4 @@ function AdventureAchieveTab:Reset()
 	self.items = {}
 	self.itemsMap = {}
 	self.parsedItems = {}
-end
+end

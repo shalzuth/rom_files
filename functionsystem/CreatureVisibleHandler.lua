@@ -47,4 +47,4 @@ end
 function CreatureVisibleHandler:DoDeconstruct(asArray)
 	TableUtility.TableClear(self.reason)
 end
--- override end
+-- override end

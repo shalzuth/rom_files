@@ -407,4 +407,3 @@ setmetatable(Table_EquipSuit[591],{__index = Table_EquipSuit[590]})
 setmetatable(Table_EquipSuit[592],{__index = Table_EquipSuit[590]})
 setmetatable(Table_EquipSuit[593],{__index = Table_EquipSuit[590]})
 return Table_EquipSuit
-

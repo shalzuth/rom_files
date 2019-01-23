@@ -216,4 +216,4 @@ end
 function ShopItemInfoCell:CalcTotalPrice(count)
 	local totalCost = self.moneycount * count
 	return totalCost
-end
+end

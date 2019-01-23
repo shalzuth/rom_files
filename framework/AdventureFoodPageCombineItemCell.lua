@@ -4,4 +4,3 @@ AdventureFoodPageCombineItemCell = class("AdventureFoodPageCombineItemCell",Base
 function AdventureFoodPageCombineItemCell:Init()
 	self:InitCells(5, "AdventureFoodItemCell", AdventureFoodItemCell);
 end
-

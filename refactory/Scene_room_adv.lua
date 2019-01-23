@@ -265,4 +265,4 @@ local Scene_room_adv={
 		}
 	}
 }
-return Scene_room_adv
+return Scene_room_adv

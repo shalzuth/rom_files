@@ -198,4 +198,4 @@ Controller.instanceMap= {}
 ]]
 Controller.MULTITON_MSG= "controller key for this Multiton key already constructed"
 
-return Controller
+return Controller

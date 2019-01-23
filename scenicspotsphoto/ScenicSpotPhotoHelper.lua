@@ -203,4 +203,4 @@ function ScenicSpotPhotoHelper:StopGetThumbnail(scenic_spot_id)
 		self.tabStopFlagT[scenic_spot_id] = 0
 	end
 	ScenicSpotPhoto.Ins():StopGetThumbnail(scenic_spot_id)
-end
+end

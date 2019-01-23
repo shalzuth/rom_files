@@ -151,4 +151,4 @@ function GuildJobEditPopUp:OnExit()
 	self.changeEditAuths = {};
 
 	GuildJobEditPopUp.super.OnExit(self);
-end
+end

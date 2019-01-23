@@ -2559,4 +2559,3 @@ ServiceEvent.SocialCmdSocialListUpdateSocialCmd = "ServiceEvent_SocialCmdSocialL
 ServiceEvent.SocialCmdTeamerQuestUpdateSocialCmd = "ServiceEvent_SocialCmdTeamerQuestUpdateSocialCmd"
 ServiceEvent.SocialCmdGlobalForwardCmdSocialCmd = "ServiceEvent_SocialCmdGlobalForwardCmdSocialCmd"
 ServiceEvent.SocialCmdAuthorizeInfoSyncSocialCmd = "ServiceEvent_SocialCmdAuthorizeInfoSyncSocialCmd"
-

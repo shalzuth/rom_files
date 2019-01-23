@@ -26,4 +26,4 @@ Table_Seat_prt_maze1 = {
 }
 
 Table_Seat_prt_maze1_fields = { "id","StandPot","SeatPot","Dir",}
-return Table_Seat_prt_maze1
+return Table_Seat_prt_maze1

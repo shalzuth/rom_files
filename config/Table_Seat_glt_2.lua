@@ -75,4 +75,4 @@ Table_Seat_glt_2 = {
 }
 
 Table_Seat_glt_2_fields = { "id","StandPot","SeatPot","Dir",}
-return Table_Seat_glt_2
+return Table_Seat_glt_2

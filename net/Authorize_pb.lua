@@ -368,4 +368,3 @@ SetAuthorizeUserCmd = protobuf.Message(SETAUTHORIZEUSERCMD)
 SyncAuthorizeToSession = protobuf.Message(SYNCAUTHORIZETOSESSION)
 SyncRealAuthorizeToSession = protobuf.Message(SYNCREALAUTHORIZETOSESSION)
 
-

@@ -72,4 +72,4 @@ end
 function BoothBuyInfoCell:Confirm()
 	self:PassEvent(BoothEvent.ConfirmInfo, self)
 	self:Cancel()
-end
+end

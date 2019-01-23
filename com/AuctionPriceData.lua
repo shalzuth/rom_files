@@ -14,4 +14,4 @@ end
 
 function AuctionPriceData:SetMask(mask)
 	self.mask = mask
-end
+end

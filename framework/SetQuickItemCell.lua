@@ -56,4 +56,4 @@ function SetQuickItemCell:SetData(data)
 	else
 		self.remove:SetActive(false);
 	end
-end
+end

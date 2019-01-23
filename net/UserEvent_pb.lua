@@ -1893,4 +1893,3 @@ UpdateRandomUserEvent = protobuf.Message(UPDATERANDOMUSEREVENT)
 UserEventMailCmd = protobuf.Message(USEREVENTMAILCMD)
 VersionCardInfo = protobuf.Message(VERSIONCARDINFO)
 
-

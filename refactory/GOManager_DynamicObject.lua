@@ -44,4 +44,3 @@ function GOManager_DynamicObject:UnregisterGameObject(obj)
 
 	return true
 end
-

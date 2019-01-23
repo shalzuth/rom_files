@@ -605,4 +605,4 @@ local Scene_ghostship2={
 		}
 	}
 }
-return Scene_ghostship2
+return Scene_ghostship2

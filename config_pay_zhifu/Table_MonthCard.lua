@@ -8,4 +8,3 @@ Table_MonthCard = {
 }
 Table_MonthCard_fields = { "id","Year","Month","Picture","NpcPicture","HeadDress",}
 return Table_MonthCard
-

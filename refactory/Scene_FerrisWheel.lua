@@ -14,4 +14,4 @@ local Scene_FerrisWheel={
 		}
 	}
 }
-return Scene_FerrisWheel
+return Scene_FerrisWheel

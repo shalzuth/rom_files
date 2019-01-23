@@ -75,4 +75,3 @@ function TargetHeadCell:RefreshLevelColor()
 end
 
 
-

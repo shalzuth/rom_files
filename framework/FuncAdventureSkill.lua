@@ -71,4 +71,4 @@ end
 
 function FuncAdventureSkill:RequestQueryShopItem(type, shop_id)
 	ShopProxy.Instance:CallQueryShopConfig(type, shop_id)
-end
+end

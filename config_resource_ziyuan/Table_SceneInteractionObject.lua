@@ -9,4 +9,4 @@ Table_SceneInteractionObject = {
 }
 
 Table_SceneInteractionObject_fields = { "id","ResetDelay","CD","ResetAnimation",}
-return Table_SceneInteractionObject
+return Table_SceneInteractionObject

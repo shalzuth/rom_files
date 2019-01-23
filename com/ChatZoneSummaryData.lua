@@ -57,4 +57,4 @@ end
 
 function ChatZoneSummaryData:DoDeconstruct(asArray)
 	self:ClearMembers()
-end
+end

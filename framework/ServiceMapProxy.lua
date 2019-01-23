@@ -107,4 +107,4 @@ end
 function ServiceMapProxy:RecvGingerBreadNpcCmd(data)
 	SceneAINpcProxy.Instance:SetExpressNpc(data)
 	self:Notify(ServiceEvent.MapGingerBreadNpcCmd, data)
-end
+end

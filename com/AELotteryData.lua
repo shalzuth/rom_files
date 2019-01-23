@@ -90,4 +90,4 @@ function AELotteryData:GetDiscountDataById(id)
 			end
 		end
 	end
-end
+end

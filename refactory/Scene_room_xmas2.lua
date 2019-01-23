@@ -211,4 +211,4 @@ local Scene_room_xmas2={
 		}
 	}
 }
-return Scene_room_xmas2
+return Scene_room_xmas2

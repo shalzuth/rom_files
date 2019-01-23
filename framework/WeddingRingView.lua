@@ -13,4 +13,4 @@ function WeddingRingView:InitBuyItemCell()
 	local go = self:LoadCellPfb("HappyShopBuyItemCell")
 	self.buyCell = WeddingRingBuyCell.new(go)
 	self.CloseWhenClickOtherPlace = self.buyCell.gameObject:GetComponent(CloseWhenClickOtherPlace)
-end
+end

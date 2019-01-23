@@ -63,4 +63,3 @@ function ServiceWeddingCCmdProxy:RecvWeddingOverCCmd(data)
 	FunctionWedding.Me():EndWeddingCememony()
 	self:Notify(ServiceEvent.WeddingCCmdWeddingOverCCmd, data)
 end
-

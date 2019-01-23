@@ -83,4 +83,4 @@ function IdleAI_MissionCommand:Request_Set(newCommand)
 	end
 	self.requestCancel = (nil ~= self.currentCommand and nil == self.requestCommand)
 end
--- ocontrol end
+-- ocontrol end

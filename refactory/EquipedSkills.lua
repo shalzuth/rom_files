@@ -93,4 +93,4 @@ function TransformedEquipSkills:UpdateSingleSkill(skillItemData,serverSkillItem)
 		skillItemData:SetEnableSpecialEffect(serverSkillItem.selectswitch)
 		skillItemData:SetExtraLevel(serverSkillItem.extralv)
 	end
-end
+end

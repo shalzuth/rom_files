@@ -273,4 +273,4 @@ function MonthScoreTip:OnExit()
 	MonthScoreTip.super.OnExit(self);
 	Game.GOLuaPoolManager:AddToUIPool(self.resID,self.gameObject)
 	PictureManager.Instance:UnLoadMonthCard("",self.ModelTexture);
-end
+end

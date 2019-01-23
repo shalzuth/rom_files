@@ -373,4 +373,4 @@ end
 
 function FriendProxy:CheckRecallActivity()
 	return self.isRecallActivity
-end
+end

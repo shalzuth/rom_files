@@ -193,4 +193,3 @@ ServiceEvent.AchieveCmdQueryUserResumeAchCmd = "ServiceEvent_AchieveCmdQueryUser
 ServiceEvent.AchieveCmdQueryAchieveDataAchCmd = "ServiceEvent_AchieveCmdQueryAchieveDataAchCmd"
 ServiceEvent.AchieveCmdNewAchieveNtfAchCmd = "ServiceEvent_AchieveCmdNewAchieveNtfAchCmd"
 ServiceEvent.AchieveCmdRewardGetAchCmd = "ServiceEvent_AchieveCmdRewardGetAchCmd"
-

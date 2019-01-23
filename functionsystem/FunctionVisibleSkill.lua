@@ -94,4 +94,4 @@ function FunctionVisibleSkill:CoEnd(master,cmdClass)
 			self.coCmds[cmdClass.__cname] = nil
 		end
 	end
-end
+end

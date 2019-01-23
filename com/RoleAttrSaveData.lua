@@ -44,4 +44,4 @@ function RoleAttrSaveData:OnDestroy()
 	if(self.userAttr)then
 		self.userAttr:DestroySelf();
 	end
-end
+end

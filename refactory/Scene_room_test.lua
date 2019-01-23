@@ -1359,4 +1359,4 @@ local Scene_room_test={
 		}
 	}
 }
-return Scene_room_test
+return Scene_room_test

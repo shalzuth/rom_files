@@ -39,4 +39,4 @@ function CameraAdditiveEffectShake:Update(deltaTime)
 			self.range = self.maxRange * (1-progress)
 		end
 	end
-end
+end

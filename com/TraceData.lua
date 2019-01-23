@@ -65,4 +65,4 @@ function TraceData:parseTranceInfo()
 	-- body
 	local result = self.traceInfo
 	return result
-end
+end

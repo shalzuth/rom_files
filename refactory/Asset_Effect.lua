@@ -393,4 +393,4 @@ function Asset_Effect:ObserverEvent(obj, args)
 	-- asset role invisible changed
 	self:SetActive(not args)
 end
--- override end
+-- override end

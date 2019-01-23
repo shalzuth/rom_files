@@ -24,4 +24,3 @@ function GuildRewardCell:SetData(data)
 
 	-- self.ctl:ResetDatas();
 end
-

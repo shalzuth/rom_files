@@ -270,4 +270,4 @@ function NMyselfPlayer:OnObserverDestroyed(k, obj)
 		self:Client_LockTarget(nil)
 	end
 end
--- override end
+-- override end

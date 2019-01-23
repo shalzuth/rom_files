@@ -141,4 +141,4 @@ end
 
 function AreaTrigger_Mission:AddShowAreaEffectCheck(id,map,pos,reachDis,questData)
 	self:AddCheck(id,map,pos,reachDis,nil,nil,nil,nil,questData,AreaTrigger_Mission.CheckType.ShowAreaEffect)
-end
+end

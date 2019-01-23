@@ -35,4 +35,4 @@ Table_Augury_Activity = {
 }
 
 Table_Augury_Activity_fields = { "id","Type","Title","Option","TitleDesc","Language",}
-return Table_Augury_Activity
+return Table_Augury_Activity

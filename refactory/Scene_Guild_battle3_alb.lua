@@ -1394,4 +1394,4 @@ local Scene_Guild_battle3_alb={
 		}
 	}
 }
-return Scene_Guild_battle3_alb
+return Scene_Guild_battle3_alb

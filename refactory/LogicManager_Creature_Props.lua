@@ -159,4 +159,4 @@ end
 
 function LogicManager_Creature_Props:UpdateSlimWeight(ncreature,propName,oldValue,p)
 	ncreature:Server_SetFixWeightCmd(p:GetValue())
-end
+end

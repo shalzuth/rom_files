@@ -736,4 +736,4 @@ end
 function FunctionLoginBase:resetRetryTime()
 	self.retryTime = 1
 	self.delayTime = 1
-end
+end

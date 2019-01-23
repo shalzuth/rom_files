@@ -53,4 +53,4 @@ CharacterSelectList = {
 	[5] = {gender=CharacterGender.Male, maleID=1170, femaleID=1176, classID=12, name="骑士", ename="Knight", str=9, int=1, vit=8, agi=3, dex=5, luk=2},
 	[6] = {gender=CharacterGender.Male, maleID=1171, femaleID=1177, petID=1264, classID=32, name="刺客", ename="Assassin", str=4, int=4, vit=5, agi=9, dex=6, luk=8},
 }
--- refactory end
+-- refactory end

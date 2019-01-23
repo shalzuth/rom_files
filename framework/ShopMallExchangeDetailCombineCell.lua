@@ -50,4 +50,4 @@ function ShopMallExchangeDetailCombineCell:OnDestroy()
 		local cell = self.childrenObjs[i]
 		cell:OnDestroy()
 	end	
-end
+end

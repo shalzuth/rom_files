@@ -55,4 +55,4 @@ function LerpUtil:End()
 		TimeTickManager.Me():ClearTick(self)
 		self.tick = nil
 	end
-end
+end

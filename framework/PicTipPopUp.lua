@@ -106,4 +106,3 @@ function PicTipPopUp:OnExit()
 	self:ShowItemTip();
 	PicTipPopUp.super.OnExit(self);
 end
-

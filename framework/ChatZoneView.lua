@@ -353,4 +353,4 @@ end
 function ChatZoneView:ShowView(isShow)
 	self.ChatZone:SetActive(isShow)
 	self.container.ContentScrollView.gameObject:SetActive(isShow)
-end
+end

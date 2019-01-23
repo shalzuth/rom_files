@@ -16,4 +16,4 @@ function TempActivityView:OnEnter()
 	if(viewdata)then
 		self.tempActivityCell:SetData( viewdata.Config );
 	end
-end
+end

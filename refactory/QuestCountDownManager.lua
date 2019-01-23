@@ -50,4 +50,4 @@ end
 
 function QuestCountDownManager:_Destroy()	
 	TableUtility.TableClear(self.questMap)
-end
+end

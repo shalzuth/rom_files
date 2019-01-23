@@ -2569,4 +2569,3 @@ WeddingOneDayInfo = protobuf.Message(WEDDINGONEDAYINFO)
 WeddingOverCCmd = protobuf.Message(WEDDINGOVERCCMD)
 WeddingSwitchQuestionCCmd = protobuf.Message(WEDDINGSWITCHQUESTIONCCMD)
 
-

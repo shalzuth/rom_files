@@ -700,4 +700,3 @@ MailTemplateData = protobuf.Message(MAILTEMPLATEDATA)
 MailUpdate = protobuf.Message(MAILUPDATE)
 QueryAllMail = protobuf.Message(QUERYALLMAIL)
 
-

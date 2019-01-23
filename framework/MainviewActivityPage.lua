@@ -104,4 +104,4 @@ function MainviewActivityPage:UpdateActivityInfos( first )
 		TimeTickManager.Me():ClearTick(self)
 		self.activityGridList:RemoveAll()
 	end
-end
+end

@@ -240,4 +240,4 @@ function BuffGroup:OnObserverDestroyed(k, obj)
 		self.effect = nil
 		self:_DestroyAroundEffects()
 	end
-end
+end

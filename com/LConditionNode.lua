@@ -22,4 +22,4 @@ function LConditionNode:Update()
 		return TaskState.Failure
 	end
 	return self:Check() and TaskState.Success or TaskState.Failure
-end
+end

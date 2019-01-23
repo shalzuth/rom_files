@@ -13,4 +13,4 @@ function LuaVector4.Equal(a, b)
 		and a[2] == b[2] 
 		and a[3] == b[3]
 		and a[4] == b[4]
-end
+end

@@ -66,4 +66,4 @@ end
 --是否分页
 function ShopData:CheckScreen()
 	return self.screen == 1
-end
+end

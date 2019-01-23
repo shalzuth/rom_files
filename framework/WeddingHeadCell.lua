@@ -51,4 +51,4 @@ function WeddingHeadCell:SetData(data)
 
 		self.name.text = data.name
 	end
-end
+end

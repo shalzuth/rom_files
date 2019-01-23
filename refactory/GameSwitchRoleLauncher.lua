@@ -22,4 +22,4 @@ if nil == g_Game then
 	Debug_LuaMemotry.Start()
 end
 
-return Game
+return Game

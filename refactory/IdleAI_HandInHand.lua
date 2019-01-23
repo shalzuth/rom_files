@@ -379,4 +379,3 @@ function IdleAI_HandInHand:_UpdateConnected(idleElapsed, time, deltaTime, creatu
 		return
 	end
 end
-

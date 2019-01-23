@@ -72,4 +72,4 @@ function ShopMallExchangeClassifyCell:SetData(data)
 	end
 
 	self.data = data
-end
+end

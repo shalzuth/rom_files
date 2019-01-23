@@ -11,4 +11,3 @@ function ServiceSysMsgProxy:ctor(proxyName)
 		ServiceSysMsgProxy.Instance = self
 	end
 end
-

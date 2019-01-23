@@ -57,4 +57,3 @@ end
 
 function RewardListView:setContent( status,content )
 end
-

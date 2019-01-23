@@ -384,4 +384,4 @@ function PersonalPictureManager:PersonalOriginPhotoUploadErrorCallback1(index, t
 	-- body
 	self:log("PersonalOriginPhotoUploadErrorCallback",index, time,errorMessage)
 	GameFacade.Instance:sendNotification(PersonalPictureManager.PersonalOriginPhotoUploadErrorCallback,{index = index,time = time})
-end
+end

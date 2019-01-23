@@ -148,4 +148,4 @@ Model.instanceMap = {}
 ]]
 Model.MULTITON_MSG= "Model instance for this Multiton key already constructed!";
 
-return Model
+return Model

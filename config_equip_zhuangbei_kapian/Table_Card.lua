@@ -561,4 +561,3 @@ setmetatable(Table_Card[24064],{__index = Table_Card[24030]})
 setmetatable(Table_Card[24069],{__index = Table_Card[24030]})
 setmetatable(Table_Card[24071],{__index = Table_Card[24030]})
 return Table_Card
-

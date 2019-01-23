@@ -185,4 +185,4 @@ function UINode:Dispose()
 		GameObject.Destroy(self.gameObject)
 		self.gameObject = nil
 	end
-end
+end

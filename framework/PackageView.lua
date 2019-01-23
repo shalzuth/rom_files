@@ -355,4 +355,4 @@ function PackageView:SetCurrentTabIconColor(currentTabGo)
 	local iconSp = GameObjectUtil.Instance:DeepFindChild(currentTabGo, "Icon"):GetComponent(UISprite);
 	if not iconSp then return end
 	iconSp.color = ColorUtil.TabColor_DeepBlue
-end
+end

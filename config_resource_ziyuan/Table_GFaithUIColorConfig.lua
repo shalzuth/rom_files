@@ -10,4 +10,4 @@ Table_GFaithUIColorConfig = {
 }
 
 Table_GFaithUIColorConfig_fields = { "id","name","bg_Color","bgline_Color","bg1_Color","iconBg_Color","name_Color","levelEffect_Color",}
-return Table_GFaithUIColorConfig
+return Table_GFaithUIColorConfig

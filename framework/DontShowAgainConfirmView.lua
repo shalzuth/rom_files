@@ -97,4 +97,4 @@ function DontShowAgainConfirmView:HandleDontShowAgain()
 			LocalSaveProxy.Instance:AddDontShowAgain(data.id,data.TimeInterval)
 		end
 	end
-end
+end

@@ -216,4 +216,4 @@ function Main.ParseShaderColorTable(t)
 		end
 	end
 end
-Main.ParseShaderColorTable(Table_ShaderColor)
+Main.ParseShaderColorTable(Table_ShaderColor)

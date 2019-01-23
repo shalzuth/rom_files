@@ -315,4 +315,3 @@ setmetatable(Table_RandomMonster[221220],{__index = Table_RandomMonster[221010]}
 setmetatable(Table_RandomMonster[221230],{__index = Table_RandomMonster[221010]})
 setmetatable(Table_RandomMonster[221240],{__index = Table_RandomMonster[221010]})
 return Table_RandomMonster
-

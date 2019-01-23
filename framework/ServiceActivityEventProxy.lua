@@ -25,4 +25,4 @@ end
 function ServiceActivityEventProxy:RecvActivityEventNtfEventCntCmd(data) 
 	ActivityEventProxy.Instance:RecvActivityEventNtfEventCntCmd(data)
 	self:Notify(ServiceEvent.ActivityEventActivityEventNtfEventCntCmd, data)
-end
+end

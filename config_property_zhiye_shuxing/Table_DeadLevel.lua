@@ -23,4 +23,4 @@ Table_DeadLevel = {
 }
 
 Table_DeadLevel_fields = { "id","exp",}
-return Table_DeadLevel
+return Table_DeadLevel

@@ -1564,4 +1564,3 @@ TriggerSkillNpcSkillCmd = protobuf.Message(TRIGGERSKILLNPCSKILLCMD)
 UpSkillInfoSkillCmd = protobuf.Message(UPSKILLINFOSKILLCMD)
 UpdateDynamicSkillCmd = protobuf.Message(UPDATEDYNAMICSKILLCMD)
 
-

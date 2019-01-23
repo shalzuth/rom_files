@@ -21,4 +21,4 @@ function ItemTipCardCell:SetData(data)
 		self.label2.gameObject:SetActive(false);
 		self.label2.text = "";
 	end
-end
+end

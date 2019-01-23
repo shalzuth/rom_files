@@ -126,4 +126,4 @@ function LotteryEquipView:HandleItemUpdate(note)
 	else
 		self.isUpdateRecover = true
 	end
-end
+end

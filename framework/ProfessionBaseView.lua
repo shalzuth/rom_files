@@ -189,4 +189,3 @@ function ProfessionBaseView:ResetData(agentData )
 	end
 	self:showRoleModel(agentData)
 end
-

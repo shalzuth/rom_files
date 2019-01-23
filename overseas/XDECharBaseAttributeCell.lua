@@ -11,4 +11,3 @@ function XDECharBaseAttributeCell:SetData( data )
 	XDECharBaseAttributeCell.super.SetData(self, data);
 	self.value.transform.localPosition = Vector3(469,0,0)
 end
-

@@ -140,4 +140,3 @@ function TagByteSize(field_number)
     return _VarUInt64ByteSizeNoTag(PackTag(field_number, 0))
 end
 
-

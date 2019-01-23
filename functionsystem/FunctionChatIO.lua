@@ -297,4 +297,4 @@ function FunctionChatIO:GetServerTimeDirectory(rootPath)
 	end
 
 	return dirPath
-end
+end

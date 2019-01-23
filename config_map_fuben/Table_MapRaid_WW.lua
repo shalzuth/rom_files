@@ -10,4 +10,4 @@ Table_MapRaid_WW = {
 }
 
 Table_MapRaid_WW_fields = { "id","NameZh","Type","CameraAdj","Boss","EndWait","Restrict",}
-return Table_MapRaid_WW
+return Table_MapRaid_WW

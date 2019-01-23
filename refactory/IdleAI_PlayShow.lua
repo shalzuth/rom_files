@@ -39,4 +39,4 @@ end
 
 function IdleAI_PlayShow:Update(idleElapsed, time, deltaTime, creature)
 	return false
-end
+end

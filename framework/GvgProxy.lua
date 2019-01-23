@@ -303,4 +303,3 @@ end
 function GvgProxy:GetGvgOpenFireState()
 	return self.gvgOpenFireState;
 end
-

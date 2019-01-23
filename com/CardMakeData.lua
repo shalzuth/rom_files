@@ -86,4 +86,4 @@ function CardMakeData:ClearCount()
 			self.cardCount[k] = 0
 		end
 	end
-end
+end

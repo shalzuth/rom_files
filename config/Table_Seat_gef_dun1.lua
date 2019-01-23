@@ -81,4 +81,3 @@ setmetatable(Table_Seat_gef_dun1[36],{__index = Table_Seat_gef_dun1[32]})
 setmetatable(Table_Seat_gef_dun1[38],{__index = Table_Seat_gef_dun1[37]})
 setmetatable(Table_Seat_gef_dun1[40],{__index = Table_Seat_gef_dun1[39]})
 return Table_Seat_gef_dun1
-

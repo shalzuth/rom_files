@@ -183,4 +183,3 @@ function GuildFun.calcGuildPrayAttr(prayid, praylv)
 
   return result
 end
-

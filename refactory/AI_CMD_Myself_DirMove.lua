@@ -107,4 +107,4 @@ end
 
 function AI_CMD_Myself_DirMove.ToString()
 	return "AI_CMD_Myself_DirMove",AI_CMD_Myself_DirMove
-end
+end

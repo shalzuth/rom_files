@@ -143,4 +143,3 @@ ListData = protobuf.Message(LISTDATA)
 PrivateChatDatas = protobuf.Message(PRIVATECHATDATAS)
 PrivateChatList = protobuf.Message(PRIVATECHATLIST)
 
-

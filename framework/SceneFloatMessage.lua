@@ -119,4 +119,3 @@ function SceneFloatMessage:DoDeconstruct(asArray)
 	self.data_param = nil;
 end
 -- override end
-

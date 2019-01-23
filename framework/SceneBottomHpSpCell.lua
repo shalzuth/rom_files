@@ -273,4 +273,4 @@ end
 
 function SceneBottomHpSpCell:Alive()
 	return self._alive
-end
+end

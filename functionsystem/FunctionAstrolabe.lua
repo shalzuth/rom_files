@@ -107,4 +107,3 @@ function FunctionAstrolabe.ReSetBordData()
 end
 
 
-

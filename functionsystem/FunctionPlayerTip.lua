@@ -1122,4 +1122,3 @@ function FunctionPlayerTip:UpdateInviteMemberFuncState(playerid, teamid)
 	end
 end
 
-

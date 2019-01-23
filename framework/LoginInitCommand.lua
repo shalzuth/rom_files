@@ -36,4 +36,4 @@ function LoginInitCommand:Init()
 	ServiceNUserProxy.Instance:CallQueryShortcut() 
 end
 
-return LoginInitCommand
+return LoginInitCommand

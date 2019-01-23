@@ -96,4 +96,4 @@ function WarnPopup:FillButton()
 		pos.x = 0
 		self.confirmBtn.transform.localPosition = pos
 	end
-end
+end

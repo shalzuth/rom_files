@@ -136,4 +136,3 @@ function GvgDroiyan_OccupyInfoCell:HideSelf()
 	EventManager.Me():RemoveEventListener(ServiceEvent.FuBenCmdGvgCrystalUpdateFubenCmd, self.Refresh, self)
 	EventManager.Me():RemoveEventListener(ServiceEvent.FuBenCmdGvgTowerUpdateFubenCmd, self.Refresh, self)
 end
-

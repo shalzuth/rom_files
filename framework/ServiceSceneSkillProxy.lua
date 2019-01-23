@@ -11,4 +11,3 @@ function ServiceSceneSkillProxy:ctor(proxyName)
 		ServiceSceneSkillProxy.Instance = self
 	end
 end
-

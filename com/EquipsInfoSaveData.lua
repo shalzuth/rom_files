@@ -27,4 +27,4 @@ function EquipsInfoSaveData:CheckValid()
 	if data then return true end
 
 	return false
-end
+end

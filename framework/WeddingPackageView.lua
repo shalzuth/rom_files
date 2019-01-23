@@ -91,4 +91,4 @@ function WeddingPackageView:ClickBuy(cell)
 			end
 		end
 	end
-end
+end

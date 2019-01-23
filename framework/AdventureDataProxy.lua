@@ -2020,4 +2020,4 @@ function AdventureDataProxy:Test(  )
 	local data = {}
 	data.photos = list
 	self:QueryUnresolvedPhotoManualCmd(data)
-end
+end

@@ -861,4 +861,3 @@ EPASSTYPE_HELP = 2
 EPASSTYPE_NORMAL = 3
 EnterDojo = protobuf.Message(ENTERDOJO)
 
-

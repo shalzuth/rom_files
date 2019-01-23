@@ -31,4 +31,4 @@ function SkillLogic_TargetNone.Client_DoDeterminTargets(self, creature, creature
 	end
 end
 -- for client end
--- override end
+-- override end

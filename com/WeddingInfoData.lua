@@ -106,4 +106,4 @@ function WeddingInfoData:GetZoneStr()
 	end
 
 	return self.zoneStr
-end
+end

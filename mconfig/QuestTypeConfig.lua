@@ -186,4 +186,4 @@ QuestDataTypeSymbolMap = {
 	[QuestDataType.QuestDataType_WEDDING] = QuestSymbolType.Branch,
 	[QuestDataType.QuestDataType_WEDDING_DAILY] = QuestSymbolType.Branch,
 	[QuestDataType.QuestDataType_CAPRA] = QuestSymbolType.Branch,
-}
+}

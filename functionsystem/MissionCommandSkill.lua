@@ -267,4 +267,4 @@ function MissionCommandSkill:DoDeconstruct(asArray)
 	self.teleport = nil
 	self.autoBattle:Reset()
 	Game.AutoBattleManager:ClearController(self, true)
-end
+end

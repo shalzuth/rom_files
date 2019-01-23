@@ -44,4 +44,4 @@ function InterfaceForCSharp.UnregisterGameObject(obj)
 	return true
 end
 
-return InterfaceForCSharp
+return InterfaceForCSharp

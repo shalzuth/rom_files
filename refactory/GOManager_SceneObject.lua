@@ -78,4 +78,3 @@ function GOManager_SceneObject:UnregisterGameObject(obj)
 	return false
 end
 
-

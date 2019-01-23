@@ -250,4 +250,4 @@ function SceneProxy:SetGameTime(data)
 	-- end
 end
 
-return SceneProxy
+return SceneProxy

@@ -386,4 +386,4 @@ function FloatingPanel:ShowMaintenanceMsg(title, text, remark, buttonlab, picPat
 	self.maintenanceMsg:SetData(tempArgs);
 
 	return self.maintenanceMsg
-end
+end

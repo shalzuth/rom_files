@@ -120,4 +120,4 @@ end
 
 function AuctionData:GetFinishTime()
 	return self.finishTime
-end
+end

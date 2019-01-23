@@ -231,4 +231,4 @@ function AreaTrigger_ExitPoint:OnDrawGizmos()
 				color)
 		end
 	end
-end
+end

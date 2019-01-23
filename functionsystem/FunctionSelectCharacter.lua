@@ -476,4 +476,3 @@ function FunctionSelectCharacter:Notify(event, data)
 	end
 	GameFacade.Instance:sendNotification(event, data)
 end
-

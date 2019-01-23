@@ -24,4 +24,4 @@ function QuestTableRewardCell:SetData(config)
 		end
 	end
 	self.rewardName.text = msg
-end
+end

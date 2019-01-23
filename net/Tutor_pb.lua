@@ -440,4 +440,3 @@ TutorTaskQueryCmd = protobuf.Message(TUTORTASKQUERYCMD)
 TutorTaskTeacherRewardCmd = protobuf.Message(TUTORTASKTEACHERREWARDCMD)
 TutorTaskUpdateNtf = protobuf.Message(TUTORTASKUPDATENTF)
 
-

@@ -10,4 +10,3 @@ end
 function GOManager_SceneSeat:UnregisterGameObject(obj)
 	return true
 end
-

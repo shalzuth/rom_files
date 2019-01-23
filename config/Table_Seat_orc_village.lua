@@ -31,4 +31,4 @@ Table_Seat_orc_village = {
 }
 
 Table_Seat_orc_village_fields = { "id","StandPot","SeatPot","Dir",}
-return Table_Seat_orc_village
+return Table_Seat_orc_village

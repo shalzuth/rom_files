@@ -99,4 +99,3 @@ function UnicodeValueChecker()
         end
     end
 end
-

@@ -73,4 +73,4 @@ function NormalStageListCell:SetLock(val)
 		self.enterLock.gameObject:SetActive(false)
 		self.enterLabel.gameObject:SetActive(true)
 	end
-end
+end

@@ -3584,4 +3584,4 @@ local Scene_yuno_fild2={
 		}
 	}
 }
-return Scene_yuno_fild2
+return Scene_yuno_fild2

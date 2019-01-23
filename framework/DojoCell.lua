@@ -74,4 +74,4 @@ function DojoCell:SetChoose(isChoose)
 	else
 		self.choose:SetActive(false)
 	end
-end
+end

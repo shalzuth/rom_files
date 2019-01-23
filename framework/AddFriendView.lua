@@ -122,4 +122,4 @@ function AddFriendView:HandleClickSearchHead(cellctl)
 	self.tipData.funckeys = self.funkey
 
 	playerTip:SetData(self.tipData)
-end
+end

@@ -165,4 +165,3 @@ end
 function GainWayItemData:GetFirstMonsterOrigin()
 	return self.firstMonsterCellData;
 end
-

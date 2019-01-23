@@ -241,4 +241,4 @@ function AppBundleConfig.GetSDKLang()
 		return langConf[curLang]
 	end
 	return 'en'
-end
+end

@@ -352,4 +352,4 @@ function SceneryListPage:GetItemCells()
 		end
 	end
 	return result;
-end
+end

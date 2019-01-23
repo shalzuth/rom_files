@@ -495,4 +495,3 @@ function PVPFactory.GetGvgDroiyan()
 	return GvgDroiyan.new();
 end
 
-

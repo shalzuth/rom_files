@@ -94,4 +94,4 @@ end
 
 function FunctionPlayerPrefs:Save()
 	PlayerPrefs.Save()
-end
+end

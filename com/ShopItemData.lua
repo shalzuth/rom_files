@@ -212,4 +212,4 @@ end
 -- 设置出售数量
 function ShopItemData:SetSoldCount(server_soldCount)
 	self.soldCount = server_soldCount;
-end
+end

@@ -1109,4 +1109,3 @@ ServiceEvent.AuctionCCmdNtfOverTakePriceCCmd = "ServiceEvent_AuctionCCmdNtfOverT
 ServiceEvent.AuctionCCmdReqMyTradedPriceCCmd = "ServiceEvent_AuctionCCmdReqMyTradedPriceCCmd"
 ServiceEvent.AuctionCCmdNtfMaskPriceCCmd = "ServiceEvent_AuctionCCmdNtfMaskPriceCCmd"
 ServiceEvent.AuctionCCmdAuctionDialogCCmd = "ServiceEvent_AuctionCCmdAuctionDialogCCmd"
-

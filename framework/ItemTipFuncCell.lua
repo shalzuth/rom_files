@@ -75,4 +75,3 @@ function ItemTipFuncCell:AddQuestCallback(note)
 	end
 end
 
-

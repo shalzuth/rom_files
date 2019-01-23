@@ -93,4 +93,4 @@ function BusinessmanMakeProxy:CheckItemType(itemData)
 		end
 	end
 	return nil
-end
+end

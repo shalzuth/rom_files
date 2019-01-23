@@ -192,4 +192,4 @@ function AdventureTastePage:initView()
 	self.nextLevelTitle.text = ZhString.AdventureFoodPage_NextLevelTitle
 	self.nextLevelDes = self:FindComponent("nextLevelDes",UILabel)
 	self.FoodPageProfileView = self:FindComponent("FoodPageProfileView",UIScrollView)
-end
+end

@@ -14,4 +14,4 @@ function SceneFilterTargerCondNode:Check()
 	else
 		return self.checkFunc(self.behaviorTree.blackBoard.creature)
 	end
-end
+end

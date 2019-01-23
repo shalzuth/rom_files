@@ -374,4 +374,4 @@ function MiyinStrengthen:CaculateDeltaAdditionalAttrValue(lv, upgrade_lv)
 		break
 	end
 	return upgradeAdditionalAttrValue - additionalAttrValue
-end
+end

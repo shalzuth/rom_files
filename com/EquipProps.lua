@@ -78,4 +78,4 @@ function EquipProps:ToString(sperator,newLine)
 		-- res = res..GameConfig.EquipEffect[v]..sperator..self[v]:ValueToString()..(i~=count and newLine or "")
 	end
 	return res
-end
+end

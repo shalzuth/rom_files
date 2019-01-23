@@ -92,4 +92,4 @@ local Scene_room_xmas1={
 		}
 	}
 }
-return Scene_room_xmas1
+return Scene_room_xmas1

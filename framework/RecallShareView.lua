@@ -229,4 +229,4 @@ function RecallShareView:CheckShareOpen()
 		return false
 	end
 	return true
-end
+end

@@ -1220,4 +1220,3 @@ ServiceEvent.ScenePetQueryPetWorkDataPetCmd = "ServiceEvent_ScenePetQueryPetWork
 ServiceEvent.ScenePetGetPetWorkRewardPetCmd = "ServiceEvent_ScenePetGetPetWorkRewardPetCmd"
 ServiceEvent.ScenePetWorkSpaceUpdate = "ServiceEvent_ScenePetWorkSpaceUpdate"
 ServiceEvent.ScenePetPetExtraUpdatePetCmd = "ServiceEvent_ScenePetPetExtraUpdatePetCmd"
-

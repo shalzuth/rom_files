@@ -4,4 +4,4 @@ Table_Achievement_WW = {
 }
 
 Table_Achievement_WW_fields = { "id","Name","Atlas","Icon","Tier","RedTip","SubGroup","AdventureSort","BackImage","Visibility","AchievementTextID","occupation","behavior","time","combination","RewardExp","RewardItems","RewardTimes",}
-return Table_Achievement_WW
+return Table_Achievement_WW

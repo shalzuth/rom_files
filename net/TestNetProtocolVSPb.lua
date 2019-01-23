@@ -176,4 +176,3 @@ function TestNetProtocolVSPb.TestProtocol()
 	print("bytes to object : " .. (os.clock()
  - start))
 end
-

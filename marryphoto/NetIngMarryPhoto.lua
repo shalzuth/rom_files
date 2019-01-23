@@ -258,4 +258,4 @@ end
 
 function NetIngMarryPhoto:GetTempUploadPathOfLocal(photo_id)
 	return self:GetTempUploadRootPathOfLocal() .. '/' .. photo_id .. '.' .. PhotoFileInfo.Extension
-end
+end

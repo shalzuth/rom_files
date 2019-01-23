@@ -174,4 +174,4 @@ end
 -- 	Player.Me:TryPlaySceneAnimation()
 -- 	LoadingSceneView.super.CloseSelf(self)
 -- 	GameFacade.Instance:sendNotification(EnterSceneCommand.EnteredSceneEvt)
--- end
+-- end

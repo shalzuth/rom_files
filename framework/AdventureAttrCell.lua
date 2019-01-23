@@ -31,4 +31,4 @@ function AdventureAttrCell:SetData( data )
 	end
 	self.name.text = name
 	self.value.text = "+"..value
-end
+end

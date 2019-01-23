@@ -152,4 +152,4 @@ function IdleAI_FakeDead:Set_AutoFakeDead(skillID)
 	else
 		self:_Set(false)
 	end
-end
+end

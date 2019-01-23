@@ -64,4 +64,4 @@ function FunctionMapEnd:Launch()
 		self:EndIgnoreAreaTrigger()
 		FunctionChangeScene.Me():GC()
 	end):setUseFrames(true)
-end
+end

@@ -12,4 +12,4 @@ function RepositoryBagCombineItemCell:Init()
 			self.childCells[i]:RemoveUnuseObj("upgradeTip");
 		end
 	end
-end
+end

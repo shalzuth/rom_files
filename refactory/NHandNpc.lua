@@ -129,4 +129,4 @@ function NHandNpc:SetVisible(v,reason)
 		end
 	end
 	-- active hand-line
-end
+end

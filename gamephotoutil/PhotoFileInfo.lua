@@ -26,4 +26,4 @@ function PhotoFileInfo.GetPictureFormat(file_bytes)
 		end
 	end
 	return PhotoFileInfo.PictureFormat.JPG
-end
+end

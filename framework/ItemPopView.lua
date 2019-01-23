@@ -168,4 +168,4 @@ end
 
 function ItemPopView:SetIcon(icon)
 	self.icon.spriteName = icon;
-end
+end

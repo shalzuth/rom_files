@@ -38,4 +38,4 @@ function PetResetSkillItemCell:SetData(data)
 	end
 	--todo xde
 	self.gameObject.transform.localPosition = Vector3(2,self.gameObject.transform.localPosition.y,0)
-end
+end

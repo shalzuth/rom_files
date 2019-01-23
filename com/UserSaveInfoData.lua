@@ -171,4 +171,4 @@ function UserSaveInfoData:GetGoldMedal()
 	if recordCost[5261] then
 		return recordCost[5261]
 	end
-end
+end

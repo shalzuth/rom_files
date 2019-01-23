@@ -184,4 +184,4 @@ function ServantMainView:delayFocus(trans)
 		self:CameraFaceTo(trans,viewPort,rotation)
 	end)
 	self.DelayFocusTwId = ret.uniqueId
-end
+end

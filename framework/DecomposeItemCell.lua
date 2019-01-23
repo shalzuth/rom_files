@@ -46,4 +46,4 @@ function DecomposeItemCell:SetData(data)
 	else
 		self.chanceTip.text = "";
 	end
-end
+end

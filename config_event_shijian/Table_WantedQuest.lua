@@ -673,4 +673,3 @@ setmetatable(Table_WantedQuest[55980001],{__index = Table_WantedQuest[55590001]}
 setmetatable(Table_WantedQuest[55990001],{__index = Table_WantedQuest[55590001]})
 setmetatable(Table_WantedQuest[56000001],{__index = Table_WantedQuest[55590001]})
 return Table_WantedQuest
-

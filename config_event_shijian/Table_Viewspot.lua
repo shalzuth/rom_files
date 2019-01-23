@@ -411,4 +411,3 @@ setmetatable(Table_Viewspot[198],{__index = Table_Viewspot[197]})
 setmetatable(Table_Viewspot[199],{__index = Table_Viewspot[197]})
 setmetatable(Table_Viewspot[203],{__index = Table_Viewspot[202]})
 return Table_Viewspot
-

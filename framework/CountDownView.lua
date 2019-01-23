@@ -65,4 +65,4 @@ function CountDownView:UpdateTip()
 	end
 	self.content.text = string.format(ZhString.CountDownTip , tostring(self.tick))
 	self.tick = self.tick - 1
-end
+end

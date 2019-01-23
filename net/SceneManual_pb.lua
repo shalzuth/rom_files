@@ -1437,4 +1437,3 @@ UnsolvedPhoto = protobuf.Message(UNSOLVEDPHOTO)
 UnsolvedUserPhoto = protobuf.Message(UNSOLVEDUSERPHOTO)
 UpdateSolvedPhotoManualCmd = protobuf.Message(UPDATESOLVEDPHOTOMANUALCMD)
 
-

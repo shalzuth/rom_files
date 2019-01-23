@@ -8,4 +8,3 @@ Table_SecuritySetting = {
 }
 Table_SecuritySetting_fields = { "id","Desc","param",}
 return Table_SecuritySetting
-

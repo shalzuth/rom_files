@@ -11,4 +11,4 @@ end
 function EquipTipCell:SetData(data)
 	EquipTipCell.super.SetData(self, data);
 	self.gameObject:SetActive( data~=nil );
-end
+end

@@ -127,4 +127,4 @@ end
 function SceneObjectProxy:Clear()
 	print("清空object")
 	self:ChangeAddMode(SceneObjectProxy.AddMode.Normal)
-end
+end

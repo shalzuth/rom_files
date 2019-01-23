@@ -50,4 +50,4 @@ function TimerCDCtrlRefresher:Update(deltaTime)
 	end
 end
 
-ShotCutSkillCDRefresher = class("ShotCutSkillCDRefresher",TimerCDCtrlRefresher)
+ShotCutSkillCDRefresher = class("ShotCutSkillCDRefresher",TimerCDCtrlRefresher)

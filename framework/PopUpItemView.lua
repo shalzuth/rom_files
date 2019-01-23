@@ -44,4 +44,4 @@ end
 function PopUpItemView:OnExit()
 	PopUpItemView.super.OnExit(self);
 	self.gameObject:SetActive(false);
-end
+end

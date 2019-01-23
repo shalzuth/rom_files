@@ -132,4 +132,4 @@ function AuctionSignUpDetailView:HandlePrice(note)
 			self:UpdatePrice(price)
 		end
 	end
-end
+end

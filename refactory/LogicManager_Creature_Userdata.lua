@@ -270,4 +270,4 @@ function LogicManager_Creature_Userdata:UpdateCooklv(ncreature,userDataID,oldVal
 		-- GameFacade.Instance:sendNotification(UIEvent.ShowUI, {viewname = "SystemUnLockView"})
 		-- GameFacade.Instance:sendNotification(SystemUnLockEvent.CommonUnlockInfo, data);
 	end
-end
+end

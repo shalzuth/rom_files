@@ -8,4 +8,4 @@ end
 
 function AI_CMD_Myself_Hit.ToString()
 	return "AI_CMD_Myself_Hit",AI_CMD_Myself_Hit
-end
+end

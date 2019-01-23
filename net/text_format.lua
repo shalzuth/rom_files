@@ -78,4 +78,3 @@ function msg_format(msg)
     return table.concat(out)
 end
 
-

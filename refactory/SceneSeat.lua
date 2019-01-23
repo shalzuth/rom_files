@@ -218,4 +218,4 @@ function CustomSceneSeat:DoDeconstruct(asArray)
 	self.seat_animator = nil
 	CustomSceneSeat.super.DoDeconstruct(self,asArray)
 end
--- override end
+-- override end

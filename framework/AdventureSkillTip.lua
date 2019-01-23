@@ -29,4 +29,4 @@ end
 function AdventureSkillTip:SetConditionLabel()
 	self.skillConf = self.data
 	self.condition.text = ConditionUtil.GetSkillConditionStr(self.skillConf,true,false,ConditionUtil.CostType.AdventureSkillPoint)
-end
+end

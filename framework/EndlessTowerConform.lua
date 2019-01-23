@@ -74,4 +74,3 @@ function EndlessTowerConform:ClickNoEvent(go)
 	self:Hide()
 end
 
-

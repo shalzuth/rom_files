@@ -275,4 +275,4 @@ function ShopSaleBagPage:SetCurrentTabIconColor(currentTabIcon)
 	self:ResetTabIconColor()
 	if not currentTabIcon then return end
 	currentTabIcon.color = ColorUtil.TabColor_DeepBlue
-end
+end

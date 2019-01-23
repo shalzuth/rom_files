@@ -9,4 +9,4 @@ function ClientProps:InitProp(propVO)
 	p.value = 0
 	-- print(propVO.name)
 	return p
-end
+end

@@ -834,4 +834,4 @@ BoothEvent = {
 	AddItem = "BoothEvent_AddItem",
 	CloseInfo = "BoothEvent_CloseInfo",
 	ConfirmInfo = "BoothEvent_ConfirmInfo",
-}
+}

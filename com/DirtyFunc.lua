@@ -40,4 +40,4 @@ function DirtyFunc:DirtyCall(param)
 			data[2](param)
 		end
 	end
-end
+end

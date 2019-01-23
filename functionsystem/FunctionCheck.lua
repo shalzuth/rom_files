@@ -49,4 +49,4 @@ end
 
 function FunctionCheck:CheckFucOpen(p)
 	FunctionUnLockFunc.Me():CheckProp(p)
-end
+end

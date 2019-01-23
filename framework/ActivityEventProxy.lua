@@ -236,4 +236,3 @@ function ActivityEventProxy:GetGuildBuildingEventData()
 		end
 	end
 end
-

@@ -28,4 +28,4 @@ function CameraEffectFocusAndRotateTo:DoEnd(cameraController)
 	CameraEffectFocusAndRotateTo.super.DoEnd(self, cameraController)
 	self.rotationOffset = VectorUtility.Destroy(self.rotationOffset)
 end
--- override end
+-- override end

@@ -44,4 +44,4 @@ local Scene_room_molab={
 		}
 	}
 }
-return Scene_room_molab
+return Scene_room_molab

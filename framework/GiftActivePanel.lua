@@ -29,4 +29,4 @@ end
 
 function GiftActivePanel:AddViewEvt()
 	self:AddListenEvt(ServiceEvent.SessionSocialityUseGiftCodeSocialCmd,self.CloseSelf)
-end
+end

@@ -34,4 +34,4 @@ function PetSpecialMonsterCell:SetData(data)
 			IconManager:SetFaceIcon(Table_Monster[data].Icon, self.icon)
 		end
 	end
-end
+end

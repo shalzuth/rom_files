@@ -152,4 +152,4 @@ function ExchangeSellIntroduceCell:SetEnchantLabel(itemData,uiLabel)
 	else
 		uiLabel.text = ZhString.ShopMall_ExchangeHideEnchant
 	end
-end
+end

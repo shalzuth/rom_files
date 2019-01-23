@@ -717,4 +717,3 @@ ServiceEvent.MatchCCmdNtfRankChangeCCmd = "ServiceEvent_MatchCCmdNtfRankChangeCC
 ServiceEvent.MatchCCmdOpenGlobalShopPanelCCmd = "ServiceEvent_MatchCCmdOpenGlobalShopPanelCCmd"
 ServiceEvent.MatchCCmdTutorMatchResultNtfMatchCCmd = "ServiceEvent_MatchCCmdTutorMatchResultNtfMatchCCmd"
 ServiceEvent.MatchCCmdTutorMatchResponseMatchCCmd = "ServiceEvent_MatchCCmdTutorMatchResponseMatchCCmd"
-

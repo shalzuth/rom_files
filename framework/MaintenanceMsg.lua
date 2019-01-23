@@ -131,4 +131,4 @@ function MaintenanceMsg:Exit()
 		self.exitCall();
 		self.exitCall = nil;
 	end
-end
+end

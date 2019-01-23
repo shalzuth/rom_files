@@ -83,4 +83,3 @@ function PvpMainView:HandleLoadScene()
 		self:CloseSelf()
 	end
 end
-

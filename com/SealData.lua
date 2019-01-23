@@ -38,4 +38,4 @@ function SealData:DeleteSealItem(dels)
 		end
 		itemMap[ditem.sealid] = nil;
 	end
-end
+end

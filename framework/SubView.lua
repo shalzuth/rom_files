@@ -122,4 +122,4 @@ function SubView:OnExit()
 		end
 		self.disPatherEvt = nil;
 	end
-end
+end

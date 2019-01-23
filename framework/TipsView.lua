@@ -91,4 +91,3 @@ function TipsView:HideCurrent()
 	self.currentTipType = nil
 end
 
-

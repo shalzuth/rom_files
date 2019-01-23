@@ -113,4 +113,4 @@ function Notification:DoDeconstruct(asArray)
 end
 -- override end
 
-return Notification
+return Notification

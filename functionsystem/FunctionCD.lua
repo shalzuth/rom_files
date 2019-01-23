@@ -62,4 +62,4 @@ end
 
 function FunctionCD:RemoveAll()
 	self:Reset()
-end
+end

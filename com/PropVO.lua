@@ -30,4 +30,4 @@ function PropVO.Create(id,typeID,name,displayName,isPercent,priority,valueType,d
 	return data
 end
 
--- return PropVO
+-- return PropVO

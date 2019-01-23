@@ -133,4 +133,4 @@ Table_Tips = {
 }
 
 Table_Tips_fields = { "id","Type","Desc",}
-return Table_Tips
+return Table_Tips

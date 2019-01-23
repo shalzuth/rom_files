@@ -42,4 +42,4 @@ end
 
 function ChangeHeadProxy:GetPortraitList()
 	return self.portraitList
-end
+end

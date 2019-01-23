@@ -6673,4 +6673,3 @@ Table_Dialog_Quest2_s = {
  
 }
 return Table_Dialog_Quest2
-

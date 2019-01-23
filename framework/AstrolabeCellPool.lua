@@ -93,4 +93,3 @@ function AstrolabeCellPool:AddToTempPool(obj)
 	obj.transform:SetParent(self.container, false);
 end
 
-

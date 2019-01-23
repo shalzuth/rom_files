@@ -220,4 +220,4 @@ function ServiceSessionSocialityProxy:RecvQueryChargeVirginCmd(data)
 	end
 	self:Notify(ServiceEvent.SessionSocialityQueryChargeVirginCmd, data)
 	EventManager.Me():PassEvent(ServiceEvent.SessionSocialityQueryChargeVirginCmd, data)
-end
+end

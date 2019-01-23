@@ -24,4 +24,4 @@ function PetSpaceDescCell:SetData(data)
 			self.tabCtl:ResetDatas(data)
 		end
 	end
-end
+end

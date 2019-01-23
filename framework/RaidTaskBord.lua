@@ -45,4 +45,4 @@ function RaidTaskBord:Destroy()
 		GameObject.Destroy(self.gameObject);
 	end
 	self.gameObject = nil;
-end
+end

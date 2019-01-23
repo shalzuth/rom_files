@@ -28,4 +28,4 @@ Table_ServerList_Atest = {
 }
 
 Table_ServerList_Atest_fields = { "id","name","type","serverid","state",}
-return Table_ServerList_Atest
+return Table_ServerList_Atest

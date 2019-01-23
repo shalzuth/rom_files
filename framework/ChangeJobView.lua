@@ -94,4 +94,4 @@ function ChangeJobView:CameraDisable(grp)
 			cameraPointManager:DisableGroup(grp[i])
 		end
 	end
-end
+end

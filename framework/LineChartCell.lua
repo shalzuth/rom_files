@@ -150,4 +150,4 @@ end
 
 function LineChartCell:ShowSelf(isShow)
 	self.gameObject:SetActive(isShow)
-end
+end

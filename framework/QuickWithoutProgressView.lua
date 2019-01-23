@@ -48,4 +48,4 @@ function QuickWithoutProgressView:StartLoadScene(note)
 end
 
 function QuickWithoutProgressView:Update(delta)
-end
+end

@@ -283,4 +283,4 @@ function ServiceConnProxy:GamePaused( note )
 	end
 end
 
-return ServiceConnProxy
+return ServiceConnProxy

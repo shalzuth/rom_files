@@ -42,4 +42,3 @@ function MiniMapData:DoDeconstruct(asArray)
 	end
 end
 -- override end
-

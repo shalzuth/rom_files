@@ -44,4 +44,3 @@ function RewardListViewCell:SetData(data)
 	self.itemName.text = itemStaticData.NameZh
 	self.count.text = "x " .. data.count
 end
-

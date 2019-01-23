@@ -223,4 +223,4 @@ Table_Npc_WW = {
 }
 
 Table_Npc_WW_fields = { "id","NameZh","DisableWait","DisablePlayshow","ShowName","Guild","GuildEmblem","MapIcon","NoShowMapIcon","AtlasOpt","Position","Type","Race","Nature","Shape","Body","Eye","EyeDefaultColor","Gender","BodyDefaultColor","LeftHand","RightHand","Hair","HeadDefaultColor","Head","Wing","Face","Tail","Mouth","Mount","VisitVocal","EndVocal","Icon","AdventureSort","AdventureValue","AdventureReward","Condition","Desc","Level","MoveSpdRate","SpawnSE","BirthTime","DefaultDialog","NpcFunction","RequireNpcFunction","FnIcon","FnDesc","IsVeer","move","AccessRange","Emoji","Action","NoShowIcon","NoAutoAttack","DefaultGear","Scale","LoadShowSize","LoadShowRotate","LoadShowPose","NeedRequireNpcFunction","Features",}
-return Table_Npc_WW
+return Table_Npc_WW

@@ -85,4 +85,4 @@ function SkyWheelSearchView:HandleClickSelect(cellctl)
 		self:sendNotification(SkyWheel.ChangeTarget , data)
 		self:CloseSelf()
 	end
-end
+end

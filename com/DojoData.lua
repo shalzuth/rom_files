@@ -28,4 +28,4 @@ function DojoData:GetLock()
 	end
 	
 	return DojoProxy.Instance:IsLockById(self.id)
-end
+end

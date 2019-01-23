@@ -64,4 +64,4 @@ Table_Equip_WW = {
 }
 
 Table_Equip_WW_fields = { "id","NameZh","VID","GroupID","HairID","SexEquip","CanEquip","Type","EquipType","CardSlot","SuitID","SuitRefineAttr","Effect","EffectAdd","FashionBuff","UniqueEffect","RefineEffect","RefineMaxlv","ForbidFuncBit","display","Model","Desc","SE_attack","SE_fire","SE_hit","ReplaceValues","SubstituteID","UpgradeID","DecomposeID","DecomposeNum","Body","PVPEffect","PVPUniqueEffect","RealShowModel","CanEquip","EquipCondition",}
-return Table_Equip_WW
+return Table_Equip_WW

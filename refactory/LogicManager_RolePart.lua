@@ -99,4 +99,4 @@ function LogicManager_RolePart:ObserverDestroyed(assetRole)
 		_DestroyRolePartArray(rolePartLogics)
 	end
 	self.logics[assetRole] = nil
-end
+end

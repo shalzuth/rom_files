@@ -53,4 +53,3 @@ function PortraitCell:SetData(data)
 	local isnew = RedTipProxy.Instance:IsNew(pbtype, data.id);
 	self.newtag:SetActive(isnew);
 end
-

@@ -130,4 +130,4 @@ function NPartner:Logic_PlayAction_Move()
 	local actionSpeed = moveActionScale * 1-- * fastForwardSpeed
 	self.assetRole:PlayAction_Simple(name, nil, actionSpeed)
 	return true
-end
+end

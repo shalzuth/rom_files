@@ -10,4 +10,4 @@ OfficialUrl = "http://party.xd.com/event/2017julc",}},
 }
 
 Table_OperationActivity_fields = { "id","Name","Type","Icon","Params",}
-return Table_OperationActivity
+return Table_OperationActivity

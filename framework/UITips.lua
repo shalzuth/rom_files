@@ -12,4 +12,4 @@ function UITips:SetString(value)
 	end
 end
 
-return UITips
+return UITips

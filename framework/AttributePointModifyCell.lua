@@ -237,4 +237,4 @@ function AttributePointModifyCell:SetData( data )
 	else
 		self:AddOrRemoveGuideId(self.plusBg.gameObject)
 	end
-end
+end

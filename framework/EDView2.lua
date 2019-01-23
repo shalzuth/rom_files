@@ -102,4 +102,4 @@ end
 function EDView2:OnExit()
 	EDView2.super.OnExit(self);
 	self:RemoveLeanTween();
-end
+end

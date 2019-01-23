@@ -34,4 +34,4 @@ end
 function ServiceTutorProxy:RecvTutorGrowRewardUpdateNtf(data)
 	TutorProxy.Instance:UpdateRewardState(data)
 	self:Notify(ServiceEvent.TutorTutorGrowRewardUpdateNtf, data)
-end
+end

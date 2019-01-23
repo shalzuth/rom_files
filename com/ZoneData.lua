@@ -30,4 +30,4 @@ function ZoneData:SetData(data)
 	self.status = data.status
 	self.type = data.type
 	self.maxbaselv = data.maxbaselv
-end
+end

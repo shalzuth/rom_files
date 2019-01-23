@@ -105,4 +105,3 @@ ServiceEvent.AuthorizeResetAuthorizeUserCmd = "ServiceEvent_AuthorizeResetAuthor
 ServiceEvent.AuthorizeSyncAuthorizeToSession = "ServiceEvent_AuthorizeSyncAuthorizeToSession"
 ServiceEvent.AuthorizeNotifyAuthorizeUserCmd = "ServiceEvent_AuthorizeNotifyAuthorizeUserCmd"
 ServiceEvent.AuthorizeSyncRealAuthorizeToSession = "ServiceEvent_AuthorizeSyncRealAuthorizeToSession"
-

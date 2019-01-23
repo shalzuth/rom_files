@@ -237,4 +237,4 @@ end
 
 function SkillSaveData:AutoSkillIsLocked(index)
 	return self.skillShortCut:AutoSkillIsLocked(index)
-end
+end

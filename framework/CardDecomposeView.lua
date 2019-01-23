@@ -295,4 +295,4 @@ function CardDecomposeView:HandleExchangeCardItem(note)
 			self:CloseSelf()
 		end
 	end
-end
+end

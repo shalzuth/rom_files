@@ -122,4 +122,4 @@ end
 
 function TutorFindTip:CloseSelf()
 	TipsView.Me():HideCurrent()
-end
+end

@@ -86,4 +86,4 @@ function ChristmasView:CloseView()
 	end
 
 	self:CloseSelf()
-end
+end

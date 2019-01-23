@@ -61,4 +61,3 @@ function HairDyePage:OnClickItem(cellctl)
 end
 
 
-

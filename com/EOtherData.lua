@@ -7,4 +7,4 @@ function EOtherData:ctor(serverData)
 	self.param2 = serverData.param2
 	self.param3 = serverData.param3 
 	self.param4 = serverData.param4 
-end
+end

@@ -58,4 +58,3 @@ function ClothDressingCell:SetData(data)
 		self:Show(self.empty);
 	end
 end
-

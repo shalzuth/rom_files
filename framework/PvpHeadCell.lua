@@ -18,4 +18,4 @@ function PvpHeadCell:SetData(data)
 		PvpHeadCell.super.SetData(self, data);
 		self.level.text = data.level;
 	end
-end
+end

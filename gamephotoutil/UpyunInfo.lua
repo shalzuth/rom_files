@@ -33,4 +33,4 @@ function UpyunInfo.GetVisitURL()
 		url = string.gsub(url, 'https', 'http')
 	end
 	return url
-end
+end

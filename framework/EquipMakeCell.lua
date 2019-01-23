@@ -37,4 +37,4 @@ end
 
 function EquipMakeCell:SetChoose(isChoose)
 	self.choose:SetActive(isChoose)
-end
+end

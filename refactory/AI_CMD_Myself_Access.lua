@@ -163,4 +163,4 @@ end
 
 function AI_CMD_Myself_Access.ToString()
 	return "AI_CMD_Myself_Access",AI_CMD_Myself_Access
-end
+end

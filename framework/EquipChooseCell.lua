@@ -119,4 +119,3 @@ function EquipChooseCell:CheckValid()
 		self.invalidTip.gameObject:SetActive(false);
 	end
 end
-

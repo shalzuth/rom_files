@@ -112,4 +112,4 @@ function TipLabelCell:RePosition()
 	else
 		self.table.repositionNow = true;
 	end
-end
+end

@@ -150,4 +150,4 @@ end
 function FunctionItemCompare:TryCompare()
 	local bag = BagProxy.Instance:GetMainBag()
 	self:CompareItems(bag:GetItems())
-end
+end

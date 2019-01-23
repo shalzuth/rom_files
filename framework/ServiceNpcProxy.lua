@@ -38,4 +38,4 @@ function ServiceNpcProxy:NpcChangeHp(data)
 	self:Notify(ServiceEvent.NpcChangeHp, data)
 end
 
-return ServiceNpcProxy
+return ServiceNpcProxy

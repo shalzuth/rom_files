@@ -89,4 +89,4 @@ function GuildChallengeTaskPopUp:OnExit()
 		TimeTickManager.Me():ClearTick(self)
 	end
 	RedTipProxy.Instance:SeenNew(SceneTip_pb.EREDSYS_GUILD_CHALLENGE_ADD or 41);
-end
+end

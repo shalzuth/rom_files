@@ -81,4 +81,3 @@ function ChristmasInviteView:SetInvite()
 		self.inviteLabel.effectColor = ColorUtil.NGUIGray
 	end
 end
-

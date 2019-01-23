@@ -60,4 +60,4 @@ function BarrageView:GetActiveHeight()
 		return uiRoot.activeHeight
 	end
 	return 0
-end
+end

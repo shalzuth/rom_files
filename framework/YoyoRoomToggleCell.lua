@@ -37,4 +37,3 @@ function YoyoRoomToggleCell:SetData(data)
 	end
 end
 
-

@@ -458,4 +458,3 @@ Table_MapRaid = {
 }
 Table_MapRaid_fields = { "id","NameZh","Type","CameraAdj","Boss","EndWait","Restrict",}
 return Table_MapRaid
-

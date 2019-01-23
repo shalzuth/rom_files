@@ -6,4 +6,3 @@ autoImport("PersonalPictureCell");
 function PersonalPicturCombineItemCell:Init()
 	self:InitCells(4, "PersonalPictureCell", PersonalPictureCell);
 end
-

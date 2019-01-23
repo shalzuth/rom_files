@@ -281,4 +281,3 @@ setmetatable(Table_Augury_2_4[116],{__index = Table_Augury_2_4[6]})
 setmetatable(Table_Augury_2_4[117],{__index = Table_Augury_2_4[6]})
 setmetatable(Table_Augury_2_4[128],{__index = Table_Augury_2_4[124]})
 return Table_Augury_2_4
-

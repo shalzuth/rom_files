@@ -65,4 +65,4 @@ function GuildHeadData:GetInfoId()
 	elseif(self.type == GuildHeadData_Type.Config)then
 		return self.id;
 	end
-end
+end

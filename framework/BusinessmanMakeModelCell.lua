@@ -91,4 +91,4 @@ function BusinessmanMakeModelCell:SetProductNum(data, times)
 	else
 		self.numLab.gameObject:SetActive(false)
 	end
-end
+end

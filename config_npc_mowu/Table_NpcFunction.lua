@@ -205,4 +205,3 @@ Table_NpcFunction = {
 }
 Table_NpcFunction_fields = { "id","NameZh","NameEn","Type","Parama",}
 return Table_NpcFunction
-

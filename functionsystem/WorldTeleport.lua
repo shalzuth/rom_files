@@ -770,4 +770,3 @@ function WorldTeleport:OnMyselfLeaveScene(event)
 	end
 end
 -- inner logic end
-

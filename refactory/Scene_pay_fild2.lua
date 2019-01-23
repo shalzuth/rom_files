@@ -722,4 +722,4 @@ local Scene_pay_fild2={
 		}
 	}
 }
-return Scene_pay_fild2
+return Scene_pay_fild2

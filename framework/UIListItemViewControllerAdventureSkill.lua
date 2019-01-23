@@ -114,4 +114,4 @@ function UIListItemViewControllerAdventureSkill:IsReachEnoughAdventureLevelForLe
 	requireAdventureLevel = requireAdventureLevel or 0
 	self.adventureLevelID = self.adventureLevelID or 0
 	return requireAdventureLevel <= self.adventureLevelID
-end
+end

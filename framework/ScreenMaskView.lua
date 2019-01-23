@@ -43,4 +43,4 @@ end
 
 function ScreenMaskView:FadeMask(fadeInTime,fadeOutTime,fadeInCallBack,fadeOutCallBack,color)
 	-- body
-end
+end

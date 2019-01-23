@@ -23,4 +23,3 @@ end
 function ServantRecommendItemData:isActiveOpen()
 	return (self:IsActive() and self.real_open==true)
 end
-

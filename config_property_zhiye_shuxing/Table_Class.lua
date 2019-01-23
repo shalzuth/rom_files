@@ -50,4 +50,3 @@ Table_Class = {
 }
 Table_Class_fields = { "id","NameZh","NameEn","MaleBody","FemaleBody","Desc","Skill","MaxJobLevel","MaxPeak","AdvancedOccupation","AdvanceClass","Type","TypeBranch","icon","InitialAttr","AddPointSolution","Explain","AdvancedTeacher","DamRandom","IsOpen","ActionSuffixMap","UnlockAttr",}
 return Table_Class
-

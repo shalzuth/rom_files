@@ -23,4 +23,4 @@ function SealMapCell:SetData(data)
 	else
 		self.multiSymbol.gameObject:SetActive(false);
 	end
-end
+end

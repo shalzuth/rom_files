@@ -125,4 +125,4 @@ end
 
 function SkillPrecondCheck:IsDirty()
 	return self.conditionCheck:IsDirty()
-end
+end

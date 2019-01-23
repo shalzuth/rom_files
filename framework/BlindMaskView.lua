@@ -98,4 +98,4 @@ function BlindMaskView:FollowMyself()
 		local screenPos = Camera.main:WorldToScreenPoint(self.ep.transform.position)
 		self:SetMaskPos(screenPos.x , screenPos.y )
 	end
-end
+end

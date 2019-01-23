@@ -625,4 +625,4 @@ function ProfessionSaveLoadView:ShowAttribute( )
 
 	self.propSecGrid:ResetDatas(showDatas)
 	self.propSecGridView:Reposition()
-end
+end

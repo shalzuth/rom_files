@@ -380,4 +380,4 @@ function ItemFloatTip:OnExit()
 	self.callbackParam = nil;
 	
 	return true;
-end
+end

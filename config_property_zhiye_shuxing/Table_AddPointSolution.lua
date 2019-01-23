@@ -65,4 +65,4 @@ Table_AddPointSolution = {
 }
 
 Table_AddPointSolution_fields = { "id","Title","AddPoint","Icon","Dsc","RecomandSkill","tips",}
-return Table_AddPointSolution
+return Table_AddPointSolution

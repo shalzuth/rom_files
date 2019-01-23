@@ -114,4 +114,3 @@ function GVGResultViewItem:LoadSetCustomPic(data)
 					is_through_personalphotocallback);
 end
 
-

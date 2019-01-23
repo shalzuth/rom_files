@@ -254,4 +254,4 @@ function UITableListCtrl:GetTablePos()
 	else
 		self.lastTablePos = y
 	end
-end
+end

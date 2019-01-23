@@ -5211,4 +5211,3 @@ GameConfig.KFCItems = {
 }
 
 GameConfig.OpenVoice = false  --语音屏蔽配置,true为屏蔽/false为不屏蔽
-

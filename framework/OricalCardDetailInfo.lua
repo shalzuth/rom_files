@@ -60,4 +60,3 @@ function OricalCardDetailInfo:Unload_OldIconPic()
 	end
 	self.oldCardPic = nil;
 end
-

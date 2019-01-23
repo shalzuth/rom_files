@@ -789,4 +789,3 @@ ServiceEvent.SessionTeamUpdateHelpWantedTeamCmd = "ServiceEvent_SessionTeamUpdat
 ServiceEvent.SessionTeamQueryHelpWantedTeamCmd = "ServiceEvent_SessionTeamQueryHelpWantedTeamCmd"
 ServiceEvent.SessionTeamQueryMemberCatTeamCmd = "ServiceEvent_SessionTeamQueryMemberCatTeamCmd"
 ServiceEvent.SessionTeamMemberCatUpdateTeam = "ServiceEvent_SessionTeamMemberCatUpdateTeam"
-

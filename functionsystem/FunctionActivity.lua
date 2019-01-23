@@ -376,4 +376,3 @@ function FunctionActivity:PlayCountDownEffect(id, leftSec, effectPath, finalEffe
 	FloatingPanel.Instance:PlayMidEffect(effectPath, callBack);
 end
 ------------ CountDown Msg End ------------
-

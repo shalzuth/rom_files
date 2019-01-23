@@ -19,4 +19,4 @@ end
 
 function CommonDatas:Remove(id)
 	self[id] = nil
-end
+end

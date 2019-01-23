@@ -119,4 +119,4 @@ function IOPathConfig.Init(userGuid,server,roleID)
 	IOPathConfig.Datas.Extension.ScenicSpotPhotoRolesThumbnail = {LRUCount = 500}
 end
 
-return IOPathConfig
+return IOPathConfig

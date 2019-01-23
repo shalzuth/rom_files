@@ -260,4 +260,3 @@ end
 function MainViewItemPage:ShowItemGrid(note)
 	self.grid.gameObject:SetActive(true);
 end
-

@@ -54,4 +54,4 @@ end
 
 function EquipUpgradeMaterialTipCell:SetUpgradeEquipId(upgrade_equipid)
 	self.upgrade_equipid = upgrade_equipid;
-end
+end

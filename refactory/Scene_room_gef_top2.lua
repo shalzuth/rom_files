@@ -161,4 +161,4 @@ local Scene_room_gef_top2={
 		}
 	}
 }
-return Scene_room_gef_top2
+return Scene_room_gef_top2

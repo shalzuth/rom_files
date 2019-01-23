@@ -16,4 +16,4 @@ function ShopMallExchangeTypesData:SetData(data)
 	if data.RefineOption then
 		self.refineOption = data.RefineOption
 	end
-end
+end

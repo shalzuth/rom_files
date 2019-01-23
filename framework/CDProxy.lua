@@ -176,4 +176,4 @@ end
 
 function CdData:GetCdMax()
 	return self.cdMax or 1
-end
+end

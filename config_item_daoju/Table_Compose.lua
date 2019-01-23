@@ -961,4 +961,3 @@ Table_Compose = {
 }
 Table_Compose_fields = { "id","ROB","Diamond","BeCostItem","FailStayItem","DynamicRate","Product","GreatProduct","RandomProduct","FemaleRandomProduct","Type","NpcId","Category","MenuID","MenuDes","IsTop",}
 return Table_Compose
-

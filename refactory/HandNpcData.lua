@@ -50,4 +50,4 @@ end
 
 function HandNpcData:GetName()
 	return self.name
-end
+end

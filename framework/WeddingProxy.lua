@@ -475,4 +475,4 @@ function WeddingProxy:IsHandPartner()
 		followId = Game.Myself:Client_GetFollowLeaderID();
 	end
 	return followId == partnerId;
-end
+end

@@ -108,4 +108,4 @@ function AuctionEventData:DoDeconstruct(asArray)
 	self.timeString = nil
 	self.content = nil
 end
--- override end
+-- override end

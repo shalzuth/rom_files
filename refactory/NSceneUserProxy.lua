@@ -216,4 +216,4 @@ function NSceneUserProxy:HandleRemoveScenicBuffs(guids)
 		-- self:RemoveScenicBuff(guids[i])
 		FunctionScenicSpot.Me():RemoveCreatureScenicSpot(guids[i])
 	end	
-end
+end

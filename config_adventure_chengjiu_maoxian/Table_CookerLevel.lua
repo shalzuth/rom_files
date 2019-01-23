@@ -13,4 +13,4 @@ Table_CookerLevel = {
 }
 
 Table_CookerLevel_fields = { "id","NeedExp","RewardBagSlot","SuccessRate","Title","Book","Recipe",}
-return Table_CookerLevel
+return Table_CookerLevel

@@ -43,4 +43,4 @@ Table_StageParts = {
 }
 
 Table_StageParts_fields = { "id","NameZh","NameEn","ModelDir","ModelName","Texture","Anime","Stage","CP",}
-return Table_StageParts
+return Table_StageParts

@@ -126,4 +126,4 @@ end
 
 function CardCell:HideAttri()
 	self.attriBord:SetActive(false);
-end
+end

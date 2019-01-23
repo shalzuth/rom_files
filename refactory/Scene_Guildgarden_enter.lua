@@ -129,4 +129,4 @@ local Scene_Guildgarden_enter={
 		}
 	}
 }
-return Scene_Guildgarden_enter
+return Scene_Guildgarden_enter

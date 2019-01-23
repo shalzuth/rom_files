@@ -76,4 +76,4 @@ end
 
 function TutorMatcherCell:UpdataStatus(status)
 	self.confirm:SetActive(status)
-end
+end

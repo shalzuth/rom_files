@@ -82,4 +82,3 @@ ServiceEvent = _G["ServiceEvent"] or {}
 ServiceEvent.SceneTipGameTipCmd = "ServiceEvent_SceneTipGameTipCmd"
 ServiceEvent.SceneTipBrowseRedTipCmd = "ServiceEvent_SceneTipBrowseRedTipCmd"
 ServiceEvent.SceneTipAddRedTip = "ServiceEvent_SceneTipAddRedTip"
-

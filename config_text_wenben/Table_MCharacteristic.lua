@@ -21,4 +21,4 @@ Table_MCharacteristic = {
 }
 
 Table_MCharacteristic_fields = { "id","NameZh","Desc","show",}
-return Table_MCharacteristic
+return Table_MCharacteristic

@@ -15,4 +15,4 @@ Table_StudentAdventureQuest = {
 }
 
 Table_StudentAdventureQuest_fields = { "id","Traceinfo","Target","TeacherReward","StudentReward",}
-return Table_StudentAdventureQuest
+return Table_StudentAdventureQuest

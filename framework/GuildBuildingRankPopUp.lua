@@ -68,4 +68,3 @@ function GuildBuildingRankPopUp:UpdateUI()
 		self.emptyTip.gameObject:SetActive(true)
 	end
 end
-

@@ -167,4 +167,3 @@ end
 function WorldMapProxy:GetWorldQuestInfo(mapid)
 	return self.worldQuestMap[mapid];
 end
-

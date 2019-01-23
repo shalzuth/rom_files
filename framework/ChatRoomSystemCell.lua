@@ -76,4 +76,4 @@ function ChatRoomSystemCell:SetData(data)
 
 		self.SystemMessage.text = contents
 	end
-end
+end

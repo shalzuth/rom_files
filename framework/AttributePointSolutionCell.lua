@@ -89,4 +89,4 @@ function AttributePointSolutionCell:SetData( data )
 		errorLog("Cannot Find solutionData in Table_AddPointSolution. solution  Id is "..tostring(data));
 		print("Cannot Find solutionData in Table_AddPointSolution. solution  Id is "..tostring(data))
 	end
-end
+end

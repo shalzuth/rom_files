@@ -85,4 +85,4 @@ function Dialog_MenuData:Set_ByOption(option)
 	self.menuType = Dialog_MenuData_Type.Option;
 	self.name = option.text;
 	self.optionid = option.id;
-end
+end

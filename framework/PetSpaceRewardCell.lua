@@ -39,4 +39,3 @@ function PetSpaceRewardCell:OpenTip()
 		TipsView.Me():ShowGeneralHelp(desc)
 	end
 end
-

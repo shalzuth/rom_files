@@ -401,4 +401,4 @@ end
 
 function MainViewChatMsgPage:ExitGuild()
 	self.guildSpeech.gameObject:SetActive(false)
-end
+end

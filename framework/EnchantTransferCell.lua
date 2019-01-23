@@ -92,4 +92,3 @@ function EnchantTransferCell:SetAttr()
 		self:Hide(self.attrLab)
 	end
 end
-

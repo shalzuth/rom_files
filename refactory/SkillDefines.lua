@@ -43,4 +43,4 @@ SkillSuperUse = {
 	Freeze = 4,
 	FearRun = 8,
 	NoAttack = 16,
-}
+}

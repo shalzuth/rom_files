@@ -18,4 +18,4 @@ function DotCell:SetChoose(isChoose)
 	else
 		self.dotSp.color = DotNormal
 	end
-end
+end

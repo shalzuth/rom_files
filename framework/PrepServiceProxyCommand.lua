@@ -116,4 +116,3 @@ function PrepServiceProxyCommand:execute(noti)
 	-- todo xde
 	GameFacade.Instance:registerProxy(ServiceOverseasTaiwanCmdProxy.new())
 end
-

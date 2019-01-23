@@ -776,4 +776,4 @@ function ItemTipModelCell:OnExit()
 	end
 	self.attriCtl:ResetDatas()
 	UIModelUtil.Instance:ResetTexture( self.itemmodeltexture )
-end
+end

@@ -11,4 +11,3 @@ function ServiceSocialCmdProxy:ctor(proxyName)
 		ServiceSocialCmdProxy.Instance = self
 	end
 end
-

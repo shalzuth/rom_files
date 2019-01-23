@@ -222,4 +222,4 @@ function GuideMaskView:excuteGuide(  )
 		FunctionGuide.Me():showGuideByQuestData(self.delayQuestData)
 		self.delayQuestData = nil
 	end
-end
+end

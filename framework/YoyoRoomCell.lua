@@ -45,4 +45,3 @@ function YoyoRoomCell:SetData(data)
 		end
 	end
 end
-

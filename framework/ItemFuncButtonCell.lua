@@ -22,4 +22,4 @@ function ItemFuncButtonCell:SetData(data)
 			self.label.text = tostring(data.name)
 		end
 	end
-end
+end

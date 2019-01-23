@@ -19,4 +19,4 @@ Table_ED_Story = {
 }
 
 Table_ED_Story_fields = { "id","Chapter","Text","FadeinTime","StayTime","FadeOutTime",}
-return Table_ED_Story
+return Table_ED_Story

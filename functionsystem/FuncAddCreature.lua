@@ -96,4 +96,4 @@ function FuncAddCreature:HandleHandInHand(master,followerIDs)
 			followerIDs[k] = nil
 		end
 	end
-end
+end

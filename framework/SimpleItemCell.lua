@@ -19,4 +19,4 @@ function SimpleItemCell:SetData(data)
 			setSuc = IconManager:SetItemIcon("item_45001", self.icon)
 		end
 	end
-end
+end

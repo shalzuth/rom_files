@@ -208,4 +208,3 @@ function Astrolabe_PlateCell:OnDestroy()
 	self.plate = nil;
 	self.bordData = nil;
 end
-

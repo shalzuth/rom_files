@@ -48,4 +48,4 @@ end
 function PresetTextCell:TextInputOnSubmit()
 	self.data:SetMsg(self.textInput.value)
 	ChatRoomProxy.Instance.isEditorPresetText=true
-end
+end

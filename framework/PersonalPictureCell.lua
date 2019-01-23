@@ -232,4 +232,4 @@ end
 function PersonalPictureCell:OnExit(  )
 	-- body
 	self.super.OnExit(self)
-end
+end

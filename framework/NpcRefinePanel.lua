@@ -367,4 +367,4 @@ function NpcRefinePanel:OnExit()
 	self:RemoveLeanTween();
 
 	self:CameraReset()
-end
+end

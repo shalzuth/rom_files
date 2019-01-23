@@ -416,4 +416,4 @@ end
 
 function UnionLogo:GetPhotoID(union_id, pos_index)
 	return union_id .. '_' .. pos_index
-end
+end

@@ -22,4 +22,4 @@ function GoldAppleTipCell:Active(b)
 	else
 		self.symbol.color = ColorUtil.NGUIShaderGray
 	end
-end
+end

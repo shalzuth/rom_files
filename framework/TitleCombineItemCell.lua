@@ -47,4 +47,3 @@ function TitleCombineItemCell:UpdateInfo()
 		cell:SetData(cData)
 	end
 end
-

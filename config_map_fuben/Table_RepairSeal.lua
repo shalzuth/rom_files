@@ -22,4 +22,4 @@ Table_RepairSeal = {
 }
 
 Table_RepairSeal_fields = { "id","MapID","TeamGoal","Map","Text","DisplayProps","reward",}
-return Table_RepairSeal
+return Table_RepairSeal

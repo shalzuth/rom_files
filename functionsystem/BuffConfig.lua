@@ -8,4 +8,4 @@ BuffConfig = {
 
 	--buff type
 	changeskill = "changeskill",
-}
+}

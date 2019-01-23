@@ -89,4 +89,3 @@ function ServiceQuestProxy:CallQueryManualQuestCmd(version, manual)
 	self:SendProto(msg)
 end
 
-

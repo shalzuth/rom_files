@@ -408,4 +408,4 @@ function Buff:OnObserverDestroyed(k, obj)
 		self:_DestroyAroundEffects()
 	end
 end
--- override end
+-- override end

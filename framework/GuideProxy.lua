@@ -37,4 +37,3 @@ function GuideProxy:getGuideListeners(  )
 	-- body
 	return self.eventList
 end
-

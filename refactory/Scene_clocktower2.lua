@@ -2463,4 +2463,4 @@ local Scene_clocktower2={
 		}
 	}
 }
-return Scene_clocktower2
+return Scene_clocktower2

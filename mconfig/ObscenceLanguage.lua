@@ -1682,4 +1682,3 @@ ObscenceLanguage.Chat = {
 ObscenceLanguage.NameExclude = { " ", "！", "%%",  "/", "*", "#", ",", ":", ";",  "。", "(", ")", "&", "$", "\"", "\'", "!", "@", "|","\n"}
 ObscenceLanguage.Name = {
 }
-

@@ -56,4 +56,4 @@ function ObserverList:RemoveDirty()
 		end
 	end
 	self.dirtyRemoves = nil;
-end
+end

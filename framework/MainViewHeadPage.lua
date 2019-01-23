@@ -381,4 +381,3 @@ function MainViewHeadPage:OnExit()
 	MainViewHeadPage.super.OnExit(self);
 end
 
-

@@ -69,4 +69,4 @@ end
 
 function FriendBaseCell:OnDestroy() 
 	TimeTickManager.Me():ClearTick(self)
-end
+end

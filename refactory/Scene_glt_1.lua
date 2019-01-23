@@ -1218,4 +1218,4 @@ local Scene_glt_1={
 		}
 	}
 }
-return Scene_glt_1
+return Scene_glt_1

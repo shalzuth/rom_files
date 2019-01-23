@@ -247,4 +247,4 @@ function MissionCommandVisitNpc:DoDeconstruct(asArray)
 	end
 	args.custom = nil
 	args.customDeleter = nil
-end
+end

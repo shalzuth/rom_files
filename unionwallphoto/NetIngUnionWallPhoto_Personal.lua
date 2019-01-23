@@ -120,4 +120,4 @@ end
 
 function NetIngUnionWallPhoto_Personal:CheckExist(role_id, pos_index, exist_callback, error_callback, extension)
 	NetIngPersonalPhoto.Ins():CheckExist(role_id, pos_index, exist_callback, error_callback, extension)
-end
+end

@@ -76,4 +76,4 @@ function FunctionTextureScale:DoScale(texture2D, coefficient, complete_callback)
 		table.remove(self.queueWillScale, 1)
 		self.nextFlag = true
 	end, _camera)
-end
+end

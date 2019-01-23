@@ -236,4 +236,4 @@ function BoothResellInfoCell:GetOffsetQuota()
 		end
 		return offsetQuota
 	end
-end
+end

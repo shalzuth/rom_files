@@ -31,4 +31,4 @@ function ExchangeRecordDetailCell:SetData(data)
 			end
 		end
 	end
-end
+end

@@ -35,4 +35,4 @@ function GuildApplyCell:SetData(data)
 		self.name.text = data.name;
 		self.lv.text = string.format("Lv.%s", data.baselevel);	
 	end
-end
+end

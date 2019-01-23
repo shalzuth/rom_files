@@ -210,4 +210,4 @@ end
 
 function SceneFilterNodeData:RemoveRange(rangeType)
 	return self:Remove(self.rangeCount,rangeType)
-end
+end

@@ -17,4 +17,3 @@ function AchievementChangeProCell:SetData(data)
 	local name = data.name
 	self.content.text = string.format(ZhString.AdventureAchievePage_ChangeProfessionInfo,time,name)
 end
-

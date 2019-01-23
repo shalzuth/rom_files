@@ -96,4 +96,4 @@ function AppStorePurchase:ClearCallbackAppStorePurchase()
 	FunctionXDSDK.Ins:SetCallbackAppStorePurchase(nil)
 end
 
--- test
+-- test

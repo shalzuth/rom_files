@@ -266,4 +266,4 @@ function AdventureItemNormalListPage:OnExit()
 	TimeTickManager.Me():ClearTick(self)
 	self.sceneList:OnExit()
 	self.normalList:OnExit()
-end
+end

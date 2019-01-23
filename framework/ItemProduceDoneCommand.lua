@@ -111,4 +111,4 @@ function ItemProduceDoneCommand:PlayEquipProduceDoneAnim(npcguid, itemid, player
 			MsgManager.ShowMsgByIDTable(6, params)
 		end
 	end
-end
+end

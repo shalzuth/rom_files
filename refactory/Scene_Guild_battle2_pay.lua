@@ -758,4 +758,4 @@ local Scene_Guild_battle2_pay={
 		}
 	}
 }
-return Scene_Guild_battle2_pay
+return Scene_Guild_battle2_pay

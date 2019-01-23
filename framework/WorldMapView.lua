@@ -41,4 +41,4 @@ end
 function WorldMapView:OnHide()
 	local gOManager_Camera = Game.GameObjectManagers[Game.GameObjectType.Camera];
 	gOManager_Camera:ActiveMainCamera(true);
-end
+end

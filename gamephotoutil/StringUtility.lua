@@ -10,4 +10,4 @@ function StringUtility.Split(str, character)
 		end
 	)
 	return retValue
-end
+end

@@ -12,4 +12,4 @@ function AgreementPanel:Init()
 	self.title.text = ZhString.StartGamePanel_AgreetmentTitle
 	self.buttonlab.text = ZhString.ServiceErrorUserCmdProxy_Confirm
 	self.text.text = ZhString.StartGamePanel_AgreetmentContent
-end
+end

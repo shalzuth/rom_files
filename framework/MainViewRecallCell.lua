@@ -7,4 +7,4 @@ end
 
 function MainViewRecallCell:SetData(data)
 	
-end
+end

@@ -24,4 +24,3 @@ function BagCombineItemCell:TestInfo()
 		end
 	end
 end
-

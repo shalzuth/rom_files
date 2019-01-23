@@ -56,4 +56,3 @@ Table_RolePartLogic = {
 }
 Table_RolePartLogic_fields = { "id","Logic","Params",}
 return Table_RolePartLogic
-

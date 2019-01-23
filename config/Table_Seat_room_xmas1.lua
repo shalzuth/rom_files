@@ -7,4 +7,4 @@ Table_Seat_room_xmas1 = {
 }
 
 Table_Seat_room_xmas1_fields = { "id","StandPot","SeatPot","Dir",}
-return Table_Seat_room_xmas1
+return Table_Seat_room_xmas1

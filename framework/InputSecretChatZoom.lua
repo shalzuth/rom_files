@@ -54,4 +54,4 @@ function InputSecretChatZoom:OnReceiveEventTransmitChatZoomSummary(message)
 		str = string.sub(str, 1, 21) .. ".."
 	end
 	self.labTitle.text = str-- .. "(" .. chatZoomSummary.curnum .. "/" .. chatZoomSummary.maxnum .. ")"
-end
+end

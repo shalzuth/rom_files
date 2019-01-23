@@ -5,4 +5,4 @@ BubbleID = {
 	MapQuestId = 10,
 	MapQuestGuideId1 = 15,
 	MapQuestGuideId2 = 17,
-}
+}

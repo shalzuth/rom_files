@@ -44,4 +44,4 @@ function SubMediatorView:handleNotification(note)
 			evt(self,note)
 		end
 	end
-end
+end

@@ -151,4 +151,3 @@ end
 -- function TutorMatchView:CloseSelf()
 -- 	self:ScaleDown()
 -- end
-

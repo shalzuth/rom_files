@@ -68,4 +68,4 @@ function FunctionSystemManager:LateUpdate(time, deltaTime)
 	self.logicManager:LateUpdate(time, deltaTime)
 	-- self.creatureUIManager:LateUpdate(time, deltaTime)
 	self.mapManager:LateUpdate(time, deltaTime)
-end
+end

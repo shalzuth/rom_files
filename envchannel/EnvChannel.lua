@@ -84,4 +84,3 @@ function EnvChannel.GetHttpOperationJson()
 	end
 	return EnvChannel.httpOptJson
 end
-

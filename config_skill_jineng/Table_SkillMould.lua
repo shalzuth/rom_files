@@ -318,4 +318,3 @@ Table_SkillMould = {
 }
 Table_SkillMould_fields = { "id","Pos","Atktype",}
 return Table_SkillMould
-

@@ -38,4 +38,4 @@ function SubStageData:DebugLog(needPrint)
 	-- local str = string.format("{%s},状态:%s,星数:%s",self.id,self.state,self.star)
 	-- if(needPrint) then print(str) end
 	return "str"
-end
+end

@@ -59,4 +59,4 @@ end
 
 function TimeTick:Destroy()
 	self:ClearTick()
-end
+end

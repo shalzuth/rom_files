@@ -300,4 +300,4 @@ function TempPersonalPicturePanel:refreshLRIndicator()
 			self:Hide(self.rightIndicator)
 		end
 	end
-end
+end

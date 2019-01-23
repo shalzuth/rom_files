@@ -117,4 +117,3 @@ function GuildAssetPage:OnExit()
 	TipsView.Me():HideCurrent();
 	GuildAssetPage.super.OnExit(self);
 end
-

@@ -146,4 +146,4 @@ end
 
 function ExchangeLogData:GetTotalQuota()
 	return self.quotaCost * self.count
-end
+end

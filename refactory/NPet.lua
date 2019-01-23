@@ -156,4 +156,4 @@ end
 function NPet:DoDeconstruct(asArray)
 	NPet.super.DoDeconstruct(self,asArray)
 end
--- override end
+-- override end

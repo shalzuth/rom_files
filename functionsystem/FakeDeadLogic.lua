@@ -83,4 +83,4 @@ function FakeDeadLogic:_SetOn(condition,on)
 			self.on = self.on - condition
 		end
 	end
-end
+end

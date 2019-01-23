@@ -904,4 +904,4 @@ function ProfessionPage:OnExit()
 	self.super.OnExit(self)
 	TimeTickManager.Me():ClearTick(self)
 	PictureManager.Instance:UnLoadUI(self.npcTextureName,self.mentor)
-end
+end

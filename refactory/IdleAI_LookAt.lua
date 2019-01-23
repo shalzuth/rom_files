@@ -42,4 +42,4 @@ end
 
 function IdleAI_LookAt:Update(idleElapsed, time, deltaTime, creature)
 	return false
-end
+end

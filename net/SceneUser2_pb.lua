@@ -10734,4 +10734,3 @@ VisibleNpc = protobuf.Message(VISIBLENPC)
 YoyoSeatUserCmd = protobuf.Message(YOYOSEATUSERCMD)
 ZoneInfo = protobuf.Message(ZONEINFO)
 
-

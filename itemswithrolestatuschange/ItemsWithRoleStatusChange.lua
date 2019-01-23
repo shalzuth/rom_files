@@ -259,4 +259,4 @@ function ItemsWithRoleStatusChange:_RemoveData(map, data)
 		end
 		map[data] = result
 	end
-end
+end

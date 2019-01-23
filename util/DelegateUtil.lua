@@ -30,4 +30,4 @@ function DelegateUtil:ClearDelegate(owner, delegateClearer)
 		return true
 	end
 	return false
-end
+end

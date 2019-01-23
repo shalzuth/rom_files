@@ -347,4 +347,4 @@ local Scene_lava_boss={
 		}
 	}
 }
-return Scene_lava_boss
+return Scene_lava_boss

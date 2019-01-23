@@ -38,4 +38,4 @@ function CommonFunHelper.GetBuffLayer(userid,buffid)
 		return creature:GetBuffLayer(buffid)
 	end
 	return 0
-end
+end

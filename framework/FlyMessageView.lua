@@ -273,4 +273,4 @@ end
 
 function FlyMessageView:OnExit()
 	self:CancelListenEvent()
-end
+end

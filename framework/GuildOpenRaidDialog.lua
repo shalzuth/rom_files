@@ -247,4 +247,3 @@ function GuildOpenRaidDialog:OnExit()
 	self:CameraReset();
 end
 
-

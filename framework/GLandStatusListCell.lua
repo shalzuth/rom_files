@@ -91,4 +91,4 @@ function GLandStatusListCell:SetGuildHeadIcon()
 
 	self.neutralSymbol:SetActive(false);
 	self.headCell:SetData(self:GetMyGuildHeadData());
-end
+end

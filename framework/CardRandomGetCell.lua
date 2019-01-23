@@ -14,4 +14,4 @@ function CardRandomGetCell:SetData(data)
 	CardRandomGetCell.super.SetData(self, data)
 
 	self.data = data
-end
+end

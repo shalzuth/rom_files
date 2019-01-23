@@ -38,4 +38,4 @@ end
 
 function GeneralHelp:CloseSelf()
 	TipsView.Me():HideCurrent()
-end
+end

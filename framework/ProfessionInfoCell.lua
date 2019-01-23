@@ -49,4 +49,4 @@ function ProfessionInfoCell:SetData( data )
 		self.Color.color = ColorUtil[colorKey];;
 		self.expContainer.value = data.exp/referenceValue;
 	end
-end
+end

@@ -16,4 +16,4 @@ Table_Branch = {
 }
 
 Table_Branch_fields = { "id","brother_list","base_id","profession_list","remove_task_list","peak_task","job_skill_list","item","task_profession","peak_profession",}
-return Table_Branch
+return Table_Branch

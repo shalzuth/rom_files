@@ -42,4 +42,4 @@ end
 
 function LStateMachine:Exit()
 	self:Reset()
-end
+end

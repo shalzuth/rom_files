@@ -11,4 +11,3 @@ function GOManager_WeddingPhotoFrame:OnClick(obj)
 	end
 end
 
-

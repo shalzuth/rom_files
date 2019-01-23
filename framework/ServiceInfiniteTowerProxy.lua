@@ -31,4 +31,4 @@ function ServiceInfiniteTowerAutoProxy:RecvTowerLayerSyncTowerCmd(data)
 	EndlessTowerProxy.Instance:RecvTowerLayerSyncTowerCmd(data)
 	FunctionTeam.Me():ChangeEndlessTowerGoal();
 	self:Notify(ServiceEvent.InfiniteTowerTowerLayerSyncTowerCmd, data)
-end
+end

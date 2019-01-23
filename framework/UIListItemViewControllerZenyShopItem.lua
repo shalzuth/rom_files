@@ -706,4 +706,4 @@ end
 
 function UIListItemViewControllerZenyShopItem:SetZenyIconRoot(trans)
 	self.zenyIconRoot = trans
-end
+end

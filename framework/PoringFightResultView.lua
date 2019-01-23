@@ -124,4 +124,4 @@ function PoringFightResultView:OnExit()
 	self.confirmCall = nil;
 	self.confirmCallParam = nil;
 	self.confirButtonData = nil;
-end
+end

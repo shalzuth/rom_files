@@ -83,4 +83,4 @@ function SpringActivityView:CloseView()
 	end
 
 	self:CloseSelf()
-end
+end

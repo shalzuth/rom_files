@@ -262,4 +262,3 @@ function IdleAI_DoubleAction:_StopMove(creature, masterCreature, forceStop)
 		self.targetPosition = nil
 	end
 end
-

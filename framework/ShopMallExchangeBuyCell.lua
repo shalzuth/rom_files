@@ -320,4 +320,4 @@ end
 
 function ShopMallExchangeBuyCell:CanExpress()
 	return self.canExpress, self.isQuotaEnough
-end
+end

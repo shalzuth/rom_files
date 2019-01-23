@@ -514,4 +514,4 @@ function LotteryView:InitRecover()
 			recoverTitle.text = string.format(ZhString.Lottery_RecoverTitle, ticket.NameZh)
 		end
 	end
-end
+end

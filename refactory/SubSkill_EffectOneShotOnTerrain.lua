@@ -66,4 +66,4 @@ function SelfClass:DoDeconstruct(asArray)
 end
 -- override end
 
-return SelfClass
+return SelfClass

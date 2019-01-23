@@ -1514,4 +1514,4 @@ function Asset_Role:DoDeconstruct(asArray)
 
 	self.suffixReplace = nil
 end
--- override end
+-- override end

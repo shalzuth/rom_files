@@ -310,4 +310,3 @@ ServiceEvent.SkillTriggerSkillNpcSkillCmd = "ServiceEvent_SkillTriggerSkillNpcSk
 ServiceEvent.SkillSkillOptionSkillCmd = "ServiceEvent_SkillSkillOptionSkillCmd"
 ServiceEvent.SkillDynamicSkillCmd = "ServiceEvent_SkillDynamicSkillCmd"
 ServiceEvent.SkillUpdateDynamicSkillCmd = "ServiceEvent_SkillUpdateDynamicSkillCmd"
-

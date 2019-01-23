@@ -19,4 +19,3 @@ function AdventureFoodBufferCell:SetData( data )
 		self.text.text = "[c][1F74BF]"..data.propVO.displayName..data:ValueToString().."[-][/c]"
 	end
 end
-

@@ -105,4 +105,4 @@ local Scene_room_prt_church={
 		}
 	}
 }
-return Scene_room_prt_church
+return Scene_room_prt_church

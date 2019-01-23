@@ -780,4 +780,3 @@ function SkillLogic_Base.Client_DoDeterminTargets(self, creature, creatureArray,
 	return 0
 end
 -- for client end
-

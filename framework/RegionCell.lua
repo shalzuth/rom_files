@@ -52,4 +52,3 @@ function RegionCell:SetData(data)
 	self.name.text = data.name
 	-- self:initData()
 end
-

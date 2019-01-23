@@ -124,4 +124,4 @@ function DojoResultPopUp:OnExit()
 	end
 	DojoResultPopUp.super.OnExit(self)
 	self:CameraReset()
-end
+end

@@ -10,4 +10,4 @@ end
 
 function ExchangeClassifyData:SetIsPublicity(isPublicity)
 	self.isPublicity = isPublicity
-end
+end

@@ -363,4 +363,4 @@ end
 -- 	-- body
 -- 	self:log("OriginPhotoUploadErrorCallback",index, time,errorMessage)
 -- 	GameFacade.Instance:sendNotification(GuildPictureManager.OriginPhotoUploadErrorCallback,{index = index,time = time})
--- end
+-- end

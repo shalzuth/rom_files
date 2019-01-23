@@ -1013,4 +1013,3 @@ ServiceEvent.ChatCmdLoveLetterNtf = "ServiceEvent_ChatCmdLoveLetterNtf"
 ServiceEvent.ChatCmdChatSelfNtf = "ServiceEvent_ChatCmdChatSelfNtf"
 ServiceEvent.ChatCmdNpcChatNtf = "ServiceEvent_ChatCmdNpcChatNtf"
 ServiceEvent.ChatCmdQueryRealtimeVoiceIDCmd = "ServiceEvent_ChatCmdQueryRealtimeVoiceIDCmd"
-

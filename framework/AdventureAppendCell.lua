@@ -28,4 +28,3 @@ function AdventureAppendCell:SetData( data )
 	local height = (bound.size.y)+120
 	self.bg.height = height
 end
-

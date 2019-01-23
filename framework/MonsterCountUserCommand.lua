@@ -9,4 +9,4 @@ function MonsterCountUserCommand:execute(note)
 			EventManager.Me():DispatchEvent(SystemMsgEvent.RaidRemove)
 		end
 	end
-end
+end

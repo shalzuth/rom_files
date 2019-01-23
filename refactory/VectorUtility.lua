@@ -161,4 +161,4 @@ function VectorUtility.Better_Add_XYZ(a,x,y,z,t)
 	t[1] = a[1]+x
 	t[2] = a[2]+y
 	t[3] = a[3]+z
-end
+end

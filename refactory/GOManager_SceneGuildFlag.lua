@@ -110,4 +110,3 @@ function GOManager_SceneGuildFlag:UnregisterGameObject(obj)
 
 	return true
 end
-

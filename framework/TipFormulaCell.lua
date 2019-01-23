@@ -18,4 +18,3 @@ function TipFormulaCell:SetData(data)
 		self.table.repositionNow = true;
 	end
 end
-

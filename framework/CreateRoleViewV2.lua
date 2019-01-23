@@ -1244,4 +1244,4 @@ function CreateRoleViewV2:OnClickForButtonBackLogin()
 	Game.Me():BackToLogo()
 end
 
-return CreateRoleViewV2
+return CreateRoleViewV2

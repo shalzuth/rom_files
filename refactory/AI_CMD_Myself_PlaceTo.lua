@@ -21,4 +21,4 @@ end
 
 function AI_CMD_Myself_PlaceTo.ToString()
 	return "AI_CMD_Myself_PlaceTo",AI_CMD_Myself_PlaceTo
-end
+end

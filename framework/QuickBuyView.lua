@@ -190,4 +190,4 @@ function QuickBuyView:ReUniteCellData(datas, perRowNum)
 		end
 	end
 	return newData;
-end
+end

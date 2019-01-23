@@ -569,4 +569,4 @@ function PictureDetailPanel:IsShowRemoveBtn(isShow)
 	else
 		self:Hide(self.RemoveCt)
 	end
-end
+end

@@ -1650,4 +1650,3 @@ ServerTimeUserCmd = protobuf.Message(SERVERTIMEUSERCMD)
 SnapShotUserCmd = protobuf.Message(SNAPSHOTUSERCMD)
 SyncAuthorizeGateCmd = protobuf.Message(SYNCAUTHORIZEGATECMD)
 
-

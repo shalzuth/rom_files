@@ -58,4 +58,4 @@ function PropsContainer:GetValueByName( name )
 		return 0
 	end
 	return p:GetValue()
-end
+end

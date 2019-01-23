@@ -63,4 +63,4 @@ function ValentineView:CloseView()
 	else
 		self:UpdateView()
 	end
-end
+end

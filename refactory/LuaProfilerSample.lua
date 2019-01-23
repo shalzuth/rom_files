@@ -44,4 +44,4 @@ function LuaProfilerSample:Stop()
 	if self.usedMemory < 0 then
 		LogUtility.Info("MemError!!!     "..tostring(self))
 	end
-end
+end

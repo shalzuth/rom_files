@@ -254,4 +254,3 @@ ServiceEvent.InfiniteTowerEnterTower = "ServiceEvent_InfiniteTowerEnterTower"
 ServiceEvent.InfiniteTowerUserTowerInfoCmd = "ServiceEvent_InfiniteTowerUserTowerInfoCmd"
 ServiceEvent.InfiniteTowerTowerLayerSyncTowerCmd = "ServiceEvent_InfiniteTowerTowerLayerSyncTowerCmd"
 ServiceEvent.InfiniteTowerTowerInfoCmd = "ServiceEvent_InfiniteTowerTowerInfoCmd"
-

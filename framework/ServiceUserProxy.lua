@@ -196,4 +196,4 @@ function ServiceUserProxy:SelectSuccess(data)
 	end
 end
 
-return ServiceUserProxy
+return ServiceUserProxy

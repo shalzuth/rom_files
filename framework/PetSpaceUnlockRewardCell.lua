@@ -20,4 +20,4 @@ function PetSpaceUnlockRewardCell:SetData(data)
 			self.RewardGrid:ResetDatas(data.rewards)
 		end
 	end
-end
+end

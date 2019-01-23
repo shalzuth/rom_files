@@ -45,4 +45,4 @@ function MVPResultView:UpdateView()
 			cells[i]:SetNum(i)
 		end
 	end
-end
+end

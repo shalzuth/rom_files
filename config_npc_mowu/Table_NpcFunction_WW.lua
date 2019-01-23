@@ -15,4 +15,4 @@ Table_NpcFunction_WW = {
 }
 
 Table_NpcFunction_WW_fields = { "id","NameZh","NameEn","Type","Parama",}
-return Table_NpcFunction_WW
+return Table_NpcFunction_WW

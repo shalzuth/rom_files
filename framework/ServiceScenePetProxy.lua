@@ -171,4 +171,3 @@ function ServiceScenePetProxy:RecvPetExtraUpdatePetCmd(data)
 	self:Notify(ServiceEvent.ScenePetPetExtraUpdatePetCmd, data)
 end
 
-

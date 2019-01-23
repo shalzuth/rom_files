@@ -73,4 +73,4 @@ function RecipeCell:SetChoose(chooseid)
 	else
 		self.chooseSymbol:SetActive(false);
 	end
-end
+end

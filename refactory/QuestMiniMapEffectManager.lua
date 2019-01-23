@@ -186,4 +186,4 @@ function QuestMiniMapEffectManager:ShowEffect(id,pos)
 			self:HideEffect(id)
 		end
 	end	
-end
+end

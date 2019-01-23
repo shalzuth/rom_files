@@ -36,4 +36,4 @@ Table_Seat_iz_dun1 = {
 }
 
 Table_Seat_iz_dun1_fields = { "id","StandPot","SeatPot","Dir",}
-return Table_Seat_iz_dun1
+return Table_Seat_iz_dun1

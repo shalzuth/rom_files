@@ -572,4 +572,3 @@ function PlayerDetailView:HandleLongPress(param)
 		end
 	end
 end
-

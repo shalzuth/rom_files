@@ -12,4 +12,4 @@ Table_BubbleID = {
 }
 
 Table_BubbleID_fields = { "id","NextID","Text","AutoCloseTime","Offset",}
-return Table_BubbleID
+return Table_BubbleID

@@ -97,4 +97,4 @@ function DungeonCountDownView:UpdateTime(currentTime,leftTime,totalTime)
 
 		self:CloseSelf()
 	end)
-end
+end

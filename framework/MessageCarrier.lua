@@ -71,4 +71,4 @@ end
 
 function MessageCarrier:ResetLab()
 	self.lab.text = ""
-end
+end

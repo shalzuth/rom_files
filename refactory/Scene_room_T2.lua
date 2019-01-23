@@ -1224,4 +1224,4 @@ local Scene_room_T2={
 		}
 	}
 }
-return Scene_room_T2
+return Scene_room_T2

@@ -612,4 +612,3 @@ StartActCmd = protobuf.Message(STARTACTCMD)
 StartGlobalActCmd = protobuf.Message(STARTGLOBALACTCMD)
 StopActCmd = protobuf.Message(STOPACTCMD)
 
-

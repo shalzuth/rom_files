@@ -110,4 +110,4 @@ function BoothNameView:HandleBoothReq(note)
 	end
 
 	self:CloseSelf()
-end
+end

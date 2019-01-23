@@ -33,4 +33,4 @@ function AuctionEventPageData:Clear()
 		self.eventList[i]:Destroy()
 	end
 	TableUtility.ArrayClear(self.eventList)
-end
+end

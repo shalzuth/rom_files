@@ -739,4 +739,3 @@ function AI_Creature:_Idle(time, deltaTime, creature)
 end
 -- override end
 
-

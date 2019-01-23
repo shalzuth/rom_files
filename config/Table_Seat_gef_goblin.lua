@@ -34,4 +34,4 @@ Table_Seat_gef_goblin = {
 }
 
 Table_Seat_gef_goblin_fields = { "id","StandPot","SeatPot","Dir",}
-return Table_Seat_gef_goblin
+return Table_Seat_gef_goblin

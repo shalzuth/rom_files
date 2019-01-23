@@ -35,4 +35,4 @@ function UIListItemViewControllerTransmitTeammate:LoadView()
 		end
 		self.spStatus:MakePixelPerfect()
 	end
-end
+end

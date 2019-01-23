@@ -1887,4 +1887,4 @@ local Scene_room_T3={
 		}
 	}
 }
-return Scene_room_T3
+return Scene_room_T3

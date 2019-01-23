@@ -1966,4 +1966,3 @@ function FunctionNpcFunc.LotteryMagic(nnpc, param, npcFunctionData)
 	-- FunctionNpcFunc.JumpPanel(PanelConfig.LotteryCardView, {npcdata = nnpc})
 	FunctionNpcFunc.JumpPanel(PanelConfig.LotteryMagicView, {npcdata = nnpc})
 end
-

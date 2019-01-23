@@ -406,4 +406,3 @@ end
 
 function GuildData:Exit()
 end
-

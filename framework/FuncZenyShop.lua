@@ -68,4 +68,4 @@ function FuncZenyShop.FormatMilComma(int_number)
 		return result
 	end
 	return nil
-end
+end

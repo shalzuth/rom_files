@@ -366,4 +366,4 @@ function UIManagerProxy.CSPopView()
 	else
 		UIManagerProxy.Instance:PopView()
 	end
-end
+end

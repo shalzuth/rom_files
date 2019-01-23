@@ -756,4 +756,4 @@ function UIListItemCtrlLuckyBag.PaintColorPurchaseTimes(str)
 end
 function UIListItemCtrlLuckyBag.PaintColorMorePurchaseTimes(str)
 	return '[' .. UIListItemCtrlLuckyBag.colorMorePurchaseTimes .. ']' .. str .. '[-]'
-end
+end

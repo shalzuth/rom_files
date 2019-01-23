@@ -973,4 +973,4 @@ function SkillTip:_GetRuneSpecialDes(str,param,count)
 		TableUtility.ArrayClear(tmpParamArray)
 	end
 	return str
-end
+end

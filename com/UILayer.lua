@@ -409,4 +409,4 @@ function UILayer:ModeMoveOutHide(node)
 			node:UnRegisterMediator()
 		end
 	end
-end
+end

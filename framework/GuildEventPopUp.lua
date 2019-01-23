@@ -142,4 +142,3 @@ function GuildEventPopUp:Query()
 end
 
 
-

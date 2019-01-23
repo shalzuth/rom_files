@@ -724,4 +724,4 @@ function AnnounceQuestPanel:questClick( obj )
 			end, nil)
 		end
 	end
-end
+end

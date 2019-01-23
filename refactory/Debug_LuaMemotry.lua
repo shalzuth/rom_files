@@ -131,4 +131,4 @@ function Debug_LuaMemotry.Debug()
 	end
 	LogSetEnable(logEnable)
 	Debug_LuaMemotry.Start()
-end
+end

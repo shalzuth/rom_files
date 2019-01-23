@@ -46,4 +46,3 @@ function StrTablesManager.ProcessMonsterOrNPC(data)
 	end
 	return data
 end
-

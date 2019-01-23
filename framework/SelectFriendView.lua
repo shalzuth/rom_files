@@ -70,4 +70,4 @@ function SelectFriendView:HandleSelect(cell)
 		self:sendNotification(SelectFriendEvent.Select, data)
 		self:CloseSelf()
 	end
-end
+end

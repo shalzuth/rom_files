@@ -56,4 +56,4 @@ function EffectManager:UnRegisterEffect( effect )
 		self.effects[effect.id] = nil
 		self.autoDestroyEffects[effect.id] = nil
 	end
-end
+end

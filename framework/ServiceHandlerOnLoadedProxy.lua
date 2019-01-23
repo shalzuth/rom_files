@@ -29,4 +29,4 @@ function ServiceHandlerOnLoadedProxy:Call()
 		end
 		self.cachedCalls = {}
 	end
-end
+end

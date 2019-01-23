@@ -36,4 +36,4 @@ end
 
 function ChangeHeadCell:SetChoose(isChoose)
 	self.choose:SetActive(isChoose)
-end
+end

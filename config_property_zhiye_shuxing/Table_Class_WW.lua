@@ -16,4 +16,4 @@ Table_Class_WW = {
 }
 
 Table_Class_WW_fields = { "id","NameZh","NameEn","MaleBody","FemaleBody","Desc","Skill","MaxJobLevel","MaxPeak","AdvancedOccupation","AdvanceClass","Type","TypeBranch","icon","InitialAttr","AddPointSolution","Explain","AdvancedTeacher","DamRandom","IsOpen","ActionSuffixMap","UnlockAttr",}
-return Table_Class_WW
+return Table_Class_WW

@@ -98,4 +98,4 @@ function GuildTaskData:RemoveTaskData(serverInfo)
 
 		self.taskcount = self.taskcount - 1;
 	end
-end
+end

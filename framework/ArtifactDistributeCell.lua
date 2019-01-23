@@ -95,4 +95,3 @@ end
 function ArtifactDistributeCell:OnDestroy() 
 	self:ClearTick()
 end
-

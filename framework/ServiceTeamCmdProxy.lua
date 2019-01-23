@@ -11,4 +11,3 @@ function ServiceTeamCmdProxy:ctor(proxyName)
 		ServiceTeamCmdProxy.Instance = self
 	end
 end
-

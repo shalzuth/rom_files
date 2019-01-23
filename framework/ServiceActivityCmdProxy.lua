@@ -136,4 +136,3 @@ function ServiceActivityCmdProxy:RecvStartGlobalActCmd(data)
 
 	self:Notify(ServiceEvent.ActivityCmdStartGlobalActCmd, data)
 end
-

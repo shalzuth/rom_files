@@ -65,4 +65,4 @@ function LoginRoleSelector:GoToCreateRole()
 	end):setUseFrames(true)
 	-- CameraUtil.SetAllCameraFitHeight(9/16)
 	GameFacade.Instance:sendNotification(UIEvent.ShowUI,{viewname = "CreateRoleViewV2"})
-end
+end

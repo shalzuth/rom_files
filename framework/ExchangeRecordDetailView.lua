@@ -170,4 +170,4 @@ function ExchangeRecordDetailView:RecvDetail(note)
 		end
 		self:UpdatePage()
 	end
-end
+end

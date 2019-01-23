@@ -385,4 +385,4 @@ end
 
 function MyselfGuildData:Exit()
 	self:ResetGuildEventList();
-end
+end

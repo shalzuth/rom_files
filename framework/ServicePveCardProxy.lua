@@ -51,4 +51,4 @@ function ServicePveCardProxy:RecvFinishPlayCardCmd(data)
 	helplog("Recv-->FinishPlayCardCmd");
 	DungeonProxy.Instance:UpdateProcessPveCard(0);
 	self:Notify(ServiceEvent.PveCardFinishPlayCardCmd, data)
-end
+end

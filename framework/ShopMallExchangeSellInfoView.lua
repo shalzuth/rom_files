@@ -166,4 +166,4 @@ function ShopMallExchangeSellInfoView:RecvCancel(note)
 
 		self:CloseSelf()
 	end
-end
+end

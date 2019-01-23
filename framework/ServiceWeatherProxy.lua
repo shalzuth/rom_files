@@ -57,4 +57,3 @@ function ServiceWeatherProxy:RecvSkyChange(data)
 	Game.MapManager:SetEnviroment(data.id, data.sec)
 	self:Notify(ServiceEvent.WeatherSkyChange, data)
 end
-

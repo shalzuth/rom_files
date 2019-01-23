@@ -44,4 +44,3 @@ function SceneRoleTopSymbol:DestroySelf()
 		self.gameObject = nil;
 	end
 end
-

@@ -104,4 +104,3 @@ ServiceEvent.AstrolabeCmdAstrolabeQueryCmd = "ServiceEvent_AstrolabeCmdAstrolabe
 ServiceEvent.AstrolabeCmdAstrolabeActivateStarCmd = "ServiceEvent_AstrolabeCmdAstrolabeActivateStarCmd"
 ServiceEvent.AstrolabeCmdAstrolabeQueryResetCmd = "ServiceEvent_AstrolabeCmdAstrolabeQueryResetCmd"
 ServiceEvent.AstrolabeCmdAstrolabeResetCmd = "ServiceEvent_AstrolabeCmdAstrolabeResetCmd"
-

@@ -66,4 +66,3 @@ function EnchantInfoLabelCell:SetData(data)
 		self:Hide();
 	end
 end
-

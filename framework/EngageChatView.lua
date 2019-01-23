@@ -63,4 +63,4 @@ function EngageChatView:ClickSendBtn()
 	else
 		MsgManager.FloatMsgTableParam(nil,ZhString.Chat_send)
 	end	
-end
+end

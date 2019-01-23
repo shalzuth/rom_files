@@ -25,4 +25,4 @@ function WeddingCharData:SetHeadData(data)
 	self.faceID = data.face
 	self.mouthID = data.mouth
 	self.eyeID = data.eye	
-end
+end

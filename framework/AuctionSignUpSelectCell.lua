@@ -29,4 +29,4 @@ end
 
 function AuctionSignUpSelectCell:SetChoose(isChoose)
 	self.choose:SetActive(isChoose)
-end
+end

@@ -111,4 +111,4 @@ function TutorGuideView:ChangeView()
 
 		self.init = true
 	end
-end
+end

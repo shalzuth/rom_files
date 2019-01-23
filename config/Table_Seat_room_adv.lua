@@ -23,4 +23,4 @@ Table_Seat_room_adv = {
 }
 
 Table_Seat_room_adv_fields = { "id","StandPot","SeatPot","Dir",}
-return Table_Seat_room_adv
+return Table_Seat_room_adv

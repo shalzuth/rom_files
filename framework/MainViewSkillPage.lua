@@ -379,4 +379,4 @@ function MainViewSkillPage:CheckSkillForbid()
 	for i=1,#cells do
 		cells[i]:CheckEnableUseSkill()
 	end
-end
+end

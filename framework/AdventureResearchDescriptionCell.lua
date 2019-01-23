@@ -46,4 +46,3 @@ function AdventureResearchDescriptionCell:SetData(data)
 		self.icon.spriteName = data.icon
 	end
 end
-

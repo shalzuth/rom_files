@@ -20,4 +20,3 @@ Table_Dialog_Quest4_s = {
  
 }
 return Table_Dialog_Quest4
-

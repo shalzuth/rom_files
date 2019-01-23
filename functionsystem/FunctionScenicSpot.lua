@@ -334,4 +334,4 @@ function FunctionScenicSpot:Notify(event, data)
 		return
 	end
 	GameFacade.Instance:sendNotification(event, data)
-end
+end

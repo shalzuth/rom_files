@@ -891,4 +891,3 @@ QueryUserResumeAchCmd = protobuf.Message(QUERYUSERRESUMEACHCMD)
 RewardGetAchCmd = protobuf.Message(REWARDGETACHCMD)
 UserResume = protobuf.Message(USERRESUME)
 
-

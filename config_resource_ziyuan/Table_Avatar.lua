@@ -9,4 +9,4 @@ Table_Avatar = {
 }
 
 Table_Avatar_fields = { "id","Priority","NameEn","Probability","Duration",}
-return Table_Avatar
+return Table_Avatar

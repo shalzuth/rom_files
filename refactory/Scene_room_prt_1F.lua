@@ -119,4 +119,4 @@ local Scene_room_prt_1F={
 		}
 	}
 }
-return Scene_room_prt_1F
+return Scene_room_prt_1F

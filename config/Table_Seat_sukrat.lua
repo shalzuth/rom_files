@@ -43,4 +43,4 @@ Table_Seat_sukrat = {
 }
 
 Table_Seat_sukrat_fields = { "id","StandPot","SeatPot","Dir",}
-return Table_Seat_sukrat
+return Table_Seat_sukrat

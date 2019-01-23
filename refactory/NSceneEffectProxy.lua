@@ -360,4 +360,3 @@ end
 function ClientSceneEffect:OnObserverDestroyed(k, obj)
 end
 -- override end
-

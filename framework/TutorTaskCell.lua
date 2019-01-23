@@ -92,4 +92,4 @@ function TutorTaskCell:GetReward()
 	if self.data then
 		ServiceTutorProxy.Instance:CallTutorTaskTeacherRewardCmd(self.data.ownId, self.data.id)
 	end
-end
+end

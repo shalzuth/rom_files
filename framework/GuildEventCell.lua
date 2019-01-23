@@ -63,4 +63,4 @@ function GuildEventCell:FormatIncidentStr(incidentType, params)
 	else
 		self.event.text = strFormat("Type:%s not find in Table_Guild_Incident.", tostring(incidentType));
 	end
-end
+end

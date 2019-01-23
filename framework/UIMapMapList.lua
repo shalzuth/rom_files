@@ -202,4 +202,4 @@ end
 function UIMapMapList:Refresh()
 	self:GetModelSet()
 	self:LoadView()
-end
+end

@@ -31,4 +31,4 @@ function AdventureAppendRewardPanel:addViewEventListener(  )
 		end
 		self:CloseSelf()
 	end)
-end
+end

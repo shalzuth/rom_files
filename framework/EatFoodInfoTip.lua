@@ -135,4 +135,3 @@ function EatFoodInfoTip:OnExit()
 	end
 	return true
 end
-

@@ -141,4 +141,4 @@ function UIModelRolesList:GetRoleDeleteCDTime()
 		return nil
 	end
 	return nil
-end
+end

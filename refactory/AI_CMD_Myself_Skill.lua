@@ -207,4 +207,4 @@ end
 
 function AI_CMD_Myself_Skill.ToString()
 	return "AI_CMD_Myself_Skill",AI_CMD_Myself_Skill
-end
+end

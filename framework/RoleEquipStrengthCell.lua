@@ -78,4 +78,4 @@ function RoleEquipStrengthCell:UpdateLevel()
 	local max = BlackSmithProxy.Instance:MaxStrengthLevel(self.data)
 	self.level.text = curLv.."/"..max
 	self.effect.text = self.data.equipInfo:StrengthInfo()
-end
+end

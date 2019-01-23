@@ -6,4 +6,4 @@ Table_Sysmsg_WW = {
 }
 
 Table_Sysmsg_WW_fields = { "id","Type","Title","Text","remark","button","buttonF","Confirm","TimeInterval","Close","PrefabType",}
-return Table_Sysmsg_WW
+return Table_Sysmsg_WW

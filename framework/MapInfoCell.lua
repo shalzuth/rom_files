@@ -48,4 +48,4 @@ function MapInfoCell:SetData(data)
 		self.icon.height = self.icon.height * iconScale;
 	end
 	self.name.text = label;
-end
+end

@@ -83,4 +83,4 @@ function LowBloodBlinkView.closeBloodBlink(  )
 	if(LowBloodBlinkView.Instance ~= nil)then
 		LowBloodBlinkView.Instance:CloseSelf()
 	end
-end
+end

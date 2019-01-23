@@ -1131,4 +1131,4 @@ function SkillInfo:_GetDynamicSkillInfoAndProp(creature)
 	local dynamicSkillInfo = creature.data:GetDynamicSkillInfo(self.staticData.id)
 	local dynamicSkillInfoProp = dynamicSkillInfo~=nil and dynamicSkillInfo.props or nil
 	return dynamicSkillInfo,dynamicSkillInfoProp
-end
+end

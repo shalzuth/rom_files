@@ -66,4 +66,4 @@ end
 
 function WrapCombineCell:GetCells()
 	return self.childCells;
-end
+end

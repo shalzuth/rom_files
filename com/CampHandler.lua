@@ -89,4 +89,4 @@ end
 
 function CampHandler:SetIsInGVGScene(val)
 	self:SetBitValue(CampHandler.CampPriority.GVGScene.priority,val)
-end
+end

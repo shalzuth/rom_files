@@ -612,4 +612,4 @@ function IdleAI_FollowLeader:AutoBattleLost()
 	self:AutoBattleOff()
 end
 -- auto battle manager end
--- ocontrol end
+-- ocontrol end

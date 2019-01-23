@@ -121,4 +121,4 @@ function CardPosChoosePopUp:OnExit()
 	CardPosChoosePopUp.super.OnExit(self);
 
 	self.choosePos = nil;
-end
+end

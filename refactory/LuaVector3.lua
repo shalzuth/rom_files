@@ -617,4 +617,4 @@ function I:Destroy()
 	destroyer(self)
 end
 
-setmetatable(LuaVector3,LuaVector3)
+setmetatable(LuaVector3,LuaVector3)

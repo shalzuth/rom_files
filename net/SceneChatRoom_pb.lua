@@ -955,4 +955,3 @@ JoinChatRoom = protobuf.Message(JOINCHATROOM)
 KickChatMember = protobuf.Message(KICKCHATMEMBER)
 RoomMemberUpdate = protobuf.Message(ROOMMEMBERUPDATE)
 
-

@@ -5,4 +5,4 @@ Table_EPCard = {
 }
 
 Table_EPCard_fields = { "id","String","string","string","string",}
-return Table_EPCard
+return Table_EPCard

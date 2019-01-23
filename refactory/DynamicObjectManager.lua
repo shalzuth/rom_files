@@ -275,4 +275,4 @@ function DynamicObjectManager:Update(time, deltaTime)
 			v:Update(time, deltaTime)
 		end
 	end
-end
+end

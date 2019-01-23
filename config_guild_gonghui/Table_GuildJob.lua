@@ -15,4 +15,4 @@ Table_GuildJob = {
 }
 
 Table_GuildJob_fields = { "id","Name","OpenLevel","Authority","EditAuthority",}
-return Table_GuildJob
+return Table_GuildJob

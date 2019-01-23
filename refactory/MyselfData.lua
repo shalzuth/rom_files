@@ -547,4 +547,4 @@ end
 function MyselfData:DoDeconstruct(asArray)
 	MyselfData.super.DoDeconstruct(self,asArray)
 end
--- override end
+-- override end

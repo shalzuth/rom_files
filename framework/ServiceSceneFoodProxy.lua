@@ -102,4 +102,3 @@ function ServiceSceneFoodProxy:RecvUpdateFoodInfo(data)
 	FoodProxy.Instance:Server_UpdateFoodInfo(data)	
 	self:Notify(ServiceEvent.SceneFoodUpdateFoodInfo, data)
 end
-

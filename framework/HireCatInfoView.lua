@@ -30,4 +30,4 @@ function HireCatInfoView:OnExit()
 	self.catTip = nil;
 
 	HireCatInfoView.super.OnExit(self);
-end
+end

@@ -90,4 +90,3 @@ ServiceEvent = _G["ServiceEvent"] or {}
 ServiceEvent.BossCmdBossListUserCmd = "ServiceEvent_BossCmdBossListUserCmd"
 ServiceEvent.BossCmdBossPosUserCmd = "ServiceEvent_BossCmdBossPosUserCmd"
 ServiceEvent.BossCmdKillBossUserCmd = "ServiceEvent_BossCmdKillBossUserCmd"
-

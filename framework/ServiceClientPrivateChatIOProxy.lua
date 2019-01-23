@@ -11,4 +11,3 @@ function ServiceClientPrivateChatIOProxy:ctor(proxyName)
 		ServiceClientPrivateChatIOProxy.Instance = self
 	end
 end
-

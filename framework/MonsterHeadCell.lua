@@ -28,4 +28,3 @@ function MonsterHeadCell:SetData(data)
 		end
 	end
 end
-

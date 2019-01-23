@@ -237,4 +237,3 @@ function NpcMenuBtnCell:TriggerContentTip( isShow )
 		self.contentTip:SetActive(false)
 	end
 end
-

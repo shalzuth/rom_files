@@ -510,4 +510,3 @@ ServiceEvent.SessionSocialityRecallFriendSocialCmd = "ServiceEvent_SessionSocial
 ServiceEvent.SessionSocialityAddRelationResultSocialCmd = "ServiceEvent_SessionSocialityAddRelationResultSocialCmd"
 ServiceEvent.SessionSocialityQueryChargeVirginCmd = "ServiceEvent_SessionSocialityQueryChargeVirginCmd"
 ServiceEvent.SessionSocialityQueryUserInfoCmd = "ServiceEvent_SessionSocialityQueryUserInfoCmd"
-

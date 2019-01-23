@@ -196,4 +196,4 @@ Table_MapIDs={
 	iz_dun1R=61102,
 	lava_dun1R=60122,
 	iz_dun2=12
-}
+}

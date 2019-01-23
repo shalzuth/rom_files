@@ -118,4 +118,3 @@ function RoleChangeNamePopUp:HandleError(note)
 		self:ShowChangeError();
 	end
 end
-

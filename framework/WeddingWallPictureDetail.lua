@@ -465,4 +465,4 @@ end
 
 function WeddingWallPictureDetail:GetItemCells()
 	return  self.wraplist:GetCellCtls();
-end
+end

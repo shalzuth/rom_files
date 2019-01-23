@@ -16,4 +16,4 @@ Table_SpEffect = {
 }
 
 Table_SpEffect_fields = { "id","Name","Type","Perform","Duration","OnAdd",}
-return Table_SpEffect
+return Table_SpEffect

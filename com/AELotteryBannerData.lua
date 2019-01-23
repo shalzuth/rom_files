@@ -58,4 +58,4 @@ function AELotteryBannerData:getMultLanContent( serverData,key )
 	helplog(#lanData)
 	helplog(val)
 	return val
-end
+end

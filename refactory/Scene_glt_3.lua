@@ -525,4 +525,4 @@ local Scene_glt_3={
 		}
 	}
 }
-return Scene_glt_3
+return Scene_glt_3

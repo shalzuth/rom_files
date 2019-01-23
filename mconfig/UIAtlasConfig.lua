@@ -152,4 +152,4 @@ for k,v in pairs(UIAtlasConfig.IconAtlas) do
 			end
 		end
 	end
-end
+end

@@ -245,4 +245,4 @@ function MainViewTraceInfoPage:HideAltmanRaidInfo()
 
 	self.taskBord:Show()
 end
--- altman raid end
+-- altman raid end

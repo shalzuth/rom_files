@@ -29,4 +29,4 @@ function ActiveErrorBord:addViewEventListener(  )
 		Application.OpenURL(url)
 		self:CloseSelf()
 	end)
-end
+end

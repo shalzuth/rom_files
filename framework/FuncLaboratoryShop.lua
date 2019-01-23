@@ -31,4 +31,4 @@ function FuncLaboratoryShop:OnReceiveQueryShopItem(data)
 	HappyShopProxy.Instance:SetIsScreen(data.screen)
 	HappyShopProxy.Instance:SetShop(data.items)
 	GameFacade.Instance:sendNotification(UIEvent.JumpPanel, {view = PanelConfig.HappyShop})
-end
+end

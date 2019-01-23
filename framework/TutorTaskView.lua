@@ -108,4 +108,4 @@ function TutorTaskView:RecvTutorTaskQuery(note)
 
 		self:UpdateView()
 	end
-end
+end

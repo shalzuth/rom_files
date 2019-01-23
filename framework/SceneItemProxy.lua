@@ -141,4 +141,4 @@ function SceneItemProxy:Clear()
  	self.userMap = {}
  	FunctionSceneItemCommand.Me():Clear()
  	-- GameFacade.Instance:sendNotification(SceneUserEvent.SceneRemoveRoles,roles)
-end
+end

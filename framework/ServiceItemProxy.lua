@@ -434,4 +434,4 @@ function ServiceItemProxy:RecvUseCodItemCmd(data)
 	ItemUtil.HandleUseCodeCmd(data)
 	self:Notify(ServiceEvent.ItemUseCodItemCmd, data)
 	EventManager.Me():PassEvent(ServiceEvent.ItemUseCodItemCmd, data);
-end
+end

@@ -602,4 +602,4 @@ function Game:XDELogin()
 --	if ApplicationInfo.GetRunPlatform() == RuntimePlatform.Android or ApplicationInfo.GetRunPlatform() == RuntimePlatform.IPhonePlayer then
 --		LogUtility:SetEnable(false)
 --	end
-end
+end

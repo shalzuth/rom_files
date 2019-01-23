@@ -2748,4 +2748,3 @@ TeamSummon = protobuf.Message(TEAMSUMMON)
 UpdateHelpWantedTeamCmd = protobuf.Message(UPDATEHELPWANTEDTEAMCMD)
 UpdateWantedQuestTeamCmd = protobuf.Message(UPDATEWANTEDQUESTTEAMCMD)
 
-

@@ -70,4 +70,4 @@ function EquipAlchemyMaterialCell:UpdateNum()
 		self.numLab.gameObject:SetActive(true);
 		self.numLab.text = self.leftNum;
 	end
-end
+end

@@ -177,4 +177,4 @@ function NPlayer:_UpdateEffect(time,deltaTime)
 			self:_PlayChangeJobFireEffect()
 		end
 	end
-end
+end

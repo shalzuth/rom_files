@@ -136,4 +136,4 @@ function BeingInfoData:GetHeadIcon()
 	if(bodyData)then
 		return bodyData.Icon;
 	end
-end
+end

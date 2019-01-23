@@ -248,4 +248,4 @@ function SkillCMD_Run.Start(self, time, deltaTime, creature, targetCreature)
 end
 -- SkillCMD_Run end
 
-return SkillCMD
+return SkillCMD

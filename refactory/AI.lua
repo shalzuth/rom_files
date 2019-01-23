@@ -15,4 +15,4 @@ autoImport ("AI_CreatureLookAt")
 -- and AI_Myself will set AI_CMD_Myself_XXX.XXX = ?
 autoImport ("AI_Myself")
 
-autoImport ("FactoryAICMD")
+autoImport ("FactoryAICMD")

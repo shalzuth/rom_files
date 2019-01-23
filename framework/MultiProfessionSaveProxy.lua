@@ -279,4 +279,4 @@ function MultiProfessionSaveProxy:Clear()
 	if(self.recordDatas ~= nil)then
 		TableUtility.TableClear(self.recordDatas);
 	end
-end
+end

@@ -149,4 +149,4 @@ function RepositoryViewBagPage:SetCellsLock()
 	for i=1,#self.itemCells do
 		self.itemCells[i]:SetCellLock()
 	end
-end
+end

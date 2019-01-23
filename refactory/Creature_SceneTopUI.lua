@@ -620,4 +620,4 @@ function Creature_SceneTopUI:ObserverDestroyed(obj)
 	end
 
 end
--- override end
+-- override end

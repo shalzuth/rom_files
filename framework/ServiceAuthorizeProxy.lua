@@ -15,4 +15,4 @@ end
 function ServiceAuthorizeProxy:RecvNotifyAuthorizeUserCmd()
 	MsgManager.ShowMsgByIDTable(6013)
 	self:Notify(ServiceEvent.AuthorizeNotifyAuthorizeUserCmd, data)
-end
+end

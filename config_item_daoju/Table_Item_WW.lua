@@ -151,4 +151,4 @@ Table_Item_WW = {
 }
 
 Table_Item_WW_fields = { "id","NameZh","Icon","Type","Quality","UseMode","MaxNum","AuctionPrice","SellPrice","AdventureSort","AdventureValue","AdventureReward","StorageReward","Condition","ComposeID","Desc","Level","ItemSort","ItemTarget","Share","NoSale","NoStorage","MediaPath","GetLimit","JobLimit","ExistTimeType","ExistTime","Feature","TFValidDate","ValidDate","StageDisplay","MonsterLevel",}
-return Table_Item_WW
+return Table_Item_WW

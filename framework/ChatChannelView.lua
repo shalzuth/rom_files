@@ -407,4 +407,4 @@ function ChatChannelView:HandleKeywordEffect(note)
 	end
 
 	self.container:AddKeywordEffect(datas.data)
-end
+end

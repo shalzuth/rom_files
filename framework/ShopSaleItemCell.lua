@@ -87,4 +87,4 @@ end
 function ShopSaleItemCell:ErrorLog(str)
 	errorLog(str)
 	self.gameObject:SetActive(false)
-end
+end

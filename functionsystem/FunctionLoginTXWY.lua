@@ -92,4 +92,4 @@ function FunctionLoginTXWY:RequestAuthAccToken()
         MsgManager.ShowMsgByIDTable(1017,{FunctionLogin.ErrorCode.RequestAuthAccToken_NoneToken})
         GameFacade.Instance:sendNotification(NewLoginEvent.LoginFailure)
     end
-end
+end

@@ -210,4 +210,4 @@ function FoodGetPopUp:OnExit()
 
 	self:sendNotification(FoodEvent.FoodGetPopUp_Exit)
 	FoodGetPopUp.super.OnExit(self);
-end
+end

@@ -273,4 +273,4 @@ function TitleProxy:GetPropStrByTitleId(id)
 		str = "[c][1F74BF]"..str.."[-][/c]"
 		return str
 	end
-end
+end

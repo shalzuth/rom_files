@@ -42,4 +42,4 @@ function LotteryItemData:GetRate()
 	end
 
 	return 0
-end
+end

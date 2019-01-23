@@ -10,4 +10,4 @@ function EyeLensesCombineItemCell:FindObjs()
 		go = self:FindChild("EyeLensesCell"..i);
 		self.childrenObjs[i] = EyeLensesCell.new(go)
 	end
-end
+end

@@ -211,4 +211,4 @@ function AdventureSceneCell:setItemIsLock(  )
 		self:Hide(self.scoreCt)
 	end
 	self:Hide(self.textureCt)
-end
+end

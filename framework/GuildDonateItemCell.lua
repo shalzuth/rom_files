@@ -85,4 +85,4 @@ function GuildDonateItemCell:ActiveGrey(b)
 		-- self:SetTextureColor(self.gameObject, Color(1,1,1));
 	end
 	self.active = not b;
-end
+end

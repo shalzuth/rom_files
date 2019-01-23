@@ -80,4 +80,3 @@ ServiceEvent = _G["ServiceEvent"] or {}
 ServiceEvent.SessionMailQueryAllMail = "ServiceEvent_SessionMailQueryAllMail"
 ServiceEvent.SessionMailMailUpdate = "ServiceEvent_SessionMailMailUpdate"
 ServiceEvent.SessionMailGetMailAttach = "ServiceEvent_SessionMailGetMailAttach"
-

@@ -16,4 +16,4 @@ end
 
 function FuncAccessData:RemoveLockCond(cond)
 	self.lockConditions:RemoveReason(cond)
-end
+end

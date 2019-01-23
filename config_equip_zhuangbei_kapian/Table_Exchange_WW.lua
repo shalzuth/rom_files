@@ -16,4 +16,4 @@ Table_Exchange_WW = {
 }
 
 Table_Exchange_WW_fields = { "id","NameZh","Trade","Overlap","Category","FashionType","ShowTime","TFAuction","Auction","TradeTime",}
-return Table_Exchange_WW
+return Table_Exchange_WW

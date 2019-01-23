@@ -171,4 +171,4 @@ function FunctionGuide:ClearGuide()
 	for attachGO, v in pairs(self.effectMap)do
 		self:RemoveGuideEffect(attachGO);
 	end
-end
+end

@@ -141,4 +141,4 @@ end
 
 function UIListItemControllerItemSale:IsSoldOut()
 	return self.canBuyCount ~= nil and self.canBuyCount <= 0
-end
+end

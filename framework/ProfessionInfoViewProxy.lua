@@ -24,4 +24,3 @@ end
 
 return PushProxy
 
-

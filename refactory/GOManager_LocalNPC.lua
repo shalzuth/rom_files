@@ -146,4 +146,3 @@ function GOManager_LocalNPC:UnregisterGameObject(obj)
 
 	return true
 end
-

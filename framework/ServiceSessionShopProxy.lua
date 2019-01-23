@@ -54,4 +54,4 @@ function ServiceSessionShopProxy:RecvUpdateShopConfigCmd(data)
 	ShopProxy.Instance:RecvUpdateShopConfigCmd(data)
 	HappyShopProxy.Instance:RecvUpdateShopConfigCmd(data)
 	self:Notify(ServiceEvent.SessionShopUpdateShopConfigCmd, data)
-end
+end

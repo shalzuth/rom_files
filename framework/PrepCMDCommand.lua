@@ -92,4 +92,3 @@ function PrepCMDCommand:execute(notifi)
 	GameFacade.Instance:registerCommand(ServiceEvent.SessionTeamQueryUserTeamInfoTeamCmd, PlayerTeamInfoCommand)
 
 end
-

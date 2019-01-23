@@ -28,4 +28,4 @@ Table_ServerList_UWA = {
 }
 
 Table_ServerList_UWA_fields = { "id","name","type","serverid","state",}
-return Table_ServerList_UWA
+return Table_ServerList_UWA

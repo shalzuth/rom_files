@@ -899,4 +899,4 @@ function MainViewInfoPage:HandleReconnect(note)
 	if Game.Myself:IsInBooth() then
 		BoothProxy.Instance:ClearMyselfBooth()
 	end
-end
+end

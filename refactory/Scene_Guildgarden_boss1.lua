@@ -156,4 +156,4 @@ local Scene_Guildgarden_boss1={
 		}
 	}
 }
-return Scene_Guildgarden_boss1
+return Scene_Guildgarden_boss1

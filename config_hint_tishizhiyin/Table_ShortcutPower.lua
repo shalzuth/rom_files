@@ -339,4 +339,3 @@ Table_ShortcutPower = {
 }
 Table_ShortcutPower_fields = { "id","Type","Event",}
 return Table_ShortcutPower
-

@@ -22,4 +22,4 @@ end
 
 function ProtolUtility.C2S_Number(v)
 	return math.floor(v * SC_Scale)
-end
+end

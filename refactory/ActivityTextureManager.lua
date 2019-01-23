@@ -230,4 +230,4 @@ function ActivityTextureManager:ActivityPicErrorCallback(picUrl,errorMessage)
 	self:removeDownloadTexture(picUrl)
 	self:startTryGetActivityPic()
 	GameFacade.Instance:sendNotification(ActivityTextureManager.ActivityPicErrorCallbackMsg,{picUrl = picUrl})
-end
+end

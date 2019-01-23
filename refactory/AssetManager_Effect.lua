@@ -176,4 +176,4 @@ function AssetManager_Effect:Update(time, deltaTime)
 			end
 		end
 	end
-end
+end

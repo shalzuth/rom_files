@@ -38,4 +38,4 @@ function CameraEffectFocusTo:DoEnd(cameraController)
 	cameraController:ResetCurrentInfoByZoom(self.originalZoom)
 	cameraController:RestoreDefault(self.duration, nil)
 end
--- override end
+-- override end

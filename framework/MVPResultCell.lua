@@ -45,4 +45,4 @@ end
 
 function MVPResultCell:SetNum(num)
 	self.num.text = num
-end
+end

@@ -156,4 +156,4 @@ end
 function UISubViewControllerGachaCoin:OnReceiveQueryShopConfigCmd(message)
 	self:GetModelSet()
 	self:LoadView()
-end
+end

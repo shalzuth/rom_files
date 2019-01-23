@@ -1514,4 +1514,4 @@ local Scene_Guild_battle2_gef={
 		}
 	}
 }
-return Scene_Guild_battle2_gef
+return Scene_Guild_battle2_gef

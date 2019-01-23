@@ -359,4 +359,4 @@ function ExchangeRecordCell:OnDestroy()
 	if self.timeTick then
 		TimeTickManager.Me():ClearTick(self)
 	end
-end
+end

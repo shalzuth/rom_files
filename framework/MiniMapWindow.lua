@@ -1353,4 +1353,3 @@ function MiniMapWindow:Reset()
 	self:SetMapScale(1);
 	self:UpdateMapTexture(nil);
 end
-

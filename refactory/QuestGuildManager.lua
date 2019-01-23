@@ -55,4 +55,4 @@ end
 
 function QuestGuildManager:_Destroy()	
 	TableUtility.TableClear(self.questMap)
-end
+end

@@ -7,4 +7,4 @@ Table_MercenaryCat = {
 }
 
 Table_MercenaryCat_fields = { "id","MonsterID","NPCID","ShortcutPower","AdventureValue","MenuID","Gender","Job","Skill","Introduction",}
-return Table_MercenaryCat
+return Table_MercenaryCat

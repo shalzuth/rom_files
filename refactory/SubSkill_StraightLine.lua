@@ -46,4 +46,4 @@ function SelfClass.Update(self, endPosition, refreshed, time, deltaTime)
 	end
 end
 
-return SelfClass
+return SelfClass

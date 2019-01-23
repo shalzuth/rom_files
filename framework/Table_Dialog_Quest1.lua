@@ -6490,4 +6490,4 @@ Table_Dialog_Quest1 =
 	[311] = { id = 311, Voice = '', Text = '为了庆祝你成功就职，我为你准备了一份小礼物，应该对你有帮助~', Speaker = 1051, Option = '接收礼物', Action = _EmptyTable,},
 }
 return Table_Dialog_Quest1
-	
+	

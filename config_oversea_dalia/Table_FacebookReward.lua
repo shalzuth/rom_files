@@ -8,4 +8,4 @@ Table_FacebookReward = {
 }
 
 Table_FacebookReward_fields = { "id","like","item",}
-return Table_FacebookReward
+return Table_FacebookReward

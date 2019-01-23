@@ -279,4 +279,3 @@ function QuickUseProxy:RemoveQuickData(data,queueIndex)
 	end
 end
 
-

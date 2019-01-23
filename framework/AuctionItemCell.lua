@@ -59,4 +59,4 @@ end
 
 function AuctionItemCell:ShowRedDot(isShow)
 	self.redDot:SetActive(isShow)
-end
+end

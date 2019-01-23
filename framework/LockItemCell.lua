@@ -129,4 +129,4 @@ function LockItemCell:UpdateFrameCell(data)
 		local framedata = Table_HeadImage[data.staticData.id];
 		self.frameCell:SetData(framedata);
 	end
-end
+end

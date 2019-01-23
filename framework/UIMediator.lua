@@ -35,4 +35,4 @@ end
 
 function UIMediator:Dispose()
 	self.facade:removeMediator(self.mediatorName)
-end
+end

@@ -602,4 +602,4 @@ function TutorProxy:ConfirmMsg(socialData)
 			ReusableTable.DestroyArray(tempArray)
 		end, nil, nil, socialData.name)
 	end
-end
+end

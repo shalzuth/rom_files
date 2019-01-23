@@ -124,4 +124,4 @@ function FunctionLoginAny:startRetryLogin(callback)
 	else
 		self:startSdkLoginNew(callback)
 	end
-end
+end

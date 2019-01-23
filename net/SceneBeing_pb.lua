@@ -901,4 +901,3 @@ EBEINGDATA_MIN = 0
 EBEINGDATA_SUMMON = 6
 UserBeingData = protobuf.Message(USERBEINGDATA)
 
-

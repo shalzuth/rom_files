@@ -227,4 +227,4 @@ function BeautifulAreaPhotoNetIngManager:IsDownloading(local_path)
 		end
 	end
 	return false
-end
+end

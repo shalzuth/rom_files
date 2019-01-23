@@ -12,4 +12,4 @@ Table_EquipFake = {
 }
 
 Table_EquipFake_fields = { "id","Type","EquipType","SE_hit","ReplaceValues",}
-return Table_EquipFake
+return Table_EquipFake

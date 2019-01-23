@@ -53,4 +53,4 @@ end
 function SimpleGuildData:DoDeconstruct(asArray)
 	
 end
--- override end
+-- override end

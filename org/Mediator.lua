@@ -131,4 +131,4 @@ end
 function Mediator:onRemove()
 end
 
-return Mediator
+return Mediator

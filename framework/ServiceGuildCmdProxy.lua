@@ -422,4 +422,4 @@ function ServiceGuildCmdProxy:RecvOpenRealtimeVoiceGuildCmd(data)
 
 	GVoiceProxy.Instance:RecvOpenRealtimeVoiceGuildCmd(data) 
 	self:Notify(ServiceEvent.GuildCmdOpenRealtimeVoiceGuildCmd, data)
-end
+end

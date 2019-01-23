@@ -172,4 +172,4 @@ end
 
 function ChatZoomProxy:IsInChatZone()
 	return self:CachedZoomInfo() ~= nil
-end
+end

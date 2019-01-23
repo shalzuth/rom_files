@@ -257,4 +257,4 @@ function TablePoolMonitor:AutoSizePoolRemove(tag)
 			autopool.RealCurrent = autopool.RealCurrent - 1
 		end
 	end
-end
+end

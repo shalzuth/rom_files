@@ -149,4 +149,4 @@ end
 
 function EquipUpgradePopUp:OnExit()
 	EquipUpgradePopUp.super.OnExit(self);
-end
+end

@@ -215,4 +215,4 @@ end
 function GvgLandInfoPopUp:OnExit()
 	GvgLandInfoPopUp.super.OnExit(self);
 
-end
+end

@@ -111,4 +111,4 @@ end
 
 function MainViewChatGroup:Refresh()
 	self.table:Reposition()
-end
+end

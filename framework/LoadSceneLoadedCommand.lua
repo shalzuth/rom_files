@@ -12,4 +12,4 @@ function LoadSceneLoadedCommand:UnLoadStartUI()
 	ResourceManager.Instance:SUnLoad(ResourcePathHelper.UIView("CreateRoleViewV2"), false);
 end
 
-return LoadSceneLoadedCommand
+return LoadSceneLoadedCommand

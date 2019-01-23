@@ -100,4 +100,4 @@ function BlacklistView:UpdateBlacklistData()
 	end
 
 	self.itemWrapHelper:UpdateInfo(datas)
-end
+end

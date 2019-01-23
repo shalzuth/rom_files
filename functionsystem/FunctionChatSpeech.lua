@@ -105,4 +105,4 @@ end
 
 function FunctionChatSpeech:GetCurrentVoiceId()
 	return self.voiceId
-end
+end

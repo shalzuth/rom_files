@@ -98,4 +98,4 @@ function SceneRangeFilter.CheckSelf(creature)
 		return creature.data.ownerID == Game.Myself.data.id
 	end
 	return creature:GetCreatureType() == Creature_Type.Me
-end
+end

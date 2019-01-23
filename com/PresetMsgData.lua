@@ -10,4 +10,4 @@ end
 
 function PresetMsgData:SetMsg(msg)
 	self.msg = msg
-end
+end

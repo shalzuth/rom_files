@@ -129,4 +129,4 @@ function FriendApplyInfoView:AddRedTip(note)
 			end
 		end
 	end
-end
+end

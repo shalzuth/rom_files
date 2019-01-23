@@ -101,4 +101,4 @@ end
 
 function AuguryChatView:UpdateSwitch(isShowTalk)
 	self.talk:SetActive(isShowTalk)
-end
+end

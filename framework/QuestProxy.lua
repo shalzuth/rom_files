@@ -1298,4 +1298,4 @@ function QuestProxy:checkWantedQuestIsMarkedTeam( questId,step )
 		-- helplog("getLockMonsterGuideByMonsterId ",#tempArray)
 		return tempArray
 	end
-end
+end

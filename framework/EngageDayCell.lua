@@ -52,4 +52,4 @@ end
 
 function EngageDayCell:SetChoose(isChoose)
 	self.choosed:SetActive(isChoose)
-end
+end

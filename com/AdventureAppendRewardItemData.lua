@@ -13,4 +13,3 @@ function AdventureAppendRewardItemData:updateData( serverData )
 	self.finish = serverData.finish
 	self.rewardget = serverData.rewardget
 end
-

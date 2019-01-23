@@ -148,4 +148,4 @@ function MVPFightInfoBord:resizeContent(  )
 	local bd = calSize(self.content.transform,false)
 	local height = bd.size.y
 	self.bg.height = height+10
-end
+end

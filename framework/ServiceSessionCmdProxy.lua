@@ -11,4 +11,3 @@ function ServiceSessionCmdProxy:ctor(proxyName)
 		ServiceSessionCmdProxy.Instance = self
 	end
 end
-

@@ -114,4 +114,4 @@ function StarProxy:RecvCheckRelationUserCmd(data)
 			FunctionItemFunc.DoUseItem(self.itemData, self.pTarget)
 		end
 	end
-end
+end

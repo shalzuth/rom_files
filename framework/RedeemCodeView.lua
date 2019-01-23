@@ -176,4 +176,3 @@ function RedeemCodeView:OnExit()
 	PictureManager.Instance:UnLoadUI(TextureRes.DescBg, self.descTexture)
 	RedeemCodeView.super.OnExit(self);
 end
-

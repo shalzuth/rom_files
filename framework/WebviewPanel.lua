@@ -138,4 +138,3 @@ end
 function WebviewPanel:Clear()
 	ROWebView.Instance:CleanCache() 
 end
-

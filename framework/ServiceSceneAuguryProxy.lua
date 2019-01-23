@@ -49,4 +49,4 @@ end
 function ServiceSceneAuguryProxy:RecvAuguryChat(data)
 	AuguryProxy.Instance:RecvAuguryChat(data)
 	self:Notify(ServiceEvent.SceneAuguryAuguryChat, data)
-end
+end

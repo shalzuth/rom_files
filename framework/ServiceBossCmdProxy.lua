@@ -59,4 +59,3 @@ end
 function ServiceBossCmdProxy:RecvKillBossUserCmd(data) 
 	self:Notify(ServiceEvent.BossCmdKillBossUserCmd, data)
 end
-

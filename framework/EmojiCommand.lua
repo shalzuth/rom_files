@@ -17,4 +17,4 @@ function EmojiCommand:execute(note)
 			end
 		end
 	end
-end
+end

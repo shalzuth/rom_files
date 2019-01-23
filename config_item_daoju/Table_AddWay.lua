@@ -174,4 +174,3 @@ Table_AddWay = {
 }
 Table_AddWay_fields = { "id","NameEn","Icon","Type","Materialdisplay","Search1","Search2","Search3","Desc","GotoMode","menu",}
 return Table_AddWay
-

@@ -162,4 +162,4 @@ function BitUtil.lshift(a,n)
     r=op1  
     end  
     return BitUtil.b2d(r)  
-end --bit:_lshift  
+end --bit:_lshift  

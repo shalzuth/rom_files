@@ -136,4 +136,4 @@ end
 function BranchInfoSaveProxy:GetSkillData(id)
 	if not self.recordDatas[id] then return nil end
 	return self.recordDatas[id]:GetSkillData()
-end
+end

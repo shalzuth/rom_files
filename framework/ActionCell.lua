@@ -17,4 +17,3 @@ function ActionCell:SetData(data)
 	end
 end
 
-

@@ -33,4 +33,4 @@ end
 
 function EquipMakeData:IsChoose()
 	return self.isChoose
-end
+end

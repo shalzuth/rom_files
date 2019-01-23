@@ -90,4 +90,4 @@ function IdleAI_Photographer:Flash(time, deltaTime, creature)
 		local resPath = ResourcePathHelper.AudioSEUI(AudioMap.UI.Picture)
 		AudioUtility.PlayOneShotAt_Path(resPath, tempVector3)
 	end
-end
+end

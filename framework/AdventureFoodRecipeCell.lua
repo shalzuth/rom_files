@@ -17,4 +17,3 @@ function AdventureFoodRecipeCell:SetData( data )
 	local num = data.count
 	self.text.text = string.format(ZhString.AdventureFoodPage_RecipeCellText,starLv,num)
 end
-

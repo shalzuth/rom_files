@@ -32,4 +32,4 @@ function PetSkillCell:SetScale(size)
 	if(self.gameObject)then
 		self.gameObject.transform.localScale = Vector3.one * scale
 	end
-end
+end

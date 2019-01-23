@@ -4,4 +4,4 @@ Table_AddWay_WW = {
 }
 
 Table_AddWay_WW_fields = { "id","NameEn","Icon","Type","Materialdisplay","Search1","Search2","Search3","Desc","GotoMode","menu",}
-return Table_AddWay_WW
+return Table_AddWay_WW

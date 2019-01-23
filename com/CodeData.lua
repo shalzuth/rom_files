@@ -17,4 +17,3 @@ end
 function CodeData:IsCodeCanSell()
 	return self.used
 end
-

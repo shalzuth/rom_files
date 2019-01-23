@@ -411,4 +411,4 @@ function MySceneryPictureManager:MySceneryOriginUpErrorCallback1(index, time,err
 	-- body
 	self:log("MySceneryOriginUpErrorCallback",index, time,errorMessage)
 	GameFacade.Instance:sendNotification(MySceneryPictureManager.MySceneryOriginUpErrorCallback,{index = index,time = time})
-end
+end

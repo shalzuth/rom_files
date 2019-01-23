@@ -81,4 +81,3 @@ function SceneGuildDoor:HandleGateTeamUpdate(note)
 		end
 	end
 end
-

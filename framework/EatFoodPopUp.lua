@@ -216,4 +216,4 @@ end
 function EatFoodPopUp:OnExit()
 	EatFoodPopUp.super.OnExit(self);
 	self.editPowerBord:SetActive(false);
-end
+end

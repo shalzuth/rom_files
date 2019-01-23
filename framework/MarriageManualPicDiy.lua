@@ -216,4 +216,4 @@ function MarriageManualPicDiy:OnExit()
 	PictureManager.Instance:UnLoadWedding(MarriageManualPicDiy.BgTextureName,self.defPhotoTx);
 	LeanTween.cancel(self.gameObject)
 	Object.DestroyImmediate(self.photo.mainTexture)
-end
+end

@@ -78,4 +78,3 @@ function GvGPvpPrayTypeCell.PrayEffectHandle(effectHandle, owner)
 end
 
 
-

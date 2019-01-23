@@ -799,4 +799,3 @@ function ChatRoomPage:HandleLongPress(param)
 		end
 	end
 end
-

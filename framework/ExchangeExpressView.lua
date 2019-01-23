@@ -252,4 +252,4 @@ end
 function ExchangeExpressView:UpdateCost()
 	self.givefee = CommonFun.calcTradeGiveFee( self.needCredit, self.currentBgIndex )
 	self.expressCost.text = StringUtil.NumThousandFormat(self.givefee)
-end
+end

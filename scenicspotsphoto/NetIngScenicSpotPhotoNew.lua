@@ -172,4 +172,4 @@ function NetIngScenicSpotPhotoNew:GetTempDownloadPathOfLocal(photo_id, o_or_t, p
 		extension = pExtension
 	end
 	return self:GetTempDownloadRootPathOfLocal() .. '/' .. photo_id .. '_' .. (o_or_t and 'o' or 't') .. '.' .. extension
-end
+end

@@ -149,4 +149,4 @@ function SceneLoader:LoadFinish()
 	TimeTickManager.Me():ClearTick(self)
 end
 
-return SceneLoader
+return SceneLoader

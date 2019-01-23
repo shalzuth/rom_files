@@ -168,4 +168,4 @@ Table_Augury_1 = {
 }
 
 Table_Augury_1_fields = { "id","Type","Title","Option","TitleDesc","Language",}
-return Table_Augury_1
+return Table_Augury_1

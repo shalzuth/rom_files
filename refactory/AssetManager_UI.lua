@@ -72,4 +72,4 @@ function AssetManager_UI:CreateSceneUIAssetOpimized(path,parent)
 		return self:CreateSceneUIAsset(path,parent)
 	end
 	return go
-end
+end

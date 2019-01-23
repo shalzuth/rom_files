@@ -3027,4 +3027,4 @@ local Scene_xmas_dun02={
 		}
 	}
 }
-return Scene_xmas_dun02
+return Scene_xmas_dun02

@@ -122,4 +122,3 @@ function SceneTopFuncWord:AddClickEvent( obj, event )
 end
 
 
-

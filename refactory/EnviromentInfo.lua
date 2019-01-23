@@ -7,4 +7,4 @@ SkyboxType={
 
 EnviromentInfo={
 }
-return EnviromentInfo
+return EnviromentInfo

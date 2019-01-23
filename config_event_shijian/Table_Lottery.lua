@@ -266,4 +266,3 @@ Table_Lottery = {
 }
 Table_Lottery_fields = { "id","itemid","FemaleItemid","type",}
 return Table_Lottery
-

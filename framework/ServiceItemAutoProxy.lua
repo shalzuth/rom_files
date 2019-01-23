@@ -1212,4 +1212,3 @@ ServiceEvent.ItemQuickSellItemCmd = "ServiceEvent_ItemQuickSellItemCmd"
 ServiceEvent.ItemEnchantTransItemCmd = "ServiceEvent_ItemEnchantTransItemCmd"
 ServiceEvent.ItemQueryLotteryHeadItemCmd = "ServiceEvent_ItemQueryLotteryHeadItemCmd"
 ServiceEvent.ItemLotteryRateQueryCmd = "ServiceEvent_ItemLotteryRateQueryCmd"
-

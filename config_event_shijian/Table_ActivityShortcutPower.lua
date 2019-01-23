@@ -28,4 +28,4 @@ Table_ActivityShortcutPower = {
 }
 
 Table_ActivityShortcutPower_fields = { "id","Type","Event",}
-return Table_ActivityShortcutPower
+return Table_ActivityShortcutPower

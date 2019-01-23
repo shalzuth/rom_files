@@ -88,4 +88,4 @@ function StageListView:UpdateNormalStar(index)
 		self.rewardSprites[index].spriteName = "ui_8"
 		self.rewardBtns[index].normalSprite = "ui_8"
 	end
-end
+end

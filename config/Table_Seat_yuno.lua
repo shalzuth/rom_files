@@ -200,4 +200,4 @@ Table_Seat_yuno = {
 }
 
 Table_Seat_yuno_fields = { "id","StandPot","SeatPot","Dir",}
-return Table_Seat_yuno
+return Table_Seat_yuno

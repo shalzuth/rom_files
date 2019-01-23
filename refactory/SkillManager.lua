@@ -16,4 +16,4 @@ end
 
 function SkillManager:Update(time, deltaTime)
 	self.skillClickUseManager:Update(time,deltaTime)
-end
+end

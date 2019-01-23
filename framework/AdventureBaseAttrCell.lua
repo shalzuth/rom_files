@@ -16,4 +16,3 @@ function AdventureBaseAttrCell:SetData( data )
 	self.name.text = data.name
 	self.value.text = data.value
 end
-

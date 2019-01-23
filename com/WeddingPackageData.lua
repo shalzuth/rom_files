@@ -67,4 +67,4 @@ function WeddingPackageData:GetPrice()
 	if list ~= nil and #list > 0 then
 		return list[1]
 	end
-end
+end

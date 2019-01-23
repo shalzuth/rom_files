@@ -88,4 +88,4 @@ function SkillLogic_TargetCreature.Client_DoDeterminTargets(self, creature, crea
 	end
 end
 -- for client end
--- override end
+-- override end

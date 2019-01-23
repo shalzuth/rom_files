@@ -161,4 +161,4 @@ function BoothSellInfoView:RecvInfo(note)
 			end
 		end
 	end
-end
+end

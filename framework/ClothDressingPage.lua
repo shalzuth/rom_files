@@ -63,4 +63,3 @@ function ClothDressingPage:RefreshChooseUI(chooseData)
 	local itemCount = chooseData.ItemCount
 	self.container:RefreshROB(moneyID,itemCount,menuID)
 end
-

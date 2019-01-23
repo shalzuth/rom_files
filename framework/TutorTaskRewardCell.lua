@@ -21,4 +21,4 @@ function TutorTaskRewardCell:SetData(data)
 
 		self.num.text = data.num
 	end
-end
+end

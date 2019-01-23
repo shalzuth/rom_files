@@ -129,4 +129,4 @@ end
 
 function RealNameCentifyView:OnExit()
 	RealNameCentifyView.super.OnExit(self);
-end
+end

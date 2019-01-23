@@ -271,4 +271,4 @@ function DeathPopView:updateCdTime( )
 	self.timeSlider.value = delta
 	self.timeThumnail.transform.eulerAngles = Vector3(0,0,90-delta*360)
 	-- self.existClock.text ,_ = math.modf(self.leftTime).."s"
-end
+end

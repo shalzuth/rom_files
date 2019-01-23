@@ -67,4 +67,4 @@ function GvgFinalSectionCell:SetPerGuildProgress(data,totalValue)
 			self.lastWidth = spName.width + self.lastWidth
 		end
 	end
-end
+end

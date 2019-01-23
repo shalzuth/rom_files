@@ -31,4 +31,3 @@ function LuaGC.CallLuaGC()
 	LuaGC.CreatureAddCount = 0
 	LuaGC.CreatureRemoveCount = 0
 end
-

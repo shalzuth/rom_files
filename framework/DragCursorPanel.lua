@@ -29,4 +29,4 @@ end
 
 function DragCursorPanel.JustShowIcon(dragitem)
 	 UICursorWithTween.Set(dragitem.icon.atlas, dragitem.icon.spriteName)
-end
+end

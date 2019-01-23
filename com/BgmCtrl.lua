@@ -149,4 +149,4 @@ function BgmCtrl:Destroy()
 	end
 	self.audioSource = nil
 	self.callback = nil
-end
+end

@@ -74,4 +74,4 @@ local Scene_honeymoon_Inn={
 		}
 	}
 }
-return Scene_honeymoon_Inn
+return Scene_honeymoon_Inn

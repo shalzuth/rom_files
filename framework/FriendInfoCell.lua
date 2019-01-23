@@ -89,4 +89,4 @@ end
 
 function FriendInfoCell:JumpShareView()
 	self:sendNotification(UIEvent.JumpPanel, {view = PanelConfig.RecallShareView, viewdata = self.data})
-end
+end

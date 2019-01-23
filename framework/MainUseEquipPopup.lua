@@ -103,4 +103,4 @@ end
 
 function MainUseEquipPopup:HandleItemUpdate()
 	self.quickPopUp:RefreshNum();
-end
+end

@@ -266,4 +266,4 @@ function NNpc:DoDeconstruct(asArray)
 	self.assetRole:Destroy()
 	self.assetRole = nil
 end
--- override end
+-- override end

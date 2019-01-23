@@ -16,4 +16,4 @@ function DateUtil.ParseHHMMSSBySeconds(seconds)
 	end
 	ss = string.format("%02d",seconds)
 	return hh..mm..ss
-end
+end

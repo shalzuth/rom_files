@@ -162,4 +162,4 @@ end
 
 function NetIngUnionLogo:GetTempUploadPathOfLocal(photo_id, extension)
 	return self:GetTempUploadRootPathOfLocal() .. '/' .. photo_id .. '.' .. extension
-end
+end

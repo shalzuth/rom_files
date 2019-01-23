@@ -33,4 +33,4 @@ function UIListItemViewControllerVIPDescription:LoadView()
 		end
 	end
 	self.lab.text = description
-end
+end

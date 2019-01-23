@@ -1422,4 +1422,4 @@ local Scene_Guild_battle3_gef={
 		}
 	}
 }
-return Scene_Guild_battle3_gef
+return Scene_Guild_battle3_gef

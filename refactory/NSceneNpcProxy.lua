@@ -380,4 +380,4 @@ function NSceneNpcProxy:PickNpcs(filter)
 		end
 	end
 	return list
-end
+end

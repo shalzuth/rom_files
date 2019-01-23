@@ -14,4 +14,4 @@ end
 
 function CardRandomMakeData:SetChoose()
 	self.isChoose = not self.isChoose
-end
+end

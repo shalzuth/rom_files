@@ -26,4 +26,4 @@ function GuildTreasureRewardCell:SetData(data)
 	else
 		self.content:SetActive(false)
 	end
-end
+end

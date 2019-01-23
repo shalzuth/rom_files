@@ -293,4 +293,4 @@ Table_RoleData = {
 }
 
 Table_RoleData_fields = { "id","PropName","VarName","IsPercent","Default","IsClientPercent","SyncFloat","RuneName","BaseTag","CombatTag","AdjTag",}
-return Table_RoleData
+return Table_RoleData

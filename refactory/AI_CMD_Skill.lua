@@ -61,4 +61,4 @@ end
 
 function AI_CMD_Skill.ToString()
 	return "AI_CMD_Skill",AI_CMD_Skill
-end
+end

@@ -79,4 +79,4 @@ end
 
 function CreateGuildPopUp:MapViewEvent()
 	self:AddListenEvt(ServiceEvent.GuildCmdEnterGuildGuildCmd, self.CloseSelf);
-end
+end

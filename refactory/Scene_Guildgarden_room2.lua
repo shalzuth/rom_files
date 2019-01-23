@@ -109,4 +109,4 @@ local Scene_Guildgarden_room2={
 		}
 	}
 }
-return Scene_Guildgarden_room2
+return Scene_Guildgarden_room2

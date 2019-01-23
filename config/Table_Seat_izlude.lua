@@ -65,4 +65,4 @@ Table_Seat_izlude = {
 }
 
 Table_Seat_izlude_fields = { "id","StandPot","SeatPot","Dir",}
-return Table_Seat_izlude
+return Table_Seat_izlude

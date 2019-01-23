@@ -175,4 +175,4 @@ function ItemScoreTip:OnExit()
 		self.cell:OnExit();
 	end
 	Game.GOLuaPoolManager:AddToUIPool(self.resID,self.gameObject)
-end
+end

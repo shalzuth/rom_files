@@ -36,4 +36,4 @@ function SealItem:OnDestroy()
 		self.pos:Destroy();
 	end
 	self.pos = nil;
-end
+end

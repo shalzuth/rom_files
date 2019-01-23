@@ -35,4 +35,4 @@ end
 
 function ChatZoneData:GetChannel()
 	return ChatChannelEnum.Zone
-end
+end

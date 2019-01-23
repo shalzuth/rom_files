@@ -68,4 +68,4 @@ function AssetManagerRefactory:Update(time, deltaTime)
 	self.amEffect:Update(time, deltaTime)
 	self.amEnviroment:Update(time, deltaTime)
 	self.amRole:Update(time, deltaTime)
-end
+end

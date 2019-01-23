@@ -159,4 +159,4 @@ function FunctionMaskWord:InitFilterWord(strs,type)
 			helplog("InitFilterWord is wrong",tostring(strs[i]),type)
 		end
 	end
-end
+end

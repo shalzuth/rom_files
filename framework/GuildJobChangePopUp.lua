@@ -77,4 +77,3 @@ end
 function GuildJobChangePopUp.SortJobInfo(a, b)
 	return a.id < b.id;
 end
-

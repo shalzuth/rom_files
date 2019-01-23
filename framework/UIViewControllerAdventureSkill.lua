@@ -214,4 +214,4 @@ function UIViewControllerAdventureSkill:RequestQueryShopItem(type, shop_id)
 	ShopProxy.Instance:CallQueryShopConfig(type, shop_id)
 end
 
-return UIViewControllerAdventureSkill
+return UIViewControllerAdventureSkill

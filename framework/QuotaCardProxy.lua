@@ -60,4 +60,3 @@ end
 function QuotaCardProxy:GetDetailData()
 	return self.quotaDetailData
 end
-

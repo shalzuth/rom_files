@@ -12,4 +12,4 @@ Table_DeathEffect = {
 }
 
 Table_DeathEffect_fields = { "id","Type","Effect","EffectSe","Parameter",}
-return Table_DeathEffect
+return Table_DeathEffect

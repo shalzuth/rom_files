@@ -2050,4 +2050,3 @@ ZhString =
 	GuestSecurityCancel = "取消",
 	GuestSecurityConfirm = "確定"
 }
-

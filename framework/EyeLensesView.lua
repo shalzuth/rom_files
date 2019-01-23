@@ -152,4 +152,3 @@ function EyeLensesView:HandleLongPress(param)
 		end
 	end
 end
-

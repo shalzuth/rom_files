@@ -98,4 +98,4 @@ function CarrierSubView:CheckNeedAutoLauch()
 		return true
 	end
 	return false
-end
+end

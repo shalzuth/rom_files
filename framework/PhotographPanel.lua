@@ -1488,4 +1488,4 @@ function PhotographPanel:updateCameraAxis(  )
 			FunctionSceneFilter.Me():StartFilter(GameConfig.FilterType.PhotoFilter.Self)		
 		end
 	end
-end
+end

@@ -273,4 +273,3 @@ function IdleAI_BeHolded:Break(masterCreature, creature)
 	creature.assetRole:SetShadowEnable(true)
 	creature.logicTransform:ScaleToXYZ(creature:GetScaleWithFixHW())
 end
-

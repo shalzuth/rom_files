@@ -54,4 +54,4 @@ Table_Seat_morocc = {
 }
 
 Table_Seat_morocc_fields = { "id","StandPot","SeatPot","Dir",}
-return Table_Seat_morocc
+return Table_Seat_morocc

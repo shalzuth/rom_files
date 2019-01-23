@@ -165,4 +165,4 @@ function BoothInfoBaseCell:SetAlpha(sprite, alpha)
 	if sprite.color.a ~= alpha then
 		sprite.alpha = alpha
 	end
-end
+end

@@ -90,4 +90,4 @@ end
 function ChatNameCell:SetFirstChoose(isFirst)
 	self.chooseBgFirst:SetActive(isFirst)
 	self.chooseBg:SetActive(not isFirst)
-end
+end

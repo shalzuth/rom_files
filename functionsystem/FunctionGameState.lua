@@ -54,4 +54,4 @@ end
 
 function FunctionGameState:EnteredScene()
 	self.stateMachine:SwitchState(self.enteredSceneState)
-end
+end

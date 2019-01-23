@@ -214,4 +214,4 @@ function BagData:GetItemFreeSpaceByStaticId(itemid)
 	local spaceItemNum = self:GetSpaceItemNum();
 	return freeSpace + maxnum * spaceItemNum;
 end
--- return Prop
+-- return Prop

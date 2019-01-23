@@ -106,4 +106,4 @@ function PetHeadCell:UpdateHp()
 	end
 
 	PetHeadCell.super.UpdateHp(self, self.data.hp);
-end
+end

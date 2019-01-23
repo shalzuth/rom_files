@@ -60,4 +60,4 @@ function ServerTime.Update(owner,deltaTime)
 	ServerTime.ServerTime = ServerTime.CurClientTime() + ServerTime.deltaStamp
 	ServerTime.CacheUnscaledTime = Time.unscaledTime
 	-- print("服务器时间:"..ServerTime.ServerTime)
-end
+end

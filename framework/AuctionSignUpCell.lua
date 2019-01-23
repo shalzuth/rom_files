@@ -119,4 +119,4 @@ function AuctionSignUpCell:SetSignUp(isGray)
 		self.signUpBtn.CurrentState = 0
 		self.signUpLabel.effectStyle = UILabel.Effect.Outline
 	end
-end
+end

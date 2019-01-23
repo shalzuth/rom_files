@@ -442,4 +442,4 @@ function MarriageCertificate:OnExit(  )
 	PictureManager.Instance:UnLoadWedding(MarriageCertificate.ProcessTextureName, self.bgTx1);
 	PictureManager.Instance:UnLoadWedding(MarriageCertificate.ProcessTextureName, self.bgTx2);
 	Object.DestroyImmediate(self.photo.mainTexture)
-end
+end

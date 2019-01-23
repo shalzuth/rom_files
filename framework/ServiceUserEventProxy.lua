@@ -159,4 +159,4 @@ end
 function ServiceUserEventProxy:RecvChargeQueryCmd(data) 
 	self:Notify(ServiceEvent.UserEventChargeQueryCmd, data)
 	EventManager.Me():PassEvent(ServiceEvent.UserEventChargeQueryCmd, data)
-end
+end

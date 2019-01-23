@@ -374,4 +374,4 @@ function FoodScoreTip:OnExit()
 	FoodScoreTip.super.OnExit(self);
 	UIModelUtil.Instance:ResetTexture( self.modeltexture )
 	Game.GOLuaPoolManager:AddToUIPool(self.resID,self.gameObject)
-end
+end

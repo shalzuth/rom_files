@@ -224,4 +224,3 @@ function BaseAttributeView:AddListenEvts(  )
 	self:AddListenEvt(MyselfEvent.MyPropChange,self.resetData)
 	self:AddListenEvt(ServiceEvent.NUserBuffForeverCmd,self.updateFixedData)
 end
-

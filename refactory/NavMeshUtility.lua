@@ -60,4 +60,3 @@ function NavMeshUtility.Better_SampleDirection(p, newP, dir)
 	ret, newP[1], newP[2], newP[3] = NavMeshUtils.SampleDirection(p, dir)
 	return ret, newP
 end
-

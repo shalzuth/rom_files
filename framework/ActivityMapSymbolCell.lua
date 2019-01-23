@@ -16,4 +16,4 @@ function ActivityMapSymbolCell:SetData(data)
 			end
 		end
 	end
-end
+end

@@ -115,4 +115,4 @@ end
 function UIModelMonthlyVIP.SecondOfUnixTimestamp(timestamp)
 	local strSecond = os.date('%S', timestamp)
 	return tonumber(strSecond)
-end
+end

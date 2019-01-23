@@ -63,4 +63,4 @@ Table_Dialog_Quest8 =
 }
 Table_Dialog_Quest8_fields = {"id", "Speaker", "Text", "Option", "Emoji", "Action", "Voice", "SubViewId" }
 return Table_Dialog_Quest8
-	
+	

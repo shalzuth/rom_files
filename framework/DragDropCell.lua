@@ -43,4 +43,4 @@ end
 
 function DragDropCell:SetScrollView(isDrag)
 	self.dragScrollView = isDrag
-end
+end

@@ -53,4 +53,4 @@ end
 function Astrolabe_ScreenCell:ResetScreenPos( row, col )
 	self.row = row;
 	self.col = col;
-end
+end

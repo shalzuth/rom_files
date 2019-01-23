@@ -1226,4 +1226,4 @@ local Scene_ghostship={
 		}
 	}
 }
-return Scene_ghostship
+return Scene_ghostship

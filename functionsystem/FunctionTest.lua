@@ -68,4 +68,4 @@ function FunctionTest:TestNpcs()
 	collectgarbage("collect")
 
 	print(string.format("mem %0.2fKB", collectgarbage("count")))
-end
+end

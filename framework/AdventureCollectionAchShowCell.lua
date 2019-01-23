@@ -26,4 +26,3 @@ function AdventureCollectionAchShowCell:SetData(data)
 	self.name.text = name.."："..progressStr
 end
 
-

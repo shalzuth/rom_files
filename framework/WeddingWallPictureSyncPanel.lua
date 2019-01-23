@@ -32,4 +32,4 @@ function WeddingWallPictureSyncPanel:handleCategorySelect( key )
 			self.SceneryListPage:ResetPosition()
 		end
 	end
-end
+end

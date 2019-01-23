@@ -380,4 +380,4 @@ end
 
 function ReusableObject:OnObserverDestroyed(k, obj)
 end
--- virtual end
+-- virtual end

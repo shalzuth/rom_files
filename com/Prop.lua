@@ -64,4 +64,4 @@ function Prop:ResetValue()
 	self.value = self.propVO~=nil and self.propVO.defaultValue or 0
 end
 
--- return Prop
+-- return Prop

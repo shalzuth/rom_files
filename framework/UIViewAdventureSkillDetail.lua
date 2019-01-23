@@ -156,4 +156,4 @@ end
 function UIViewAdventureSkillDetail:Tutorial()
 	self:AddOrRemoveGuideId(self.goButtonLearn)
 	self:AddOrRemoveGuideId(self.goButtonLearn, 38);
-end
+end

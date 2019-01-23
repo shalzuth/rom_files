@@ -35,4 +35,3 @@ Table_GuildChallenge = {
 }
 Table_GuildChallenge_fields = { "id","Name","GroupID","UnlockID","Traceinfo","Type","Param","Target","Reward","GuildLevel","Weight",}
 return Table_GuildChallenge
-

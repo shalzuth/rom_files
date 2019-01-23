@@ -9,4 +9,4 @@ end
 
 function AI_CreatureLookAt:LookAt(creatureGUID)
 	self.ai_LookAt:Request_Set(creatureGUID)
-end
+end

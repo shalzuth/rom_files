@@ -24,4 +24,4 @@ function BoothData:DoDeconstruct(asArray)
 	self.name = nil
 
 	BoothData.super.DoDeconstruct(self, asArray)
-end
+end

@@ -36,4 +36,4 @@ function TextureScale2.Get(texture2D, coefficient, complete_callback)
 			complete_callback(x)
 		end
 	end, _camera)
-end
+end

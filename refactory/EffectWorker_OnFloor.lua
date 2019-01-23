@@ -67,4 +67,4 @@ function EffectWorker_OnFloor:DoDeconstruct(asArray)
 	self.effectHandle = nil
 	self.performData = nil
 end
--- override end
+-- override end

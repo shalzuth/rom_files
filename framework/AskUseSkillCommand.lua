@@ -11,4 +11,4 @@ function AskUseSkillCommand:execute(note)
 end
 
 
-return AskUseSkillCommand
+return AskUseSkillCommand

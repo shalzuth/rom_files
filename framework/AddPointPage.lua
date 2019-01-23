@@ -251,4 +251,4 @@ function AddPointPage:resetAttrPointDatas(  )
 	end
 	self:PassEvent(AddPointPage.addPointAction)
 	self:disableConfirmMt(false)
-end
+end

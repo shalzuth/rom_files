@@ -123,4 +123,4 @@ end
 
 function LotteryCatLitterBoxView:HandleEffectEnd()
 	self.gameObject:SetActive(true)
-end
+end

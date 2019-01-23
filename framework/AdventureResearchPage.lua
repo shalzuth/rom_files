@@ -420,4 +420,4 @@ function AdventureResearchPage:GetItemCells()
 		end
 	end
 	return result;
-end
+end

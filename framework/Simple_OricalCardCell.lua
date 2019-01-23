@@ -53,4 +53,3 @@ function Simple_OricalCardCell:HideContent()
 	self.content:SetActive(false);
 end
 
-

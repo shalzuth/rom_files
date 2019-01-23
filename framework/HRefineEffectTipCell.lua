@@ -41,4 +41,4 @@ function HRefineEffectTipCell:SetData(data)
 	else
 		self.gameObject:SetActive(false);
 	end
-end
+end

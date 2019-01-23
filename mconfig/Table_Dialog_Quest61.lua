@@ -10,4 +10,3 @@ Table_Dialog_Quest61_s = {
  
 }
 return Table_Dialog_Quest61
-

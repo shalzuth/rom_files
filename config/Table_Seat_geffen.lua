@@ -39,4 +39,4 @@ Table_Seat_geffen = {
 }
 
 Table_Seat_geffen_fields = { "id","StandPot","SeatPot","Dir",}
-return Table_Seat_geffen
+return Table_Seat_geffen

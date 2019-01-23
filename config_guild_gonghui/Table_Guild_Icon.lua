@@ -85,4 +85,4 @@ Table_Guild_Icon = {
 }
 
 Table_Guild_Icon_fields = { "id","Icon","GuildLevel",}
-return Table_Guild_Icon
+return Table_Guild_Icon

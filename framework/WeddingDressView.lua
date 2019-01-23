@@ -43,4 +43,4 @@ function WeddingDressView:SetData(data)
 		self.content.text = data.content
 		self.from.text = data.name
 	end
-end
+end

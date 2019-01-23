@@ -8,4 +8,4 @@ function AlchemistMakeView:Init()
 	self.type = BusinessmanMakeProxy.Skill.Alchemist
 
 	AlchemistMakeView.super.Init(self)
-end
+end

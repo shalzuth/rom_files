@@ -37,4 +37,4 @@ Table_EquipEnchantPrice = {
 }
 
 Table_EquipEnchantPrice_fields = { "id","AttrType","SpearRate","SwordRate","StaffRate","KatarRate","BowRate","MaceRate","AxeRate","BookRate","KnifeRate","InstrumentRate","LashRate","PotionRate","GloveRate","ArmorRate","RobeRate","ShoeRate","AccessoryRate","ShieldRate","HeadRate","FaceRate","MouthRate","TailRate","WingRate",}
-return Table_EquipEnchantPrice
+return Table_EquipEnchantPrice

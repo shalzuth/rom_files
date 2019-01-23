@@ -583,4 +583,4 @@ local Scene_Guild_battle1_pay={
 		}
 	}
 }
-return Scene_Guild_battle1_pay
+return Scene_Guild_battle1_pay

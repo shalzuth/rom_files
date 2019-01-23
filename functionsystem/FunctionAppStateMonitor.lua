@@ -82,4 +82,4 @@ end
 
 function FunctionAppStateMonitor:OnOrientationChanged(isLandscapeLeft)
 	Debug.Log("OnOrientationChanged !")
-end
+end

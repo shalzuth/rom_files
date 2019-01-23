@@ -91,4 +91,3 @@ setmetatable(Table_EquipRefine[53],{__index = Table_EquipRefine[41]})
 setmetatable(Table_EquipRefine[54],{__index = Table_EquipRefine[41]})
 setmetatable(Table_EquipRefine[55],{__index = Table_EquipRefine[41]})
 return Table_EquipRefine
-

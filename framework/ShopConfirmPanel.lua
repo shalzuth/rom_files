@@ -59,4 +59,3 @@ function ShopConfirmPanel:OnExit()
 end
 
 
-

@@ -125,4 +125,4 @@ function MissionCommandFactory.CreateCommand(args, cmdClass)
 	local cmd = ReusableObject.Create( cmdClass, true, args )
 	TableUtility.TableClear(tempArgs)
 	return cmd
-end
+end

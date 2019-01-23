@@ -324,4 +324,4 @@ end
 
 function EquipStrengthen:OnExit()
 	self.super.OnExit(self)
-end
+end

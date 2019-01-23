@@ -21,4 +21,4 @@ function AnnounceQuestPanelTeamMemberPortrail:SetData( data )
 	self.headData:Reset();
 	self.headData:TransByTeamMemberData(data);
 	self.teamHead:SetData(self.headData)
-end
+end

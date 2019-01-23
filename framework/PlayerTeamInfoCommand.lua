@@ -8,4 +8,4 @@ function PlayerTeamInfoCommand:execute(note)
 			FunctionPlayerTip.Me():UpdateInviteMemberFuncState(playerid, teamid)
 		end
 	end
-end
+end

@@ -44,4 +44,4 @@ end
 
 function ExchangeExpressData:GetBg()
 	return self.background or 1
-end
+end

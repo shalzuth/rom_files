@@ -34,4 +34,3 @@ function LogicManager_Npc_Userdata:CheckDressDirty(ncreature)
 	superCheckDressDirty(self,ncreature)
 end
 --npc 换装结束
-

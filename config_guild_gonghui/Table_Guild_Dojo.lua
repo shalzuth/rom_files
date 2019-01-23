@@ -43,4 +43,4 @@ Table_Guild_Dojo = {
 }
 
 Table_Guild_Dojo_fields = { "id","Name","Level","HeadImage","DojoGroupId","Raid","UnopenLevel","DojoOpen",}
-return Table_Guild_Dojo
+return Table_Guild_Dojo

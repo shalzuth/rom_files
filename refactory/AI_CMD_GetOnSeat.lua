@@ -41,4 +41,4 @@ end
 
 function AI_CMD_GetOnSeat.ToString()
 	return "AI_CMD_GetOnSeat",AI_CMD_GetOnSeat
-end
+end

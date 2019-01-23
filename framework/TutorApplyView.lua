@@ -119,4 +119,4 @@ function TutorApplyView:ClickItem(cell)
 
 		playerTip:SetData(tipData)
 	end
-end
+end

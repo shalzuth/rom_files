@@ -120,4 +120,4 @@ function FunctionMonster:CanSearchMonster(monster,hasLearnMvp,hasLearnMini)
 	end
 
 	return can
-end
+end

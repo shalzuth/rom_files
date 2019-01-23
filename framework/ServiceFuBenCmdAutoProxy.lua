@@ -791,4 +791,3 @@ ServiceEvent.FuBenCmdQueryGvgTowerInfoFubenCmd = "ServiceEvent_FuBenCmdQueryGvgT
 ServiceEvent.FuBenCmdSuperGvgRewardInfoFubenCmd = "ServiceEvent_FuBenCmdSuperGvgRewardInfoFubenCmd"
 ServiceEvent.FuBenCmdSuperGvgQueryUserDataFubenCmd = "ServiceEvent_FuBenCmdSuperGvgQueryUserDataFubenCmd"
 ServiceEvent.FuBenCmdMvpBattleReportFubenCmd = "ServiceEvent_FuBenCmdMvpBattleReportFubenCmd"
-

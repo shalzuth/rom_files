@@ -98,4 +98,3 @@ function EnchantEffectCell:SetName(text, width)
 end
 
 
-

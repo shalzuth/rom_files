@@ -115,4 +115,4 @@ function SkyWheelFriendCell:SetGuild(isActive)
 	self.EmptyGuild.gameObject:SetActive(not isActive)
 	self.GuildIcon.gameObject:SetActive(isActive)
 	self.GuildName.gameObject:SetActive(isActive)
-end
+end

@@ -114,4 +114,3 @@ ServiceEvent.TeamRaidCmdTeamRaidInviteCmd = "ServiceEvent_TeamRaidCmdTeamRaidInv
 ServiceEvent.TeamRaidCmdTeamRaidReplyCmd = "ServiceEvent_TeamRaidCmdTeamRaidReplyCmd"
 ServiceEvent.TeamRaidCmdTeamRaidEnterCmd = "ServiceEvent_TeamRaidCmdTeamRaidEnterCmd"
 ServiceEvent.TeamRaidCmdTeamRaidAltmanShowCmd = "ServiceEvent_TeamRaidCmdTeamRaidAltmanShowCmd"
-

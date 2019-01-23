@@ -284,4 +284,4 @@ end
 
 function UnionWallPhoto:GetPhotoID_Account(account_id, sid_or_pindex, p_or_s)
 	return account_id .. '_' .. sid_or_pindex .. '_' .. p_or_s .. '_' .. 'a'
-end
+end

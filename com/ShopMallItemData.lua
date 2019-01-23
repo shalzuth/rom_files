@@ -68,4 +68,4 @@ end
 
 function ShopMallItemData:GetPrice()
 	return self.isBooth and self.price * self:GetPriceRate() or self.price
-end
+end

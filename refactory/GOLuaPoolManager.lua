@@ -635,4 +635,4 @@ function MovePosPool:Clear()
 			self.pool[k] = nil
 		end
 	end
-end
+end

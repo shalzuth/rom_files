@@ -83,4 +83,4 @@ function GuildTaskCell:SetConfirm(canConfirm)
 		self.confirmBtn.spriteName = "com_btn_13";
 		self.confirmLabel.effectColor = ColorUtil.NGUIGray
 	end
-end
+end

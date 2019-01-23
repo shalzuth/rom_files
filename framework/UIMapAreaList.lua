@@ -79,4 +79,4 @@ end
 
 function UIMapAreaList:HideMyTeam()
 	self.goMyTeam:SetActive(false)
-end
+end

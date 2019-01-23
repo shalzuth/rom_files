@@ -101,4 +101,3 @@ setmetatable(Table_AdventureLevel[48],{__index = Table_AdventureLevel[41]})
 setmetatable(Table_AdventureLevel[49],{__index = Table_AdventureLevel[41]})
 setmetatable(Table_AdventureLevel[50],{__index = Table_AdventureLevel[41]})
 return Table_AdventureLevel
-

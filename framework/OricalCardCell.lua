@@ -44,4 +44,4 @@ function OricalCardCell:SetData(data)
 	self.desc.text = sdata.Message;
 
 	self.simpleCardCell:SetData(sdata);
-end
+end

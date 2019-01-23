@@ -229,4 +229,4 @@ function BeingInfoView:OnExit()
 
 	FunctionPet.Me():SetCameraFoucus(true);
 	self:CameraReset();
-end
+end

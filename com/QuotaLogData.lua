@@ -31,4 +31,4 @@ function QuotaLogData:SetLogData(data)
 	elseif QuotaCardProxy.Type.ChargeUnLock == quotaType then
 		self.logTitle = ZhString.QuotaCard_ChargeUnLock
 	end
-end
+end

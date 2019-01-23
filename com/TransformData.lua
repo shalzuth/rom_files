@@ -53,4 +53,4 @@ end
 --是否怪物组
 function TransformData:IsMonsterGroup()
 	return self[5] == monsterType
-end
+end

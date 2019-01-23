@@ -121,4 +121,4 @@ function TutorGraduationView:ClickItem(cell)
 		tipData.itemdata = data
 		self:ShowItemTip(tipData, cell.icon, NGUIUtil.AnchorSide.Left, {-220,0})
 	end
-end
+end

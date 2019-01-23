@@ -174,4 +174,3 @@ function QuestPackagePart:Hide()
 
 	TipManager.Instance:CloseTip();
 end
-

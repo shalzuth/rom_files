@@ -118,4 +118,4 @@ function PictureWallSceneryListPage:CheckCurPicIsShow(cellCtl)
 	if(cellCtl and cellCtl.data)then
 		self.container:CheckCurPicIsShow(cellCtl)
 	end
-end
+end

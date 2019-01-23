@@ -27,4 +27,3 @@ end
 function ServiceSceneInterlocutionProxy:RecvQuery(data) 
 	FunctionXO.Me():QueryQuestionResult(  data.ret, data.npcid )
 end
-

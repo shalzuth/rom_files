@@ -560,4 +560,3 @@ function MapManager:LateUpdate(time, deltaTime)
 	self.cullingObjectManager:LateUpdate(time, deltaTime)
 end
 
-

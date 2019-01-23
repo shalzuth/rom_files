@@ -94,4 +94,4 @@ end
 function ChatBarrageCell:Finalize()
 	GameObject.Destroy(self.gameObject)
 end
--- override end
+-- override end

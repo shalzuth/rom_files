@@ -492,4 +492,4 @@ Table_RuneSpecial = {
 }
 
 Table_RuneSpecial_fields = { "id","Type","RuneName","SkillID","Group","Runetip","SkillTipParm","BeingEffect",}
-return Table_RuneSpecial
+return Table_RuneSpecial

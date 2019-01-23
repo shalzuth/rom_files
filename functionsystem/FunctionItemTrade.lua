@@ -136,4 +136,3 @@ function FunctionItemTrade:IsRequireOverTime(itemData)
 
 	return deltatime > FunctionItemTrade.IntervalTime;
 end
-

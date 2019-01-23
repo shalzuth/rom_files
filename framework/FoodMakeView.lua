@@ -842,4 +842,4 @@ function FoodMakeView:OnExit()
 	FunctionFood.Me():UpdateMakeState(Game.Myself.data.id, fake_msg);
 
 	FunctionBGMCmd.Me():StopUIBgm();
-end
+end

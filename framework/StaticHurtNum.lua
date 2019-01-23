@@ -136,4 +136,3 @@ function StaticHurtNum:ObserverDestroyed(obj)
 end
 
 
-

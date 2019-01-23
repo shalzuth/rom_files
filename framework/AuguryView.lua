@@ -509,4 +509,4 @@ function AuguryEffectHelper:Destory()
 	self.path = nil
 	self.epID = nil
 	self:CancelLT()
-end
+end

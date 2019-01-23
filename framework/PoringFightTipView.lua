@@ -46,4 +46,4 @@ function PoringFightTipView:OnEnter()
 	PoringFightTipView.super.OnEnter(self);
 
 	self:Update();
-end
+end

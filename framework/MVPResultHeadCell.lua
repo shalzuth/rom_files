@@ -18,4 +18,4 @@ function MVPResultHeadCell:SetData(data)
 			IconManager:SetFaceIcon(staticData.Icon, self.icon)
 		end
 	end
-end
+end

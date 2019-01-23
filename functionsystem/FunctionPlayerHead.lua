@@ -64,4 +64,4 @@ end
 function FunctionPlayerHead:EnableBlinkEye()
 	self.blinkEnabled = true
 	self:PassEvent(FunctionPlayerHead.EnableBlinkEye)
-end
+end

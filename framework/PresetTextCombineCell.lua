@@ -41,4 +41,4 @@ function PresetTextCombineCell:UpdateInfo()
 		local cell = self.childrenObjs[i]
 		cell:SetData(cData)
 	end
-end
+end

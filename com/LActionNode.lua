@@ -9,4 +9,4 @@ end
 function LActionNode:Update()
 	return self:DoAction()
 	-- return TaskState.Success;
-end
+end

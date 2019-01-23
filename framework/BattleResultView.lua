@@ -62,4 +62,4 @@ function BattleResultView:OnExit()
 	end
 	self:CameraReset();
 	self.super.OnExit(self);
-end
+end

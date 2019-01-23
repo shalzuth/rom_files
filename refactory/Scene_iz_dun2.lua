@@ -1551,4 +1551,4 @@ local Scene_iz_dun2={
 		}
 	}
 }
-return Scene_iz_dun2
+return Scene_iz_dun2

@@ -383,4 +383,3 @@ ServiceEvent.MapSpEffectCmd = "ServiceEvent_MapSpEffectCmd"
 ServiceEvent.MapUserHandNpcCmd = "ServiceEvent_MapUserHandNpcCmd"
 ServiceEvent.MapGingerBreadNpcCmd = "ServiceEvent_MapGingerBreadNpcCmd"
 ServiceEvent.MapGoCityGateMapCmd = "ServiceEvent_MapGoCityGateMapCmd"
-

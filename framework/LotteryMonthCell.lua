@@ -65,4 +65,4 @@ function LotteryMonthCell:DestroyPicture()
 		self.bg.mainTexture = nil
 		GameObject.DestroyImmediate(texture)
 	end
-end
+end

@@ -10,4 +10,4 @@ function CutHairCombineItemCell:FindObjs()
 		go = self:FindChild("HairCutCell"..i);
 		self.childrenObjs[i] = HairCutCell.new(go)
 	end
-end
+end

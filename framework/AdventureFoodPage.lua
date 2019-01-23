@@ -422,4 +422,4 @@ function AdventureFoodPage:GetItemCells()
 		end
 	end
 	return result;
-end
+end

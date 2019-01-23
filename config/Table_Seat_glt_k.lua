@@ -67,4 +67,4 @@ Table_Seat_glt_k = {
 }
 
 Table_Seat_glt_k_fields = { "id","StandPot","SeatPot","Dir",}
-return Table_Seat_glt_k
+return Table_Seat_glt_k

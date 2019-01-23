@@ -19,4 +19,4 @@ function ChatZoneMemberData:DoDeconstruct(asArray)
 
 	self.owner = nil
 	self.rolejob = nil
-end
+end

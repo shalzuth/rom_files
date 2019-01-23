@@ -23,4 +23,4 @@ end
 
 function AstrolabeMaterilaCell:GetHeight()
 	return self.icon.height
-end
+end

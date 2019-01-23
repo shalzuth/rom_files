@@ -239,4 +239,3 @@ Table_Dialog_NpcTalk_s = {
  
 }
 return Table_Dialog_NpcTalk
-

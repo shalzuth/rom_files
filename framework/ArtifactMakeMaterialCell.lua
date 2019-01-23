@@ -46,4 +46,4 @@ function ArtifactMakeMaterialCell:NeedCount()
 	else
 		return self.data.num - GuildProxy.Instance:GetGuildPackItemNumByItemid(self.data.id)
 	end
-end
+end

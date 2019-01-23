@@ -44,4 +44,4 @@ end
 
 function BeingSkillTip:OnExit()
 	return BeingSkillTip.super.OnExit(self)
-end
+end

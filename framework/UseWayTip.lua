@@ -74,4 +74,3 @@ function UseWayTip:AddIgnoreBounds(obj)
 		self.closecomp:AddTarget(obj.transform);
 	end
 end
-

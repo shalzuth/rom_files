@@ -28,4 +28,3 @@ function ServiceErrorUserCmdProxy:RecvMaintainUserCmd(data)
 		data.picture);
 	self:Notify(ServiceEvent.ErrorUserCmdMaintainUserCmd, data)
 end
-

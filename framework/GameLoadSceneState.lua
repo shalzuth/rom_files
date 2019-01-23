@@ -94,4 +94,4 @@ function GameLoadSceneState:ClearScene(loadOtherScene)
 		FunctionMapEnd.Me():BeginIgnoreAreaTrigger()
 	end
 	SceneObjectProxy.ClearAll()
-end
+end

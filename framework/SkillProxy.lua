@@ -1022,4 +1022,4 @@ function SkillProxy:GetBeingNpcInfo(beingid)
 	else
 		return SaveInfoProxy.Instance:GetBeingInfo(self.multiSaveId, beingid, self.multiSaveType)
 	end
-end
+end

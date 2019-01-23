@@ -239,4 +239,4 @@ function SwitchRolePanel:Update(delta)
 	self.currentView:Progress(self.currentProgress+SceneProxy.Instance:LoadingProgress()/2)
 end
 
-return SwitchRolePanel
+return SwitchRolePanel

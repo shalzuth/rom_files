@@ -150,4 +150,4 @@ end
 
 function ExchangeBuyIntroduceCell:OnDestroy() 
 	TimeTickManager.Me():ClearTick(self)
-end
+end

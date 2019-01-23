@@ -589,4 +589,4 @@ end
 
 function HappyShopProxy:GetShopId()
 	return self.params
-end
+end

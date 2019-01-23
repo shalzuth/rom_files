@@ -41,4 +41,3 @@ function HRefinePosCell:SetChoose(pos)
 		self.chooseSymbol:SetActive(false);
 	end
 end
-

@@ -839,4 +839,4 @@ end
 function UISubViewControllerMonthlyVIP:OnPayPaying(str_result)
 	local strResult = str_result or 'nil'
 	LogUtility.Info('UIViewControllerZenyShop:OnPayPaying, ' .. strResult)
-end
+end

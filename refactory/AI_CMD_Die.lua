@@ -41,4 +41,4 @@ end
 
 function AI_CMD_Die.ToString()
 	return "AI_CMD_Die",AI_CMD_Die
-end
+end

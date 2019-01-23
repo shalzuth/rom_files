@@ -178,4 +178,4 @@ local Scene_room_gef_1F={
 		}
 	}
 }
-return Scene_room_gef_1F
+return Scene_room_gef_1F

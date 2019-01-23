@@ -86,4 +86,4 @@ function SkyWheelFriendView:UpdateSocialData(data)
 			cellctl:RefreshOfflinetime()
 		end
 	end
-end
+end

@@ -106,4 +106,4 @@ function ArrayUtil.ArraySet(arr1, arr2)
 	else
 		arr1 = arr2
 	end
-end
+end

@@ -53,4 +53,4 @@ Table_Buffer_WW = {
 }
 
 Table_Buffer_WW_fields = { "id","BuffName","BuffRate","Condition","BuffType","BuffStateID","BuffEffect","BuffIcon","IconType","BuffDesc","Dsc","DelBuffID",}
-return Table_Buffer_WW
+return Table_Buffer_WW

@@ -61,4 +61,4 @@ function MonsterFaceCell:RefreshLabelColor()
 			-- self.name.effectColor = MonsterTextColorConfig.EffectColor.N;
 		end
 	end
-end
+end

@@ -7,4 +7,3 @@ function OverSeaFunc.Msg(title, text,param)
 	GameFacade.Instance:sendNotification(UIEvent.CloseUI, UIViewType.DialogLayer);
 	FuncZenyShop.Instance():OpenUI(PanelConfig.ZenyShopItem)
 end
-

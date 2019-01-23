@@ -17,4 +17,4 @@ function LogicManager_Player_Props:UpdateTransformState(ncreature,propName,oldVa
 		FunctionTransform.Me():TransformTo(ncreature,transformID)
 		-- ncreature:SetActionConfig(Game.Config_NPCAction)
 	end
-end
+end

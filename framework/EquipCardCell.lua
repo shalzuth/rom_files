@@ -29,4 +29,4 @@ end
 
 function EquipCardCell:SetChoose(b)
 	self.chooseSymbol:SetActive(b);
-end
+end

@@ -82,4 +82,4 @@ end
 function Proxy:onRemove()
 end
 
-return Proxy
+return Proxy

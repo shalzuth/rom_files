@@ -320,4 +320,4 @@ end
 
 function PlayerDetailViewMP:CloseUI( ... )
 	PlayerDetailViewMP.super.Hide(self)
-end
+end

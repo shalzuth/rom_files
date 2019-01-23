@@ -142,4 +142,4 @@ function WeddingQuestionView:CheckCanAnswer(charids)
 	end
 
 	return false
-end
+end

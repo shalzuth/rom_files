@@ -485,4 +485,3 @@ EAUGURYTYPE_VALENTINE = 4
 EReplyType_Agree = 1
 EReplyType_Refuse = 2
 
-

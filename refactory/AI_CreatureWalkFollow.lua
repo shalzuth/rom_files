@@ -13,4 +13,4 @@ function AI_CreatureWalkFollow:_Idle(time, deltaTime, creature)
 	end
 	self:_IdleAIUpdate(time, deltaTime, creature)
 	return true
-end
+end

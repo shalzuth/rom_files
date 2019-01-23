@@ -4,4 +4,4 @@ Table_AchievementText_WW = {
 }
 
 Table_AchievementText_WW_fields = { "id","Text",}
-return Table_AchievementText_WW
+return Table_AchievementText_WW

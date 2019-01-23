@@ -323,4 +323,4 @@ function SceneCarrierProxy:Clear()
 	-- FunctionBus.Me():Shutdown()
  	self:Reset()
  	-- GameFacade.Instance:sendNotification(SceneUserEvent.SceneRemoveRoles,roles)
-end
+end

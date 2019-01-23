@@ -233,4 +233,4 @@ function ServiceLoginUserCmdProxy:RecvRealAuthorizeUserCmd(data)
 	helplog("Recv-->RealAuthorizeUserCmd", data.authorized);
 	FunctionLogin.Me():set_realName_Centified(data.authorized)
 	self:Notify(ServiceEvent.LoginUserCmdRealAuthorizeUserCmd, data)
-end
+end

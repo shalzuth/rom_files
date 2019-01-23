@@ -642,4 +642,4 @@ local Scene_amatsu2={
 		}
 	}
 }
-return Scene_amatsu2
+return Scene_amatsu2

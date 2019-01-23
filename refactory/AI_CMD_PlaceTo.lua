@@ -48,4 +48,4 @@ end
 
 function AI_CMD_PlaceTo.ToString()
 	return "AI_CMD_PlaceTo",AI_CMD_PlaceTo
-end
+end

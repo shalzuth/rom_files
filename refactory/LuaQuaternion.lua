@@ -395,4 +395,4 @@ function I:Destroy()
 	destroyer(self)
 end
 
-setmetatable(LuaQuaternion,LuaQuaternion)
+setmetatable(LuaQuaternion,LuaQuaternion)

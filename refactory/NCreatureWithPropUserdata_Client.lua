@@ -13,4 +13,4 @@ function NCreatureWithPropUserdata:Client_NoAttacked(v)
 	local p = self.data:AddClientProp("NoAttacked", v and 1 or -1)
 	self.data.noAttacked = self.data:PlusClientProp(p)
 end
--- client prop end
+-- client prop end

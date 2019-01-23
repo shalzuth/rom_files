@@ -115,4 +115,4 @@ end
 
 function AttrEffectB:CanNotBeSkillTargetByEnemy()
 	return self.value & 32768 > 0
-end
+end

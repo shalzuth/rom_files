@@ -583,4 +583,4 @@ function PictureWallManager:WallPicThumbnailDownloadErrorCallback1(photoData,err
 	-- body
 	self:log("WallPicThumbnailDownloadErrorCallback",index, time,errorMessage)
 	GameFacade.Instance:sendNotification(PictureWallManager.WallPicThumbnailDownloadErrorCallback,{photoData = photoData,errorMessage = errorMessage})
-end
+end

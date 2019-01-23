@@ -266,4 +266,4 @@ function WrapScrollView._CompareTo(valueA, valueB)
 		return -1
 	end
 	return 0
-end
+end

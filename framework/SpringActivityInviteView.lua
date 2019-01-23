@@ -90,4 +90,4 @@ function SpringActivityInviteView:SetInvite()
 		self.inviteButton.color = ColorUtil.NGUIShaderGray
 		self.inviteLabel.effectColor = ColorUtil.NGUIGray
 	end
-end
+end

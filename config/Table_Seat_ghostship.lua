@@ -39,4 +39,4 @@ Table_Seat_ghostship = {
 }
 
 Table_Seat_ghostship_fields = { "id","StandPot","SeatPot","Dir",}
-return Table_Seat_ghostship
+return Table_Seat_ghostship

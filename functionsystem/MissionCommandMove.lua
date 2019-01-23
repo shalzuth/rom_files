@@ -108,4 +108,4 @@ function MissionCommandMove:DoDeconstruct(asArray)
 	end
 	MissionCommandMove.super.DoDeconstruct(self, asArray)
 	self.teleport = nil
-end
+end

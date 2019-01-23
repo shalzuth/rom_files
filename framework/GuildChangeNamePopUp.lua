@@ -67,4 +67,4 @@ function GuildChangeNamePopUp:HandleError(note)
 		MsgManager.ShowMsgByIDTable(2701);
 		self:ShowChangeError();
 	end
-end
+end

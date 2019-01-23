@@ -171,4 +171,4 @@ function SimpleLuaLRU:Remove(obj)
 	if(obj~=nil) then
 		return ArrayRemove(self[2],obj)~=0
 	end
-end
+end

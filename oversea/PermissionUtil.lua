@@ -68,4 +68,4 @@ function PermissionUtil.Access_RecordAudio(callback)
 	--		helplog("Access_RecordAudio")
 	--	end
 	--	return true
-end
+end

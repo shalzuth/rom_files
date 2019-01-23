@@ -155,4 +155,4 @@ function DropSceneItemCommand:TickWaiting(deltaTime)
 			self:AddToDropping(item)
 		end
 	end
-end
+end

@@ -82,4 +82,4 @@ end
 function CostUtil.CheckMiyinStrengthCost_Miyin(data, level, checkValue)
 	local need = ItemFun.calcStrengthCost(data.Quality, data.Type, level)[miyinConfID]
 	return CostUtil.CheckMiyin(need, checkValue)
-end
+end

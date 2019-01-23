@@ -22,4 +22,4 @@ end
 
 function NumberKeyboardCell:setNumber(integer)
 	self.number=integer
-end
+end

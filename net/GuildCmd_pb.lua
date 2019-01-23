@@ -8263,4 +8263,3 @@ UpdateDonateItemGuildCmd = protobuf.Message(UPDATEDONATEITEMGUILDCMD)
 UserGuildBuilding = protobuf.Message(USERGUILDBUILDING)
 WelfareNtfGuildCmd = protobuf.Message(WELFARENTFGUILDCMD)
 
-

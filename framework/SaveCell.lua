@@ -147,4 +147,4 @@ end
 
 function SaveCell:OnDestroy() 
 	self:ClearTick()
-end
+end

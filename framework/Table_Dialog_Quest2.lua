@@ -5669,4 +5669,4 @@ Table_Dialog_Quest2 =
 	[50016] = { id = 50016, Voice = '', Text = '没想到耶梦加得竟然这么狡猾…', Speaker = 6461, Option = '', Action = _EmptyTable,},
 }
 return Table_Dialog_Quest2
-	
+	

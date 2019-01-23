@@ -271,4 +271,4 @@ function ChatRoomCell:StopVoiceTween()
 		self.voiceTween.enabled = false
 		self.voiceTween.value = self.voiceTween.from
 	end
-end
+end

@@ -21,4 +21,4 @@ Table_Monster_WW = {
 }
 
 Table_Monster_WW_fields = { "id","NameZh","DisableWait","DisablePlayshow","ShowName","Guild","Position","MapZone","AdventureRelevancyID","AdventureSort","AdventureValue","AdventureReward","Condition","Type","Zone","Race","Nature","Shape","Body","HeadDefaultColor","Icon","Eye","EyeColor","LeftHand","RightHand","Hair","Head","Wing","Face","Tail","Mount","SpawnSE","BirthTime","DeathEffect","Desc","Dead_Reward","Level","BaseExp","JobExp","Str","Dex","Int","Vit","Agi","Luk","Atk","MAtk","Def","MDef","Hp","Hit","Flee","MoveSpd","MoveSpdRate","Scale","AtkSpd","AccessRange","Transform_Skill","move","GroupID","Behaviors","WmapHide","LoadShowSize","LoadShowRotate","LoadShowPose","ImmuneSkill","NoAutoAttack","NoShowIcon","IsStar","Features","CopySkill","MonsterSkill",}
-return Table_Monster_WW
+return Table_Monster_WW

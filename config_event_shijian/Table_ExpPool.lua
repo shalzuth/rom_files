@@ -113,4 +113,4 @@ Table_ExpPool = {
 }
 
 Table_ExpPool_fields = { "id","WantedBaseExp","WantedJobExp",}
-return Table_ExpPool
+return Table_ExpPool

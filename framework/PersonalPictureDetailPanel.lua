@@ -451,4 +451,3 @@ function PersonalPictureDetailPanel:OnClickForButtonSina()
 		MsgManager.ShowMsgByIDTable(563)
 	end
 end
-

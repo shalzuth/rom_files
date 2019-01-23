@@ -781,4 +781,4 @@ function UIViewControllerRolesList:AnyRoleBeingDelete()
 		end
 	end
 	return roleID
-end
+end

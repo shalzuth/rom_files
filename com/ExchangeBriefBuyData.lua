@@ -7,4 +7,4 @@ end
 function ExchangeBriefBuyData:SetData(data)
 	self.name = data.name
 	self.time = data.time
-end
+end

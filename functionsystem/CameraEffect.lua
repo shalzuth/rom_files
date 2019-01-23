@@ -47,4 +47,3 @@ function CameraEffect:DoEnd(cameraController)
 	
 end
 
-

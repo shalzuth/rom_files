@@ -356,4 +356,3 @@ function GuildInfoPage:OnExit()
 		cells[i]:OnRemove();
 	end
 end
-

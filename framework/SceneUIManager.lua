@@ -229,4 +229,3 @@ function SceneUIManager:ActiveBackUIMask(b)
 	end
 	self.back_mask:SetActive(b);
 end
-

@@ -18,4 +18,4 @@ function TextEmojiCell:SetData(id)
 	if self.data and self.data.Emoji then
 	 	self.EmojiLabel.text = self.data.Emoji
 	end
-end
+end

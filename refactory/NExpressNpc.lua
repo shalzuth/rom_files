@@ -159,4 +159,4 @@ function NExpressNpc:Update(time, deltaTime)
 			end
 		end
 	end
-end
+end

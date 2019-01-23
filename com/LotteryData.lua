@@ -74,4 +74,4 @@ end
 
 function LotteryData:GetLotteryItemData(itemid)
 	return self.itemMap[itemid]
-end
+end

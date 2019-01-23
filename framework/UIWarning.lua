@@ -94,4 +94,4 @@ end
 
 function UIWarning:HandleCloseWarnPopup()
 	self:TryPopupWarning()
-end
+end

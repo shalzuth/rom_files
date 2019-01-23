@@ -77,4 +77,4 @@ end
 function PostView:AddViewInterest()
 	self:AddListenEvt(ServiceEvent.SessionMailMailUpdate, self.UpdatePost);
 	self:AddListenEvt(ServiceEvent.SessionMailQueryAllMail, self.UpdatePost);
-end
+end

@@ -17,4 +17,4 @@ end
 
 function TutorGrowthReward:UpdateStatus(state)
 	self.canGet = state
-end
+end

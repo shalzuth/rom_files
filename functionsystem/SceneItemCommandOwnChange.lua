@@ -49,4 +49,4 @@ end
 
 function SceneItemCommandOwnChange:Tick(deltaTime)
 	-- print("tick "..deltaTime)
-end
+end

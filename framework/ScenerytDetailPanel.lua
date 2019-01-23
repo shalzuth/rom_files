@@ -292,4 +292,3 @@ function ScenerytDetailPanel:OnClickForButtonSina()
 	end
 end
 -- <RE> social share
-

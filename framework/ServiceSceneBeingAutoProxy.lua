@@ -166,4 +166,3 @@ ServiceEvent.SceneBeingBeingInfoUpdate = "ServiceEvent_SceneBeingBeingInfoUpdate
 ServiceEvent.SceneBeingBeingSwitchState = "ServiceEvent_SceneBeingBeingSwitchState"
 ServiceEvent.SceneBeingBeingOffCmd = "ServiceEvent_SceneBeingBeingOffCmd"
 ServiceEvent.SceneBeingChangeBodyBeingCmd = "ServiceEvent_SceneBeingChangeBodyBeingCmd"
-

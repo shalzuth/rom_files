@@ -309,4 +309,4 @@ function ShareAwardView:OnExit()
 	end
 	local manager_Camera = Game.GameObjectManagers[Game.GameObjectType.Camera]
 	manager_Camera:ActiveMainCamera(true);
-end
+end

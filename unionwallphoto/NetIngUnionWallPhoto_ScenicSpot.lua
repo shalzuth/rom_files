@@ -194,4 +194,4 @@ end
 
 function NetIngUnionWallPhoto_ScenicSpot:CheckExist(role_id, scenic_spot_id, exist_callback, error_callback, extension)
 	NetIngScenicSpotPhotoNew.Ins():CheckExist(role_id, scenic_spot_id, exist_callback, error_callback, extension)
-end
+end

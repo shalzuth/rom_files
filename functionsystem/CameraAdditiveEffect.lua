@@ -52,4 +52,3 @@ end
 function CameraAdditiveEffect:OnCameraControllerChanged(oldCameraController, newCameraController)
 end
 
-

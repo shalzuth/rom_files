@@ -397,4 +397,4 @@ Facade.instanceMap = {}
 Facade.MULTITON_MSG = "Facade instance for this Multiton key already constructed!";
 
 
-return Facade
+return Facade

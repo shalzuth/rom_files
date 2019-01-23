@@ -224,4 +224,4 @@ end
 
 function BoothSellInfoCell:GetPrice()
 	return self.price * (1 + self.priceRate / 100)
-end
+end

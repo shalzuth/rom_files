@@ -73,4 +73,4 @@ function DojoWaitView:MemberAgree(note)
 			break
 		end
 	end
-end
+end

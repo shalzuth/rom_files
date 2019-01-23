@@ -144,4 +144,4 @@ function PicutureWallSyncPanel:handleCategorySelect( key )
 			self.SceneryListPage:ResetPosition()
 		end
 	end
-end
+end

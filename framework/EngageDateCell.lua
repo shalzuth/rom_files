@@ -99,4 +99,4 @@ function EngageDateCell:SetData(data)
 			self.statusLabel.text = ZhString.Wedding_EngageFull
 		end
 	end
-end
+end

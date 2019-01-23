@@ -23,4 +23,4 @@ function Appellation:ResetData(id,titleType,createTime)
 	self.titleType  = titleType
 	self.createTime = createTime
 end
--- return Prop
+-- return Prop

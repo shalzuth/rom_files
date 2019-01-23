@@ -715,4 +715,3 @@ function PlotStoryProcess:PlotEnd()
 	end
 	self.endCall = nil;
 end
-

@@ -23,4 +23,4 @@ end
 function BuffLimit:DoDeconstruct(asArray)
 	self.fromID = nil
 	self.ignoreTarget = nil	
-end
+end

@@ -172,4 +172,4 @@ function CreatureSkillProxy:GetDynamicSkillInfoByID(beingID,skillID)
 	if(being) then
 		return being:GetDynamicSkillInfoByID(skillID)
 	end
-end
+end

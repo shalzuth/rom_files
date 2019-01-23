@@ -43,4 +43,4 @@ function ChangeHeadCombineCell:UpdateInfo()
 		cell.gameObject:SetActive( cData ~= nil )
 		cell:SetData(cData)
 	end
-end
+end

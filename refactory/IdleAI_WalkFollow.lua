@@ -114,4 +114,4 @@ function IdleAI_WalkFollow:_Idle(idleElapsed, time, deltaTime, creature)
 	creature:Logic_StopMove()
 	creature:Logic_SamplePosition(time)
 	creature:Logic_PlayAction_Idle()
-end
+end

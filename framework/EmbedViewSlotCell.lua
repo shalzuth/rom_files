@@ -25,4 +25,3 @@ function EmbedViewSlotCell:SetData( data )
 	-- self.icon.spriteName = iconStr
 
 end
-

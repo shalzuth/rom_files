@@ -172,4 +172,3 @@ function AreaTrigger_Common:Remove_GDFightForArea(id)
 	GameFacade.Instance:sendNotification(TriggerEvent.Remove_GDFightForArea, id);
 end
 --GDFightForArea end
-

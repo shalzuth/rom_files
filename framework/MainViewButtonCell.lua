@@ -155,4 +155,4 @@ function MainViewButtonCell:UpdateAuction(totalSec, hour, min, sec)
 			end
 		end
 	end
-end
+end

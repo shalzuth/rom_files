@@ -118,4 +118,4 @@ function FoodRecipeTip:OnExit()
 	self.itemTipComCell:Exit();
 	
 	return true;
-end
+end

@@ -84,4 +84,4 @@ function SkillDynamicInfo:GetItemNewCost(itemid,originCost)
 		end
 	end
 	return originCost
-end
+end

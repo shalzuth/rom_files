@@ -325,4 +325,3 @@ function WorldMapListView:UpdateQuestInfo()
 		cell:UpdateQuestSymbol();
 	end
 end
-

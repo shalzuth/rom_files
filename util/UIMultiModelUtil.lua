@@ -77,4 +77,4 @@ end
 
 function UIMultiModelUtil:SetColor(color)
 	self.multiModel:SetMeshRendererColor(color)
-end
+end

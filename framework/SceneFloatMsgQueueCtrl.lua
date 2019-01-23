@@ -69,4 +69,3 @@ function SceneFloatMsgQueueCtrl:Clear()
 	TableUtility.ArrayClear(self.excutequeue);
 end
 
-

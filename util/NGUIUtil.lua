@@ -403,4 +403,3 @@ end
 function NGUIUtil.Panel_EnlargeCenterCell(scrollView, cellsParent, minScale, changeDis, dir)
 	return EnlargeCenterCell_Control.new(scrollView, cellsParent, minScale, changeDis, dir);
 end
-

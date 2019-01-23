@@ -49,4 +49,4 @@ Table_Seat_moc_pyd1 = {
 }
 
 Table_Seat_moc_pyd1_fields = { "id","StandPot","SeatPot","Dir",}
-return Table_Seat_moc_pyd1
+return Table_Seat_moc_pyd1

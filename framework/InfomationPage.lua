@@ -342,4 +342,3 @@ function InfomationPage:UpdateProps(  )
 	-- self.hpValue.text = curHp.."/"..maxHp
 	-- self.mpvalue.text = curSp.."/"..maxSp	
 end
-

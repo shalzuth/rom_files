@@ -13,4 +13,4 @@ end
 
 function QuotaDetailData:bOverDue()
 	return self.expire_time <= ServerTime.CurServerTime()/1000
-end
+end

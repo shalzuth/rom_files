@@ -509,4 +509,4 @@ function ItemTipComCell:Exit()
 	self:SetDelTimeTip(false);
 
 	self:CloseSecendBord();
-end
+end

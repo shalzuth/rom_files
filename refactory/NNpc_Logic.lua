@@ -56,4 +56,4 @@ function NNpc:Logic_DeathBegin()
 			end
 		end
 	end
-end
+end

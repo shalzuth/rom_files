@@ -300,4 +300,3 @@ function BoothProxy:IsExistLog(list,logId,type)
 	end
 	return false
 end
-

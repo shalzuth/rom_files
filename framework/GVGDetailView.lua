@@ -142,4 +142,4 @@ function GVGDetailView:SetIndexArangement( index )
 	self.lastArrow:SetActive(true)
 
 	self:SetIsSelfGuild()
-end
+end

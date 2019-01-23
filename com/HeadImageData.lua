@@ -443,4 +443,4 @@ function HeadImageData:TransByMatcherData(matcherdata)
 	self.name = matcherdata.name;
 	self.profession = matcherdata.profession;
 	self.level = matcherdata.level;
-end
+end

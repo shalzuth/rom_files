@@ -92,4 +92,4 @@ end
 
 function AI_CMD_MoveTo.ToString()
 	return "AI_CMD_MoveTo",AI_CMD_MoveTo
-end
+end

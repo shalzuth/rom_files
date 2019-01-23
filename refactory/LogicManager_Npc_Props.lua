@@ -23,4 +23,3 @@ function LogicManager_Npc_Props:UpdateHiding(ncreature,propName,oldValue,p)
 		end
 	end
 end
-

@@ -132,4 +132,3 @@ function MainviewGvgFinalPage:OnExit(  )
 	EventManager.Me():RemoveEventListener(ServiceEvent.FuBenCmdGvgCrystalUpdateFubenCmd, self.UpdateCrystal, self);	
 	-- helplog("ewGvgFinalPage:OnExit:")
 end
-

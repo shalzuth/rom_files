@@ -22,4 +22,4 @@ end
 
 function ProfessionContainerView:OnExit()
 	ProfessionContainerView.super.OnExit(self)
-end
+end

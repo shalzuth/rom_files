@@ -4,4 +4,4 @@ autoImport("PetWorkSpacePetHeadCell")
 
 function PetWorkCombinePetCell:Init()
 	self:InitCells(4, "PetWorkSpacePetHeadCell", PetWorkSpacePetHeadCell);
-end
+end

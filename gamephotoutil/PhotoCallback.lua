@@ -62,4 +62,4 @@ end
 
 function PhotoCallback:GetKey(id, o_or_t)
 	return id .. '_' .. (o_or_t and 'o' or 't')
-end
+end

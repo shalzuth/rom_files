@@ -55,4 +55,4 @@ function PrepUICommand:execute(notifi)
 	GameFacade.Instance:sendNotification(UIEvent.ShowUI,{viewname = "UIWarning"});
 	GameFacade.Instance:sendNotification(UIEvent.ShowUI,{viewname = "InviteConfirmView"});
 	GameFacade.Instance:sendNotification(UIEvent.ShowUI,{viewname = "BlindMaskView"});
-end
+end

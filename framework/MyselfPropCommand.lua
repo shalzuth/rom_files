@@ -48,4 +48,4 @@ function MyselfPropCommand:UpdateProp(data)
 	GameFacade.Instance:sendNotification(MyselfEvent.PropChange, MyselfProxy.Instance.myself)
 end
 
-return MyselfPropCommand
+return MyselfPropCommand

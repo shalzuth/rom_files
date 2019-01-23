@@ -46,4 +46,4 @@ function EnviromentAnimation_Weather:Update(time, deltaTime, setting)
 		info.ambientLight = LuaColorUtility.Asign(info.ambientLight, self.color)
 	end
 	info.ambientIntensity = self.intensity
-end
+end

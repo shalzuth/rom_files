@@ -48,4 +48,4 @@ function RecipeData:GetSaveHpSp()
 		end
 	end
 	return hp, sp;
-end
+end

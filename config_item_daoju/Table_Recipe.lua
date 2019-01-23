@@ -128,4 +128,3 @@ Table_Recipe = {
 }
 Table_Recipe_fields = { "id","Name","Type","Product","Material","ExtraReward",}
 return Table_Recipe
-

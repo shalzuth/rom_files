@@ -1005,4 +1005,3 @@ function EquipRefineBord:SetMaxRefineLv(maxRefinelv)
 	self.outset_maxrefine = maxRefinelv;
 end
 -- Public
-

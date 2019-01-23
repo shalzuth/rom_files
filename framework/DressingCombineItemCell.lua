@@ -34,4 +34,4 @@ function DressingCombineItemCell:UpdateInfo()
 		local cell = self.childrenObjs[i]
 		cell:SetData(cData)
 	end
-end
+end

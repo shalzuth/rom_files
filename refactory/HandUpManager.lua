@@ -147,4 +147,4 @@ function HandUpManager:Shutdown()
 	self.running = false;
 
 	self:EndHandUp();
-end
+end

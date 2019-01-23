@@ -848,4 +848,4 @@ end
 function MainViewTaskQuestPage:SceneGoToUserCmd(  )
 	-- body
 	self:MapChange()
-end
+end

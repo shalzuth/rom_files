@@ -95,4 +95,4 @@ function PetFashionChooseTip:DestroySelf()
 	if(not Slua.IsNull(self.gameObject))then
 		GameObject.Destroy(self.gameObject);
 	end
-end
+end

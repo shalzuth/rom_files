@@ -82,4 +82,4 @@ function FaceBookGiftCell:number_format(num,deperator)
         end
     end
     return str1
-end 
+end 

@@ -29,4 +29,4 @@ end
 
 function IdleAI_Attack:Update(idleElapsed, time, deltaTime, creature)
 	return false
-end
+end

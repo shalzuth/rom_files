@@ -183,4 +183,4 @@ function EquipRecoverProxy:GetRecoverCost(itemData, card_rv, upgrade_rv, strengt
 	end
 
 	return resultCost;
-end
+end

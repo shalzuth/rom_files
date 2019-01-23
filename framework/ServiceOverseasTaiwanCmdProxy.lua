@@ -38,4 +38,4 @@ function ServiceOverseasTaiwanCmdProxy:RecvOverseasPhotoPathPrefixCmd(data)
 		callback(data)
 		downloadCallbacks[callbackKey] = nil
 	end
-end
+end

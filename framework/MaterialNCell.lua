@@ -18,4 +18,4 @@ function MaterialNCell:SetData(data)
 	self.numLab.text = colorStr..data.num.."/"..data.neednum.."[-]";
 	self.numLab.gameObject:SetActive(true);
 	self.numLab.transform.localPosition = Vector3(0,-60,0);
-end
+end

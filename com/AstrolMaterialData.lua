@@ -43,4 +43,4 @@ end
 
 function AstrolMaterialData:GetGoldMedal()
 	if self.cost[5261] then return self.cost[5261] end
-end
+end

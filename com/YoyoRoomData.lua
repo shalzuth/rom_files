@@ -21,4 +21,3 @@ function YoyoRoomData:GetyoyoRoomData()
 	return self.yoyoRoomData;
 end
 
-

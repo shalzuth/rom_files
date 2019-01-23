@@ -56,4 +56,3 @@ function GuildTreasurePopCell:SetMemberArtifact(artiData)
 		end
 	end
 end
-

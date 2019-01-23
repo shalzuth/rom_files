@@ -728,4 +728,4 @@ function FunctionGetIpStrategy:GameEnd( )
 	if(self.sts)then
 		self.dnsrel:setCallback(nil)
 	end
-end
+end

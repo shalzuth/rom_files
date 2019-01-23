@@ -164,4 +164,4 @@ function SceneFilterProxy:FloatRoleTopHandler(creature,reason,check)
 	else
 		FunctionPlayerUI.Me():UnMaskFloatRoleTop(creature,reason)
 	end
-end
+end

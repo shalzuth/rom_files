@@ -27,4 +27,4 @@ end
 
 function UIMapAreaListCell:OnClick(go)
 	FunctionNpcFunc.JumpPanel(PanelConfig.UIMapMapList, {areaID = self.areaID});
-end
+end

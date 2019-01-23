@@ -15,4 +15,3 @@ function AdventureProfessionCell:SetData(data)
 	IconManager:SetProfessionIcon(data.professionData.icon,self.icon)
 	self.level.text = data:GetLevelText()
 end
-

@@ -81,4 +81,3 @@ function StartUpCommand:initializeMacroCommand()
 
 	LuaGC.StartLuaGC()
 end
-

@@ -40,4 +40,4 @@ end
 
 function MapAreaData:SetIsNew(isNew)
 	self.isNew = isNew;
-end
+end

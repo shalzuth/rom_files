@@ -32,4 +32,4 @@ function SkillBuffParam:RemoveParams(config)
 	end
 	self.sum = self.sum - 1
 	return self.sum <=0
-end
+end

@@ -219,4 +219,4 @@ function WrapCellHelper:AddEventListener(eventType, handler, handlerOwner)
 			v:AddEventListener(eventType, handler, handlerOwner);
 		end
 	end
-end
+end

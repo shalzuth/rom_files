@@ -242,4 +242,4 @@ function ShopItemCell:GetDiscountColor(discount)
 	elseif discount > 50 and discount <= 100 then
 		return 3, ColorUtil.DiscountLabel_Yellow
 	end
-end
+end

@@ -2179,4 +2179,3 @@ SocialDataUpdate = protobuf.Message(SOCIALDATAUPDATE)
 SocialUpdate = protobuf.Message(SOCIALUPDATE)
 UseGiftCodeSocialCmd = protobuf.Message(USEGIFTCODESOCIALCMD)
 
-

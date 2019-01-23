@@ -349,4 +349,4 @@ function SetView:SetCurrentTabIconColor(currentTabGo)
 	else
 		helplog("iconSp ColorUtil.TabColor_White == null")
 	end	
-end
+end

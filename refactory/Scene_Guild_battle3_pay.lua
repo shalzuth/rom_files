@@ -1334,4 +1334,4 @@ local Scene_Guild_battle3_pay={
 		}
 	}
 }
-return Scene_Guild_battle3_pay
+return Scene_Guild_battle3_pay

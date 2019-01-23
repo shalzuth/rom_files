@@ -7249,4 +7249,3 @@ UseCodItemCmd = protobuf.Message(USECODITEMCMD)
 UseCountItemCmd = protobuf.Message(USECOUNTITEMCMD)
 WeddingData = protobuf.Message(WEDDINGDATA)
 
-

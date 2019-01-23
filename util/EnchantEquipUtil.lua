@@ -266,4 +266,3 @@ function EnchantEquipUtil:CanGetCombineEffect(data, itemType)
 	end
 	return canGet2;
 end
-

@@ -895,4 +895,4 @@ function BlackSmithProxy:CheckItemEnchant_CanBetter(item, maxEnchantType)
 	end
 
 	return true;
-end
+end

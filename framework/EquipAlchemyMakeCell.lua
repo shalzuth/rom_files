@@ -51,4 +51,4 @@ function EquipAlchemyMakeCell:UpdateChoose()
 	else
 		self.chooseSymbol:SetActive(false);
 	end
-end
+end

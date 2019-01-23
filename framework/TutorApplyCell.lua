@@ -66,4 +66,4 @@ function TutorApplyCell:Ignore()
 		end
 		ServiceSessionSocialityProxy.Instance:CallRemoveRelation(self.data.guid, relation)
 	end
-end
+end

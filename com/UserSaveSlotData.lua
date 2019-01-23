@@ -24,4 +24,3 @@ end
 function UserSaveSlotData:SetRecordName(name)
 	self.recordName = name
 end
-

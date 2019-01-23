@@ -38,4 +38,4 @@ function LuaQueue:Peek()
 	end
 	-- return self.container[self.first]
 	return self.container[1]
-end
+end

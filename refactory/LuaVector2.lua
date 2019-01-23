@@ -420,4 +420,4 @@ function I:Destroy()
 	destroyer(self)
 end
 
-setmetatable(LuaVector2,LuaVector2)
+setmetatable(LuaVector2,LuaVector2)

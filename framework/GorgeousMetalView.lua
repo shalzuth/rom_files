@@ -307,4 +307,3 @@ function GorgeousMetalView:ReqServerRoomList()
 
 	ServiceMatchCCmdProxy.Instance:CallReqRoomListCCmd(G_PVP_TYPE);
 end
-

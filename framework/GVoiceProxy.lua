@@ -564,4 +564,3 @@ end
 
 return GVoiceProxy
 
-

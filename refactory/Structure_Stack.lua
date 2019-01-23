@@ -20,4 +20,4 @@ function Structure.StackPeekByIndex(array, index)
 		return nil
 	end
 	return array[#array-index+1]
-end
+end

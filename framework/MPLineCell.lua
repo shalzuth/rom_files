@@ -319,4 +319,3 @@ end
 function MPLineCell:GetPreviousId()
 	return self.previousid or 0
 end
-

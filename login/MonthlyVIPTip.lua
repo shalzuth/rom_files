@@ -31,4 +31,4 @@ function MonthlyVIPTip:DoShowTip()
 	MsgManager.ConfirmMsgByID(1102, function ()
 		FuncZenyShop.Instance():OpenUI(PanelConfig.ZenyShopMonthlyVIP)
 	end)
-end
+end

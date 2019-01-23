@@ -42,4 +42,4 @@ function CarrierWaitListCell:Leave()
 	self.confirmSp.CurrentState = 2
 	ColorUtil.ShaderGrayUIWidget(self.confirmSp)
 	-- self.nameLabel.color = ColorUtil.TeamGray
-end
+end

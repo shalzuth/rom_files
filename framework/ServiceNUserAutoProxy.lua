@@ -2837,4 +2837,3 @@ ServiceEvent.NUserInviteWithMeUserCmd = "ServiceEvent_NUserInviteWithMeUserCmd"
 ServiceEvent.NUserQueryAltmanKillUserCmd = "ServiceEvent_NUserQueryAltmanKillUserCmd"
 ServiceEvent.NUserBoothReqUserCmd = "ServiceEvent_NUserBoothReqUserCmd"
 ServiceEvent.NUserBoothInfoSyncUserCmd = "ServiceEvent_NUserBoothInfoSyncUserCmd"
-

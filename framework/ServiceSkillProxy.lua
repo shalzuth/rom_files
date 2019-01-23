@@ -80,4 +80,4 @@ end
 function ServiceSkillProxy:RecvUpdateDynamicSkillCmd(data) 
 	SkillProxy.Instance:UpdateTransformedSkills(data.update,data.del)
 	self:Notify(ServiceEvent.SkillUpdateDynamicSkillCmd, data)
-end
+end

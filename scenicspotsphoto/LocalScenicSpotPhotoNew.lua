@@ -402,4 +402,4 @@ end
 
 function LocalScenicSpotPhotoNew:AssemblePathOfLocal_FileName_LoginRole(role_id, file_name, o_or_t)
 	return self:GetRootPathOfLocal_LoginRole(role_id, o_or_t) .. '/' .. file_name
-end
+end

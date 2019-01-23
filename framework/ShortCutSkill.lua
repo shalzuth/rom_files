@@ -297,4 +297,4 @@ end
 function ShortCutSkill:GuideEnd()
 	self.leadMask.fillAmount = 0
 	LeanTween.cancel(self.leadMask.gameObject)
-end
+end

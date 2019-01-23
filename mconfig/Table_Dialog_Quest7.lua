@@ -114,4 +114,3 @@ Table_Dialog_Quest7_s = {
  
 }
 return Table_Dialog_Quest7
-

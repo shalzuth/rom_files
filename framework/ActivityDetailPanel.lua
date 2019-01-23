@@ -300,4 +300,4 @@ end
 -- 	local value = progress*100
 -- 	value = math.floor(value)
 -- 	self.progress.text = value.."%"
--- end
+-- end

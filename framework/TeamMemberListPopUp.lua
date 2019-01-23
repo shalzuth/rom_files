@@ -203,4 +203,3 @@ function TeamMemberListPopUp:OnExit()
 	
 	FunctionPlayerTip.Me():CloseTip();
 end
-

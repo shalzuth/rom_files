@@ -492,4 +492,4 @@ local Scene_Guildgarden_bt2={
 		}
 	}
 }
-return Scene_Guildgarden_bt2
+return Scene_Guildgarden_bt2

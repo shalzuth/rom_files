@@ -49,4 +49,3 @@ Table_ItemAccess = {
 }
 Table_ItemAccess_fields = { "id","ItemName","ItemID","Name","Icon","GotoMode","Desc","SuccessMsgID","ErrorMsgEvent",}
 return Table_ItemAccess
-

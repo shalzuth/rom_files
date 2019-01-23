@@ -17,4 +17,4 @@ Table_Seat_orc_dun1 = {
 }
 
 Table_Seat_orc_dun1_fields = { "id","StandPot","SeatPot","Dir",}
-return Table_Seat_orc_dun1
+return Table_Seat_orc_dun1

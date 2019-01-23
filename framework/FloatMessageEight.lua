@@ -60,4 +60,4 @@ function FloatMessageEight:Exit()
 		self.spriteLabel:Reset()
 		self.spriteLabel = nil
 	end
-end
+end

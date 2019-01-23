@@ -835,4 +835,4 @@ function CreatureDataWithPropUserdata:DoDeconstruct(asArray)
 	self:_ClearBuffs()
 	self:DestroyGuildData();
 end
--- override end
+-- override end

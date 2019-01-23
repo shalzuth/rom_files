@@ -227,4 +227,4 @@ function ServiceFuBenCmdProxy:RecvMvpBattleReportFubenCmd(data)
 	PvpProxy.Instance:RecvMvpBattleReportFubenCmd(data)
 	self:sendNotification(UIEvent.JumpPanel, {view = PanelConfig.MVPResultView})
 	self:Notify(ServiceEvent.FuBenCmdMvpBattleReportFubenCmd, data)
-end
+end

@@ -32,4 +32,4 @@ function AssociateRemoveFunctionCD:RemoveAll()
 	for i=1,#self.links do
 		self.links:Reset()
 	end
-end
+end

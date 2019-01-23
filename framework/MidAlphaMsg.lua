@@ -92,4 +92,3 @@ function MidAlphaMsg:_FadeEnd()
 	self:Exit();
 end
 -- anim end
-

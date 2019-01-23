@@ -338,4 +338,4 @@ function FunctionSkillSimulate:ScallAllDatas()
 			end
 		end
 	end
-end
+end

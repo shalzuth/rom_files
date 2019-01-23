@@ -198,4 +198,3 @@ ServiceEvent.PveCardUpdateProcessPveCardCmd = "ServiceEvent_PveCardUpdateProcess
 ServiceEvent.PveCardBeginFirePveCardCmd = "ServiceEvent_PveCardBeginFirePveCardCmd"
 ServiceEvent.PveCardFinishPlayCardCmd = "ServiceEvent_PveCardFinishPlayCardCmd"
 ServiceEvent.PveCardPlayPveCardCmd = "ServiceEvent_PveCardPlayPveCardCmd"
-

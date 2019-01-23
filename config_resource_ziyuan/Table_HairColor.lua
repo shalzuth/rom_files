@@ -12,4 +12,4 @@ Table_HairColor = {
 }
 
 Table_HairColor_fields = { "id","NameZh","PaintColor","Money","ColorH","ColorD",}
-return Table_HairColor
+return Table_HairColor

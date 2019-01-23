@@ -72,4 +72,3 @@ function AutoBattleManager:AutoBattleOff()
 	local eventManager = EventManager.Me()
 	eventManager:DispatchEvent(AutoBattleManagerEvent.StateChanged, self)
 end
-

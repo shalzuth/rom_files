@@ -257,4 +257,3 @@ function MsgParserProxy:GetUpAdvLvCostStr()
 	return result;
 end
 
-

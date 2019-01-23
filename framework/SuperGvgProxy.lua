@@ -282,4 +282,4 @@ function SuperGvgProxy:GetFinalFightTimeDiff()
 		secDiff = self.fireBeginTime - nowTimeSec --starTimeSec + GameConfig.GvgDroiyan.BeginTime + GameConfig.GvgDroiyan.NoticeTime - nowTimeSec
 	end
 	return secDiff;
-end
+end

@@ -24937,4 +24937,3 @@ setmetatable(Table_Reward[200239],{__index = Table_Reward[200112]})
 setmetatable(Table_Reward[200240],{__index = Table_Reward[200112]})
 setmetatable(Table_Reward[200241],{__index = Table_Reward[200112]})
 return Table_Reward
-

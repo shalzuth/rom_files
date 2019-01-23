@@ -712,4 +712,4 @@ local Scene_Guild_battle1={
 		}
 	}
 }
-return Scene_Guild_battle1
+return Scene_Guild_battle1

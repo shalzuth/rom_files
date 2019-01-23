@@ -5,4 +5,4 @@ function MsgData:ctor(title,text,params)
 	self.text = text
 	self.params = params
 	self.parsed = false
-end
+end

@@ -54,4 +54,3 @@ function ServiceAstrolabeCmdProxy:RecvAstrolabeResetCmd(data)
 	end
 	self:Notify(ServiceEvent.AstrolabeCmdAstrolabeResetCmd, data)
 end
-

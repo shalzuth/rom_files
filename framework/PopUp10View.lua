@@ -82,4 +82,4 @@ function PopUp10View:_HandleFloatMsg(data)
 			MsgManager.ShowMsgByIDTable(6, params,Game.Myself.data.id)
 		end
 	end
-end
+end

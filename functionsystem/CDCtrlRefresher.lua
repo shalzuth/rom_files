@@ -83,4 +83,4 @@ function LeanTweenCDCellRefresher:RemoveLeanTween(go)
 end
 
 BagCDRefresher = class("BagCDRefresher",LeanTweenCDCellRefresher)
-ShotCutItemCDRefresher = class("ShotCutItemCDRefresher",LeanTweenCDCellRefresher)
+ShotCutItemCDRefresher = class("ShotCutItemCDRefresher",LeanTweenCDCellRefresher)

@@ -18,4 +18,4 @@ end
 
 function UserSaveData:UpdateName(newName)
 	self.userSaveInfoData:UpdateName(newName)
-end
+end

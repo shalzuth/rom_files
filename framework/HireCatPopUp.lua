@@ -136,4 +136,4 @@ function HireCatPopUp:OnExit()
 	HireCatPopUp.super.OnExit(self);
 
 	self:DestroyRoleModel();
-end
+end

@@ -9,4 +9,4 @@ function AuguryChatData:SetData(data)
 		self.name = data.sender
 		self.text = data.content
 	end
-end
+end

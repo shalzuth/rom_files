@@ -478,4 +478,4 @@ LanguageVoice =
 	Chinese = 1,
 	Jananese = 2,
 	Korean = 3 --todo xde
-}
+}

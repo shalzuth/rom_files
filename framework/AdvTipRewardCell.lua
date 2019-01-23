@@ -81,4 +81,4 @@ function AdvTipRewardCell:SetData(data)
 	else
 		self:Hide(self.gameObject);
 	end
-end
+end

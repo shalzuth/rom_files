@@ -401,4 +401,4 @@ end
 function ScenicSpotPhoto:GetLocalAbsolutePath(scenic_spot_id, o_or_t)
 	local localPath = LocalScenicSpotPhoto.Ins():GetPathOfLocal(scenic_spot_id, o_or_t)
 	return localPath
-end
+end

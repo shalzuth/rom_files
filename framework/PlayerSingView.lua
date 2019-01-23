@@ -62,4 +62,4 @@ function PlayerSingView:HandleStopProcess( note )
 			singCell:delayProcess()
 		end
 	end
-end
+end

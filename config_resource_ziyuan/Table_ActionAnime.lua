@@ -290,4 +290,4 @@ Table_ActionAnime = {
 }
 
 Table_ActionAnime_fields = { "id","Name","Type","RestoreType","DoubleAction","CheckMatching","ShowWeapon_1","ShowWeapon_2","ShowWeapon_3","ShowWeapon_4","Condition",}
-return Table_ActionAnime
+return Table_ActionAnime

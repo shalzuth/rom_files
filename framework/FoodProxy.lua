@@ -322,4 +322,4 @@ end
 
 function FoodProxy:GetEatFoods()
 	return self.eating_foods
-end
+end

@@ -7,4 +7,4 @@ Table_HighRefineMatCompose = {
 }
 
 Table_HighRefineMatCompose_fields = { "id","NameZh","GroupId","ProductId","Count","MainMaterial","ViceMaterial","Cost",}
-return Table_HighRefineMatCompose
+return Table_HighRefineMatCompose

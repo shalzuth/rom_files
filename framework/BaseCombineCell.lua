@@ -52,4 +52,4 @@ end
 
 function BaseCombineCell:GetCells()
 	return self.childCells;
-end
+end

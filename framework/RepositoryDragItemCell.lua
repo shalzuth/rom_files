@@ -34,4 +34,4 @@ function RepositoryDragItemCell:UpdateChoose()
 			self.chooseSymbol:SetActive(false);
 		end
 	end
-end
+end

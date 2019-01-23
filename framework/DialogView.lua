@@ -664,4 +664,3 @@ function DialogView:OnExit()
 		end
 	end
 end
-

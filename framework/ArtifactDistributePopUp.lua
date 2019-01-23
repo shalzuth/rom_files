@@ -74,4 +74,4 @@ end
 
 function ArtifactDistributePopUp:OnExit()
 	ArtifactDistributePopUp.super.OnExit(self);
-end
+end

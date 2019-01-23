@@ -151,4 +151,4 @@ end
 
 function ServiceCarrierCmdProxy:RecvChangeCarrierUserCmd(data)
 	SceneCarrierProxy.Instance:ChangeCarrier(data.masterid,data.carrierid)
-end
+end

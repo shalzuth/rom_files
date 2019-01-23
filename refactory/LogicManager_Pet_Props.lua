@@ -20,4 +20,4 @@ function LogicManager_Pet_Props:UpdateHiding(ncreature,propName,oldValue,p)
 	else
 		ncreature:Hide()
 	end
-end
+end

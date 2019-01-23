@@ -222,4 +222,4 @@ function PlayerBottomView:HandleGuildIconDownloadComplete(note)
 		end
 	end
 	TableUtility.ArrayClear(tempArray)
-end
+end

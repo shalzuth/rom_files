@@ -110,4 +110,4 @@ end
 
 function UISubViewControllerZenyShopItem:SetActivePurchaseDetail(b)
 	self.goPurchaseDetail:SetActive(b)
-end
+end

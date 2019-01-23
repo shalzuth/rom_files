@@ -27,4 +27,4 @@ end
 
 function LotteryRecoverData:SetChoose()
 	self.isChoose = not self.isChoose
-end
+end

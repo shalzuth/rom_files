@@ -104,4 +104,3 @@ function call(url, method, ...)
     return nil, result.error
   end
 end
-

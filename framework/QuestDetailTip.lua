@@ -98,4 +98,4 @@ function QuestDetailTip:initRewardView(  )
 	tempColor:Set(1,1,1,1)
 	self.rewardDetail.tiplabel.color = tempColor
 	label.color = tempColor
-end
+end

@@ -30,4 +30,4 @@ end
 function ProfessionInfoPanel:AddCloseButtonEvent()
 	local buttonobj = self:FindGO("CloseButton");
 	self:Hide(buttonobj)
-end
+end

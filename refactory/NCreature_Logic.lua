@@ -138,4 +138,4 @@ end
 
 function NCreature:Logic_CanUseSkill()
 	return true
-end
+end

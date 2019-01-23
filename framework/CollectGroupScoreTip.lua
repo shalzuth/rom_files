@@ -315,4 +315,4 @@ function CollectGroupScoreTip:OnExit()
 	UIModelUtil.Instance:ResetTexture( self.modeltexture )
 	Game.GOLuaPoolManager:AddToUIPool(self.resID,self.gameObject)
 	PictureManager.Instance:UnLoadUI(CollectGroupScoreTip.BgTextureName,self.bgTexture);
-end
+end

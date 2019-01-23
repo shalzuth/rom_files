@@ -222,4 +222,3 @@ end
 function DungeonManager:ExitGuildAreaHandle()
 	GuildProxy.Instance:ClearGuildGateInfo()
 end
-

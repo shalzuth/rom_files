@@ -17,4 +17,4 @@ function WeddingProcessCell:SetData(data)
 		self.title.text = data.title
 		self.content.text = data.content
 	end
-end
+end

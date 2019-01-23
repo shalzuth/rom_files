@@ -190,4 +190,4 @@ function SpriteLabel:DoDeconstruct(asArray)
 	self:Reset()
 	self.richLabel = nil
 end
--- override end
+-- override end

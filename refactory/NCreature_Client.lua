@@ -128,4 +128,4 @@ function NCreature:Client_RemoveSpEffect(key)
 		effect:Destroy()
 		self.spEffects[key] = nil
 	end
-end
+end

@@ -307,4 +307,4 @@ function CardMakeView:ClearChooseData()
 			end
 		end
 	end
-end
+end

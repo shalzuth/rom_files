@@ -294,4 +294,4 @@ function LCarrier:ChangeCarrier(carrierID)
 		self.carrier:SResetAllCarriers(ResourcePathHelper.BusCarrier(carrierID))
 		self:AllReGetOn()
 	end
-end
+end

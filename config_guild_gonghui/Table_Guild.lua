@@ -13,4 +13,4 @@ Table_Guild = {
 }
 
 Table_Guild_fields = { "id","ReviewFund","UpperLimit","LevelupFund","DeductItem","MemberNum","Management","maintenanceCharge","GuildQuestNumber","BeliefUL","DojoGroup","DojoTxt","DonateListLimit","ChallengeCount",}
-return Table_Guild
+return Table_Guild

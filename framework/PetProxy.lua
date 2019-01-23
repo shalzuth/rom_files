@@ -274,4 +274,3 @@ function PetProxy:GetSceneBeingNpc(beingid)
 	return SceneCreatureProxy.FindCreature(beingInfo.guid);
 end
 -- Being npc
-

@@ -62,4 +62,4 @@ function FoodOverridePopView:InitView()
 	end
 
 	self.listControllerOfItems:ResetDatas(resultItemIdList)
-end
+end

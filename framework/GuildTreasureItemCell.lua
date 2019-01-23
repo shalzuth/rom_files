@@ -35,4 +35,3 @@ function GuildTreasureItemCell:SetData(data)
 	end
 end
 
-

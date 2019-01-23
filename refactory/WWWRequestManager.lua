@@ -62,4 +62,4 @@ function WWWRequestManager:Update(time, deltaTime)
 			end
 		end
 	end
-end
+end

@@ -12,4 +12,4 @@ end
 
 function AstrolabeSaveData:GetActiveStars()
 	return self.pids;
-end
+end

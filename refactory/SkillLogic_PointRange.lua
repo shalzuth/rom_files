@@ -20,4 +20,4 @@ function SelfClass.Client_DoDeterminTargets(self, creature, creatureArray, maxCo
 end
 -- override end
 
-return SelfClass
+return SelfClass

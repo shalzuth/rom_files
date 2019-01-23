@@ -105,4 +105,4 @@ function ContainerView:handleNotification(note)
 			end
 		end
 	end
-end
+end

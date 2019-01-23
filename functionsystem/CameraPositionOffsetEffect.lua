@@ -14,4 +14,4 @@ function CameraPositionOffsetEffect:OnCameraControllerChanged(oldCameraControlle
 	if nil ~= newCameraController and not GameObjectUtil.Instance:ObjectIsNULL(newCameraController) then
 		self.originOffset = newCameraController.positionOffset
 	end
-end
+end

@@ -1140,4 +1140,3 @@ ReachCarrierUserCmd = protobuf.Message(REACHCARRIERUSERCMD)
 RetJoinCarrierUserCmd = protobuf.Message(RETJOINCARRIERUSERCMD)
 StartFerrisWheelUserCmd = protobuf.Message(STARTFERRISWHEELUSERCMD)
 
-

@@ -245,4 +245,3 @@ function EnchantInfo:IsShowWhenTrade()
 	end
 	return false;
 end
-

@@ -492,4 +492,4 @@ function NetProtocol.Info(text)
 	if(Game.NetConnectionManager and Game.NetConnectionManager.EnableLog)then
 		LogUtility.Info(text)
 	end
-end
+end

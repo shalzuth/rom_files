@@ -795,4 +795,4 @@ Table_PlotQuest_5 = {
 }
 
 Table_PlotQuest_5_fields = { "id","Type","Params",}
-return Table_PlotQuest_5
+return Table_PlotQuest_5

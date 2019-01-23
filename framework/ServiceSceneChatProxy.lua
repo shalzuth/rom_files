@@ -11,4 +11,3 @@ function ServiceSceneChatProxy:ctor(proxyName)
 		ServiceSceneChatProxy.Instance = self
 	end
 end
-

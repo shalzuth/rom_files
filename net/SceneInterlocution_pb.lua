@@ -319,4 +319,3 @@ InterData = protobuf.Message(INTERDATA)
 NewInter = protobuf.Message(NEWINTER)
 Query = protobuf.Message(QUERY)
 
-

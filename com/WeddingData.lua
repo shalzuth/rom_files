@@ -39,4 +39,4 @@ function WeddingData:CheckInWeddingTime()
 				nowtime.day == weddingtime.day and 
 				nowtime.hour == weddingtime.hour
 	end
-end
+end

@@ -748,4 +748,3 @@ Table_SkillDesc = {
 }
 Table_SkillDesc_fields = { "id","Desc",}
 return Table_SkillDesc
-

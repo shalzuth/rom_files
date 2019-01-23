@@ -34,4 +34,4 @@ function ServiceEffectCommand:execute(note)
 			effect.transform.localPosition = Vector3(0,100,0)
 		end)
 	end
-end
+end

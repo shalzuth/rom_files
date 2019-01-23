@@ -32,4 +32,4 @@ function UICloseCommand:ExitView(viewCtl,callBack)
 			callBack();
 		end
 	end
-end
+end

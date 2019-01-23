@@ -43,4 +43,4 @@ Table_PlotAnim_1 = {
 }
 
 Table_PlotAnim_1_fields = { "id","Type","Params",}
-return Table_PlotAnim_1
+return Table_PlotAnim_1

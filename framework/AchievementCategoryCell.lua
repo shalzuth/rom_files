@@ -104,4 +104,4 @@ function AchievementCategoryCell:setSelected(isSelected)
 			self:childCellClick()
 		end
 	end	
-end
+end

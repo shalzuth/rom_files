@@ -114,4 +114,4 @@ function FunctionSkill:HandleFunctionSkill(skillInfo)
 	else
 		helplog(skillInfo.staticData.id,"没有配Logicparam")
 	end
-end
+end

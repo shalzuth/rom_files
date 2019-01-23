@@ -57,4 +57,4 @@ function LuaRect:Overlaps(other)
 		return true
 	end
 	return false
-end
+end

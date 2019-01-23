@@ -149,4 +149,4 @@ function FriendView:UpdateSocialData(data)
 			cellctl:RefreshOfflinetime()
 		end
 	end
-end
+end

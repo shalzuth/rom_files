@@ -31,4 +31,4 @@ function MainViewAuctionCell:UpdateAuction(totalSec, min, sec)
 			self.label.text = string.format(self.data.Name, min, sec)
 		end
 	end
-end
+end

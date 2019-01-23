@@ -205,4 +205,4 @@ end
 
 function BoothChatView:ExitGuild()
 	self.guildSpeech.gameObject:SetActive(false)
-end
+end

@@ -126,4 +126,3 @@ function AltmanInfoBord:OnExit()
 	self:RemoveUpdateLeftTimeTick();
 end
 -- Init End
-

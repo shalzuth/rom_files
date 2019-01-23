@@ -26,4 +26,4 @@ function NormalButtonCell:SetData(data)
 			self:SetEvent(self.gameObject, data.event);
 		end
 	end
-end
+end

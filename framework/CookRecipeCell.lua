@@ -61,4 +61,3 @@ function CookRecipeCell:SetData(data)
 	helplog(self.back)
 	self.back:SetAnchor(nil)
 end
-

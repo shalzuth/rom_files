@@ -141,4 +141,4 @@ function ConditionUtil.GetRiskParams(skilldata)
 		return appellation.Name
 	end
 	return "NULL"
-end
+end

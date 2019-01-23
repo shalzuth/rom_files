@@ -24,4 +24,4 @@ end
 
 function ColliderItemCell:SetData(data)
 	ColliderItemCell.super.SetData(self, data);
-end
+end

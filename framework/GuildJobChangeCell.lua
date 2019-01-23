@@ -55,4 +55,4 @@ function GuildJobChangeCell:SetChoose(choose)
 	choose = choose or self.data.choose;
 	self.bg.spriteName = choose and GuildJobChangeCell.ChooseSprite or GuildJobChangeCell.UnChooseSprite;
 	self.label.effectColor = choose and GuildJobChangeCell.ChooseLabelColor or GuildJobChangeCell.UnChooseLabelColor;
-end
+end

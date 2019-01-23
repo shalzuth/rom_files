@@ -87,4 +87,3 @@ function VideoPanel:_muteAudio(on)
 	AudioUtility.Mute(on)
 end
 
-

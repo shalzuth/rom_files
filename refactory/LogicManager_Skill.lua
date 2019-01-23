@@ -90,4 +90,4 @@ end
 
 function LogicManager_Skill:Update(time, deltaTime)
 	
-end
+end

@@ -121,4 +121,4 @@ function PeakSkillPreviewCell:SetData(data)
 
 	self.label.text = sb:ToString()
 	sb:Clear()
-end
+end

@@ -46,4 +46,4 @@ end
 function PartnerData:GetDampDuration()
 	return self.staticData.FollowEasingTime
 end
--- override end
+-- override end

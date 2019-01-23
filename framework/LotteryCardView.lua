@@ -143,4 +143,4 @@ function LotteryCardView:HandleLotteryRateQuery(note)
 
  		TipsView.Me():ShowGeneralHelp(self.rateSb:ToString(), "")
  	end
-end
+end

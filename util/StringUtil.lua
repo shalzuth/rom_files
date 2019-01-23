@@ -277,4 +277,4 @@ function StringUtil.LastIndexOf( content , findStr )
   else
       return found
   end
-end
+end

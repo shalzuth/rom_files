@@ -172,4 +172,3 @@ function WeakDialogCell:Hide()
 
 	self:PassEvent(WeakDialogEvent.Hide, self.data);
 end
-

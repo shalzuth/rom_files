@@ -145,4 +145,4 @@ function UIModelAdventureSkill:GetSkillRequireAppellation(i_shop_item_id)
 		retValue = skillConf.Contidion.riskid
 	end
 	return retValue
-end
+end

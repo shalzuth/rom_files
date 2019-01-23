@@ -20,4 +20,3 @@ function AdventureDropCell:SetData( data )
 	IconManager:SetItemIcon(sdata.Icon,self.Icon)
 	self.value.text = string.format("%sX%d",sdata.NameZh,data.num)
 end
-

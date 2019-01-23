@@ -268,4 +268,4 @@ function SkillSimulate:ScallAllDatas(cells)
 			end
 		end
 	end
-end
+end

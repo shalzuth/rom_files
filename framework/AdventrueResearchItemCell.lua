@@ -67,4 +67,4 @@ function AdventrueResearchItemCell:setItemIsLock(  )
 	else
 		self:Show(self.unlockCt)
 	end
-end
+end

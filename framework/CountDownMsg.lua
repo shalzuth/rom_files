@@ -63,4 +63,4 @@ function CountDownMsg:DestroySelf()
 		GameObject.Destroy(self.gameObject)
 	end
 	self.hasBeenDestroyed = true
-end
+end

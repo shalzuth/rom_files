@@ -86,4 +86,3 @@ function GVGResultView:GetGameObjects()
 	self.viewCenter = self:FindGO('ResultViewCenter')
 	self.rewardGrid = self:FindComponent("Sec2Fourth", UIGrid)
 end
-

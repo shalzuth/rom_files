@@ -127,4 +127,4 @@ function Astrolabe_LineCell:OnDestroy()
 		self.gameObject:SetActive(false);
 		Game.GOLuaPoolManager:AddToAstrolabePool(self.Line_Path , self.gameObject);
 	end
-end
+end

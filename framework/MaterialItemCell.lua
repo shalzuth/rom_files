@@ -76,4 +76,4 @@ function MaterialItemCell:GetDiscountUIConfig(pct)
 	elseif(pct > 50 and pct <= 100)then
 		return "shop_icon_sale70%", ColorUtil.DiscountLabel_Yellow;
 	end
-end
+end

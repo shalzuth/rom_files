@@ -13,4 +13,4 @@ Table_CardRate = {
 }
 
 Table_CardRate_fields = { "id","quality","Cost",}
-return Table_CardRate
+return Table_CardRate

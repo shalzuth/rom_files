@@ -15,4 +15,4 @@ function LineChartTipCell:SetData(data)
 	if data then
 		self.label.text = data
 	end
-end
+end

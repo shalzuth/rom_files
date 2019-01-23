@@ -167,4 +167,3 @@ CameraConfig = {
 	Booth_ViewPort = Vector3(0.3, 0.4, 23),
 }
 
-

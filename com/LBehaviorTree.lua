@@ -63,4 +63,4 @@ end
 function LBehaviorTree:Update()
 	self.curState = self:OnUpdate()
 	return self.curState
-end
+end

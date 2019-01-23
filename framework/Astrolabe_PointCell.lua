@@ -194,4 +194,4 @@ function Astrolabe_PointCell:OnDestroy()
 		self.gameObject:SetActive(false);
 		Game.GOLuaPoolManager:AddToAstrolabePool(Astrolabe_PointCell.Rid , self.gameObject);
 	end
-end
+end

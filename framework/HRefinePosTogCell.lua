@@ -22,4 +22,4 @@ end
 
 function HRefinePosTogCell:SetTog(chooseData)
 	self.tog.value = self.data == chooseData;
-end
+end

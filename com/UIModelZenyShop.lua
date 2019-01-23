@@ -265,4 +265,3 @@ function UIModelZenyShop:IsFPR(product_conf_id)
 	end
 end
 
-

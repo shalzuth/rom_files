@@ -29,4 +29,4 @@ end
 
 -- function SwitchRoleLoadingView:Update(delta)
 -- 	self:Progress(50+SceneProxy.Instance:LoadingProgress()/2)
--- end
+-- end

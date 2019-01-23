@@ -90,4 +90,3 @@ function AdventureFriendCell:SetData(data)
 
 	self:initHead()
 end
-

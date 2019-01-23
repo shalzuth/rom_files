@@ -167,4 +167,3 @@ function GorgeousMetalRoomCell:Close()
 	self.roomDetailInfo:SetActive(false);
 end
 
-

@@ -1446,4 +1446,4 @@ local Scene_yuno={
 		}
 	}
 }
-return Scene_yuno
+return Scene_yuno

@@ -9,4 +9,4 @@ function SkillCMD.ToString()
 	return "AI_CMD_Myself_Skill_TargetNone",SkillCMD
 end
 
-return SkillCMD
+return SkillCMD

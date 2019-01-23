@@ -12,4 +12,4 @@ function NPlayer:Logic_SamplePosition(time)
 	if time < nextSampleTime then
 		self.logicTransform:SamplePosition()
 	end
-end
+end

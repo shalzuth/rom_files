@@ -433,4 +433,3 @@ end
 function PetInfoData:IsAutoFighting()
 	return self.skilloff ~= 1;
 end
-

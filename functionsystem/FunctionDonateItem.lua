@@ -76,4 +76,3 @@ function FunctionDonateItem:GetDetailInfo(configid)
 	end
 end
 
-

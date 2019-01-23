@@ -203,4 +203,4 @@ end
 function PersonalPictureWallCell:OnExit(  )
 	-- body
 	self.super.OnExit(self)
-end
+end

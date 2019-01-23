@@ -177,4 +177,4 @@ function StarView:SharePicture(platform_type, content_title, content_body)
 --			ROFileUtils.FileDelete(path)
 --		end)
 	end, gmCm, ui)
-end
+end

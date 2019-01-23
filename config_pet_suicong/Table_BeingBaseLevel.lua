@@ -203,4 +203,4 @@ Table_BeingBaseLevel = {
 }
 
 Table_BeingBaseLevel_fields = { "id","NeedExp","SkillPoint",}
-return Table_BeingBaseLevel
+return Table_BeingBaseLevel

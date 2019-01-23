@@ -90,4 +90,4 @@ Table_ProduceLogic = {
 }
 
 Table_ProduceLogic_fields = { "id","Type","TableName","Name","EqualCondition","CompareCondition","CompareFile","Produce","Desc",}
-return Table_ProduceLogic
+return Table_ProduceLogic

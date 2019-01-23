@@ -54,4 +54,4 @@ function SceneCountDownInfo:DoDeconstruct(asArray)
 	self.label = nil;
 	self.endStamp = nil;
 	self.delta = nil;
-end
+end

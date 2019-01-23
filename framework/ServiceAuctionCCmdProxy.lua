@@ -100,4 +100,4 @@ end
 function ServiceAuctionCCmdProxy:RecvNtfMaskPriceCCmd(data) 
 	AuctionProxy.Instance:RecvNtfMaskPriceCCmd(data)
 	self:Notify(ServiceEvent.AuctionCCmdNtfMaskPriceCCmd, data)
-end
+end

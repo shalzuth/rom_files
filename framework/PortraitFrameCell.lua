@@ -30,4 +30,4 @@ function PortraitFrameCell:SetData(data)
 	local isnew = RedTipProxy.Instance:IsNew(SceneTip_pb.EREDSYS_PHOTOFRAME, data.id)
 	self:SetActive(self.newtag, isnew);
 	self:SetActive(self.lock, data.Lock == 1);
-end
+end

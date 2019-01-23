@@ -168,4 +168,3 @@ function ServiceSessionTeamProxy:RecvMemberCatUpdateTeam(data)
 	self:Notify(ServiceEvent.SessionTeamMemberCatUpdateTeam, data)
 end
 
-

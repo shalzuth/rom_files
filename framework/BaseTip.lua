@@ -45,4 +45,4 @@ end
 
 function BaseTip:SetData(data)
 	-- body
-end
+end

@@ -4,4 +4,4 @@ function RestartGameCommand:execute(note)
 	FunctionNetError.Me():ErrorBackToLogin()
 end
 
-return RestartGameCommand
+return RestartGameCommand

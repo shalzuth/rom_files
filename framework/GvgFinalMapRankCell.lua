@@ -25,4 +25,4 @@ function GvgFinalMapRankCell:SetData(data)
 	GvgFinalMapRankCell.super.SetData(self,data)
 	self.pieceNum.text = tostring(data.crystalData.chipnum or 0) .. "/4"
 	IconManager:SetItemIcon("item_700104", self.pieceIcon)
-end
+end

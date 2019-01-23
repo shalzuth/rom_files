@@ -40,4 +40,4 @@ function SoundItemCell:SetData(data)
 		self.soundName.text = musicData.MusicName;
 		UIUtil.WrapLabel(self.soundName);
 	end
-end
+end

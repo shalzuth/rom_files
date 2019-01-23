@@ -51,4 +51,4 @@ function EliteStageListCell:SetData(data)
 	end
 	self:SetLock(data.state == SubStageData.LockState or self.questNotFinish)
 	self.bossFlag.gameObject:SetActive(data.staticData.Step >= data.mainStage:MaxNormalStep())
-end
+end

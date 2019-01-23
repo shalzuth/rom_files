@@ -55,4 +55,3 @@ function GuildApplyListPopUp:OnEnter()
 	RedTipProxy.Instance:SeenNew(SceneTip_pb.EREDSYS_GUILD_APPLY)
 	RedTipProxy.Instance:RemoveWholeTip(SceneTip_pb.EREDSYS_GUILD_APPLY);
 end
-

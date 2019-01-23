@@ -522,4 +522,3 @@ TaiwanFbLikeUserRedeemCmd = protobuf.Message(TAIWANFBLIKEUSERREDEEMCMD)
 TaiwanFbShareProgressCmd = protobuf.Message(TAIWANFBSHAREPROGRESSCMD)
 TaiwanFbShareRedeemCmd = protobuf.Message(TAIWANFBSHAREREDEEMCMD)
 
-

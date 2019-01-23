@@ -47,4 +47,4 @@ function BusinessmanMakeMaterialCell:SetNum(data, times)
 	else
 		self.count.text = string.format(redString, str)
 	end
-end
+end

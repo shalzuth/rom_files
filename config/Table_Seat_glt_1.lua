@@ -26,4 +26,4 @@ Table_Seat_glt_1 = {
 }
 
 Table_Seat_glt_1_fields = { "id","StandPot","SeatPot","Dir",}
-return Table_Seat_glt_1
+return Table_Seat_glt_1

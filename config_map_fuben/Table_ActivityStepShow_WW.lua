@@ -11,4 +11,4 @@ Table_ActivityStepShow_WW = {
 }
 
 Table_ActivityStepShow_WW_fields = { "id","Trace_Title","Trace_Text","Trace_Icon","TraceId","HideMapName","UnShowMaps","Trace_Progress","Percentage","LimitLevel",}
-return Table_ActivityStepShow_WW
+return Table_ActivityStepShow_WW

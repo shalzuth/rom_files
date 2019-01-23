@@ -3437,4 +3437,3 @@ TodayFinanceRank = protobuf.Message(TODAYFINANCERANK)
 UPDATE_ORDER_TRADE_PARAM = 42
 UpdateOrderTradeCmd = protobuf.Message(UPDATEORDERTRADECMD)
 
-

@@ -143,4 +143,4 @@ function PetMakeNamePopUp:OnExit()
 	end
 
 	PetMakeNamePopUp.super.OnExit(self);
-end
+end

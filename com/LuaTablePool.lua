@@ -31,4 +31,3 @@ function LuaTablePool:Put(obj)
 	return false
 end
 
-

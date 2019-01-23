@@ -157,4 +157,4 @@ function AuctionRecordView:CallRecordList(index)
 	if index and index > 0 and index <= self.totalPage then
 		ServiceAuctionCCmdProxy.Instance:CallReqAuctionRecordCCmd(index - 1)
 	end
-end
+end

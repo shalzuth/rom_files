@@ -147,4 +147,4 @@ Table_ScenesName={
 	[146]="yuno",
 	[147]="yuno_fild1",
 	[148]="yuno_fild2"
-}
+}

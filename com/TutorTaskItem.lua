@@ -100,4 +100,4 @@ end
 
 function TutorTaskItem:IsMySelf()
 	return self.ownId == Game.Myself.data.id
-end
+end

@@ -1370,4 +1370,3 @@ Table_UseItem = {
 }
 Table_UseItem_fields = { "id","Class","AlertMode","UsingSys","UseEffect","CDTime","TipsInfo","WeekLimit","UseMultiple","UseLimit","PVPCDtime","UseStartTime","UseEndTime","Alert_LimitLevel",}
 return Table_UseItem
-

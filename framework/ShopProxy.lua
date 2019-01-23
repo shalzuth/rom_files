@@ -154,4 +154,4 @@ function ShopProxy:Server_SetShopSoldCountCmdInfo(server_items)
 			end
 		end
 	end
-end
+end

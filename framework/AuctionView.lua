@@ -828,4 +828,4 @@ function AuctionView:ResetPrice()
 		self.lastPriceCell:Reset()
 		self.lastPriceCell = nil
 	end	
-end
+end

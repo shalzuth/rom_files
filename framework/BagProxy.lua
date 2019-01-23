@@ -984,4 +984,4 @@ function BagProxy:CanQuickSell(item)
 	return true;
 end
 
-return BagProxy
+return BagProxy

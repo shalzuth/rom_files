@@ -12,4 +12,4 @@ Table_EquipGender_WW = {
 }
 
 Table_EquipGender_WW_fields = { "id","male","female",}
-return Table_EquipGender_WW
+return Table_EquipGender_WW

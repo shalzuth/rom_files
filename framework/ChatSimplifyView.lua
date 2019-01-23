@@ -126,4 +126,4 @@ function ChatSimplifyView:LoadCellPfb(cellPfb, cName, parent)
 	cellpfb.transform:SetParent(parent.transform, false)
 	cellpfb.name = cName
 	return cellpfb
-end
+end

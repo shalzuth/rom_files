@@ -265,4 +265,4 @@ function QueuePusherCtrl:StopTimerCheck()
 		self.checkTimerID= -1
 		LuaTimer.Delete(self.checkTimerID)
 	end
-end
+end

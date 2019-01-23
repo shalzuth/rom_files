@@ -77,4 +77,4 @@ function DojoMsgCell:SetData(data)
 		self.bg.height = size.y + 42
 		self.bgline.height = size.y + 44
 	end	
-end
+end

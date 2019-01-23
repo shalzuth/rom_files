@@ -173,4 +173,4 @@ function BoothIntroduceCell:OnDestroy()
 		TimeTickManager.Me():ClearTick(self)
 		self.timeTick = nil
 	end
-end
+end

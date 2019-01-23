@@ -367,4 +367,4 @@ function ChangeZoneView:ReUniteCellData(datas, perRowNum)
 		end
 	end
 	return newData
-end
+end

@@ -299,4 +299,4 @@ function SceneSeatManager:Update(time, deltaTime)
 		and time > self.displayEndTime then
 		self:SetDisplay(false)
 	end
-end
+end

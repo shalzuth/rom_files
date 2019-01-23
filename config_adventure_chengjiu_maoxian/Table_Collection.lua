@@ -36,4 +36,4 @@ Table_Collection = {
 }
 
 Table_Collection_fields = { "id","ItemId","mapID","Icon","Desc","RewardStr","Quality","AdventureReward","RewardProperty","Ed","Name","RedTip",}
-return Table_Collection
+return Table_Collection

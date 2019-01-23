@@ -463,4 +463,4 @@ function EquipInfo:CheckCanUpgradeSuccess(isMyEquip, item_guid)
 	self.canUpgrade_success = true;
 
 	return true;
-end
+end

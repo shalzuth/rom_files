@@ -77,4 +77,4 @@ function WeddingBuyCell:UnLoadPic()
 			PictureManager.Instance:UnLoadWedding(serviceData.Background, self.background)
 		end
 	end
-end
+end

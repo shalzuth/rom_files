@@ -53,4 +53,4 @@ function TeamApplyCell:SetData(data)
 		headData:TransByTeamMemberData(data);
 		self.portraitCell:SetData(headData);
 	end
-end
+end

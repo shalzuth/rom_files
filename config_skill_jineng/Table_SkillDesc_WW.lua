@@ -6,4 +6,4 @@ Table_SkillDesc_WW = {
 }
 
 Table_SkillDesc_WW_fields = { "id","Desc",}
-return Table_SkillDesc_WW
+return Table_SkillDesc_WW

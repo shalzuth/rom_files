@@ -52,4 +52,4 @@ Table_Seat_glastham = {
 }
 
 Table_Seat_glastham_fields = { "id","StandPot","SeatPot","Dir",}
-return Table_Seat_glastham
+return Table_Seat_glastham

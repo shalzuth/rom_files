@@ -98,4 +98,3 @@ function ActivePanel:activeCallback( status,content )
 		FunctionNetError.Me():ShowErrorById(11)
 	end
 end
-

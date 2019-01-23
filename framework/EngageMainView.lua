@@ -78,4 +78,4 @@ end
 
 function EngageMainView:GetCurDateData()
 	return _WeddingProxy:GetDateData(self.DateView.curDateData)
-end
+end

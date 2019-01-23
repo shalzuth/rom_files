@@ -194,4 +194,4 @@ Table_ItemAdvManual = {
 }
 
 Table_ItemAdvManual_fields = { "id","LockDesc",}
-return Table_ItemAdvManual
+return Table_ItemAdvManual

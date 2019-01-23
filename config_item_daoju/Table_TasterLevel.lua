@@ -13,4 +13,4 @@ Table_TasterLevel = {
 }
 
 Table_TasterLevel_fields = { "id","NeedExp","AddBuff_Eft","FullProgress","Title","AddBuffs",}
-return Table_TasterLevel
+return Table_TasterLevel

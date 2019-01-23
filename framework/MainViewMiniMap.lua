@@ -1616,4 +1616,3 @@ function MainViewMiniMap:TryUseButterflyOrFly(go)
 	end
 	self:RefreshButtonStatus(go)
 end
-

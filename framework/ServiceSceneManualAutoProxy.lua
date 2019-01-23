@@ -314,4 +314,3 @@ ServiceEvent.SceneManualGetManualCmd = "ServiceEvent_SceneManualGetManualCmd"
 ServiceEvent.SceneManualGroupActionManualCmd = "ServiceEvent_SceneManualGroupActionManualCmd"
 ServiceEvent.SceneManualQueryUnsolvedPhotoManualCmd = "ServiceEvent_SceneManualQueryUnsolvedPhotoManualCmd"
 ServiceEvent.SceneManualUpdateSolvedPhotoManualCmd = "ServiceEvent_SceneManualUpdateSolvedPhotoManualCmd"
-

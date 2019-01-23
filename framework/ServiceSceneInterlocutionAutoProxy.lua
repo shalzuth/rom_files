@@ -107,4 +107,3 @@ ServiceEvent = _G["ServiceEvent"] or {}
 ServiceEvent.SceneInterlocutionNewInter = "ServiceEvent_SceneInterlocutionNewInter"
 ServiceEvent.SceneInterlocutionAnswer = "ServiceEvent_SceneInterlocutionAnswer"
 ServiceEvent.SceneInterlocutionQuery = "ServiceEvent_SceneInterlocutionQuery"
-

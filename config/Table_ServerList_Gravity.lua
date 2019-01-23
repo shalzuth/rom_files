@@ -28,4 +28,4 @@ Table_ServerList_Gravity = {
 }
 
 Table_ServerList_Gravity_fields = { "id","name","type","serverid","state",}
-return Table_ServerList_Gravity
+return Table_ServerList_Gravity

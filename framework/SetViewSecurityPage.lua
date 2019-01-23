@@ -329,4 +329,4 @@ function SetViewSecurityPage:GetIntByBit(num, index, b)
         num = num + (1<<index)
     end
     return num
-end
+end

@@ -1541,4 +1541,4 @@ local Scene_amatsu={
 		}
 	}
 }
-return Scene_amatsu
+return Scene_amatsu

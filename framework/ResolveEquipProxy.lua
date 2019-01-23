@@ -30,4 +30,4 @@ end
 
 function ResolveEquipProxy:CalculateResolveEquip()
 	
-end
+end

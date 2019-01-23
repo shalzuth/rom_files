@@ -47,4 +47,4 @@ function ShopSaleSellItemCell:UpdateSale(discount, totalCost)
 	self.salePriceTip.text = string.format(ZhString.ShopSale_SellExpensive, 
 				discount * 100, 
 				StringUtil.NumThousandFormat(totalCost))
-end
+end

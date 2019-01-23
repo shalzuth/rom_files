@@ -17,4 +17,4 @@ function RecallContractSelectCell:SetData(data)
 	if data then
 		self.name.text = data:GetName()
 	end
-end
+end

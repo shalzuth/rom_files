@@ -28,4 +28,4 @@ function LuaProfilerStatistics:SetPercentage(parentCell)
 	if parentCell ~= nil then
 		self[5] = (self[3] / parentCell.stat[3]) * 100
 	end
-end
+end

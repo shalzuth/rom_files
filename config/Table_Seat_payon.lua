@@ -52,4 +52,4 @@ Table_Seat_payon = {
 }
 
 Table_Seat_payon_fields = { "id","StandPot","SeatPot","Dir",}
-return Table_Seat_payon
+return Table_Seat_payon

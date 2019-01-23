@@ -172,4 +172,4 @@ function LogUtility.DebugErrorFormat(obj, fmt, ... )
 		msg = String.Format("{0}\n{1}", msg, debug.traceback())
 	end
 	ROLogger.LogError(msg, obj)
-end
+end

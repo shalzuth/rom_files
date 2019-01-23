@@ -375,4 +375,4 @@ function LotteryHeadwearView:HandlePicture(note)
 			end
 		end
 	end
-end
+end

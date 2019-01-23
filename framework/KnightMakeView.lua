@@ -8,4 +8,4 @@ function KnightMakeView:Init()
 	self.type = BusinessmanMakeProxy.Skill.Knight
 
 	KnightMakeView.super.Init(self)
-end
+end

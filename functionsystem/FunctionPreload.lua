@@ -202,4 +202,4 @@ function FunctionPreload:_SetCurrentNpcPreload(maps)
 		ReusableTable.DestroyAndClearTable(self.npcPreloads)
 	end
 	self.npcPreloads = maps
-end
+end

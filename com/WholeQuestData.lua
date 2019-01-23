@@ -45,4 +45,4 @@ function WholeQuestData:update(questId,time,map,complete,trace,detailList )
 			self.mapName = "mapId is nil id questId:"..questId
 		end
 	end
-end
+end

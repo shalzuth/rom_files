@@ -11,4 +11,4 @@ end
 
 function GuildAssetItemCell:SetData(data)
 	GuildAssetItemCell.super.SetData(self, data);
-end
+end

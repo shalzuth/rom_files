@@ -37,4 +37,3 @@ function NNpc:DestroyGuideWelfareEffect()
 	self:RemoveEffect(EffectKey_GetGuildWelfare)
 end
 -- 公会福利特效
-

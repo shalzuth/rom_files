@@ -13,4 +13,4 @@ Table_Seat_hugecat = {
 }
 
 Table_Seat_hugecat_fields = { "id","StandPot","SeatPot","Dir",}
-return Table_Seat_hugecat
+return Table_Seat_hugecat

@@ -89,4 +89,3 @@ ServiceEvent = _G["ServiceEvent"] or {}
 ServiceEvent.ErrorUserCmdRegErrUserCmd = "ServiceEvent_ErrorUserCmdRegErrUserCmd"
 ServiceEvent.ErrorUserCmdKickUserErrorCmd = "ServiceEvent_ErrorUserCmdKickUserErrorCmd"
 ServiceEvent.ErrorUserCmdMaintainUserCmd = "ServiceEvent_ErrorUserCmdMaintainUserCmd"
-

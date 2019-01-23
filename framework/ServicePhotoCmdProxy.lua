@@ -107,4 +107,4 @@ function ServicePhotoCmdProxy:CallFrameActionPhotoCmd(frameid, action, photo)
 		end
 	end
 	self:SendProto(msg)
-end
+end

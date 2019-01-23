@@ -612,4 +612,4 @@ function MonsterScoreTip:OnExit()
 	MonsterScoreTip.super.OnExit(self);
 	UIModelUtil.Instance:ResetTexture( self.modeltexture )
 	Game.GOLuaPoolManager:AddToUIPool(self.resID,self.gameObject)
-end
+end

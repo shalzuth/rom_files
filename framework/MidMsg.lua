@@ -41,4 +41,4 @@ function MidMsg:Exit()
 	if(not self:ObjIsNil(self.gameObject))then
 		GameObject.DestroyImmediate(self.gameObject);
 	end
-end
+end

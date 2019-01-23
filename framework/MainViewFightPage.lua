@@ -277,4 +277,4 @@ end
 
 function MainViewFightPage:updateDesertWolfTime(  )
 	self:updatePvpTime(self.DesertWolfPvpTotalTime,MainViewFightPage.TickType.DesertWolfPvpCountDown)
-end
+end

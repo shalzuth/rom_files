@@ -318,4 +318,3 @@ function DeComposeView:HandleEquipCompose(note)
 
 	self:ChooseItem();
 end
-

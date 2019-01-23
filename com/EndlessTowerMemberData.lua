@@ -20,4 +20,4 @@ end
 
 function EndlessTowerMemberData:CanIn()
 	return self.canIn
-end
+end

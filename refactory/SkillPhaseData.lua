@@ -313,4 +313,4 @@ function SkillPhaseData:DoDeconstruct(asArray)
 	self.data[4] = nil -- angle Y
 	self:ClearTargets()
 end
--- override end
+-- override end

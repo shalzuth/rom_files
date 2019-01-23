@@ -279,4 +279,3 @@ function TeamMemberCell:OnRemove()
 	self:RemoveRestTimeTick();
 	self:RemoveIconEvent();
 end
-

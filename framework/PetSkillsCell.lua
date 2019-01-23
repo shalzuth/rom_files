@@ -49,4 +49,4 @@ function PetSkillsCell:GetCells()
 	if(self.skillsCtl)then
 		return self.skillsCtl:GetCells();
 	end
-end
+end

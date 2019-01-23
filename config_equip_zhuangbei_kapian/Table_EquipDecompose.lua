@@ -24,4 +24,4 @@ Table_EquipDecompose = {
 }
 
 Table_EquipDecompose_fields = { "id","NameZh","Cost","Material",}
-return Table_EquipDecompose
+return Table_EquipDecompose

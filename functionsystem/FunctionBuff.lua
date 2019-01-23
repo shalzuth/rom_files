@@ -181,4 +181,3 @@ function FunctionBuff:UpdateBreakEquipBuff()
 	end
 	TableUtility.ArrayClear(EquipBuffs);
 end
-

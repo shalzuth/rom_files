@@ -109,4 +109,4 @@ end
 
 function AI_CMD_Hit.ToString()
 	return "AI_CMD_Hit",AI_CMD_Hit
-end
+end

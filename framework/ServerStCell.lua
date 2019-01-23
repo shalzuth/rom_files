@@ -26,4 +26,4 @@ function ServerStCell:SetData(data)
 			self.state.color = Color(144/255,144/255,144/255,1)
 		end
 	end
-end
+end

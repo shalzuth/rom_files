@@ -67,4 +67,4 @@ function ShortCutItemCell:SetData(data)
 		end
 		self.npcName.transform.localPosition = tempV3;
 	end
-end
+end

@@ -95,4 +95,4 @@ end
 
 function NumberUtility.LerpAngleUnclamped(a, b, t)
 	return a + NumberUtility.DeltaAngle(a, b) * t
-end
+end

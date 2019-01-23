@@ -964,4 +964,4 @@ function ShopMallProxy:GetBoothfee(price, count)
 	end
 
 	return boothfee * count
-end
+end

@@ -330,4 +330,4 @@ function SceneCreatureProxy:ForEach(func, args)
 		end
 	end
 	return false
-end
+end

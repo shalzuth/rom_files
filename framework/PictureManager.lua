@@ -257,4 +257,3 @@ function PictureManager:UnLoadTexture(cache, sName, uiTexture)
 end
 
 
-

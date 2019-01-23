@@ -82,4 +82,4 @@ local IsPetByData = NpcMonsterUtility.IsPetByData
 function NpcMonsterUtility.IsPetByID(id)
 	local data = GetConfig(id)
 	return IsPetByData(data)
-end
+end

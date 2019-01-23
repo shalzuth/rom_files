@@ -611,4 +611,3 @@ Table_Achievement = {
 }
 Table_Achievement_fields = { "id","Name","Atlas","Icon","Tier","RedTip","SubGroup","AdventureSort","BackImage","Visibility","AchievementTextID","occupation","behavior","time","combination","RewardExp","RewardItems","RewardTimes",}
 return Table_Achievement
-

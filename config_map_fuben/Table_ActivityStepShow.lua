@@ -28,4 +28,3 @@ Table_ActivityStepShow = {
 }
 Table_ActivityStepShow_fields = { "id","Trace_Title","Trace_Text","Trace_Icon","TraceId","HideMapName","UnShowMaps","Trace_Progress","Percentage","LimitLevel",}
 return Table_ActivityStepShow
-

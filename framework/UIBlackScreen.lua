@@ -65,4 +65,4 @@ end
 
 function UIBlackScreen.SetAlpha1()
 	UIBlackScreen.SetAlpha(1)
-end
+end

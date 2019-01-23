@@ -56,4 +56,4 @@ function EndlessTowerCell:SetData(data)
 	 		self.bg.CurrentState = 0
 	 	end
 	end
-end
+end

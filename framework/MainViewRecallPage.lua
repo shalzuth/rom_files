@@ -146,4 +146,4 @@ end
 function MainViewRecallPage:ShowSelf(isShow)
 	ServiceSessionSocialityProxy.Instance:CallFrameStatusSocialCmd(isShow)
 	self.gameObject:SetActive(isShow)
-end
+end

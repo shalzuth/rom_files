@@ -53,4 +53,4 @@ Table_EquipUpgrade_WW = {
 }
 
 Table_EquipUpgrade_WW_fields = { "id","ClassDepthLimit_2","Material_1","BuffID_1","Material_2","BuffID_2","Material_3","BuffID_3","Material_4","BuffID_4","Material_5","BuffID_5","Material_6","BuffID_6","Material_7","BuffID_7","Material_8","BuffID_8","Material_9","BuffID_9","Material_10","BuffID_10","Product","NpcId","ShortcutID",}
-return Table_EquipUpgrade_WW
+return Table_EquipUpgrade_WW

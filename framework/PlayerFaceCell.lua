@@ -275,4 +275,4 @@ end
 
 function PlayerFaceCell:ActiveSelf()
 	return self.gameObject.activeSelf;
-end
+end

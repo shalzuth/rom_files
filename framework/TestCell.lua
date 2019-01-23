@@ -11,4 +11,4 @@ function TestCell:SetData(obj)
 	lab.text = tostring(self.data);
 end
 
-return TestCell;
+return TestCell;

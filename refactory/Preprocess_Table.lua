@@ -459,4 +459,4 @@ function Game.Preprocess_Pet()
 		end
 	end
 	Game.Config_EggPet = map;
-end
+end

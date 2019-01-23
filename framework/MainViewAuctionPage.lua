@@ -247,4 +247,4 @@ function MainViewAuctionPage:HandleOverTakePrice(note)
 	if data then
 		self:SetNormalWeakDialog(95)
 	end
-end
+end

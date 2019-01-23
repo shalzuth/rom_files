@@ -24,4 +24,4 @@ end
 
 function BaseCDCell:ClearCD()
 	error("没有复写BaseCDCell:ClearCD()")
-end
+end

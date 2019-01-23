@@ -57,4 +57,4 @@ end
 
 function PurchaseDeltaTimeLimit:IsEnd(key)
 	return self.cacheLimit[key] == nil
-end
+end

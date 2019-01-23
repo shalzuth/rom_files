@@ -103,4 +103,4 @@ end
 
 function FriendApplyCell:RegisterRedTip(key)
 	RedTipProxy.Instance:RegisterUI(key, self.Bg, 10, {-2,-6})
-end
+end

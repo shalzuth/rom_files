@@ -198,4 +198,4 @@ function BoothExchangeView:HandleUpdate(note)
 	if data and data.charid == self.container.playerID and data.type == BoothProxy.TradeType.Booth then
 		self:UpdateShow()
 	end	
-end
+end

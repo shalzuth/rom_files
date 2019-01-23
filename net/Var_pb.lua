@@ -1056,4 +1056,3 @@ EVARTYPE_USER_CREDIT = 27
 StatVar = protobuf.Message(STATVAR)
 Var = protobuf.Message(VAR)
 
-

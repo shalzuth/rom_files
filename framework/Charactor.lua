@@ -507,4 +507,4 @@ function Charactor:HandleLongPress(param)
 			TipManager.Instance:CloseTabNameTipWithFadeOut()
 		end
 	end
-end
+end

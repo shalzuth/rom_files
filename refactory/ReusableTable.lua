@@ -197,4 +197,4 @@ end
 
 function ReusableTable.DestroyProtocolStatistics(t)
 	pool:AddByTag(protocolStatisticsTag, t)
-end
+end

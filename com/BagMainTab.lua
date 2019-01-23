@@ -242,4 +242,4 @@ function BagEquipTab:GetFitItems(staticID,refinelv,strengthlv)
 		end
 	end
 	return res
-end
+end

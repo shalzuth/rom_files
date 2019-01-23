@@ -107,4 +107,4 @@ function WeGameHelper:WeGameHelperRequest(data,sign,test)
         end
     )
     requests:StartRequest()
-end
+end

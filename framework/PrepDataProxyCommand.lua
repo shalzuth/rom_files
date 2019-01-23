@@ -226,4 +226,4 @@ function PrepDataProxyCommand:execute(noti)
 	-- print("test remove")
 	-- BagProxy.Instance:TestSetData("test2",nil)
 	-- BagProxy.Instance:TestOutPut()
-end
+end

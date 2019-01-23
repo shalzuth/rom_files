@@ -91,4 +91,4 @@ function SkillWorkerManager:Update(time, deltaTime)
 	UpdateWorkers(self.comboHitWorkers, time, deltaTime)
 	UpdateWorkers(self.comboEmitWorkers, time, deltaTime)
 	UpdateWorkers(self.subSkillWorkers, time, deltaTime)
-end
+end

@@ -212,4 +212,4 @@ function ListCtrl:SetDisableDragIfFit()
 	if cellLength then
 		self.disableDragPfbNum = math.floor(self.viewLength/cellLength)
 	end
-end
+end

@@ -68,4 +68,4 @@ function MvpMatchView:ClickMatchButton()
 		return
 	end
 	ServiceMatchCCmdProxy.Instance:CallJoinRoomCCmd(PvpProxy.Type.MvpFight) 
-end
+end

@@ -11,4 +11,4 @@ end
 
 function ChangeHeadData:SetChoose(isChoose)
 	self.isChoose = isChoose
-end
+end

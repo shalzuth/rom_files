@@ -12,4 +12,4 @@ function SceneUserNewCommand:NUserVarUpdate(note)
 	SceneUserNewProxy.Instance:NUserVarUpdate(note.body)
 	-- print("xxxxxxxxx-----------SceneUserNewCommand-----xxxxx----NUserVarUpdate")
 end
-return SceneUserNewCommand
+return SceneUserNewCommand

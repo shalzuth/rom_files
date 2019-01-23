@@ -2495,4 +2495,4 @@ local Scene_gef_goblin={
 		}
 	}
 }
-return Scene_gef_goblin
+return Scene_gef_goblin

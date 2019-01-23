@@ -613,4 +613,4 @@ end
 
 function PvpProxy:GetMvpResult()
 	return self.mvpResultList
-end
+end

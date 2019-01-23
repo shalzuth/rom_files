@@ -587,4 +587,4 @@ function AuctionProxy:GetSignUpItemList(itemid)
 	end
 
 	return self.signUpItemList
-end
+end

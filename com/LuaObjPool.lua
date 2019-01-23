@@ -75,4 +75,3 @@ function LuaObjPool:Put(key, obj)
 	self:AddOrRefreshKey(key)
 end
 
-

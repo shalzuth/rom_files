@@ -249,4 +249,4 @@ function AI_Base:_DoRequest(time, deltaTime, creature)
 	if self.requestClear then
 		self:_Clear(time, deltaTime, creature)
 	end
-end
+end

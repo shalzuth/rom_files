@@ -93,4 +93,4 @@ function EffectWorker_Connect:DoDeconstruct(asArray)
 	self.duration = nil
 	self.elapseTime = nil
 end
--- override end
+-- override end

@@ -4,4 +4,4 @@ Table_Pet_Capture_WW = {
 }
 
 Table_Pet_Capture_WW_fields = { "id","PetID","CatchNpcID","GiftItemID","EggID",}
-return Table_Pet_Capture_WW
+return Table_Pet_Capture_WW

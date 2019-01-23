@@ -45,4 +45,4 @@ function ServiceSceneProxy:RecvGoToUserCmd(data)
 	self:Notify(ServiceEvent.SceneGoToUserCmd, data)
 end
 
-return ServiceSceneProxy
+return ServiceSceneProxy

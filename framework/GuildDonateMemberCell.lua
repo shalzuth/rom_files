@@ -13,4 +13,4 @@ function GuildDonateMemberCell:SetData(data)
 		self.name.text = data.memberData.name;
 		self.donate.text = data.memberData.weekasset;
 	end
-end
+end

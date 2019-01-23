@@ -270,4 +270,3 @@ ServiceEvent.DojoDojoPanelOper = "ServiceEvent_DojoDojoPanelOper"
 ServiceEvent.DojoDojoSponsorCmd = "ServiceEvent_DojoDojoSponsorCmd"
 ServiceEvent.DojoDojoQueryStateCmd = "ServiceEvent_DojoDojoQueryStateCmd"
 ServiceEvent.DojoDojoRewardCmd = "ServiceEvent_DojoDojoRewardCmd"
-

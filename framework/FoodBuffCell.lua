@@ -40,4 +40,3 @@ function FoodBuffCell:SetData(data)
 		end
 	end
 end
-

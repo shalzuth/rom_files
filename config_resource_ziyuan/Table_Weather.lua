@@ -25,4 +25,4 @@ Table_Weather = {
 }
 
 Table_Weather_fields = { "id","EffectDir",}
-return Table_Weather
+return Table_Weather

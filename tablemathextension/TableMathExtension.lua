@@ -180,4 +180,4 @@ function Serialize(obj)
 		error("Can not serialize a " .. t .. " type.")
 	end
 	return lua
-end
+end

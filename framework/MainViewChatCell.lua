@@ -15,4 +15,4 @@ function MainViewChatCell:SetData(data)
 	data = string.gsub(data, "：", ":")
 	-- todo xde
 	self.label.text = OverseaHostHelper:FilterLangStr(data)
-end
+end

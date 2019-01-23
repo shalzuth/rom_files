@@ -405,4 +405,4 @@ end
 
 function MakeBaseView:SetSpritAlpha(sprit,alpha)
 	sprit.color = Color(sprit.color.r,sprit.color.g,sprit.color.b,alpha)
-end
+end

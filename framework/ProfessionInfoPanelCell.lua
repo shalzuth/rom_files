@@ -14,4 +14,4 @@ function ProfessionInfoPanelCell:SetData( data )
 	-- body
 	self.name.text = data.name..":"
 	self.value.text = "[ff8a00]+"..data.value.."[-]"
-end
+end

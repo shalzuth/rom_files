@@ -633,4 +633,4 @@ function MyHeadIconCell:Refresh()
 			self:SetEye(eye)
 		end
 	end
-end
+end

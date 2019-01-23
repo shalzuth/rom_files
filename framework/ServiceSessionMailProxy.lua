@@ -30,4 +30,3 @@ function ServiceSessionMailProxy:RecvMailUpdate(data)
 	PostProxy.Instance:RemovePostData(data.dels)
 	self:Notify(ServiceEvent.SessionMailMailUpdate, data);
 end
-

@@ -63,4 +63,3 @@ function ServantRecommendToggleCell:SetData(data)
 		IconManager:SetUIIcon(ServantRecommendView.ToggleCellIcon[data] or "", self.iconSp)
 	end
 end
-

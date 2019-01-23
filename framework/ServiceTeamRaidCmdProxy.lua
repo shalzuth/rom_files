@@ -42,4 +42,4 @@ function ServiceTeamRaidCmdProxy:RecvTeamRaidAltmanShowCmd(data)
 	helplog("Recv-->TeamRaidAltmanShowCmd", data.lefttime, data.killcount, data.selfkill);
 	DungeonProxy.Instance:UpdateAltManRaidInfo(data.lefttime, data.killcount, data.selfkill);
 	self:Notify(ServiceEvent.TeamRaidCmdTeamRaidAltmanShowCmd, data)
-end
+end

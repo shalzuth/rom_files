@@ -129,4 +129,4 @@ function SceneTriggerProxy:Clear()
 		end
 	end
 	self:Reset()
-end
+end

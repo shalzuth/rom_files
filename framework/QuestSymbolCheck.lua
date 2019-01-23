@@ -143,4 +143,3 @@ function QuestSymbolCheck.HasQuestSymbolByMap(mapid)
 	return false;
 end
 
-

@@ -32,4 +32,4 @@ function HRefineTypeCell:SetData(data)
 	else
 		self.gameObject:SetActive(false);
 	end
-end
+end

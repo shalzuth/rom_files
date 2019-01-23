@@ -69,4 +69,4 @@ function AEFreeTransferData:IsStorageFree()
 	if self:IsInActivity() then
 			return self.storefree
 	end		
-end
+end

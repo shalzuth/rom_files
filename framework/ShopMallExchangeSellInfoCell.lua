@@ -505,4 +505,4 @@ function ShopMallExchangeSellInfoCell:SetInvalidBtn(isInvalid)
 	end
 
 	self.isInvalid = isInvalid
-end
+end

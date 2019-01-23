@@ -2736,4 +2736,3 @@ RunQuestStep = protobuf.Message(RUNQUESTSTEP)
 VisitNpcUserCmd = protobuf.Message(VISITNPCUSERCMD)
 WorldQuest = protobuf.Message(WORLDQUEST)
 
-

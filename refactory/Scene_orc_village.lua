@@ -1347,4 +1347,4 @@ local Scene_orc_village={
 		}
 	}
 }
-return Scene_orc_village
+return Scene_orc_village

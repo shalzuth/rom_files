@@ -1318,4 +1318,4 @@ local Scene_Guild_battle3={
 		}
 	}
 }
-return Scene_Guild_battle3
+return Scene_Guild_battle3

@@ -58,4 +58,3 @@ end
 ServiceEvent = _G["ServiceEvent"] or {}
 ServiceEvent.WeatherWeatherChange = "ServiceEvent_WeatherWeatherChange"
 ServiceEvent.WeatherSkyChange = "ServiceEvent_WeatherSkyChange"
-

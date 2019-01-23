@@ -98,4 +98,3 @@ function GuildBuildingCell:OnDestroy()
 	PictureManager.Instance:UnloadGuildBuilding()
 end
 
-

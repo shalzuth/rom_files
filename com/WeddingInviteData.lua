@@ -64,4 +64,4 @@ end
 
 function WeddingInviteData:SetInvited(isInvited)
 	self.isInvited = isInvited
-end
+end

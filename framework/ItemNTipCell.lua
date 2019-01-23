@@ -76,4 +76,4 @@ function ItemNTipCell:UpdateComposeCell(celldatas)
 		end
 		self.cellCtl:ResetDatas(celldatas);
 	end
-end
+end

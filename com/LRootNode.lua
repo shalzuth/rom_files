@@ -29,4 +29,4 @@ end
 function LRootNode:OnEnd()
 	LRootNode.super.OnEnd(self)
 	-- print(string.format("BT:%s, 结束",self.behaviorTree.Name))
-end
+end

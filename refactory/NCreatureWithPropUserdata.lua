@@ -359,4 +359,4 @@ end
 function NCreatureWithPropUserdata:DoDeconstruct(asArray)
 	NCreatureWithPropUserdata.super.DoDeconstruct(self,asArray)
 	self:ClearBuff()
-end
+end

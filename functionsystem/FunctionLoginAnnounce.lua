@@ -280,4 +280,4 @@ function FunctionLoginAnnounce:doCDNAnnounce( content )
 	else
 		MsgManager.ShowMsgByIDTable(1017,{FunctionLogin.ErrorCode.LoginAnnounceFormatError})
 	end
-end
+end

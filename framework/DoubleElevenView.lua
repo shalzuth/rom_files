@@ -16,4 +16,4 @@ function DoubleElevenView:OnEnter()
 	if(config)then
 		self.tempActivityCell:SetData( config );
 	end
-end
+end

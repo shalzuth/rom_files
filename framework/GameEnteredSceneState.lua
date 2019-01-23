@@ -26,4 +26,4 @@ function GameEnteredSceneState:HandleExitPoints(sceneInfo)
 		end
 		GameFacade.Instance:sendNotification(MiniMapEvent.ExitPointStateChange, {id = exitPoint.ID, state = false});
 	end
-end
+end

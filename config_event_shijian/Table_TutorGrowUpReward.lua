@@ -10,4 +10,4 @@ Table_TutorGrowUpReward = {
 }
 
 Table_TutorGrowUpReward_fields = { "id","Type","MaxLevel","StudentReward",}
-return Table_TutorGrowUpReward
+return Table_TutorGrowUpReward

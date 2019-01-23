@@ -5,4 +5,3 @@ Table_Seat_flowersea = {
 }
 setmetatable(Table_Seat_flowersea[2],{__index = Table_Seat_flowersea[1]})
 return Table_Seat_flowersea
-

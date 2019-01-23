@@ -76,4 +76,3 @@ function GuildCell:SetApplyState(isApplied)
 end
 
 
-

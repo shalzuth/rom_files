@@ -354,4 +354,4 @@ function NetIngPersonalPhoto:CheckExist(role_id, pos_index, exist_callback, erro
 			end
 		end
 	end)
-end
+end

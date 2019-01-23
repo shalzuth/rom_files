@@ -3137,4 +3137,4 @@ local Scene_clocktower_dun1={
 		}
 	}
 }
-return Scene_clocktower_dun1
+return Scene_clocktower_dun1

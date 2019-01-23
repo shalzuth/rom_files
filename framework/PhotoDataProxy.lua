@@ -447,4 +447,4 @@ function PhotoDataProxy:checkWeddingWallSyncPermission(  )
 	if(isNew)then
 		return WeddingProxy.Instance:IsSelfInWeddingTime()
 	end
-end
+end

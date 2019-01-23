@@ -866,4 +866,4 @@ function ScenicSpotPhotoNew:GetLocalAbsolutePath_Roles(role_id, scenic_spot_id, 
 	local photoID = self:GetPhotoID(role_id, scenic_spot_id)
 	local localPath = LocalScenicSpotPhotoNew.Ins():GetPathOfLocal_Roles(photoID, o_or_t)
 	return localPath
-end
+end

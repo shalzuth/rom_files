@@ -19,4 +19,4 @@ function ChatBarrageView:AddBarrage()
 		ReusableTable.DestroyTable(cellData)
 		table.remove(datas,1)
 	end
-end
+end

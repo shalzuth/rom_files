@@ -70,4 +70,4 @@ end
 
 function GLandStatusListView:OnExit()
 	GLandStatusListView.super.OnExit(self);
-end
+end

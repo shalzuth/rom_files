@@ -359,4 +359,4 @@ end
 
 function MarryPhoto:GetPhotoID(marry_id, pos_index)
 	return marry_id .. '_' .. pos_index
-end
+end

@@ -69,4 +69,4 @@ function PresetTextPage:SavePresetText()
 		end
 		ServiceNUserProxy.Instance:CallPresetMsgCmd(self.localData)
 	end
-end
+end

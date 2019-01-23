@@ -419,4 +419,4 @@ function NpcData:DoDeconstruct(asArray)
 	self.useServerDressData = false
 	TableUtility.ArrayClear(self.charactors)
 end
--- override end
+-- override end

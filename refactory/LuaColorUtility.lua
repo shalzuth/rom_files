@@ -46,4 +46,4 @@ function LuaColorUtility.TryLerp(cur, from, to, progress)
 	else
 		return LuaColorUtility.TryAsign(cur, to)
 	end
-end
+end

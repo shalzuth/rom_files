@@ -79,4 +79,4 @@ function UserProxy:ChangeSave(data)
 	end
 end
 
-return UserProxy
+return UserProxy

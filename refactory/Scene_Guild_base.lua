@@ -941,4 +941,4 @@ local Scene_Guild_base={
 		}
 	}
 }
-return Scene_Guild_base
+return Scene_Guild_base

@@ -64,4 +64,4 @@ function ChangeZoneCell:SetData(data)
 			self.dot.color = rc
 		end
 	end
-end
+end

@@ -16,4 +16,3 @@ Table_MainViewButton = {
 }
 Table_MainViewButton_fields = { "id","name","icon","panelid","redtiptype","Enterhide","guideiconID","BranchHide","GroupID",}
 return Table_MainViewButton
-

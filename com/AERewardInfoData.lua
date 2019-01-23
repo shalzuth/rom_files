@@ -58,4 +58,4 @@ end
 --额外次数
 function AERewardInfoData:GetExtraTimes()
 	return self.extratimes
-end
+end

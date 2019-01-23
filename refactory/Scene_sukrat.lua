@@ -1686,4 +1686,4 @@ local Scene_sukrat={
 		}
 	}
 }
-return Scene_sukrat
+return Scene_sukrat

@@ -366,4 +366,4 @@ end
 function ActivityData:Destroy()
 	self.traceData = nil;
 	self.mapInfo = nil;
-end
+end

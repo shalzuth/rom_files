@@ -234,4 +234,4 @@ function SimulateSkillProxy:GetSkillCanBreak()
 		end
 	end
 	return false
-end
+end

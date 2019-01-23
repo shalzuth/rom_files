@@ -32,4 +32,3 @@ function AdventureAppendRewardCell:SetData( data )
 		self:Hide(self.RewardCount.gameObject)
 	end
 end
-

@@ -218,4 +218,4 @@ function AdventurePanel.OpenAchievePage( type,achieveId )
  	if(Table_Achievement[type] and Table_Achievement[achieveId])then
 		GameFacade.Instance:sendNotification(UIEvent.JumpPanel,{view = PanelConfig.AdventurePanel, viewdata = {achieveData = {type = type,id = achieveId}}});
 	end
-end 
+end 

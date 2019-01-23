@@ -202,4 +202,3 @@ function FoodPackagePart:Hide()
 
 	TipManager.Instance:CloseTip();
 end
-

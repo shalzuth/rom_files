@@ -38,4 +38,3 @@ end
 function GuildRewardPopUp:OnEnter()
 	GuildRewardPopUp.super.OnEnter(self);
 end
-

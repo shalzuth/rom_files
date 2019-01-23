@@ -42,4 +42,3 @@ function AchievementCategoryChildCell:setSelected(isSelected)
 		end
 	end	
 end
-

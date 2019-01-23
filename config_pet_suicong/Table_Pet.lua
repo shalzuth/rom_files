@@ -23,4 +23,3 @@ Table_Pet = {
 }
 Table_Pet_fields = { "id","Name","PetFriend","HobbyItem","EquipID","Skill_1","Skill_2","Skill_3","Skill_4","Skill_5","Area","TouchSkill","BeHoldScale","BeHoldDir","BeHoldOffset","EquipFake",}
 return Table_Pet
-

@@ -1811,4 +1811,4 @@ local Scene_lava_dun1={
 		}
 	}
 }
-return Scene_lava_dun1
+return Scene_lava_dun1

@@ -64,4 +64,4 @@ function ShotCutSkillTip:HandleRunSpecials(selectID)
 		selectID = self.data:GetSpecialID()
 	end
 	return ShotCutSkillTip.super.HandleRunSpecials(self,selectID)
-end
+end

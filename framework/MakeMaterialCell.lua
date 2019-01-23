@@ -50,4 +50,4 @@ function MakeMaterialCell:NeedCount()
 	else
 		return self.data.num - EquipMakeProxy.Instance:GetItemNumByStaticID(self.data.id)
 	end
-end
+end

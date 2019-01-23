@@ -52,4 +52,4 @@ end
 
 function AI_CMD_SetScale.ToString()
 	return "AI_CMD_SetScale",AI_CMD_SetScale
-end
+end

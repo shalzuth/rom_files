@@ -264,4 +264,4 @@ function TutorMatchResultView:OnExit()
 		TimeTickManager.Me():ClearTick(self)
 		self.blacktimeTick = nil
 	end
-end
+end

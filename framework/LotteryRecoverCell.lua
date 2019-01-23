@@ -54,4 +54,4 @@ end
 
 function LotteryRecoverCell:GetChoose()
 	return self.data.isChoose
-end
+end

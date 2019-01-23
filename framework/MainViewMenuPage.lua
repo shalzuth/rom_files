@@ -835,4 +835,4 @@ function MainViewMenuPage:UpdateTutorMatchInfo()
 			GameFacade.Instance:sendNotification(UIEvent.JumpPanel, {view = PanelConfig.TutorMatchView, viewdata = TutorType.Student})
 		end
 		end)
-end
+end

@@ -72,4 +72,4 @@ function BaseCell:Notify(eventName,body,type)
 	GameFacade.Instance:sendNotification(eventName,body,type);
 end
 
-return BaseCell;
+return BaseCell;

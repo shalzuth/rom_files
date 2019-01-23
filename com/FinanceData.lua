@@ -45,4 +45,4 @@ function FinanceData:GetItemById(itemid)
 			return item
 		end
 	end
-end
+end

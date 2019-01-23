@@ -470,4 +470,4 @@ function PhotographResultPanel:saveScenery( scenicSpotID )
 	else
 		MsgManager.ShowMsgByID(553)
 	end
-end
+end

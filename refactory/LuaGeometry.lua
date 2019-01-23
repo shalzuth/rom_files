@@ -19,4 +19,4 @@ LuaGeometry.Const_Col_black = LuaColor.black
 LuaGeometry.Const_Col_white = LuaColor.white
 LuaGeometry.Const_Col_whiteClear = LuaColor.New(1,1,1,0)
 LuaGeometry.Const_Col_blue = LuaColor.blue
-LuaGeometry.Const_Col_red = LuaColor.red
+LuaGeometry.Const_Col_red = LuaColor.red

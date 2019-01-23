@@ -300,4 +300,4 @@ function EquipMakeView:UpdateEmpty()
 	self.tip.gameObject:SetActive(false)
 	self.costInfo:SetActive(true)
 	self:UpdateCost()
-end
+end

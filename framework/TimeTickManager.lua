@@ -80,4 +80,4 @@ function TimeTickManager:Clear()
 		end
 	end
 	self.timeTickMap = {}
-end
+end

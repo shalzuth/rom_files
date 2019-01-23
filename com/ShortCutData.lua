@@ -153,4 +153,4 @@ end
 
 function ShortCutData:GetAutoSkillUnlockMaxIndex()
 	return self.autoSkillUnlockMaxIndex
-end
+end

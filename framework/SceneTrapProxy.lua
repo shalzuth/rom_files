@@ -102,4 +102,4 @@ function SceneTrapProxy:Clear()
  	end
  	self:Reset()
  	-- GameFacade.Instance:sendNotification(SceneUserEvent.SceneRemoveRoles,roles)
-end
+end

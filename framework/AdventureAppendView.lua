@@ -24,4 +24,3 @@ function AdventureAppendView:SetData( data )
 		self.appendTargetDes.text = data:getProcessInfo()		
 	end
 end
-

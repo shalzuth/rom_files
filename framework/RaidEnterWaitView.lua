@@ -116,4 +116,4 @@ function RaidEnterWaitView:OnExit()
 	RaidEnterWaitView.super.OnExit(self);
 
 	TableUtility.TableClear(self.cache_value);
-end
+end

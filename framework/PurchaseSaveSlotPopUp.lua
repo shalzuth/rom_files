@@ -37,4 +37,4 @@ function PurchaseSaveSlotPopUp:InitView()
 	end)
 
 	self:AddListenEvt(ServiceEvent.NUserBuyRecordSlotUserCmd,self.CloseSelf)
-end
+end

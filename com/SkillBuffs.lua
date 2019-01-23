@@ -37,4 +37,4 @@ end
 
 function SkillBuffs:Dispose()
 	self.buffOwner = nil
-end
+end

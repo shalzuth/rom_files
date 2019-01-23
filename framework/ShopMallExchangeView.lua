@@ -61,4 +61,4 @@ function ShopMallExchangeView:InitShow()
 	end
 
 	self:RegisterRedTipCheck(SceneTip_pb.EREDSYS_TRADE_RECORD, self.recordLabel.gameObject, nil, {5,5})
-end
+end

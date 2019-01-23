@@ -105,4 +105,3 @@ function AdventureCategoryCell:SetData(data)
 	-- self.name.text = data.Name
 	-- self:initData()
 end
-

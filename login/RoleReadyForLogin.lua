@@ -244,4 +244,4 @@ end
 
 function RoleReadyForLogin:Reset()
 	self:Release()
-end
+end

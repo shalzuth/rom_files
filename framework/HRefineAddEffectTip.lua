@@ -96,4 +96,3 @@ end
 function HRefineAddEffectTip:DestroySelf()
 	GameObject.Destroy(self.gameObject)
 end
-

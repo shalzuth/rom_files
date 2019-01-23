@@ -143,4 +143,4 @@ function GuildHeadCell:SetChoose(chooseData)
 	else
 		self.choose:SetActive(false);
 	end
-end
+end

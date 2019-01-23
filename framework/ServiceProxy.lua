@@ -123,4 +123,4 @@ function ServiceProxy:RemoveListeners()
 		NetProtocol.RemoveListener(v.id1, v.id2, v.func)		
 		table.remove(self.listeners, i)
 	end
-end
+end

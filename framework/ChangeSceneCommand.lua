@@ -9,4 +9,4 @@ function ChangeSceneCommand:execute(note)
 		FunctionChangeScene.Me():LoadedScene(data)
 	end
 end
-return ChangeSceneCommand
+return ChangeSceneCommand

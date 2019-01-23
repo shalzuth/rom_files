@@ -50,4 +50,4 @@ function ReconnInitCommand:Init()
 	QuestProxy.Instance:CleanAllQuest(  )
 end
 
-return ReconnInitCommand
+return ReconnInitCommand

@@ -164,4 +164,4 @@ function EffectShowDataWraper:clone(  )
 	-- body
 	local showData = EffectShowDataWraper.new(self.itemData,self.effectPath,self.showType,self.effectFromType)
 	return showData
-end
+end

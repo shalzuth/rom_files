@@ -483,4 +483,4 @@ function TipManager:CloseTabNameTipWithFadeOut()
 	if TipsView.Me().currentTipType == TabNameTip then
 		TipsView.Me().currentTip:TryFadeOut()
 	end
-end
+end

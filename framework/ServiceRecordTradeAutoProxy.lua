@@ -6210,4 +6210,3 @@ ServiceEvent.RecordTradeTodayFinanceRank = "ServiceEvent_RecordTradeTodayFinance
 ServiceEvent.RecordTradeTodayFinanceDetail = "ServiceEvent_RecordTradeTodayFinanceDetail"
 ServiceEvent.RecordTradeBoothPlayerPendingListCmd = "ServiceEvent_RecordTradeBoothPlayerPendingListCmd"
 ServiceEvent.RecordTradeUpdateOrderTradeCmd = "ServiceEvent_RecordTradeUpdateOrderTradeCmd"
-

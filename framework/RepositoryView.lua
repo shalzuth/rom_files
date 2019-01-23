@@ -175,4 +175,3 @@ function RepositoryView:HandleLongPress(param)
 		end
 	end
 end
-

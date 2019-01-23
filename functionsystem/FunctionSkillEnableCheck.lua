@@ -728,4 +728,4 @@ function FunctionSkillEnableCheck:MapUpdateCheck()
 			end
 		end
 	end
-end
+end

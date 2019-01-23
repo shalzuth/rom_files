@@ -7,4 +7,4 @@ Table_InterfaceOpen = {
 }
 
 Table_InterfaceOpen_fields = { "id","PanelID","Condition","SysMsgID","EnterHide",}
-return Table_InterfaceOpen
+return Table_InterfaceOpen

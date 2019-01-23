@@ -30,4 +30,4 @@ Table_Seat_xmas = {
 }
 
 Table_Seat_xmas_fields = { "id","StandPot","SeatPot","Dir",}
-return Table_Seat_xmas
+return Table_Seat_xmas

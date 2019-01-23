@@ -846,4 +846,4 @@ local Scene_Guild_battle2_alb={
 		}
 	}
 }
-return Scene_Guild_battle2_alb
+return Scene_Guild_battle2_alb

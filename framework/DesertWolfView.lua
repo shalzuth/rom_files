@@ -307,4 +307,4 @@ function DesertWolfView:_ReSelectByRoomID()
 			self:_SelectCell(nil)
 		end
 	end
-end
+end

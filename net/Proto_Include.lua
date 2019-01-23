@@ -94,4 +94,3 @@ Proto_Include = {
 	[32] = {[1] = SceneBeing_pb.BeingSkillQuery,[3] = SceneBeing_pb.BeingSkillLevelUp,[2] = SceneBeing_pb.BeingSkillUpdate,[5] = SceneBeing_pb.BeingInfoUpdate,[4] = SceneBeing_pb.BeingInfoQuery,[7] = SceneBeing_pb.BeingSwitchState,[6] = SceneBeing_pb.BeingOffCmd,[8] = SceneBeing_pb.ChangeBodyBeingCmd,}, 
 	[31] = {[1] = Tutor_pb.TutorTaskUpdateNtf,[3] = Tutor_pb.TutorTaskTeacherRewardCmd,[2] = Tutor_pb.TutorTaskQueryCmd,[5] = Tutor_pb.TutorGetGrowRewardCmd,[4] = Tutor_pb.TutorGrowRewardUpdateNtf,}, 
 } 
-

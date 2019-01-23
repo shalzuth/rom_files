@@ -111,4 +111,3 @@ function DialogUtil.GetDialogDatas(dialogids)
 		return DialogUtil.GetDialogData(dialogids[i]);
 	end
 end
-

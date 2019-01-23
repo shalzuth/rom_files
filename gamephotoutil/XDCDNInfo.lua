@@ -13,4 +13,4 @@ function XDCDNInfo.GetFileServerURL()
 	--		url = FILE_SERVER_URL
 	--	end
 	--	return url
-end
+end

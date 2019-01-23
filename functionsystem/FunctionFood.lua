@@ -691,4 +691,3 @@ function FunctionFood.MyTasterLvChange(oldvalue, newvalue)
 
 	GameFacade.Instance:sendNotification(UIEvent.ShowUI, {viewname = "FoodTastLvUpPopUp", tasterlv = newvalue})
 end
-

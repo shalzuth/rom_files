@@ -15,4 +15,4 @@ function PicMakeTipCell:SetData(data)
 		self.lab1.text = color..data.name.."[-]";
 		self.lab2.text = color..data.num.."/"..data.neednum.."[-]";
 	end
-end
+end

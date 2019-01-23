@@ -62,4 +62,3 @@ FieldDescriptor = {
     LABEL_REPEATED      = 3,
     MAX_LABEL           = 3
 }
-

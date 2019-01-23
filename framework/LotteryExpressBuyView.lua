@@ -211,4 +211,3 @@ function LotteryExpressBuyView:InitShow()
 end
 
 
-

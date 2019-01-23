@@ -15,4 +15,4 @@ function WeddingBuyDescCell:SetData(data)
 	if data then
 		self.content.text = data
 	end
-end
+end

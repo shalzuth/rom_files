@@ -158,4 +158,4 @@ function BoothMainView:HandleBoothReq(note)
 			self:CloseSelf()
 		end
 	end
-end
+end

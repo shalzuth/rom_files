@@ -10,4 +10,4 @@ function Structure.Clear(array)
 end
 
 autoImport ("Structure_Stack")
-autoImport ("Structure_Queue")
+autoImport ("Structure_Queue")

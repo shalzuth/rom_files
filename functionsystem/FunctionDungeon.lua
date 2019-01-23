@@ -119,4 +119,3 @@ function FunctionDungen:DungenBattleSuccess( data )
 end
 
 
-

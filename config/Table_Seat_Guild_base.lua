@@ -48,4 +48,4 @@ Table_Seat_Guild_base = {
 }
 
 Table_Seat_Guild_base_fields = { "id","StandPot","SeatPot","Dir",}
-return Table_Seat_Guild_base
+return Table_Seat_Guild_base

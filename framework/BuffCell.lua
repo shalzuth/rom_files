@@ -94,4 +94,3 @@ function BuffCell:UpdateCDTime(timetick)
 		end, self, 1);
 	end
 end
-

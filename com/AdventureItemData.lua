@@ -327,4 +327,4 @@ function AdventureItemData:CompareTo(item)
 	end
 	return self.battlepoint
 end
--- return Prop
+-- return Prop

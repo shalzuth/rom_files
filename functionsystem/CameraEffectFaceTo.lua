@@ -37,4 +37,4 @@ function CameraEffectFaceTo:DoEnd(cameraController)
 	CameraEffectFaceTo.super.DoEnd(self, cameraController)
 	-- TimeTickManager.Me():ClearTick(self)
 end
--- override end
+-- override end

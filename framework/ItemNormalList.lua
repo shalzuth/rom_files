@@ -293,4 +293,4 @@ function ItemNormalList:GetItemCells()
 		end
 	end
 	return result;
-end
+end

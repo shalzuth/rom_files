@@ -63,4 +63,3 @@ function ActivityPopUpView:CancelEvent(cellCtl)
 	self:CloseSelf();
 end
 
-

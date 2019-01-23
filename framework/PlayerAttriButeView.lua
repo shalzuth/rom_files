@@ -68,4 +68,4 @@ function PlayerAttriButeView:updateGeneralData( playerData )
 		table.insert(datas,data)
 	end
 	self.baseGridList:ResetDatas(datas)
-end
+end

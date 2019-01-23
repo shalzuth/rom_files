@@ -167,4 +167,4 @@ function WeddingInviteView:HandleUpdateWeddingManual(note)
 			self:UpdateNear()
 		end
 	end
-end
+end

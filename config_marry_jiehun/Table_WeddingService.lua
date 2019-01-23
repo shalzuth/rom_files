@@ -11,4 +11,4 @@ Table_WeddingService = {
 }
 
 Table_WeddingService_fields = { "id","Type","Desc","Background","Price","Service","Effect","SuccessEffect",}
-return Table_WeddingService
+return Table_WeddingService

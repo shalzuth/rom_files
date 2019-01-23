@@ -197,4 +197,4 @@ end
 
 function SkillBeingData:SetSelect(isSelect)
 	self.isSelect = isSelect
-end
+end

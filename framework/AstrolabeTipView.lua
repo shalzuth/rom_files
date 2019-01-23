@@ -221,4 +221,4 @@ function AstrolabeTipView:OnExit()
 	--这边发事件
 	self.anchors = nil
 	return true;
-end
+end

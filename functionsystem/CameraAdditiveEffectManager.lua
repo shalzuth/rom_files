@@ -64,4 +64,3 @@ function CameraAdditiveEffectManager:EndShake(token)
 end
 
 
-

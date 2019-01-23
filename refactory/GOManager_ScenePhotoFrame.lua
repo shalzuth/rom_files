@@ -162,4 +162,3 @@ function GOManager_ScenePhotoFrame:UnregisterGameObject(obj)
 
 	return true
 end
-

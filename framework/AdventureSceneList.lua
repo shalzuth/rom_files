@@ -302,4 +302,3 @@ function AdventureSceneList:OnEnter(  )
 	-- body
 	EventManager.Me():AddEventListener(AdventureSceneList.ViewPageDrag,self.handDrag,self)
 end
-

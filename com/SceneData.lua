@@ -106,4 +106,4 @@ function SceneData:CanTransformAtk()
 	end
 	return false
 end
--- return Prop
+-- return Prop

@@ -294,4 +294,4 @@ function TempPersonalPictureDetailPanel:OnExit(  )
 	Object.DestroyImmediate(self.photo.mainTexture)
 	Object.DestroyImmediate(self.texture)
 	Object.DestroyImmediate(self.compareTexture)
-end
+end

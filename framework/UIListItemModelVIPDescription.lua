@@ -10,4 +10,4 @@ end
 
 function UIListItemModelVIPDescription:SetDescriptionConfigID(description_config_id)
 	self.descriptionConfigID = description_config_id
-end
+end

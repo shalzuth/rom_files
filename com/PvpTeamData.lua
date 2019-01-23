@@ -60,4 +60,4 @@ function PvpTeamData:GetMemberHeadImageDatas()
 	end
 
 	return self.headDatas
-end
+end

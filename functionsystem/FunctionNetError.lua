@@ -127,4 +127,4 @@ function FunctionNetError:ClearScene()
 	SceneObjectProxy.ClearAll()
 	-- NSceneUserProxy.Instance:Clear()
 	-- NSceneNpcProxy.Instance:Clear()
-end
+end

@@ -102,4 +102,4 @@ end
 
 function UISubViewControllerZenyList:GetCachedPurchaseItem()
 	return self.purchasedItems
-end
+end

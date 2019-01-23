@@ -130,4 +130,4 @@ function BoothBuyInfoView:CallBuyItemRecordTradeCmd()
 	FunctionSecurity.Me():Exchange_SellOrBuyItem(function (arg)
 		ServiceRecordTradeProxy.Instance:CallBuyItemRecordTradeCmd(arg, Game.Myself.data.id, nil, BoothProxy.TradeType.Booth)
 	end, _itemInfo)
-end
+end

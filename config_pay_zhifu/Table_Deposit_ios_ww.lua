@@ -32,4 +32,4 @@ Table_Deposit_ios_ww = {
 }
 
 Table_Deposit_ios_ww_fields = { "id","ProductID","Type","CardVersion","Picture","Desc","CurrencyType","Rmb","ItemId","Count","Count2","VirginCount","VirginTag","Quota","MonthLimit","LimitType","Switch","DbColumn","ActivityDiscount",}
-return Table_Deposit_ios_ww
+return Table_Deposit_ios_ww

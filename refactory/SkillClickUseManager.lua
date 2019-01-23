@@ -243,4 +243,4 @@ function SkillClickUseManager:Update(time, deltaTime)
 			self:_CancelWaitForUse()
 		end
 	end
-end
+end

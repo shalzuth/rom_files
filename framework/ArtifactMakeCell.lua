@@ -28,4 +28,4 @@ end
 
 function ArtifactMakeCell:SetChoose(isChoose)
 	self.choose:SetActive(isChoose)
-end
+end

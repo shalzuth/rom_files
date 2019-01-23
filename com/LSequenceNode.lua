@@ -58,4 +58,4 @@ function LSequenceNode:Update()
 		result = self:OnChildrenNodesUpdate ()
 	end
 	return result
-end
+end

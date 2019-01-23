@@ -5,4 +5,3 @@ autoImport("ShopViewExchangeBuyPage")
 function ShopViewExchangePage:Init()
 	
 end
-

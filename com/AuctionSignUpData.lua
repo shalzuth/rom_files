@@ -38,4 +38,4 @@ end
 --是否需要判断报名附魔条件
 function AuctionSignUpData:IsNeedEnchant()
 	return self.needEnchant == 2
-end
+end

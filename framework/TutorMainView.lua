@@ -61,4 +61,4 @@ function TutorMainView:UpdateView()
 
 		view.gameObject:SetActive(true)
 	end
-end
+end

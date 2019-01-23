@@ -1883,4 +1883,4 @@ local Scene_xmas={
 		}
 	}
 }
-return Scene_xmas
+return Scene_xmas

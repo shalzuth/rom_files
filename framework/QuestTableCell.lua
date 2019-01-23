@@ -40,4 +40,3 @@ function QuestTableCell:SetData(data)
 	rewards = rewards or {}
 	self.rewardList:ResetDatas(rewards)
 end
-

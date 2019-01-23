@@ -116,4 +116,4 @@ end
 function FakeNPlayer:RegisterRoleDress()
 end
 function FakeNPlayer:UnregisterRoleDress()
-end
+end

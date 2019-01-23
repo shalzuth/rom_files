@@ -182,4 +182,4 @@ function IdleAI_FlyFollow:_Idle(idleElapsed, time, deltaTime, creature)
 
 	self.phase = Phase_Idle
 	creature:Logic_PlayAction_Idle()
-end
+end

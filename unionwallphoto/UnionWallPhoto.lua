@@ -612,4 +612,4 @@ function UnionWallPhoto:ClearLocal(role_id)
 	NetIngUnionWallPhoto_Personal.Ins():ClearTempDownloadFileOfRole(role_id)
 	NetIngUnionWallPhoto_ScenicSpot.Ins():ClearTempDownloadFileOfRole(role_id)
 	LocalUnionWallPhoto.Ins():DeleteAllPhotosOfRole(role_id)
-end
+end

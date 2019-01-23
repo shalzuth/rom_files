@@ -59,4 +59,4 @@ function ServiceDojoProxy:RecvDojoRewardCmd(data)
 	end})
 	DojoProxy.Instance:RecvDojoReward(data)
 	self:Notify(ServiceEvent.DojoDojoRewardCmd, data)
-end
+end

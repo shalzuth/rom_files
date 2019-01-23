@@ -35,4 +35,4 @@ function LogicManager_Hatred:Update(time, deltaTime)
 			k:HatredTimeout()
 		end
 	end
-end
+end

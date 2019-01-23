@@ -689,4 +689,3 @@ SealTimer = protobuf.Message(SEALTIMER)
 SealUserLeave = protobuf.Message(SEALUSERLEAVE)
 UpdateSeal = protobuf.Message(UPDATESEAL)
 
-

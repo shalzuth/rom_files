@@ -82,4 +82,4 @@ function WeddingDressSendView:SetData(data)
 	end
 
 	self.dataGuid = data.guid
-end
+end

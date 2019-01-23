@@ -1221,4 +1221,4 @@ end
 
 function ServiceNUserProxy:RecvBuyZenyCmd(data)
     EventManager.Me():DispatchEvent(ServiceEvent.NUserBuyZenyCmd, data);
-end
+end

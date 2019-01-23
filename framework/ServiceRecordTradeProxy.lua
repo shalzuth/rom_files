@@ -263,4 +263,4 @@ function ServiceRecordTradeProxy:CallReqGiveItemInfoCmd(id, iteminfo)
 		msg.id = id
 	end
 	self:SendProto(msg)
-end
+end

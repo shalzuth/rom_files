@@ -394,4 +394,4 @@ local Scene_Guild_battle4={
 		}
 	}
 }
-return Scene_Guild_battle4
+return Scene_Guild_battle4

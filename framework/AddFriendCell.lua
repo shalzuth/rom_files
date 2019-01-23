@@ -43,4 +43,4 @@ function AddFriendCell:SetData(data)
 			self.headIcon:SetActive(false,true)
 		end
 	end
-end
+end

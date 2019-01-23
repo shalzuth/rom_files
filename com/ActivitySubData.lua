@@ -44,4 +44,4 @@ function ActivitySubData:getMultLanContent( serverData,key )
 		val = englishVal
 	end
 	return val
-end
+end

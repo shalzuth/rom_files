@@ -27,4 +27,4 @@ function RecallContractCell:SetData(data)
 			end
 		end
 	end
-end
+end

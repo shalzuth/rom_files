@@ -410,4 +410,4 @@ function PackageEquipPage:RemoveMaskOnItems()
 			fashionEquip:HideMask()
 		end
 	end
-end
+end

@@ -148,4 +148,3 @@ function Astrolabe_PlateData:IsUnlock()
 	end
 	return false;
 end
-

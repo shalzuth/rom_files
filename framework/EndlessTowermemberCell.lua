@@ -35,4 +35,4 @@ function EndlessTowermemberCell:SetCellData(data)
 		self.memberName.text=""
 		self.memberState.text=""
 	end
-end
+end

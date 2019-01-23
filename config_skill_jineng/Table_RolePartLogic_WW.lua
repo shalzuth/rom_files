@@ -7,4 +7,4 @@ Table_RolePartLogic_WW = {
 }
 
 Table_RolePartLogic_WW_fields = { "id","Logic","Params",}
-return Table_RolePartLogic_WW
+return Table_RolePartLogic_WW

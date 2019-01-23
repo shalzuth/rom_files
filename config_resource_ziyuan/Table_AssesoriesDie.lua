@@ -7,4 +7,4 @@ Table_AssesoriesDie = {
 }
 
 Table_AssesoriesDie_fields = { "id","NameZh","CheepCoordinate",}
-return Table_AssesoriesDie
+return Table_AssesoriesDie

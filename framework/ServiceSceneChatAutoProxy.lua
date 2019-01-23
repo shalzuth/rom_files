@@ -57,4 +57,3 @@ end
 ServiceEvent = _G["ServiceEvent"] or {}
 ServiceEvent.SceneChatChatCountCmd = "ServiceEvent_SceneChatChatCountCmd"
 ServiceEvent.SceneChatChatChangeCountCmd = "ServiceEvent_SceneChatChatChangeCountCmd"
-

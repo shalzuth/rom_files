@@ -861,4 +861,3 @@ FunctionVisitNpc.SNpcFuncMap.Auction = function (npcfunction, target, events)
 	return true;
 end
 
-

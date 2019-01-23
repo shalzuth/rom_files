@@ -152,4 +152,4 @@ function KFCActivityShowView:OnExit()
 	if(self.data)then
 		self.data:Exit()
 	end
-end
+end

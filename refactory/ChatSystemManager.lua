@@ -20,4 +20,4 @@ function ChatSystemManager:CheckCanDestroy(datas)
 			table.remove(datas, i)
 		end
 	end
-end
+end

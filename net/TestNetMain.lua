@@ -23,4 +23,3 @@ local uiRoot = GameObject.Find("UIRoot")
 local TestNetUI = GameObjectUtil.Instance:DeepFindChild(uiRoot, "TestNet")
 local testStartGamePanel = TestStartGamePanel.new(TestNetUI)
 testStartGamePanel:OnEnter()
-

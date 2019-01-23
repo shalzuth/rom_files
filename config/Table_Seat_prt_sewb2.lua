@@ -39,4 +39,4 @@ Table_Seat_prt_sewb2 = {
 }
 
 Table_Seat_prt_sewb2_fields = { "id","StandPot","SeatPot","Dir",}
-return Table_Seat_prt_sewb2
+return Table_Seat_prt_sewb2

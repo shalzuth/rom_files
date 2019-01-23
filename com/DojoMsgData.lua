@@ -14,4 +14,4 @@ end
 
 function DojoMsgData:GetCellType()
 	return self.cellType
-end
+end

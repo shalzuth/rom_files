@@ -420,4 +420,4 @@ end
 
 function UnionWallPhotoHelper:GetThumbnail_ScenicSpot_Account(account_id, scenic_spot_id, timestamp, progress_callback, success_callback, error_callback, is_keep_previous_callback)
 	UnionWallPhotoNew.Ins():GetThumbnail_ScenicSpot_Account(account_id, scenic_spot_id, timestamp, progress_callback, success_callback, error_callback, is_keep_previous_callback)
-end
+end

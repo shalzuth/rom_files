@@ -388,4 +388,4 @@ function EnviromentAnimation_Base:Update(time, deltaTime, setting)
 	end
 
 	CopySetting(self.to, setting)
-end
+end

@@ -58,4 +58,4 @@ function IdleAI_EndlessTowerSweep:StopMove()
 	local Myself = Game.Myself
 	Myself:Logic_StopMove()
 	Myself:Logic_PlayAction_Idle()
-end
+end

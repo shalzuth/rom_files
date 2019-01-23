@@ -1579,4 +1579,3 @@ ServiceEvent.GuildCmdQueryGCityShowInfoGuildCmd = "ServiceEvent_GuildCmdQueryGCi
 ServiceEvent.GuildCmdGvgOpenFireGuildCmd = "ServiceEvent_GuildCmdGvgOpenFireGuildCmd"
 ServiceEvent.GuildCmdEnterPunishTimeNtfGuildCmd = "ServiceEvent_GuildCmdEnterPunishTimeNtfGuildCmd"
 ServiceEvent.GuildCmdOpenRealtimeVoiceGuildCmd = "ServiceEvent_GuildCmdOpenRealtimeVoiceGuildCmd"
-

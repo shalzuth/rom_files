@@ -139,4 +139,4 @@ end
 function SkyWheelInviteView:HandleChange(note)
 	local data = note.body
 	self:SetData(data)
-end
+end

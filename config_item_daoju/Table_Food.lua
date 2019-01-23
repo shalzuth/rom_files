@@ -144,4 +144,3 @@ Table_Food = {
 }
 Table_Food_fields = { "id","Name","CookHard","CookerExp","TasterExp","FullProgress","Height","Weight","Duration","BuffEffect","NpcId","MultiEat","HatReward","HealHP","HealSP","SaveHP","SaveSP","CookLvAttr","TasteLvAttr",}
 return Table_Food
-

@@ -58,4 +58,4 @@ end
 
 function PvpTeamCell:ActiveFightSymbol(b)
 	self.fightSymbol:SetActive(b);
-end
+end

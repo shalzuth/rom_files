@@ -47,4 +47,3 @@ function YoyoRoomCombineCell:UpdateInfo()
 	end
 end
 
-

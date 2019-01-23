@@ -65,4 +65,4 @@ function SkillOptionManager:HandleSkillAutoQueue(oldValue,newValue)
 	else
 		Game.SkillClickUseManager:ShutDown()
 	end
-end
+end

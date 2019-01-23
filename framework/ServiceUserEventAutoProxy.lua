@@ -524,4 +524,3 @@ ServiceEvent.UserEventGetFirstShareRewardUserEvent = "ServiceEvent_UserEventGetF
 ServiceEvent.UserEventQueryResetTimeEventCmd = "ServiceEvent_UserEventQueryResetTimeEventCmd"
 ServiceEvent.UserEventInOutActEventCmd = "ServiceEvent_UserEventInOutActEventCmd"
 ServiceEvent.UserEventUserEventMailCmd = "ServiceEvent_UserEventUserEventMailCmd"
-

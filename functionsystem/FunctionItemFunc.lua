@@ -1238,4 +1238,3 @@ function FunctionItemFunc.CheckPutFoodPet(itemdata)
 	return ItemFuncState.Active;
 end
 -- ItemFunc Check end
-

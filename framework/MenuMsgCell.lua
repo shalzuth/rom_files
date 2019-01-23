@@ -111,4 +111,4 @@ function MenuMsgCell:SetTitleIcon(configIcon)
 	else
 		self:Hide(self.icon)
 	end
-end
+end

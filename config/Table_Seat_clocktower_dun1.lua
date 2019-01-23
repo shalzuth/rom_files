@@ -47,4 +47,3 @@ setmetatable(Table_Seat_clocktower_dun1[21],{__index = Table_Seat_clocktower_dun
 setmetatable(Table_Seat_clocktower_dun1[22],{__index = Table_Seat_clocktower_dun1[19]})
 setmetatable(Table_Seat_clocktower_dun1[23],{__index = Table_Seat_clocktower_dun1[19]})
 return Table_Seat_clocktower_dun1
-

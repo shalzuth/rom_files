@@ -145,4 +145,4 @@ function CollectSaleConfirmPopUp:OnExit()
 		ReusableTable.DestroyAndClearArray(self.mt);
 		self.mt = nil;
 	end
-end
+end

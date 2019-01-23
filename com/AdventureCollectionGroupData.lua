@@ -94,4 +94,3 @@ function AdventureCollectionGroupData:isTotalComplete(  )
 	return true
 end
 
-

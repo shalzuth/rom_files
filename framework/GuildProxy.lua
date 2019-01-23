@@ -616,4 +616,4 @@ function GuildProxy:IsInJoinCD()
 		return false;
 	end
 	return ServerTime.ServerDeltaSecondTime(exittimetick * 1000) > 0;
-end
+end

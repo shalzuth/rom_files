@@ -62,4 +62,4 @@ end
 
 function BehaviourData:IsGhost()
 	return self:Get(11)>0 or self:Get(19)>0
-end
+end

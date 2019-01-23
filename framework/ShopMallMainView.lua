@@ -73,4 +73,4 @@ function ShopMallMainView:DisableTog()
 	if not FunctionUnLockFunc.Me():CheckCanOpenByPanelId(PanelConfig.ShopMallRechargeView.id) then
 		self:SetTextureGrey(self.rechargeBtn)
 	end	
-end
+end

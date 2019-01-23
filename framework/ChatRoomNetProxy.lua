@@ -65,4 +65,4 @@ function ChatRoomNetProxy:RecvQueryVoiceUserCmd(dataBytes)
 	data.voice = byteStream:ReadNetwork_array_8()
 
 	return data
-end
+end

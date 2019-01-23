@@ -104,4 +104,3 @@ end
 Notifier.MULTITON_MSG = "multitonKey for this Notifier not yet initialized!";
 
 return Notifier
-

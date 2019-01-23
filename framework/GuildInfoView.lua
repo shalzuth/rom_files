@@ -213,4 +213,3 @@ function GuildInfoView:HandleLongPress(param)
 	end
 end
 
-

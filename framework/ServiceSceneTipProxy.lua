@@ -27,4 +27,4 @@ function ServiceSceneTipProxy:CallAddRedTip(red)
 	end
 	--改由客户端自主添加
 	-- ServiceSceneTipProxy.super.CallAddRedTip(self,red)
-end
+end

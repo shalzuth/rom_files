@@ -227,4 +227,4 @@ end
 
 -- function BeautifulAreaPhotoHandler:OnReceiveEventAdventureData(data)
 -- 	self:DownloadThumbnails()
--- end
+-- end

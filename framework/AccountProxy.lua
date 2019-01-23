@@ -21,4 +21,4 @@ function AccountProxy:SetInfo( accountname,password )
 	self.passWord = password
 end
 
-return AccountProxy
+return AccountProxy
