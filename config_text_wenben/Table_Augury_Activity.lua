@@ -1,0 +1,38 @@
+--md5:c08fa08cfaee65b303522a5010a50789
+Table_Augury_Activity = { 
+	[1] = {id = 1, Type = 1, Title = '', Option = {{"记得","ff2e2e"},{"不记得","00c0ff"}}, TitleDesc = '你还记得我们相遇是在哪天吗？', Language = '噢霍霍~这个答案很有勇气哦'},
+	[2] = {id = 2, Type = 1, Title = '', Option = {{"去年冬天","ff2e2e"},{"更早之前","00c0ff"}}, TitleDesc = '你知道RO是在什么时候呢？', Language = '哦呀，还真是美妙的缘分呢~~'},
+	[3] = {id = 3, Type = 1, Title = '', Option = {{"是的","ff2e2e"},{"不是","00c0ff"}}, TitleDesc = '你觉得自己是RO的老玩家吗？', Language = '真是感谢与你相遇呢！'},
+	[4] = {id = 4, Type = 2, Title = '', Option = {{"是的","ff2e2e"},{"不是","00c0ff"}}, TitleDesc = '比起拼颜值的变装，更喜欢比智力的猜谜活动？', Language = '这么快就做出选择啦，难道你不再想想吗？'},
+	[5] = {id = 5, Type = 2, Title = '', Option = {{"是的","ff2e2e"},{"不是","00c0ff"}}, TitleDesc = '比起品尝皇家庆典的大餐，更喜欢坐摇摇乐？', Language = '哦吼~原来是这样呀~'},
+	[6] = {id = 6, Type = 2, Title = '', Option = {{"是的","ff2e2e"},{"不是","00c0ff"}}, TitleDesc = '比起和皇家庆典工作人员猜拳，更喜欢静静欣赏音乐盒的乐曲？', Language = '嘻嘻~有意思的回答~'},
+	[7] = {id = 7, Type = 2, Title = '', Option = {{"是的","ff2e2e"},{"不是","00c0ff"}}, TitleDesc = '比起雀跃欢腾的皇家庆典，更喜欢挂机打怪？', Language = '啊哈哈~啊哈哈哈哈哈~'},
+	[8] = {id = 8, Type = 2, Title = '', Option = {{"是的","ff2e2e"},{"不是","00c0ff"}}, TitleDesc = '你会经常在世界频道聊天吗？', Language = '嗯嗯，这样也很有意思吧'},
+	[9] = {id = 9, Type = 2, Title = '', Option = {{"是的","ff2e2e"},{"不是","00c0ff"}}, TitleDesc = '比起打怪升级，更喜欢看剧情做任务？', Language = '从选择中看得出来，你们的关系相当好呢~~'},
+	[10] = {id = 10, Type = 2, Title = '', Option = {{"有","ff2e2e"},{"没有","00c0ff"}}, TitleDesc = '有没有和你牵手之人一起去妙勒尼山坐过摩天轮呢？', Language = '这么快就做出选择啦，难道你不再想想吗？'},
+	[11] = {id = 11, Type = 2, Title = '', Option = {{"是的","ff2e2e"},{"不是","00c0ff"}}, TitleDesc = '相比在南门听音乐，更喜欢去玩具工厂探险吗？', Language = '嗯哼~很有意思哦~~'},
+	[12] = {id = 12, Type = 2, Title = '', Option = {{"有","ff2e2e"},{"没有","00c0ff"}}, TitleDesc = '有没有和你牵手之人一起去海底坐过大鲸鱼呢？', Language = '哦吼~原来是这样呀~'},
+	[13] = {id = 13, Type = 2, Title = '', Option = {{"是的","ff2e2e"},{"不是","00c0ff"}}, TitleDesc = '你喜欢普隆德拉的白天还是夜晚呢？', Language = '哈哈~跟我预计的一样呢~'},
+	[14] = {id = 14, Type = 2, Title = '', Option = {{"是的","ff2e2e"},{"不是","00c0ff"}}, TitleDesc = '你喜欢梦罗克的冬天胜过姜饼城的夏天吗？', Language = '嗯~很有意思对吧！'},
+	[15] = {id = 15, Type = 2, Title = '', Option = {{"雷蒙盖顿","ff2e2e"},{"尤里乌斯","00c0ff"}}, TitleDesc = '你喜欢黑猫雷蒙盖顿还是白猫尤里乌斯呢？', Language = '真是很难抉择呢~'},
+	[16] = {id = 16, Type = 2, Title = '', Option = {{"天使波利","ff2e2e"},{"恶魔波利","00c0ff"}}, TitleDesc = '你喜欢天使波利还是恶魔波利呢？', Language = '哦吼~原来是这样呀~'},
+	[17] = {id = 17, Type = 2, Title = '', Option = {{"巴风特","ff2e2e"},{"安毕斯","00c0ff"}}, TitleDesc = '你喜欢巴风特还是安毕斯呢？', Language = '嘻嘻~有意思的回答~'},
+	[18] = {id = 18, Type = 2, Title = '', Option = {{"克特森林","ff2e2e"},{"哥布林","00c0ff"}}, TitleDesc = '克特森林和哥布林森林哪个更难走呢？', Language = '嘿嘿，我就知道'},
+	[19] = {id = 19, Type = 2, Title = '', Option = {{"是的","ff2e2e"},{"不是","00c0ff"}}, TitleDesc = '新的一年是不是还想和ta一起在RO的世界里冒险呢？', Language = '这么快就做出选择啦，难道你不再想想吗？'},
+	[20] = {id = 20, Type = 2, Title = '', Option = {{"是的","ff2e2e"},{"不是","00c0ff"}}, TitleDesc = '你们是在RO里相识的吗？', Language = '哦吼~原来是这样呀~'},
+	[21] = {id = 21, Type = 2, Title = '', Option = {{"是的","ff2e2e"},{"不是","00c0ff"}}, TitleDesc = '明年这时候你们还会来我这里占卜吗？', Language = '嘻嘻~真是非常期待呢~'},
+	[22] = {id = 22, Type = 2, Title = '', Option = {{"是的","ff2e2e"},{"不是","00c0ff"}}, TitleDesc = '你是不是有很重要的话要对牵手的ta说？', Language = '嗯嗯~是这样呀？不知道你的小伙伴知不知道你这样说呢~'},
+	[23] = {id = 23, Type = 2, Title = '', Option = {{"是的","ff2e2e"},{"不是","00c0ff"}}, TitleDesc = '你是不是有很重要的话要对迷之策划说？', Language = '嗯哼~~没想到你会选这样的答案~~'},
+	[24] = {id = 24, Type = 2, Title = '', Option = {{"是的","ff2e2e"},{"不是","00c0ff"}}, TitleDesc = '牵着ta的手，是不是能想起最开心的事呢？', Language = '嗯~真好呢~~~'},
+	[25] = {id = 25, Type = 2, Title = '', Option = {{"是的","ff2e2e"},{"不是","00c0ff"}}, TitleDesc = '亲爱的冒险家，是不是有重要的愿望要实现呢？', Language = '哦呀，你想好了这样选的结果么~~'},
+	[26] = {id = 26, Type = 3, Title = '来自迷之策划的祝福', Option = _EmptyTable, TitleDesc = '亲爱的冒险家们~好好享受皇家庆典，玩得开心点哟~', Language = ''},
+	[27] = {id = 27, Type = 3, Title = '来自迷之策划的祝福', Option = _EmptyTable, TitleDesc = '今后，还请多多关照呢~=3=', Language = ''},
+	[28] = {id = 28, Type = 3, Title = '来自迷之策划的祝福', Option = _EmptyTable, TitleDesc = '大冒险才是冒险者的征途，手牵手出发吧！', Language = ''},
+	[29] = {id = 29, Type = 3, Title = '来自迷之策划的祝福', Option = _EmptyTable, TitleDesc = '重要的心意要及时传达给对方哦~', Language = ''},
+	[30] = {id = 30, Type = 3, Title = '来自迷之策划的祝福', Option = _EmptyTable, TitleDesc = '啊哈哈~做人嘛，开心是最重要的啦！', Language = ''},
+	[31] = {id = 31, Type = 3, Title = '来自迷之策划的祝福', Option = _EmptyTable, TitleDesc = '笑一笑，爱笑的人运气都不会差哟~', Language = ''},
+	[32] = {id = 32, Type = 3, Title = '来自迷之策划的祝福', Option = _EmptyTable, TitleDesc = '我们的愿望是：世界和平！', Language = ''},
+}
+
+Table_Augury_Activity_fields = { "id","Type","Title","Option","TitleDesc","Language",}
+return Table_Augury_Activity
