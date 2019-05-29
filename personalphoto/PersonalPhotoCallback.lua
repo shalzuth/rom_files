@@ -1,3 +1,2 @@
-autoImport('PhotoCallback')
-
-PersonalPhotoCallback = class('PersonalPhotoCallback', PhotoCallback)
+autoImport("PhotoCallback")
+PersonalPhotoCallback = class("PersonalPhotoCallback", PhotoCallback)

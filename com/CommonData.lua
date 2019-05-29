@@ -1,7 +1,5 @@
- CommonData = class("CommonData")
-
-function CommonData:ctor(key,...)
+CommonData = class("CommonData")
+function CommonData:ctor(key)
 end
-
-function CommonData:Set(...)
+function CommonData:Set()
 end

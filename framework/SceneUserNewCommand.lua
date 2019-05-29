@@ -1,15 +1,10 @@
-local SceneUserNewCommand = class("SceneUserNewCommand",pm.SimpleCommand)
--- print("print(SkillDataCommand)")
+local SceneUserNewCommand = class("SceneUserNewCommand", pm.SimpleCommand)
 function SceneUserNewCommand:execute(note)
-	if(note~=nil)then
-		if(note.name == ServiceEvent.NUserVarUpdate) then
-			self:NUserVarUpdate(note)
-		end
-	end
+  if note ~= nil and note.name == ServiceEvent.NUserVarUpdate then
+    self:NUserVarUpdate(note)
+  end
 end
-
 function SceneUserNewCommand:NUserVarUpdate(note)
-	SceneUserNewProxy.Instance:NUserVarUpdate(note.body)
-	-- print("xxxxxxxxx-----------SceneUserNewCommand-----xxxxx----NUserVarUpdate")
+  SceneUserNewProxy.Instance:NUserVarUpdate(note.body)
 end
 return SceneUserNewCommand

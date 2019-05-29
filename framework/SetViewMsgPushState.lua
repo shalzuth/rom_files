@@ -1,30 +1,17 @@
-SetViewMsgPushState = class("SetViewMsgPushState",SubView)
-
-function SetViewMsgPushState:Init ()
-     self:FindObj()
-     self:Show()
+SetViewMsgPushState = class("SetViewMsgPushState", SubView)
+function SetViewMsgPushState:Init()
+  self:FindObj()
+  self:Show()
 end
-
-function SetViewMsgPushState:FindObj ()
-
+function SetViewMsgPushState:FindObj()
 end
-
-function SetViewMsgPushState:Show ()
-
+function SetViewMsgPushState:Show()
 end
-
-function SetViewMsgPushState:Save ()
-    
+function SetViewMsgPushState:Save()
 end
-
-function SetViewMsgPushState:Exit ()
-   
+function SetViewMsgPushState:Exit()
 end
-
-function SetViewMsgPushState:SwitchOn ()
-    
+function SetViewMsgPushState:SwitchOn()
 end
-
-function SetViewMsgPushState:SwitchOff ()
-    
+function SetViewMsgPushState:SwitchOff()
 end

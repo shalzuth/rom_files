@@ -1,3 +1,2 @@
-autoImport('PhotoCallback')
-
-UnionWallPhotoCallback = class('UnionWallPhotoCallback', PhotoCallback)
+autoImport("PhotoCallback")
+UnionWallPhotoCallback = class("UnionWallPhotoCallback", PhotoCallback)

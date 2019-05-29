@@ -1,409 +1,3077 @@
 Table_EquipSuit = {
-[100]={id = 100, Suitid = {42041, 43537, 43024}, SuitOneAdd = _EmptyTable, SuitTwoAdd = _EmptyTable, SuitThreeAdd = {buff = {24000}}, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 1, EquipSuitDsc = '[大猫的祝福][布袋熊长靴][时之蓝披肩]', EffectDesc = '力量＋5、装备攻速＋5%'},
-[101]={id = 101, Suitid = {42041, 43537, 143024}},
-[102]={id = 102, Suitid = {42041, 143537, 43024}},
-[103]={id = 103, Suitid = {42041, 143537, 143024}},
-[104]={id = 104, Suitid = {142041, 43537, 43024}},
-[105]={id = 105, Suitid = {142041, 43537, 143024}},
-[106]={id = 106, Suitid = {142041, 143537, 43024}},
-[107]={id = 107, Suitid = {142041, 143537, 143024}},
-----------
-[110]={id = 110, Suitid = {42041, 43538, 43025}, SuitOneAdd = _EmptyTable, SuitTwoAdd = _EmptyTable, SuitThreeAdd = {buff = {24010}}, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 2, EquipSuitDsc = '[大猫的祝福][魔磨长靴][背德皇帝的斗篷]', EffectDesc = '体质＋5、HP恢复＋10%、SP恢复＋10%'},
-[111]={id = 111, Suitid = {42041, 43538, 143025}},
-[112]={id = 112, Suitid = {42041, 143538, 43025}},
-[113]={id = 113, Suitid = {42041, 143538, 143025}},
-[114]={id = 114, Suitid = {142041, 43538, 43025}},
-[115]={id = 115, Suitid = {142041, 43538, 143025}},
-[116]={id = 116, Suitid = {142041, 143538, 43025}},
-[117]={id = 117, Suitid = {142041, 143538, 143025}},
-----------
-[120]={id = 120, Suitid = {42041, 145039}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {24020}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 3, EquipSuitDsc = '[大猫的祝福][毛无边帽]', EffectDesc = '灵巧＋3、使用技能时消耗SP－20%'},
-[121]={id = 121, Suitid = {142041, 145039}},
-----------
-[130]={id = 130, Suitid = {42041, 145118, 42507}, SuitOneAdd = _EmptyTable, SuitTwoAdd = _EmptyTable, SuitThreeAdd = {buff = {24030}}, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 4, EquipSuitDsc = '[大猫的祝福][魔术无边帽][石制圆盾]', EffectDesc = '智力＋3、生命上限＋10%、魔法上限＋10%'},
-[131]={id = 131, Suitid = {42041, 145118, 142507}},
-[132]={id = 132, Suitid = {142041, 145118, 42507}},
-[133]={id = 133, Suitid = {142041, 145118, 142507}},
-[134]={id = 134, Suitid = {42041, 45118, 42507}},
-[135]={id = 135, Suitid = {42041, 45118, 142507}},
-[136]={id = 136, Suitid = {142041, 45118, 42507}},
-[137]={id = 137, Suitid = {142041, 45118, 142507}},
-----------
-[140]={id = 140, Suitid = {42041, 45119, 42509}, SuitOneAdd = _EmptyTable, SuitTwoAdd = _EmptyTable, SuitThreeAdd = {buff = {24040}}, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 5, EquipSuitDsc = '[大猫的祝福][菲力卡的头箍][巴基力亚钢盾]', EffectDesc = '物理防御＋25、魔法防御＋20'},
-[141]={id = 141, Suitid = {42041, 45119, 142509}},
-[142]={id = 142, Suitid = {142041, 45119, 42509}},
-[143]={id = 143, Suitid = {142041, 45119, 142509}},
-----------
-[150]={id = 150, Suitid = {42006, 41504}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {24050}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 6, EquipSuitDsc = '[驱魔师长袍][尖刃铁锤]', EffectDesc = '受到普通攻击概率使目标变成暗属性持续一定时间'},
-[151]={id = 151, Suitid = {42006, 141504}},
-[152]={id = 152, Suitid = {142006, 41504}},
-[153]={id = 153, Suitid = {142006, 141504}},
-----------
-[160]={id = 160, Suitid = {42006, 41507}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {24060}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 7, EquipSuitDsc = '[驱魔师长袍][庄严十字]', EffectDesc = '受到普通攻击概率使目标变成暗属性持续一定时间'},
-[161]={id = 161, Suitid = {42006, 141507}},
-[162]={id = 162, Suitid = {142006, 41507}},
-[163]={id = 163, Suitid = {142006, 141507}},
-----------
-[170]={id = 170, Suitid = {42009, 43525}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {24070}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 8, EquipSuitDsc = '[丝质外袍][防水靴]', EffectDesc = '受到普通攻击概率使目标变成水属性持续一定时间'},
-[171]={id = 171, Suitid = {42009, 143525}},
-[172]={id = 172, Suitid = {142009, 43525}},
-[173]={id = 173, Suitid = {142009, 143525}},
-----------
-[180]={id = 180, Suitid = {42014, 43026}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {24080}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 9, EquipSuitDsc = '[三角裤][棉衬衫]', EffectDesc = '敏捷＋5、闪避＋10'},
-[181]={id = 181, Suitid = {42014, 143026}},
-[182]={id = 182, Suitid = {142014, 43026}},
-[183]={id = 183, Suitid = {142014, 143026}},
-----------
-[190]={id = 190, Suitid = {42014, 42022}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {24090}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 10, EquipSuitDsc = '[三角裤][衬衫]', EffectDesc = '敏捷＋5、闪避＋10'},
-[191]={id = 191, Suitid = {42014, 142022}},
-[192]={id = 192, Suitid = {142014, 42022}},
-[193]={id = 193, Suitid = {142014, 142022}},
-----------
-[200]={id = 200, Suitid = {145193, 43536, 42036, 43005}, SuitOneAdd = _EmptyTable, SuitTwoAdd = _EmptyTable, SuitThreeAdd = _EmptyTable, SuitFourAdd = {buff = {24100}}, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 11, EquipSuitDsc = '[迪斯凯特的头盔][迪斯凯特的便靴][迪斯凯特的软甲][迪斯凯特的披风]', EffectDesc = '全属性＋3'},
-[201]={id = 201, Suitid = {145193, 43536, 42036, 143005}},
-[202]={id = 202, Suitid = {145193, 43536, 142036, 43005}},
-[203]={id = 203, Suitid = {145193, 43536, 142036, 143005}},
-[204]={id = 204, Suitid = {145193, 143536, 42036, 43005}},
-[205]={id = 205, Suitid = {145193, 143536, 42036, 143005}},
-[206]={id = 206, Suitid = {145193, 143536, 142036, 43005}},
-[207]={id = 207, Suitid = {145193, 143536, 142036, 143005}},
-----------
-[210]={id = 210, Suitid = {42020, 43511, 43014, 145122}, SuitOneAdd = _EmptyTable, SuitTwoAdd = _EmptyTable, SuitThreeAdd = _EmptyTable, SuitFourAdd = {buff = {24110}}, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 12, EquipSuitDsc = '[哥夫内的铠甲][哥夫内军靴][哥夫内肩饰][哥夫内的头具]', EffectDesc = '体质＋5、生命上限＋15%、魔法上限＋5%、受到毒属性、圣属性、暗属性、念属性伤害－15%'},
-[211]={id = 211, Suitid = {42020, 43511, 143014, 145122}},
-[212]={id = 212, Suitid = {42020, 143511, 43014, 145122}},
-[213]={id = 213, Suitid = {42020, 143511, 143014, 145122}},
-[214]={id = 214, Suitid = {142020, 43511, 43014, 145122}},
-[215]={id = 215, Suitid = {142020, 43511, 143014, 145122}},
-[216]={id = 216, Suitid = {142020, 143511, 43014, 145122}},
-[217]={id = 217, Suitid = {142020, 143511, 143014, 145122}},
-----------
-[220]={id = 220, Suitid = {42037, 44003}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {24120}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 13, EquipSuitDsc = '[坚定战甲][坚定指环]', EffectDesc = '物理攻击＋5%、魔法攻击＋5%'},
-[221]={id = 221, Suitid = {42037, 144003}},
-[222]={id = 222, Suitid = {142037, 44003}},
-[223]={id = 223, Suitid = {142037, 144003}},
-----------
-[230]={id = 230, Suitid = {42038, 44003}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {24130}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 14, EquipSuitDsc = '[坚定战袍][坚定指环]', EffectDesc = '物理攻击＋5%、魔法攻击＋5%'},
-[231]={id = 231, Suitid = {42038, 144003}},
-[232]={id = 232, Suitid = {142038, 44003}},
-[233]={id = 233, Suitid = {142038, 144003}},
-----------
-[240]={id = 240, Suitid = {42002, 45088}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {24140}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 15, EquipSuitDsc = '[火鳞铠甲][兽角头饰]', EffectDesc = '被火属性攻击时，可恢复来自伤害10%的HP'},
-[241]={id = 241, Suitid = {142002, 45088}},
-----------
-[250]={id = 250, Suitid = {42008, 45088}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {24150}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 16, EquipSuitDsc = '[水鳞铠甲][兽角头饰]', EffectDesc = '被水属性攻击时，可恢复来自伤害10%的HP'},
-[251]={id = 251, Suitid = {142008, 45088}},
-----------
-[260]={id = 260, Suitid = {42012, 45088}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {24160}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 17, EquipSuitDsc = '[风鳞铠甲][兽角头饰]', EffectDesc = '被风属性攻击时，可恢复来自伤害10%的HP'},
-[261]={id = 261, Suitid = {142012, 45088}},
-----------
-[270]={id = 270, Suitid = {42013, 45088}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {24170}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 18, EquipSuitDsc = '[地鳞铠甲][兽角头饰]', EffectDesc = '被地属性攻击时，可恢复来自伤害10%的HP'},
-[271]={id = 271, Suitid = {142013, 45088}},
-----------
-[280]={id = 280, Suitid = {43529, 43006}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {24180}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 19, EquipSuitDsc = '[奔跑长靴][奔跑者徽章]', EffectDesc = '闪避＋15'},
-[281]={id = 281, Suitid = {43529, 143006}},
-[282]={id = 282, Suitid = {143529, 43006}},
-[283]={id = 283, Suitid = {143529, 143006}},
-----------
-[290]={id = 290, Suitid = {43027, 43535}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {24190, 24200}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 20, EquipSuitDsc = '[坚定斗篷][坚定战靴]', EffectDesc = '法师系/牧师系/弓手系职业装备可变吟唱时间－10%，剑士系/商人系/盗贼系职业装备时降低10%SP技能消耗'},
-[291]={id = 291, Suitid = {43027, 143535}},
-[292]={id = 292, Suitid = {143027, 43535}},
-[293]={id = 293, Suitid = {143027, 143535}},
-----------
-[300]={id = 300, Suitid = {40606, 43016}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {24210}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 21, EquipSuitDsc = '[生存的魔杖][生存斗篷]', EffectDesc = '受到物理伤害－10%、【生存斗篷】精炼每＋1物理减伤＋1%，最多可达10%'},
-[301]={id = 301, Suitid = {40606, 143016}},
-[302]={id = 302, Suitid = {140606, 43016}},
-[303]={id = 303, Suitid = {140606, 143016}},
-----------
-[310]={id = 310, Suitid = {42042, 44004}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {24220}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 22, EquipSuitDsc = '[奥尔里昂的制服][奥尔里昂的项链]', EffectDesc = '固定吟唱时间－15%'},
-[311]={id = 311, Suitid = {42042, 144004}},
-[312]={id = 312, Suitid = {142042, 44004}},
-[313]={id = 313, Suitid = {142042, 144004}},
-----------
-[320]={id = 320, Suitid = {42525, 44005}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {24230}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 23, EquipSuitDsc = '[奥尔里昂的铁盘][奥尔里昂的手套]', EffectDesc = '可变吟唱时间－20%'},
-[321]={id = 321, Suitid = {42525, 144005}},
-[322]={id = 322, Suitid = {142525, 44005}},
-[323]={id = 323, Suitid = {142525, 144005}},
-----------
-[330]={id = 330, Suitid = {41221, 44006}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {24240}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 24, EquipSuitDsc = '[露娜弓][月亮胸针]', EffectDesc = '智力＋2、魔法上限＋60、SP恢复＋10% '},
-[331]={id = 331, Suitid = {41221, 144006}},
-[332]={id = 332, Suitid = {141221, 44006}},
-[333]={id = 333, Suitid = {141221, 144006}},
-----------
-[340]={id = 340, Suitid = {40607, 45063}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {24250}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 25, EquipSuitDsc = '[绅士的手杖][魔术师帽]', EffectDesc = '灵巧＋2、敏捷＋2、SP恢复＋2%'},
-[341]={id = 341, Suitid = {140607, 45063}},
-----------
-[350]={id = 350, Suitid = {44008, 40620}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {24260}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = {equips = {{lv = 10, buff = {24261}, id = 40620}}}, SameTeam = 26, EquipSuitDsc = '[永恒戒指][大巫师之杖]', EffectDesc = '魔法攻击＋15%、【大巫师之杖】精炼＋10以上时，可变吟唱时间－10%'},
-[351]={id = 351, Suitid = {44008, 140620}, RefineBuff = {equips = {{lv = 10, buff = {24261}, id = 140620}}}},
-[352]={id = 352, Suitid = {144008, 40620}},
-[353]={id = 353, Suitid = {144008, 140620}, RefineBuff = {equips = {{lv = 10, buff = {24261}, id = 140620}}}},
-----------
-[360]={id = 360, Suitid = {44008, 41510}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {24270}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = {equips = {{lv = 10, buff = {24271}, id = 41510}}}, SameTeam = 27, EquipSuitDsc = '[永恒戒指][红十字杖]', EffectDesc = '魔法攻击＋15%、【红十字杖】精炼＋10以上时，SP恢复＋10%'},
-[361]={id = 361, Suitid = {44008, 141510}, RefineBuff = {equips = {{lv = 10, buff = {24271}, id = 141510}}}},
-[362]={id = 362, Suitid = {144008, 41510}},
-[363]={id = 363, Suitid = {144008, 141510}, RefineBuff = {equips = {{lv = 10, buff = {24271}, id = 141510}}}},
-----------
-[370]={id = 370, Suitid = {42518, 41519}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {24280}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 28, EquipSuitDsc = '[驱魔圣经][神圣权杖]', EffectDesc = '使用【十字驱魔攻击】伤害提升20%'},
-[371]={id = 371, Suitid = {42518, 141519}},
-[372]={id = 372, Suitid = {142518, 41519}},
-[373]={id = 373, Suitid = {142518, 141519}},
-----------
-[380]={id = 380, Suitid = {42518, 41521}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {24290}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 29, EquipSuitDsc = '[驱魔圣经][复仇女神]', EffectDesc = '使用【十字驱魔攻击】伤害提升20%'},
-[381]={id = 381, Suitid = {42518, 141521}},
-[382]={id = 382, Suitid = {142518, 41521}},
-[383]={id = 383, Suitid = {142518, 141521}},
-----------
-[390]={id = 390, Suitid = {42506, 42060}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {40560}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 30, EquipSuitDsc = '[大天使之盾][秘银重型铠甲]', EffectDesc = '受治疗加成＋20%'},
-[391]={id = 391, Suitid = {42506, 142060}},
-[392]={id = 392, Suitid = {142506, 42060}},
-[393]={id = 393, Suitid = {142506, 142060}},
-----------
-[400]={id = 400, Suitid = {42520, 40017}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {91000070}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 31, EquipSuitDsc = '[娜迦鳞盾][旗鱼枪]', EffectDesc = '使【圣十字审判】伤害＋50%'},
-[401]={id = 401, Suitid = {142520, 40017}},
-[402]={id = 402, Suitid = {42520, 140017}},
-[403]={id = 403, Suitid = {142520, 140017}},
-----------
-[410]={id = 410, Suitid = {48585, 145293, 47037}, SuitOneAdd = _EmptyTable, SuitTwoAdd = _EmptyTable, SuitThreeAdd = {buff = {91000110}}, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 32, EquipSuitDsc = '[艾希头饰][艾希流苏][温蒂]', EffectDesc = '移动速度＋15%，灵巧＋5，闪避＋10'},
-----------
-[420]={id = 420, Suitid = {42066, 43037, 43549, 44036, 61013}, SuitOneAdd = _EmptyTable, SuitTwoAdd = _EmptyTable, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = {buff = {91000120}}, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 33, EquipSuitDsc = '[高级乐园团外衣][高级乐园团披风][高级乐园团长靴][高级乐园团戒指][高级乐园团腕甲]', EffectDesc = 'Sp恢复＋5'},
-[430]={id = 430, Suitid = {42066, 43037, 43549, 44037, 61013}, SameTeam = 34, EquipSuitDsc = '[高级乐园团外衣][高级乐园团披风][高级乐园团长靴][高级乐园团项链][高级乐园团腕甲]'},
-----------
-[440]={id = 440, Suitid = {48594, 48595, 145424}, SuitOneAdd = _EmptyTable, SuitTwoAdd = _EmptyTable, SuitThreeAdd = {buff = {31070}}, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 35, EquipSuitDsc = '[跳跳波利][波利太阳镜][波利波棒糖]', EffectDesc = '受到伤害时概率使对方造型变成波利（对玩家及MVP，MINI无效）'},
-----------
-[450]={id = 450, Suitid = {42074, 41850}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {91000140}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 36, EquipSuitDsc = '[炼金铠甲][强袭战斧]', EffectDesc = '【炼金铠甲】+【强袭战斧】：每次普通攻击可使“艾米斯可鲁”物理攻击+3%，持续5秒，最多可叠3层'},
-[451]={id = 451, Suitid = {42074, 141850}},
-[452]={id = 452, Suitid = {142074, 41850}},
-[453]={id = 453, Suitid = {142074, 141850}},
-----------
-[460]={id = 460, Suitid = {42074, 41543, 43038}, SuitOneAdd = _EmptyTable, SuitTwoAdd = _EmptyTable, SuitThreeAdd = {buff = {91000150}}, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 37, EquipSuitDsc = '[羽毛权杖][炼金铠甲][预言者披风]', EffectDesc = '【羽毛权杖】＋【炼金铠甲】＋【预言者披风】：“巴尼米乐斯”的【善变】技能倍率+150%'},
-[461]={id = 461, Suitid = {42074, 41543, 143038}},
-[462]={id = 462, Suitid = {42074, 141543, 43038}},
-[463]={id = 463, Suitid = {42074, 141543, 143038}},
-[464]={id = 464, Suitid = {142074, 41543, 43038}},
-[465]={id = 465, Suitid = {142074, 41543, 143038}},
-[466]={id = 466, Suitid = {142074, 141543, 43038}},
-[467]={id = 467, Suitid = {142074, 141543, 143038}},
-----------
-[470]={id = 470, Suitid = {41545, 43551}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {91000130}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 38, EquipSuitDsc = '[艾尔德之锤][援护者皮靴]', EffectDesc = '使【生命药水投掷】和【魔力药水投掷】的效果额外提升＋10%'},
-[471]={id = 471, Suitid = {41545, 143551}},
-[472]={id = 472, Suitid = {141545, 43551}},
-[473]={id = 473, Suitid = {141545, 143551}},
-----------
-[480]={id = 480, Suitid = {40003, 43509}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {91000160}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 39, EquipSuitDsc = '[斧锤长矛][兔子拖鞋]', EffectDesc = '【斧锤长矛】+【兔子拖鞋】：【连刺攻击】的SP消耗降低10%'},
-[481]={id = 481, Suitid = {40003, 143509}},
-[482]={id = 482, Suitid = {140003, 43509}},
-[483]={id = 483, Suitid = {140003, 143509}},
-----------
-[490]={id = 490, Suitid = {40003, 61511}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {91000170}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 40, EquipSuitDsc = '[斧锤长矛][蔷薇姬的腕轮]', EffectDesc = '【斧锤长矛】+【蔷薇姬的腕轮】：连刺对中型魔物伤害增加10%，忽视物理防御+10%'},
-[491]={id = 491, Suitid = {40003, 161511}},
-[492]={id = 492, Suitid = {140003, 61511}},
-[493]={id = 493, Suitid = {140003, 161511}},
-----------
-[500]={id = 500, Suitid = {42048, 43030, 42513}, SuitOneAdd = _EmptyTable, SuitTwoAdd = _EmptyTable, SuitThreeAdd = {buff = {91000180}}, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 41, EquipSuitDsc = '[嘉曼基板甲][多芙的斗篷][皇家之盾]', EffectDesc = '【嘉曼基板甲】+【多芙的斗篷】+【皇家之盾】：魔伤减免+10%'},
-[501]={id = 501, Suitid = {42048, 43030, 142513}},
-[502]={id = 502, Suitid = {42048, 143030, 42513}},
-[503]={id = 503, Suitid = {42048, 143030, 142513}},
-[504]={id = 504, Suitid = {142048, 43030, 42513}},
-[505]={id = 505, Suitid = {142048, 43030, 142513}},
-[506]={id = 506, Suitid = {142048, 143030, 42513}},
-[507]={id = 507, Suitid = {142048, 143030, 142513}},
-----------
-[510]={id = 510, Suitid = {40742, 42019}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {91000260}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 42, EquipSuitDsc = '[忍服血樱][考尔德短剑]', EffectDesc = '【忍服血樱】+【考尔德短剑】：攻速+6%'},
-[511]={id = 511, Suitid = {40742, 142019}},
-[512]={id = 512, Suitid = {140742, 42019}},
-[513]={id = 513, Suitid = {140742, 142019}},
-----------
-[520]={id = 520, Suitid = {42046, 40745}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {91000290}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 43, EquipSuitDsc = '[侠盗之衣][牙科手术刀]', EffectDesc = '【侠盗之衣】+【牙科手术刀 】：【背刺】技能对人型目标时技能倍率+50%'},
-[521]={id = 521, Suitid = {42046, 140745}},
-[522]={id = 522, Suitid = {142046, 40745}},
-[523]={id = 523, Suitid = {142046, 140745}},
-----------
-[530]={id = 530, Suitid = {41545, 61014}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {91000300}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 44, EquipSuitDsc = '[艾尔德之锤][化学防护手套]', EffectDesc = '【艾尔德之锤】＋【化学防护手套】：【强酸火焰投掷】伤害＋15%'},
-[531]={id = 531, Suitid = {41545, 161014}},
-[532]={id = 532, Suitid = {141545, 61014}},
-[533]={id = 533, Suitid = {141545, 161014}},
-----------
-[540]={id = 540, Suitid = {45438, 48601, 48602}, SuitOneAdd = _EmptyTable, SuitTwoAdd = _EmptyTable, SuitThreeAdd = {buff = {91000310}}, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 45, EquipSuitDsc = '[米德加尔特护卫头盔][米德加尔特护目镜][米德加尔特军用口罩]', EffectDesc = '【米德加尔特护卫头盔】＋【米德加尔特护目镜】＋【米德加尔特军用口罩】：人形种族减伤＋20%'},
-[541]={id = 541, Suitid = {145438, 48601, 48602}},
-----------
-[550]={id = 550, Suitid = {47051, 48018}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {91000320}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 46, EquipSuitDsc = '[米德加尔特行军背包][魔法防御精灵]', EffectDesc = '【米德加尔特行军背包】＋【魔法防御精灵】：物伤减免＋5%，魔伤减免＋5%'},
-----------
-[560]={id = 560, Suitid = {40015, 42077}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {91000400}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 47, EquipSuitDsc = '[皇家之矛][皇家战甲]', EffectDesc = '【皇家之矛】＋【皇家战甲】：受到来自【牺牲】的伤害降低 10%'},
-[561]={id = 561, Suitid = {40015, 142077}},
-[562]={id = 562, Suitid = {140015, 42077}},
-[563]={id = 563, Suitid = {140015, 142077}},
-----------
-[570]={id = 570, Suitid = {41526, 42076, 43552}, SuitOneAdd = _EmptyTable, SuitTwoAdd = _EmptyTable, SuitThreeAdd = {buff = {91000410}}, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 48, EquipSuitDsc = '[审判之锤][审判之袍][审判之靴]', EffectDesc = '【审判之锤】＋【审判之袍】＋【审判之靴】：【赞歌】技能的伤害＋10%'},
-[571]={id = 571, Suitid = {41526, 42076, 143552}},
-[572]={id = 572, Suitid = {41526, 142076, 43552}},
-[573]={id = 573, Suitid = {41526, 142076, 143552}},
-[574]={id = 574, Suitid = {141526, 42076, 43552}},
-[575]={id = 575, Suitid = {141526, 42076, 143552}},
-[576]={id = 576, Suitid = {141526, 142076, 43552}},
-[577]={id = 577, Suitid = {141526, 142076, 143552}},
-----------
-[581]={id = 581, Suitid = {41246, 43553}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {91000430}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 49, EquipSuitDsc = '[森林猎手][白翼之靴]', EffectDesc = '【森林猎手】＋【白翼之靴】：使【死亡狙击】的技能倍率＋50%'},
-[582]={id = 582, Suitid = {41246, 143553}},
-[583]={id = 583, Suitid = {141246, 43553}},
-[584]={id = 584, Suitid = {141246, 143553}},
-----------
-[590]={id = 590, Suitid = {40047, 44008}, SuitOneAdd = _EmptyTable, SuitTwoAdd = {buff = {91000440}}, SuitThreeAdd = _EmptyTable, SuitFourAdd = _EmptyTable, SuitFiveAdd = _EmptyTable, SuitSixAdd = _EmptyTable, RefineBuff = _EmptyTable, SameTeam = 50, EquipSuitDsc = '[驯龙者长枪][永恒戒指]', EffectDesc = '【驯龙者长枪】＋【永恒戒指】：魔法攻击＋3%，物理攻击＋3%，【驯龙者长枪】精炼＋10以上时，SP消耗－10%'},
-[591]={id = 591, Suitid = {40047, 144008}},
-[592]={id = 592, Suitid = {140047, 44008}},
-[593]={id = 593, Suitid = {140047, 144008}},
-----------
+  [100] = {
+    id = 100,
+    Suitid = {
+      42041,
+      43537,
+      43024
+    },
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = _EmptyTable,
+    SuitThreeAdd = {
+      buff = {24000}
+    },
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 1,
+    EquipSuitDsc = "[\229\164\167\231\140\171\231\154\132\231\165\157\231\166\143][\229\184\131\232\162\139\231\134\138\233\149\191\233\157\180][\230\151\182\228\185\139\232\147\157\230\138\171\232\130\169]",
+    EffectDesc = "\229\138\155\233\135\143\239\188\1395\227\128\129\232\163\133\229\164\135\230\148\187\233\128\159\239\188\1395%"
+  },
+  [101] = {
+    id = 101,
+    Suitid = {
+      42041,
+      43537,
+      143024
+    }
+  },
+  [102] = {
+    id = 102,
+    Suitid = {
+      42041,
+      143537,
+      43024
+    }
+  },
+  [103] = {
+    id = 103,
+    Suitid = {
+      42041,
+      143537,
+      143024
+    }
+  },
+  [104] = {
+    id = 104,
+    Suitid = {
+      142041,
+      43537,
+      43024
+    }
+  },
+  [105] = {
+    id = 105,
+    Suitid = {
+      142041,
+      43537,
+      143024
+    }
+  },
+  [106] = {
+    id = 106,
+    Suitid = {
+      142041,
+      143537,
+      43024
+    }
+  },
+  [107] = {
+    id = 107,
+    Suitid = {
+      142041,
+      143537,
+      143024
+    }
+  },
+  [110] = {
+    id = 110,
+    Suitid = {
+      42041,
+      43538,
+      43025
+    },
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = _EmptyTable,
+    SuitThreeAdd = {
+      buff = {24010}
+    },
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 2,
+    EquipSuitDsc = "[\229\164\167\231\140\171\231\154\132\231\165\157\231\166\143][\233\173\148\231\163\168\233\149\191\233\157\180][\232\131\140\229\190\183\231\154\135\229\184\157\231\154\132\230\150\151\231\175\183]",
+    EffectDesc = "\228\189\147\232\180\168\239\188\1395\227\128\129HP\230\129\162\229\164\141\239\188\13910%\227\128\129SP\230\129\162\229\164\141\239\188\13910%"
+  },
+  [111] = {
+    id = 111,
+    Suitid = {
+      42041,
+      43538,
+      143025
+    }
+  },
+  [112] = {
+    id = 112,
+    Suitid = {
+      42041,
+      143538,
+      43025
+    }
+  },
+  [113] = {
+    id = 113,
+    Suitid = {
+      42041,
+      143538,
+      143025
+    }
+  },
+  [114] = {
+    id = 114,
+    Suitid = {
+      142041,
+      43538,
+      43025
+    }
+  },
+  [115] = {
+    id = 115,
+    Suitid = {
+      142041,
+      43538,
+      143025
+    }
+  },
+  [116] = {
+    id = 116,
+    Suitid = {
+      142041,
+      143538,
+      43025
+    }
+  },
+  [117] = {
+    id = 117,
+    Suitid = {
+      142041,
+      143538,
+      143025
+    }
+  },
+  [120] = {
+    id = 120,
+    Suitid = {42041, 145039},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {24020}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 3,
+    EquipSuitDsc = "[\229\164\167\231\140\171\231\154\132\231\165\157\231\166\143][\230\175\155\230\151\160\232\190\185\229\184\189]",
+    EffectDesc = "\231\129\181\229\183\167\239\188\1393\227\128\129\228\189\191\231\148\168\230\138\128\232\131\189\230\151\182\230\182\136\232\128\151SP\239\188\14120%"
+  },
+  [121] = {
+    id = 121,
+    Suitid = {142041, 145039}
+  },
+  [130] = {
+    id = 130,
+    Suitid = {
+      42041,
+      145118,
+      42507
+    },
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = _EmptyTable,
+    SuitThreeAdd = {
+      buff = {24030}
+    },
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 4,
+    EquipSuitDsc = "[\229\164\167\231\140\171\231\154\132\231\165\157\231\166\143][\233\173\148\230\156\175\230\151\160\232\190\185\229\184\189][\231\159\179\229\136\182\229\156\134\231\155\190]",
+    EffectDesc = "\230\153\186\229\138\155\239\188\1393\227\128\129\231\148\159\229\145\189\228\184\138\233\153\144\239\188\13910%\227\128\129\233\173\148\230\179\149\228\184\138\233\153\144\239\188\13910%"
+  },
+  [131] = {
+    id = 131,
+    Suitid = {
+      42041,
+      145118,
+      142507
+    }
+  },
+  [132] = {
+    id = 132,
+    Suitid = {
+      142041,
+      145118,
+      42507
+    }
+  },
+  [133] = {
+    id = 133,
+    Suitid = {
+      142041,
+      145118,
+      142507
+    }
+  },
+  [134] = {
+    id = 134,
+    Suitid = {
+      42041,
+      45118,
+      42507
+    }
+  },
+  [135] = {
+    id = 135,
+    Suitid = {
+      42041,
+      45118,
+      142507
+    }
+  },
+  [136] = {
+    id = 136,
+    Suitid = {
+      142041,
+      45118,
+      42507
+    }
+  },
+  [137] = {
+    id = 137,
+    Suitid = {
+      142041,
+      45118,
+      142507
+    }
+  },
+  [140] = {
+    id = 140,
+    Suitid = {
+      42041,
+      45119,
+      42509
+    },
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = _EmptyTable,
+    SuitThreeAdd = {
+      buff = {24040}
+    },
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 5,
+    EquipSuitDsc = "[\229\164\167\231\140\171\231\154\132\231\165\157\231\166\143][\232\143\178\229\138\155\229\141\161\231\154\132\229\164\180\231\174\141][\229\183\180\229\159\186\229\138\155\228\186\154\233\146\162\231\155\190]",
+    EffectDesc = "\231\137\169\231\144\134\233\152\178\229\190\161\239\188\13925\227\128\129\233\173\148\230\179\149\233\152\178\229\190\161\239\188\13920"
+  },
+  [141] = {
+    id = 141,
+    Suitid = {
+      42041,
+      45119,
+      142509
+    }
+  },
+  [142] = {
+    id = 142,
+    Suitid = {
+      142041,
+      45119,
+      42509
+    }
+  },
+  [143] = {
+    id = 143,
+    Suitid = {
+      142041,
+      45119,
+      142509
+    }
+  },
+  [150] = {
+    id = 150,
+    Suitid = {42006, 41504},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {24050}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 6,
+    EquipSuitDsc = "[\233\169\177\233\173\148\229\184\136\233\149\191\232\162\141][\229\176\150\229\136\131\233\147\129\233\148\164]",
+    EffectDesc = "\229\143\151\229\136\176\230\153\174\233\128\154\230\148\187\229\135\187\230\166\130\231\142\135\228\189\191\231\155\174\230\160\135\229\143\152\230\136\144\230\154\151\229\177\158\230\128\167\230\140\129\231\187\173\228\184\128\229\174\154\230\151\182\233\151\180"
+  },
+  [151] = {
+    id = 151,
+    Suitid = {42006, 141504}
+  },
+  [152] = {
+    id = 152,
+    Suitid = {142006, 41504}
+  },
+  [153] = {
+    id = 153,
+    Suitid = {142006, 141504}
+  },
+  [160] = {
+    id = 160,
+    Suitid = {42006, 41507},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {24060}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 7,
+    EquipSuitDsc = "[\233\169\177\233\173\148\229\184\136\233\149\191\232\162\141][\229\186\132\228\184\165\229\141\129\229\173\151]",
+    EffectDesc = "\229\143\151\229\136\176\230\153\174\233\128\154\230\148\187\229\135\187\230\166\130\231\142\135\228\189\191\231\155\174\230\160\135\229\143\152\230\136\144\230\154\151\229\177\158\230\128\167\230\140\129\231\187\173\228\184\128\229\174\154\230\151\182\233\151\180"
+  },
+  [161] = {
+    id = 161,
+    Suitid = {42006, 141507}
+  },
+  [162] = {
+    id = 162,
+    Suitid = {142006, 41507}
+  },
+  [163] = {
+    id = 163,
+    Suitid = {142006, 141507}
+  },
+  [170] = {
+    id = 170,
+    Suitid = {42009, 43525},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {24070}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 8,
+    EquipSuitDsc = "[\228\184\157\232\180\168\229\164\150\232\162\141][\233\152\178\230\176\180\233\157\180]",
+    EffectDesc = "\229\143\151\229\136\176\230\153\174\233\128\154\230\148\187\229\135\187\230\166\130\231\142\135\228\189\191\231\155\174\230\160\135\229\143\152\230\136\144\230\176\180\229\177\158\230\128\167\230\140\129\231\187\173\228\184\128\229\174\154\230\151\182\233\151\180"
+  },
+  [171] = {
+    id = 171,
+    Suitid = {42009, 143525}
+  },
+  [172] = {
+    id = 172,
+    Suitid = {142009, 43525}
+  },
+  [173] = {
+    id = 173,
+    Suitid = {142009, 143525}
+  },
+  [180] = {
+    id = 180,
+    Suitid = {42014, 43026},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {24080}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 9,
+    EquipSuitDsc = "[\228\184\137\232\167\146\232\163\164][\230\163\137\232\161\172\232\161\171]",
+    EffectDesc = "\230\149\143\230\141\183\239\188\1395\227\128\129\233\151\170\233\129\191\239\188\13910"
+  },
+  [181] = {
+    id = 181,
+    Suitid = {42014, 143026}
+  },
+  [182] = {
+    id = 182,
+    Suitid = {142014, 43026}
+  },
+  [183] = {
+    id = 183,
+    Suitid = {142014, 143026}
+  },
+  [190] = {
+    id = 190,
+    Suitid = {42014, 42022},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {24090}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 10,
+    EquipSuitDsc = "[\228\184\137\232\167\146\232\163\164][\232\161\172\232\161\171]",
+    EffectDesc = "\230\149\143\230\141\183\239\188\1395\227\128\129\233\151\170\233\129\191\239\188\13910"
+  },
+  [191] = {
+    id = 191,
+    Suitid = {42014, 142022}
+  },
+  [192] = {
+    id = 192,
+    Suitid = {142014, 42022}
+  },
+  [193] = {
+    id = 193,
+    Suitid = {142014, 142022}
+  },
+  [200] = {
+    id = 200,
+    Suitid = {
+      145193,
+      43536,
+      42036,
+      43005
+    },
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = _EmptyTable,
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = {
+      buff = {24100}
+    },
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 11,
+    EquipSuitDsc = "[\232\191\170\230\150\175\229\135\175\231\137\185\231\154\132\229\164\180\231\155\148][\232\191\170\230\150\175\229\135\175\231\137\185\231\154\132\228\190\191\233\157\180][\232\191\170\230\150\175\229\135\175\231\137\185\231\154\132\232\189\175\231\148\178][\232\191\170\230\150\175\229\135\175\231\137\185\231\154\132\230\138\171\233\163\142]",
+    EffectDesc = "\229\133\168\229\177\158\230\128\167\239\188\1393"
+  },
+  [201] = {
+    id = 201,
+    Suitid = {
+      145193,
+      43536,
+      42036,
+      143005
+    }
+  },
+  [202] = {
+    id = 202,
+    Suitid = {
+      145193,
+      43536,
+      142036,
+      43005
+    }
+  },
+  [203] = {
+    id = 203,
+    Suitid = {
+      145193,
+      43536,
+      142036,
+      143005
+    }
+  },
+  [204] = {
+    id = 204,
+    Suitid = {
+      145193,
+      143536,
+      42036,
+      43005
+    }
+  },
+  [205] = {
+    id = 205,
+    Suitid = {
+      145193,
+      143536,
+      42036,
+      143005
+    }
+  },
+  [206] = {
+    id = 206,
+    Suitid = {
+      145193,
+      143536,
+      142036,
+      43005
+    }
+  },
+  [207] = {
+    id = 207,
+    Suitid = {
+      145193,
+      143536,
+      142036,
+      143005
+    }
+  },
+  [210] = {
+    id = 210,
+    Suitid = {
+      42020,
+      43511,
+      43014,
+      145122
+    },
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = _EmptyTable,
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = {
+      buff = {24110}
+    },
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 12,
+    EquipSuitDsc = "[\229\147\165\229\164\171\229\134\133\231\154\132\233\147\160\231\148\178][\229\147\165\229\164\171\229\134\133\229\134\155\233\157\180][\229\147\165\229\164\171\229\134\133\232\130\169\233\165\176][\229\147\165\229\164\171\229\134\133\231\154\132\229\164\180\229\133\183]",
+    EffectDesc = "\228\189\147\232\180\168\239\188\1395\227\128\129\231\148\159\229\145\189\228\184\138\233\153\144\239\188\13915%\227\128\129\233\173\148\230\179\149\228\184\138\233\153\144\239\188\1395%\227\128\129\229\143\151\229\136\176\230\175\146\229\177\158\230\128\167\227\128\129\229\156\163\229\177\158\230\128\167\227\128\129\230\154\151\229\177\158\230\128\167\227\128\129\229\191\181\229\177\158\230\128\167\228\188\164\229\174\179\239\188\14115%"
+  },
+  [211] = {
+    id = 211,
+    Suitid = {
+      42020,
+      43511,
+      143014,
+      145122
+    }
+  },
+  [212] = {
+    id = 212,
+    Suitid = {
+      42020,
+      143511,
+      43014,
+      145122
+    }
+  },
+  [213] = {
+    id = 213,
+    Suitid = {
+      42020,
+      143511,
+      143014,
+      145122
+    }
+  },
+  [214] = {
+    id = 214,
+    Suitid = {
+      142020,
+      43511,
+      43014,
+      145122
+    }
+  },
+  [215] = {
+    id = 215,
+    Suitid = {
+      142020,
+      43511,
+      143014,
+      145122
+    }
+  },
+  [216] = {
+    id = 216,
+    Suitid = {
+      142020,
+      143511,
+      43014,
+      145122
+    }
+  },
+  [217] = {
+    id = 217,
+    Suitid = {
+      142020,
+      143511,
+      143014,
+      145122
+    }
+  },
+  [220] = {
+    id = 220,
+    Suitid = {42037, 44003},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {24120}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 13,
+    EquipSuitDsc = "[\229\157\154\229\174\154\230\136\152\231\148\178][\229\157\154\229\174\154\230\140\135\231\142\175]",
+    EffectDesc = "\231\137\169\231\144\134\230\148\187\229\135\187\239\188\1395%\227\128\129\233\173\148\230\179\149\230\148\187\229\135\187\239\188\1395%"
+  },
+  [221] = {
+    id = 221,
+    Suitid = {42037, 144003}
+  },
+  [222] = {
+    id = 222,
+    Suitid = {142037, 44003}
+  },
+  [223] = {
+    id = 223,
+    Suitid = {142037, 144003}
+  },
+  [230] = {
+    id = 230,
+    Suitid = {42038, 44003},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {24130}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 14,
+    EquipSuitDsc = "[\229\157\154\229\174\154\230\136\152\232\162\141][\229\157\154\229\174\154\230\140\135\231\142\175]",
+    EffectDesc = "\231\137\169\231\144\134\230\148\187\229\135\187\239\188\1395%\227\128\129\233\173\148\230\179\149\230\148\187\229\135\187\239\188\1395%"
+  },
+  [231] = {
+    id = 231,
+    Suitid = {42038, 144003}
+  },
+  [232] = {
+    id = 232,
+    Suitid = {142038, 44003}
+  },
+  [233] = {
+    id = 233,
+    Suitid = {142038, 144003}
+  },
+  [240] = {
+    id = 240,
+    Suitid = {42002, 45088},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {24140}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 15,
+    EquipSuitDsc = "[\231\129\171\233\179\158\233\147\160\231\148\178][\229\133\189\232\167\146\229\164\180\233\165\176]",
+    EffectDesc = "\232\162\171\231\129\171\229\177\158\230\128\167\230\148\187\229\135\187\230\151\182\239\188\140\229\143\175\230\129\162\229\164\141\230\157\165\232\135\170\228\188\164\229\174\17910%\231\154\132HP"
+  },
+  [241] = {
+    id = 241,
+    Suitid = {142002, 45088}
+  },
+  [250] = {
+    id = 250,
+    Suitid = {42008, 45088},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {24150}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 16,
+    EquipSuitDsc = "[\230\176\180\233\179\158\233\147\160\231\148\178][\229\133\189\232\167\146\229\164\180\233\165\176]",
+    EffectDesc = "\232\162\171\230\176\180\229\177\158\230\128\167\230\148\187\229\135\187\230\151\182\239\188\140\229\143\175\230\129\162\229\164\141\230\157\165\232\135\170\228\188\164\229\174\17910%\231\154\132HP"
+  },
+  [251] = {
+    id = 251,
+    Suitid = {142008, 45088}
+  },
+  [260] = {
+    id = 260,
+    Suitid = {42012, 45088},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {24160}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 17,
+    EquipSuitDsc = "[\233\163\142\233\179\158\233\147\160\231\148\178][\229\133\189\232\167\146\229\164\180\233\165\176]",
+    EffectDesc = "\232\162\171\233\163\142\229\177\158\230\128\167\230\148\187\229\135\187\230\151\182\239\188\140\229\143\175\230\129\162\229\164\141\230\157\165\232\135\170\228\188\164\229\174\17910%\231\154\132HP"
+  },
+  [261] = {
+    id = 261,
+    Suitid = {142012, 45088}
+  },
+  [270] = {
+    id = 270,
+    Suitid = {42013, 45088},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {24170}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 18,
+    EquipSuitDsc = "[\229\156\176\233\179\158\233\147\160\231\148\178][\229\133\189\232\167\146\229\164\180\233\165\176]",
+    EffectDesc = "\232\162\171\229\156\176\229\177\158\230\128\167\230\148\187\229\135\187\230\151\182\239\188\140\229\143\175\230\129\162\229\164\141\230\157\165\232\135\170\228\188\164\229\174\17910%\231\154\132HP"
+  },
+  [271] = {
+    id = 271,
+    Suitid = {142013, 45088}
+  },
+  [280] = {
+    id = 280,
+    Suitid = {43529, 43006},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {24180}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 19,
+    EquipSuitDsc = "[\229\165\148\232\183\145\233\149\191\233\157\180][\229\165\148\232\183\145\232\128\133\229\190\189\231\171\160]",
+    EffectDesc = "\233\151\170\233\129\191\239\188\13915"
+  },
+  [281] = {
+    id = 281,
+    Suitid = {43529, 143006}
+  },
+  [282] = {
+    id = 282,
+    Suitid = {143529, 43006}
+  },
+  [283] = {
+    id = 283,
+    Suitid = {143529, 143006}
+  },
+  [290] = {
+    id = 290,
+    Suitid = {43027, 43535},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {24190, 24200}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 20,
+    EquipSuitDsc = "[\229\157\154\229\174\154\230\150\151\231\175\183][\229\157\154\229\174\154\230\136\152\233\157\180]",
+    EffectDesc = "\230\179\149\229\184\136\231\179\187/\231\137\167\229\184\136\231\179\187/\229\188\147\230\137\139\231\179\187\232\129\140\228\184\154\232\163\133\229\164\135\229\143\175\229\143\152\229\144\159\229\148\177\230\151\182\233\151\180\239\188\14110%\239\188\140\229\137\145\229\163\171\231\179\187/\229\149\134\228\186\186\231\179\187/\231\155\151\232\180\188\231\179\187\232\129\140\228\184\154\232\163\133\229\164\135\230\151\182\233\153\141\228\189\14210%SP\230\138\128\232\131\189\230\182\136\232\128\151"
+  },
+  [291] = {
+    id = 291,
+    Suitid = {43027, 143535}
+  },
+  [292] = {
+    id = 292,
+    Suitid = {143027, 43535}
+  },
+  [293] = {
+    id = 293,
+    Suitid = {143027, 143535}
+  },
+  [300] = {
+    id = 300,
+    Suitid = {40606, 43016},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {24210}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 21,
+    EquipSuitDsc = "[\231\148\159\229\173\152\231\154\132\233\173\148\230\157\150][\231\148\159\229\173\152\230\150\151\231\175\183]",
+    EffectDesc = "\229\143\151\229\136\176\231\137\169\231\144\134\228\188\164\229\174\179\239\188\14110%\227\128\129\227\128\144\231\148\159\229\173\152\230\150\151\231\175\183\227\128\145\231\178\190\231\130\188\230\175\143\239\188\1391\231\137\169\231\144\134\229\135\143\228\188\164\239\188\1391%\239\188\140\230\156\128\229\164\154\229\143\175\232\190\19010%"
+  },
+  [301] = {
+    id = 301,
+    Suitid = {40606, 143016}
+  },
+  [302] = {
+    id = 302,
+    Suitid = {140606, 43016}
+  },
+  [303] = {
+    id = 303,
+    Suitid = {140606, 143016}
+  },
+  [310] = {
+    id = 310,
+    Suitid = {42042, 44004},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {24220}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 22,
+    EquipSuitDsc = "[\229\165\165\229\176\148\233\135\140\230\152\130\231\154\132\229\136\182\230\156\141][\229\165\165\229\176\148\233\135\140\230\152\130\231\154\132\233\161\185\233\147\190]",
+    EffectDesc = "\229\155\186\229\174\154\229\144\159\229\148\177\230\151\182\233\151\180\239\188\14115%"
+  },
+  [311] = {
+    id = 311,
+    Suitid = {42042, 144004}
+  },
+  [312] = {
+    id = 312,
+    Suitid = {142042, 44004}
+  },
+  [313] = {
+    id = 313,
+    Suitid = {142042, 144004}
+  },
+  [320] = {
+    id = 320,
+    Suitid = {42525, 44005},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {24230}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 23,
+    EquipSuitDsc = "[\229\165\165\229\176\148\233\135\140\230\152\130\231\154\132\233\147\129\231\155\152][\229\165\165\229\176\148\233\135\140\230\152\130\231\154\132\230\137\139\229\165\151]",
+    EffectDesc = "\229\143\175\229\143\152\229\144\159\229\148\177\230\151\182\233\151\180\239\188\14120%"
+  },
+  [321] = {
+    id = 321,
+    Suitid = {42525, 144005}
+  },
+  [322] = {
+    id = 322,
+    Suitid = {142525, 44005}
+  },
+  [323] = {
+    id = 323,
+    Suitid = {142525, 144005}
+  },
+  [330] = {
+    id = 330,
+    Suitid = {41221, 44006},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {24240}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 24,
+    EquipSuitDsc = "[\233\156\178\229\168\156\229\188\147][\230\156\136\228\186\174\232\131\184\233\146\136]",
+    EffectDesc = "\230\153\186\229\138\155\239\188\1392\227\128\129\233\173\148\230\179\149\228\184\138\233\153\144\239\188\13960\227\128\129SP\230\129\162\229\164\141\239\188\13910% "
+  },
+  [331] = {
+    id = 331,
+    Suitid = {41221, 144006}
+  },
+  [332] = {
+    id = 332,
+    Suitid = {141221, 44006}
+  },
+  [333] = {
+    id = 333,
+    Suitid = {141221, 144006}
+  },
+  [340] = {
+    id = 340,
+    Suitid = {40607, 45063},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {24250}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 25,
+    EquipSuitDsc = "[\231\187\133\229\163\171\231\154\132\230\137\139\230\157\150][\233\173\148\230\156\175\229\184\136\229\184\189]",
+    EffectDesc = "\231\129\181\229\183\167\239\188\1392\227\128\129\230\149\143\230\141\183\239\188\1392\227\128\129SP\230\129\162\229\164\141\239\188\1392%"
+  },
+  [341] = {
+    id = 341,
+    Suitid = {140607, 45063}
+  },
+  [350] = {
+    id = 350,
+    Suitid = {44008, 40620},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {24260}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = {
+      equips = {
+        {
+          buff = {24261},
+          id = 40620,
+          lv = 10
+        }
+      }
+    },
+    SameTeam = 26,
+    EquipSuitDsc = "[\230\176\184\230\129\146\230\136\146\230\140\135][\229\164\167\229\183\171\229\184\136\228\185\139\230\157\150]",
+    EffectDesc = "\233\173\148\230\179\149\230\148\187\229\135\187\239\188\13915%\227\128\129\227\128\144\229\164\167\229\183\171\229\184\136\228\185\139\230\157\150\227\128\145\231\178\190\231\130\188\239\188\13910\228\187\165\228\184\138\230\151\182\239\188\140\229\143\175\229\143\152\229\144\159\229\148\177\230\151\182\233\151\180\239\188\14110%"
+  },
+  [351] = {
+    id = 351,
+    Suitid = {44008, 140620},
+    RefineBuff = {
+      equips = {
+        {
+          buff = {24261},
+          id = 140620,
+          lv = 10
+        }
+      }
+    }
+  },
+  [352] = {
+    id = 352,
+    Suitid = {144008, 40620}
+  },
+  [353] = {
+    id = 353,
+    Suitid = {144008, 140620},
+    RefineBuff = {
+      equips = {
+        {
+          buff = {24261},
+          id = 140620,
+          lv = 10
+        }
+      }
+    }
+  },
+  [360] = {
+    id = 360,
+    Suitid = {44008, 41510},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {24270}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = {
+      equips = {
+        {
+          buff = {24271},
+          id = 41510,
+          lv = 10
+        }
+      }
+    },
+    SameTeam = 27,
+    EquipSuitDsc = "[\230\176\184\230\129\146\230\136\146\230\140\135][\231\186\162\229\141\129\229\173\151\230\157\150]",
+    EffectDesc = "\233\173\148\230\179\149\230\148\187\229\135\187\239\188\13915%\227\128\129\227\128\144\231\186\162\229\141\129\229\173\151\230\157\150\227\128\145\231\178\190\231\130\188\239\188\13910\228\187\165\228\184\138\230\151\182\239\188\140SP\230\129\162\229\164\141\239\188\13910%"
+  },
+  [361] = {
+    id = 361,
+    Suitid = {44008, 141510},
+    RefineBuff = {
+      equips = {
+        {
+          buff = {24271},
+          id = 141510,
+          lv = 10
+        }
+      }
+    }
+  },
+  [362] = {
+    id = 362,
+    Suitid = {144008, 41510}
+  },
+  [363] = {
+    id = 363,
+    Suitid = {144008, 141510},
+    RefineBuff = {
+      equips = {
+        {
+          buff = {24271},
+          id = 141510,
+          lv = 10
+        }
+      }
+    }
+  },
+  [370] = {
+    id = 370,
+    Suitid = {42518, 41519},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {24280}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 28,
+    EquipSuitDsc = "[\233\169\177\233\173\148\229\156\163\231\187\143][\231\165\158\229\156\163\230\157\131\230\157\150]",
+    EffectDesc = "\228\189\191\231\148\168\227\128\144\229\141\129\229\173\151\233\169\177\233\173\148\230\148\187\229\135\187\227\128\145\228\188\164\229\174\179\230\143\144\229\141\13520%"
+  },
+  [371] = {
+    id = 371,
+    Suitid = {42518, 141519}
+  },
+  [372] = {
+    id = 372,
+    Suitid = {142518, 41519}
+  },
+  [373] = {
+    id = 373,
+    Suitid = {142518, 141519}
+  },
+  [380] = {
+    id = 380,
+    Suitid = {42518, 41521},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {24290}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 29,
+    EquipSuitDsc = "[\233\169\177\233\173\148\229\156\163\231\187\143][\229\164\141\228\187\135\229\165\179\231\165\158]",
+    EffectDesc = "\228\189\191\231\148\168\227\128\144\229\141\129\229\173\151\233\169\177\233\173\148\230\148\187\229\135\187\227\128\145\228\188\164\229\174\179\230\143\144\229\141\13520%"
+  },
+  [381] = {
+    id = 381,
+    Suitid = {42518, 141521}
+  },
+  [382] = {
+    id = 382,
+    Suitid = {142518, 41521}
+  },
+  [383] = {
+    id = 383,
+    Suitid = {142518, 141521}
+  },
+  [390] = {
+    id = 390,
+    Suitid = {42506, 42060},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {40560}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 30,
+    EquipSuitDsc = "[\229\164\167\229\164\169\228\189\191\228\185\139\231\155\190][\231\167\152\233\147\182\233\135\141\229\158\139\233\147\160\231\148\178]",
+    EffectDesc = "\229\143\151\230\178\187\231\150\151\229\138\160\230\136\144\239\188\13920%"
+  },
+  [391] = {
+    id = 391,
+    Suitid = {42506, 142060}
+  },
+  [392] = {
+    id = 392,
+    Suitid = {142506, 42060}
+  },
+  [393] = {
+    id = 393,
+    Suitid = {142506, 142060}
+  },
+  [400] = {
+    id = 400,
+    Suitid = {42520, 40017},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {91000070}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 31,
+    EquipSuitDsc = "[\229\168\156\232\191\166\233\179\158\231\155\190][\230\151\151\233\177\188\230\158\170]",
+    EffectDesc = "\228\189\191\227\128\144\229\156\163\229\141\129\229\173\151\229\174\161\229\136\164\227\128\145\228\188\164\229\174\179\239\188\13950%"
+  },
+  [401] = {
+    id = 401,
+    Suitid = {142520, 40017}
+  },
+  [402] = {
+    id = 402,
+    Suitid = {42520, 140017}
+  },
+  [403] = {
+    id = 403,
+    Suitid = {142520, 140017}
+  },
+  [410] = {
+    id = 410,
+    Suitid = {
+      48585,
+      145293,
+      47037
+    },
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = _EmptyTable,
+    SuitThreeAdd = {
+      buff = {91000110}
+    },
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 32,
+    EquipSuitDsc = "[\232\137\190\229\184\140\229\164\180\233\165\176][\232\137\190\229\184\140\230\181\129\232\139\143][\230\184\169\232\146\130]",
+    EffectDesc = "\231\167\187\229\138\168\233\128\159\229\186\166\239\188\13915%\239\188\140\231\129\181\229\183\167\239\188\1395\239\188\140\233\151\170\233\129\191\239\188\13910"
+  },
+  [420] = {
+    id = 420,
+    Suitid = {
+      42066,
+      43037,
+      43549,
+      44036,
+      61013
+    },
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = _EmptyTable,
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = {
+      buff = {91000120}
+    },
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 33,
+    EquipSuitDsc = "[\233\171\152\231\186\167\228\185\144\229\155\173\229\155\162\229\164\150\232\161\163][\233\171\152\231\186\167\228\185\144\229\155\173\229\155\162\230\138\171\233\163\142][\233\171\152\231\186\167\228\185\144\229\155\173\229\155\162\233\149\191\233\157\180][\233\171\152\231\186\167\228\185\144\229\155\173\229\155\162\230\136\146\230\140\135][\233\171\152\231\186\167\228\185\144\229\155\173\229\155\162\232\133\149\231\148\178]",
+    EffectDesc = "Sp\230\129\162\229\164\141\239\188\1395"
+  },
+  [430] = {
+    id = 430,
+    Suitid = {
+      42066,
+      43037,
+      43549,
+      44037,
+      61013
+    },
+    SameTeam = 34,
+    EquipSuitDsc = "[\233\171\152\231\186\167\228\185\144\229\155\173\229\155\162\229\164\150\232\161\163][\233\171\152\231\186\167\228\185\144\229\155\173\229\155\162\230\138\171\233\163\142][\233\171\152\231\186\167\228\185\144\229\155\173\229\155\162\233\149\191\233\157\180][\233\171\152\231\186\167\228\185\144\229\155\173\229\155\162\233\161\185\233\147\190][\233\171\152\231\186\167\228\185\144\229\155\173\229\155\162\232\133\149\231\148\178]"
+  },
+  [440] = {
+    id = 440,
+    Suitid = {
+      48594,
+      48595,
+      145424
+    },
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = _EmptyTable,
+    SuitThreeAdd = {
+      buff = {31070}
+    },
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 35,
+    EquipSuitDsc = "[\232\183\179\232\183\179\230\179\162\229\136\169][\230\179\162\229\136\169\229\164\170\233\152\179\233\149\156][\230\179\162\229\136\169\230\179\162\230\163\146\231\179\150]",
+    EffectDesc = "\229\143\151\229\136\176\228\188\164\229\174\179\230\151\182\230\166\130\231\142\135\228\189\191\229\175\185\230\150\185\233\128\160\229\158\139\229\143\152\230\136\144\230\179\162\229\136\169\239\188\136\229\175\185\231\142\169\229\174\182\229\143\138MVP\239\188\140MINI\230\151\160\230\149\136\239\188\137"
+  },
+  [450] = {
+    id = 450,
+    Suitid = {42074, 41850},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {91000140}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 36,
+    EquipSuitDsc = "[\231\130\188\233\135\145\233\147\160\231\148\178][\229\188\186\232\162\173\230\136\152\230\150\167]",
+    EffectDesc = "\227\128\144\231\130\188\233\135\145\233\147\160\231\148\178\227\128\145+\227\128\144\229\188\186\232\162\173\230\136\152\230\150\167\227\128\145\239\188\154\230\175\143\230\172\161\230\153\174\233\128\154\230\148\187\229\135\187\229\143\175\228\189\191\226\128\156\232\137\190\231\177\179\230\150\175\229\143\175\233\178\129\226\128\157\231\137\169\231\144\134\230\148\187\229\135\187+3%\239\188\140\230\140\129\231\187\1735\231\167\146\239\188\140\230\156\128\229\164\154\229\143\175\229\143\1603\229\177\130"
+  },
+  [451] = {
+    id = 451,
+    Suitid = {42074, 141850}
+  },
+  [452] = {
+    id = 452,
+    Suitid = {142074, 41850}
+  },
+  [453] = {
+    id = 453,
+    Suitid = {142074, 141850}
+  },
+  [460] = {
+    id = 460,
+    Suitid = {
+      42074,
+      41543,
+      43038
+    },
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = _EmptyTable,
+    SuitThreeAdd = {
+      buff = {91000150}
+    },
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 37,
+    EquipSuitDsc = "[\231\190\189\230\175\155\230\157\131\230\157\150][\231\130\188\233\135\145\233\147\160\231\148\178][\233\162\132\232\168\128\232\128\133\230\138\171\233\163\142]",
+    EffectDesc = "\227\128\144\231\190\189\230\175\155\230\157\131\230\157\150\227\128\145\239\188\139\227\128\144\231\130\188\233\135\145\233\147\160\231\148\178\227\128\145\239\188\139\227\128\144\233\162\132\232\168\128\232\128\133\230\138\171\233\163\142\227\128\145\239\188\154\226\128\156\229\183\180\229\176\188\231\177\179\228\185\144\230\150\175\226\128\157\231\154\132\227\128\144\229\150\132\229\143\152\227\128\145\230\138\128\232\131\189\229\128\141\231\142\135\239\188\139150%"
+  },
+  [461] = {
+    id = 461,
+    Suitid = {
+      42074,
+      41543,
+      143038
+    }
+  },
+  [462] = {
+    id = 462,
+    Suitid = {
+      42074,
+      141543,
+      43038
+    }
+  },
+  [463] = {
+    id = 463,
+    Suitid = {
+      42074,
+      141543,
+      143038
+    }
+  },
+  [464] = {
+    id = 464,
+    Suitid = {
+      142074,
+      41543,
+      43038
+    }
+  },
+  [465] = {
+    id = 465,
+    Suitid = {
+      142074,
+      41543,
+      143038
+    }
+  },
+  [466] = {
+    id = 466,
+    Suitid = {
+      142074,
+      141543,
+      43038
+    }
+  },
+  [467] = {
+    id = 467,
+    Suitid = {
+      142074,
+      141543,
+      143038
+    }
+  },
+  [470] = {
+    id = 470,
+    Suitid = {41545, 43551},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {91000130}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 38,
+    EquipSuitDsc = "[\232\137\190\229\176\148\229\190\183\228\185\139\233\148\164][\230\143\180\230\138\164\232\128\133\231\154\174\233\157\180]",
+    EffectDesc = "\228\189\191\227\128\144\231\148\159\229\145\189\232\141\175\230\176\180\230\138\149\230\142\183\227\128\145\229\146\140\227\128\144\233\173\148\229\138\155\232\141\175\230\176\180\230\138\149\230\142\183\227\128\145\231\154\132\230\149\136\230\158\156\233\162\157\229\164\150\230\143\144\229\141\135\239\188\13910%"
+  },
+  [471] = {
+    id = 471,
+    Suitid = {41545, 143551}
+  },
+  [472] = {
+    id = 472,
+    Suitid = {141545, 43551}
+  },
+  [473] = {
+    id = 473,
+    Suitid = {141545, 143551}
+  },
+  [480] = {
+    id = 480,
+    Suitid = {40003, 43509},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {91000160}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 39,
+    EquipSuitDsc = "[\230\150\167\233\148\164\233\149\191\231\159\155][\229\133\148\229\173\144\230\139\150\233\158\139]",
+    EffectDesc = "\227\128\144\230\150\167\233\148\164\233\149\191\231\159\155\227\128\145+\227\128\144\229\133\148\229\173\144\230\139\150\233\158\139\227\128\145\239\188\154\227\128\144\232\191\158\229\136\186\230\148\187\229\135\187\227\128\145\231\154\132SP\230\182\136\232\128\151\233\153\141\228\189\14210%"
+  },
+  [481] = {
+    id = 481,
+    Suitid = {40003, 143509}
+  },
+  [482] = {
+    id = 482,
+    Suitid = {140003, 43509}
+  },
+  [483] = {
+    id = 483,
+    Suitid = {140003, 143509}
+  },
+  [490] = {
+    id = 490,
+    Suitid = {40003, 61511},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {91000170}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 40,
+    EquipSuitDsc = "[\230\150\167\233\148\164\233\149\191\231\159\155][\232\148\183\232\150\135\229\167\172\231\154\132\232\133\149\232\189\174]",
+    EffectDesc = "\227\128\144\230\150\167\233\148\164\233\149\191\231\159\155\227\128\145+\227\128\144\232\148\183\232\150\135\229\167\172\231\154\132\232\133\149\232\189\174\227\128\145\239\188\154\232\191\158\229\136\186\229\175\185\228\184\173\229\158\139\233\173\148\231\137\169\228\188\164\229\174\179\229\162\158\229\138\16010%\239\188\140\229\191\189\232\167\134\231\137\169\231\144\134\233\152\178\229\190\161+10%"
+  },
+  [491] = {
+    id = 491,
+    Suitid = {40003, 161511}
+  },
+  [492] = {
+    id = 492,
+    Suitid = {140003, 61511}
+  },
+  [493] = {
+    id = 493,
+    Suitid = {140003, 161511}
+  },
+  [500] = {
+    id = 500,
+    Suitid = {
+      42048,
+      43030,
+      42513
+    },
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = _EmptyTable,
+    SuitThreeAdd = {
+      buff = {91000180}
+    },
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 41,
+    EquipSuitDsc = "[\229\152\137\230\155\188\229\159\186\230\157\191\231\148\178][\229\164\154\232\138\153\231\154\132\230\150\151\231\175\183][\231\154\135\229\174\182\228\185\139\231\155\190]",
+    EffectDesc = "\227\128\144\229\152\137\230\155\188\229\159\186\230\157\191\231\148\178\227\128\145+\227\128\144\229\164\154\232\138\153\231\154\132\230\150\151\231\175\183\227\128\145+\227\128\144\231\154\135\229\174\182\228\185\139\231\155\190\227\128\145\239\188\154\233\173\148\228\188\164\229\135\143\229\133\141+10%"
+  },
+  [501] = {
+    id = 501,
+    Suitid = {
+      42048,
+      43030,
+      142513
+    }
+  },
+  [502] = {
+    id = 502,
+    Suitid = {
+      42048,
+      143030,
+      42513
+    }
+  },
+  [503] = {
+    id = 503,
+    Suitid = {
+      42048,
+      143030,
+      142513
+    }
+  },
+  [504] = {
+    id = 504,
+    Suitid = {
+      142048,
+      43030,
+      42513
+    }
+  },
+  [505] = {
+    id = 505,
+    Suitid = {
+      142048,
+      43030,
+      142513
+    }
+  },
+  [506] = {
+    id = 506,
+    Suitid = {
+      142048,
+      143030,
+      42513
+    }
+  },
+  [507] = {
+    id = 507,
+    Suitid = {
+      142048,
+      143030,
+      142513
+    }
+  },
+  [510] = {
+    id = 510,
+    Suitid = {40742, 42019},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {91000260}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 42,
+    EquipSuitDsc = "[\229\191\141\230\156\141\232\161\128\230\168\177][\232\128\131\229\176\148\229\190\183\231\159\173\229\137\145]",
+    EffectDesc = "\227\128\144\229\191\141\230\156\141\232\161\128\230\168\177\227\128\145+\227\128\144\232\128\131\229\176\148\229\190\183\231\159\173\229\137\145\227\128\145\239\188\154\230\148\187\233\128\159+6%"
+  },
+  [511] = {
+    id = 511,
+    Suitid = {40742, 142019}
+  },
+  [512] = {
+    id = 512,
+    Suitid = {140742, 42019}
+  },
+  [513] = {
+    id = 513,
+    Suitid = {140742, 142019}
+  },
+  [520] = {
+    id = 520,
+    Suitid = {42046, 40745},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {91000290}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 43,
+    EquipSuitDsc = "[\228\190\160\231\155\151\228\185\139\232\161\163][\231\137\153\231\167\145\230\137\139\230\156\175\229\136\128]",
+    EffectDesc = "\227\128\144\228\190\160\231\155\151\228\185\139\232\161\163\227\128\145+\227\128\144\231\137\153\231\167\145\230\137\139\230\156\175\229\136\128 \227\128\145\239\188\154\227\128\144\232\131\140\229\136\186\227\128\145\230\138\128\232\131\189\229\175\185\228\186\186\229\158\139\231\155\174\230\160\135\230\151\182\230\138\128\232\131\189\229\128\141\231\142\135+50%"
+  },
+  [521] = {
+    id = 521,
+    Suitid = {42046, 140745}
+  },
+  [522] = {
+    id = 522,
+    Suitid = {142046, 40745}
+  },
+  [523] = {
+    id = 523,
+    Suitid = {142046, 140745}
+  },
+  [530] = {
+    id = 530,
+    Suitid = {41545, 61014},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {91000300}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 44,
+    EquipSuitDsc = "[\232\137\190\229\176\148\229\190\183\228\185\139\233\148\164][\229\140\150\229\173\166\233\152\178\230\138\164\230\137\139\229\165\151]",
+    EffectDesc = "\227\128\144\232\137\190\229\176\148\229\190\183\228\185\139\233\148\164\227\128\145\239\188\139\227\128\144\229\140\150\229\173\166\233\152\178\230\138\164\230\137\139\229\165\151\227\128\145\239\188\154\227\128\144\229\188\186\233\133\184\231\129\171\231\132\176\230\138\149\230\142\183\227\128\145\228\188\164\229\174\179\239\188\13915%"
+  },
+  [531] = {
+    id = 531,
+    Suitid = {41545, 161014}
+  },
+  [532] = {
+    id = 532,
+    Suitid = {141545, 61014}
+  },
+  [533] = {
+    id = 533,
+    Suitid = {141545, 161014}
+  },
+  [540] = {
+    id = 540,
+    Suitid = {
+      45438,
+      48601,
+      48602
+    },
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = _EmptyTable,
+    SuitThreeAdd = {
+      buff = {91000310}
+    },
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 45,
+    EquipSuitDsc = "[\231\177\179\229\190\183\229\138\160\229\176\148\231\137\185\230\138\164\229\141\171\229\164\180\231\155\148][\231\177\179\229\190\183\229\138\160\229\176\148\231\137\185\230\138\164\231\155\174\233\149\156][\231\177\179\229\190\183\229\138\160\229\176\148\231\137\185\229\134\155\231\148\168\229\143\163\231\189\169]",
+    EffectDesc = "\227\128\144\231\177\179\229\190\183\229\138\160\229\176\148\231\137\185\230\138\164\229\141\171\229\164\180\231\155\148\227\128\145\239\188\139\227\128\144\231\177\179\229\190\183\229\138\160\229\176\148\231\137\185\230\138\164\231\155\174\233\149\156\227\128\145\239\188\139\227\128\144\231\177\179\229\190\183\229\138\160\229\176\148\231\137\185\229\134\155\231\148\168\229\143\163\231\189\169\227\128\145\239\188\154\228\186\186\229\189\162\231\167\141\230\151\143\229\135\143\228\188\164\239\188\13920%"
+  },
+  [541] = {
+    id = 541,
+    Suitid = {
+      145438,
+      48601,
+      48602
+    }
+  },
+  [550] = {
+    id = 550,
+    Suitid = {47051, 48018},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {91000320}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 46,
+    EquipSuitDsc = "[\231\177\179\229\190\183\229\138\160\229\176\148\231\137\185\232\161\140\229\134\155\232\131\140\229\140\133][\233\173\148\230\179\149\233\152\178\229\190\161\231\178\190\231\129\181]",
+    EffectDesc = "\227\128\144\231\177\179\229\190\183\229\138\160\229\176\148\231\137\185\232\161\140\229\134\155\232\131\140\229\140\133\227\128\145\239\188\139\227\128\144\233\173\148\230\179\149\233\152\178\229\190\161\231\178\190\231\129\181\227\128\145\239\188\154\231\137\169\228\188\164\229\135\143\229\133\141\239\188\1395%\239\188\140\233\173\148\228\188\164\229\135\143\229\133\141\239\188\1395%"
+  },
+  [560] = {
+    id = 560,
+    Suitid = {40015, 42077},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {91000400}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 47,
+    EquipSuitDsc = "[\231\154\135\229\174\182\228\185\139\231\159\155][\231\154\135\229\174\182\230\136\152\231\148\178]",
+    EffectDesc = "\227\128\144\231\154\135\229\174\182\228\185\139\231\159\155\227\128\145\239\188\139\227\128\144\231\154\135\229\174\182\230\136\152\231\148\178\227\128\145\239\188\154\229\143\151\229\136\176\230\157\165\232\135\170\227\128\144\231\137\186\231\137\178\227\128\145\231\154\132\228\188\164\229\174\179\233\153\141\228\189\142 10%"
+  },
+  [561] = {
+    id = 561,
+    Suitid = {40015, 142077}
+  },
+  [562] = {
+    id = 562,
+    Suitid = {140015, 42077}
+  },
+  [563] = {
+    id = 563,
+    Suitid = {140015, 142077}
+  },
+  [570] = {
+    id = 570,
+    Suitid = {
+      41526,
+      42076,
+      43552
+    },
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = _EmptyTable,
+    SuitThreeAdd = {
+      buff = {91000410}
+    },
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 48,
+    EquipSuitDsc = "[\229\174\161\229\136\164\228\185\139\233\148\164][\229\174\161\229\136\164\228\185\139\232\162\141][\229\174\161\229\136\164\228\185\139\233\157\180]",
+    EffectDesc = "\227\128\144\229\174\161\229\136\164\228\185\139\233\148\164\227\128\145\239\188\139\227\128\144\229\174\161\229\136\164\228\185\139\232\162\141\227\128\145\239\188\139\227\128\144\229\174\161\229\136\164\228\185\139\233\157\180\227\128\145\239\188\154\227\128\144\232\181\158\230\173\140\227\128\145\230\138\128\232\131\189\231\154\132\228\188\164\229\174\179\239\188\13910%"
+  },
+  [571] = {
+    id = 571,
+    Suitid = {
+      41526,
+      42076,
+      143552
+    }
+  },
+  [572] = {
+    id = 572,
+    Suitid = {
+      41526,
+      142076,
+      43552
+    }
+  },
+  [573] = {
+    id = 573,
+    Suitid = {
+      41526,
+      142076,
+      143552
+    }
+  },
+  [574] = {
+    id = 574,
+    Suitid = {
+      141526,
+      42076,
+      43552
+    }
+  },
+  [575] = {
+    id = 575,
+    Suitid = {
+      141526,
+      42076,
+      143552
+    }
+  },
+  [576] = {
+    id = 576,
+    Suitid = {
+      141526,
+      142076,
+      43552
+    }
+  },
+  [577] = {
+    id = 577,
+    Suitid = {
+      141526,
+      142076,
+      143552
+    }
+  },
+  [581] = {
+    id = 581,
+    Suitid = {41246, 43553},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {91000430}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 49,
+    EquipSuitDsc = "[\230\163\174\230\158\151\231\140\142\230\137\139][\231\153\189\231\191\188\228\185\139\233\157\180]",
+    EffectDesc = "\227\128\144\230\163\174\230\158\151\231\140\142\230\137\139\227\128\145\239\188\139\227\128\144\231\153\189\231\191\188\228\185\139\233\157\180\227\128\145\239\188\154\228\189\191\227\128\144\230\173\187\228\186\161\231\139\153\229\135\187\227\128\145\231\154\132\230\138\128\232\131\189\229\128\141\231\142\135\239\188\13950%"
+  },
+  [582] = {
+    id = 582,
+    Suitid = {41246, 143553}
+  },
+  [583] = {
+    id = 583,
+    Suitid = {141246, 43553}
+  },
+  [584] = {
+    id = 584,
+    Suitid = {141246, 143553}
+  },
+  [590] = {
+    id = 590,
+    Suitid = {40047, 44008},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {91000440}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 50,
+    EquipSuitDsc = "[\233\169\175\233\190\153\232\128\133\233\149\191\230\158\170][\230\176\184\230\129\146\230\136\146\230\140\135]",
+    EffectDesc = "\227\128\144\233\169\175\233\190\153\232\128\133\233\149\191\230\158\170\227\128\145\239\188\139\227\128\144\230\176\184\230\129\146\230\136\146\230\140\135\227\128\145\239\188\154\233\173\148\230\179\149\230\148\187\229\135\187\239\188\1393%\239\188\140\231\137\169\231\144\134\230\148\187\229\135\187\239\188\1393%\239\188\140\227\128\144\233\169\175\233\190\153\232\128\133\233\149\191\230\158\170\227\128\145\231\178\190\231\130\188\239\188\13910\228\187\165\228\184\138\230\151\182\239\188\140SP\230\182\136\232\128\151\239\188\14110%"
+  },
+  [591] = {
+    id = 591,
+    Suitid = {40047, 144008}
+  },
+  [592] = {
+    id = 592,
+    Suitid = {140047, 44008}
+  },
+  [593] = {
+    id = 593,
+    Suitid = {140047, 144008}
+  },
+  [600] = {
+    id = 600,
+    Suitid = {42080, 43557},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {91000450, 91000451}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 51,
+    EquipSuitDsc = "[\229\141\142\228\184\189\230\188\148\229\135\186\230\156\141][\232\136\158\232\185\136\233\158\139]",
+    EffectDesc = "\227\128\144\229\141\142\228\184\189\230\188\148\229\135\186\230\156\141\227\128\145\239\188\139\227\128\144\232\136\158\232\185\136\233\158\139\227\128\145\239\188\154\231\137\169\231\144\134\230\148\187\229\135\187\239\188\1395%\239\188\155\228\189\191\231\148\168\230\188\148\229\165\143\231\177\187\230\138\128\232\131\189\230\151\182\229\143\151\229\136\176\231\154\132\228\188\164\229\174\179\233\153\141\228\189\14210%"
+  },
+  [601] = {
+    id = 601,
+    Suitid = {42080, 143557}
+  },
+  [602] = {
+    id = 602,
+    Suitid = {142080, 43557}
+  },
+  [603] = {
+    id = 603,
+    Suitid = {142080, 143557}
+  },
+  [610] = {
+    id = 610,
+    Suitid = {43555, 40652},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {91000460}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 52,
+    EquipSuitDsc = "[\230\179\149\229\138\155\233\163\142\230\154\180\228\185\139\230\157\150\226\133\161][\230\179\149\229\138\155\233\163\142\230\154\180\228\185\139\233\157\180]",
+    EffectDesc = "\227\128\144\230\179\149\229\138\155\233\163\142\230\154\180\228\185\139\230\157\150\226\133\161\227\128\145\239\188\139\227\128\144\230\179\149\229\138\155\233\163\142\230\154\180\228\185\139\233\157\180\227\128\145\239\188\154\233\173\148\230\179\149\230\148\187\229\135\187\239\188\1395%\239\188\140\230\179\149\229\138\155\233\163\142\230\154\180\228\185\139\230\157\150\231\178\190\231\130\188\239\188\13910\230\151\182\239\188\140\233\173\148\230\179\149\230\148\187\229\135\187\239\188\13910%"
+  },
+  [611] = {
+    id = 611,
+    Suitid = {43555, 140652}
+  },
+  [612] = {
+    id = 612,
+    Suitid = {143555, 40652}
+  },
+  [613] = {
+    id = 613,
+    Suitid = {143555, 140652}
+  },
+  [620] = {
+    id = 620,
+    Suitid = {63417, 42557},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {91000470}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 53,
+    EquipSuitDsc = "[\232\180\164\232\128\133\230\151\165\232\174\176][\231\129\181\231\138\128\229\174\157\231\143\160]",
+    EffectDesc = "\227\128\144\232\180\164\232\128\133\230\151\165\232\174\176\227\128\145\239\188\139\227\128\144\231\129\181\231\138\128\229\174\157\231\143\160\227\128\145\239\188\154\228\189\191\227\128\144\231\129\171\231\174\173\230\156\175\227\128\145\227\128\144\229\134\176\231\174\173\230\156\175\227\128\145\227\128\144\233\155\183\229\135\187\230\156\175\227\128\145\231\154\132\228\188\164\229\174\179\239\188\13915%"
+  },
+  [621] = {
+    id = 621,
+    Suitid = {63417, 142557}
+  },
+  [622] = {
+    id = 622,
+    Suitid = {163417, 42557}
+  },
+  [623] = {
+    id = 623,
+    Suitid = {163417, 142557}
+  },
+  [630] = {
+    id = 630,
+    Suitid = {63433, 42081},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {91000480}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 54,
+    EquipSuitDsc = "[\229\134\183\230\190\136\228\185\139\233\173\148\230\179\149\228\185\166][\233\173\148\232\131\189\230\182\140\229\138\168\229\164\150\232\162\141]",
+    EffectDesc = "\227\128\144\229\134\183\230\190\136\228\185\139\233\173\148\230\179\149\228\185\166\227\128\145\239\188\139\227\128\144\233\173\148\232\131\189\230\182\140\229\138\168\229\164\150\232\162\141\227\128\145\239\188\154\230\176\180\229\177\158\230\128\167\230\148\187\229\135\187\239\188\13910%"
+  },
+  [631] = {
+    id = 631,
+    Suitid = {63433, 142081}
+  },
+  [632] = {
+    id = 632,
+    Suitid = {163433, 42081}
+  },
+  [633] = {
+    id = 633,
+    Suitid = {163433, 142081}
+  },
+  [640] = {
+    id = 640,
+    Suitid = {40055, 43509},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {91000530}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 55,
+    EquipSuitDsc = "[\230\136\174\233\173\130\233\149\191\231\159\155][\229\133\148\229\173\144\230\139\150\233\158\139]",
+    EffectDesc = "\227\128\144\230\136\174\233\173\130\233\149\191\231\159\155\227\128\145\239\188\139\227\128\144\229\133\148\229\173\144\230\139\150\233\158\139\227\128\145\239\188\154\227\128\144\232\191\158\229\136\186\230\148\187\229\135\187\227\128\145\231\154\132SP\230\182\136\232\128\151\233\153\141\228\189\14210%"
+  },
+  [641] = {
+    id = 641,
+    Suitid = {40055, 143509}
+  },
+  [642] = {
+    id = 642,
+    Suitid = {140055, 43509}
+  },
+  [643] = {
+    id = 643,
+    Suitid = {140055, 143509}
+  },
+  [650] = {
+    id = 650,
+    Suitid = {40055, 61511},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {91000540}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 56,
+    EquipSuitDsc = "[\230\136\174\233\173\130\233\149\191\231\159\155][\232\148\183\232\150\135\229\167\172\231\154\132\232\133\149\232\189\174]",
+    EffectDesc = "\227\128\144\230\136\174\233\173\130\233\149\191\231\159\155\227\128\145\239\188\139\227\128\144\232\148\183\232\150\135\229\167\172\231\154\132\232\133\149\232\189\174\227\128\145\239\188\154\232\191\158\229\136\186\229\175\185\228\184\173\229\158\139\233\173\148\231\137\169\228\188\164\229\174\179\229\162\158\229\138\16010%\239\188\140\229\191\189\232\167\134\231\137\169\231\144\134\233\152\178\229\190\161\239\188\13910%"
+  },
+  [651] = {
+    id = 651,
+    Suitid = {40055, 161511}
+  },
+  [652] = {
+    id = 652,
+    Suitid = {140055, 61511}
+  },
+  [653] = {
+    id = 653,
+    Suitid = {140055, 161511}
+  },
+  [660] = {
+    id = 660,
+    Suitid = {40057, 44008},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {91000550}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 57,
+    EquipSuitDsc = "[\229\183\168\233\190\153\229\146\134\229\147\174][\230\176\184\230\129\146\230\136\146\230\140\135]",
+    EffectDesc = "\227\128\144\229\183\168\233\190\153\229\146\134\229\147\174\227\128\145\239\188\139\227\128\144\230\176\184\230\129\146\230\136\146\230\140\135\227\128\145\239\188\154\233\173\148\230\179\149\230\148\187\229\135\187\239\188\1393%\239\188\140\231\137\169\231\144\134\230\148\187\229\135\187\239\188\1393%\239\188\140\227\128\144\229\183\168\233\190\153\229\146\134\229\147\174\227\128\145\231\178\190\231\130\188\239\188\13910\228\187\165\228\184\138\230\151\182\239\188\140SP\230\182\136\232\128\151\239\188\14110%"
+  },
+  [661] = {
+    id = 661,
+    Suitid = {40057, 144008}
+  },
+  [662] = {
+    id = 662,
+    Suitid = {140057, 44008}
+  },
+  [663] = {
+    id = 663,
+    Suitid = {140057, 144008}
+  },
+  [670] = {
+    id = 670,
+    Suitid = {40058, 42520},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {91000580}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 58,
+    EquipSuitDsc = "[\230\183\177\230\181\183\230\129\144\230\131\167][\229\168\156\232\191\166\233\179\158\231\155\190]",
+    EffectDesc = "\227\128\144\230\183\177\230\181\183\230\129\144\230\131\167\227\128\145\239\188\139\227\128\144\229\168\156\232\191\166\233\179\158\231\155\190\227\128\145\239\188\154\228\189\191\227\128\144\229\156\163\229\141\129\229\173\151\229\174\161\229\136\164\227\128\145\228\188\164\229\174\179\239\188\13950%"
+  },
+  [671] = {
+    id = 671,
+    Suitid = {40058, 142520}
+  },
+  [672] = {
+    id = 672,
+    Suitid = {140058, 42520}
+  },
+  [673] = {
+    id = 673,
+    Suitid = {140058, 142520}
+  },
+  [680] = {
+    id = 680,
+    Suitid = {41257, 44006},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {91000610}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 59,
+    EquipSuitDsc = "[\230\156\136\229\133\137\229\165\179\231\165\158][\230\156\136\228\186\174\232\131\184\233\146\136]",
+    EffectDesc = "\227\128\144\230\156\136\229\133\137\229\165\179\231\165\158\227\128\145\239\188\139\227\128\144\230\156\136\228\186\174\232\131\184\233\146\136\227\128\145\239\188\154\230\153\186\229\138\155\239\188\1394\227\128\129\233\173\148\230\179\149\228\184\138\233\153\144\239\188\13960\227\128\129SP\230\129\162\229\164\141\239\188\13920% "
+  },
+  [681] = {
+    id = 681,
+    Suitid = {41257, 144006}
+  },
+  [682] = {
+    id = 682,
+    Suitid = {141257, 44006}
+  },
+  [683] = {
+    id = 683,
+    Suitid = {141257, 144006}
+  },
+  [690] = {
+    id = 690,
+    Suitid = {40660, 44008},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {91000620}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 60,
+    EquipSuitDsc = "[\229\183\171\229\184\136\228\185\139\229\138\155][\230\176\184\230\129\146\230\136\146\230\140\135]",
+    EffectDesc = "\227\128\144\229\183\171\229\184\136\228\185\139\229\138\155\227\128\145\239\188\139\227\128\144\230\176\184\230\129\146\230\136\146\230\140\135\227\128\145\239\188\154\233\173\148\230\179\149\230\148\187\229\135\187\239\188\13915%\227\128\129\227\128\144\229\183\171\229\184\136\228\185\139\229\138\155\227\128\145\231\178\190\231\130\188\239\188\13910\228\187\165\228\184\138\230\151\182\239\188\140\229\143\175\229\143\152\229\144\159\229\148\177\230\151\182\233\151\180\239\188\14110%"
+  },
+  [691] = {
+    id = 691,
+    Suitid = {40660, 144008}
+  },
+  [692] = {
+    id = 692,
+    Suitid = {140660, 44008}
+  },
+  [693] = {
+    id = 693,
+    Suitid = {140660, 144008}
+  },
+  [700] = {
+    id = 700,
+    Suitid = {40944, 61011},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {91000630}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 61,
+    EquipSuitDsc = "[\230\173\187\228\186\161\229\136\135\229\137\178][\229\141\142\232\180\181\232\133\149\231\148\178]",
+    EffectDesc = "\227\128\144\230\173\187\228\186\161\229\136\135\229\137\178\227\128\145\239\188\139\227\128\144\229\141\142\232\180\181\232\133\149\231\148\178\227\128\145\239\188\154\230\175\1432%\232\163\133\229\164\135\230\148\187\233\128\159\232\189\172\230\141\1621\231\130\185\231\137\169\231\144\134\230\148\187\229\135\187\229\138\155"
+  },
+  [701] = {
+    id = 701,
+    Suitid = {40944, 161011}
+  },
+  [702] = {
+    id = 702,
+    Suitid = {140944, 61011}
+  },
+  [703] = {
+    id = 703,
+    Suitid = {140944, 161011}
+  },
+  [710] = {
+    id = 710,
+    Suitid = {40944, 43034},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {91000640}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 62,
+    EquipSuitDsc = "[\230\173\187\228\186\161\229\136\135\229\137\178][\233\163\142\232\161\140\232\128\133\230\150\151\231\175\183]",
+    EffectDesc = "\227\128\144\230\173\187\228\186\161\229\136\135\229\137\178\227\128\145\239\188\139\227\128\144\233\163\142\232\161\140\232\128\133\230\150\151\231\175\183\227\128\145\239\188\154\227\128\144\229\155\158\230\151\139\229\141\129\229\173\151\230\150\169\227\128\145\231\154\132\228\188\164\229\174\179\239\188\1395%"
+  },
+  [711] = {
+    id = 711,
+    Suitid = {40944, 143034}
+  },
+  [712] = {
+    id = 712,
+    Suitid = {140944, 43034}
+  },
+  [713] = {
+    id = 713,
+    Suitid = {140944, 143034}
+  },
+  [720] = {
+    id = 720,
+    Suitid = {40663, 44008},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {91000670}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 63,
+    EquipSuitDsc = "[\231\148\159\230\156\186\228\185\139\230\157\150][\230\176\184\230\129\146\230\136\146\230\140\135]",
+    EffectDesc = "\227\128\144\231\148\159\230\156\186\228\185\139\230\157\150\227\128\145\239\188\139\227\128\144\230\176\184\230\129\146\230\136\146\230\140\135\227\128\145\239\188\154\233\173\148\230\179\149\230\148\187\229\135\187\239\188\13915%\227\128\129\227\128\144\231\148\159\230\156\186\228\185\139\230\157\150\227\128\145\231\178\190\231\130\188\239\188\13910\228\187\165\228\184\138\230\151\182\239\188\140SP\230\129\162\229\164\141\239\188\13910%"
+  },
+  [721] = {
+    id = 721,
+    Suitid = {40663, 144008}
+  },
+  [722] = {
+    id = 722,
+    Suitid = {140663, 44008}
+  },
+  [723] = {
+    id = 723,
+    Suitid = {140663, 144008}
+  },
+  [730] = {
+    id = 730,
+    Suitid = {41567, 43551},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {91000700}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 64,
+    EquipSuitDsc = "[\233\133\184\232\154\128\228\185\139\232\167\166][\230\143\180\230\138\164\232\128\133\231\154\174\233\157\180]",
+    EffectDesc = "\227\128\144\233\133\184\232\154\128\228\185\139\232\167\166\227\128\145\239\188\139\227\128\144\230\143\180\230\138\164\232\128\133\231\154\174\233\157\180\227\128\145\239\188\154\228\189\191\227\128\144\231\148\159\229\145\189\232\141\175\230\176\180\230\138\149\230\142\183\227\128\145\229\146\140\227\128\144\233\173\148\229\138\155\232\141\175\230\176\180\230\138\149\230\142\183\227\128\145\231\154\132\230\149\136\230\158\156\233\162\157\229\164\150\230\143\144\229\141\135\239\188\13910%"
+  },
+  [731] = {
+    id = 731,
+    Suitid = {41567, 143551}
+  },
+  [732] = {
+    id = 732,
+    Suitid = {141567, 43551}
+  },
+  [733] = {
+    id = 733,
+    Suitid = {141567, 143551}
+  },
+  [740] = {
+    id = 740,
+    Suitid = {
+      41565,
+      42076,
+      43552
+    },
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = _EmptyTable,
+    SuitThreeAdd = {
+      buff = {91000690}
+    },
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 65,
+    EquipSuitDsc = "[\232\163\129\229\134\179\228\185\139\233\148\164][\229\174\161\229\136\164\228\185\139\232\162\141][\229\174\161\229\136\164\228\185\139\233\157\180]",
+    EffectDesc = "\227\128\144\232\163\129\229\134\179\228\185\139\233\148\164\227\128\145\239\188\139\227\128\144\229\174\161\229\136\164\228\185\139\232\162\141\227\128\145\239\188\139\227\128\144\229\174\161\229\136\164\228\185\139\233\157\180\227\128\145\239\188\154\227\128\144\232\181\158\230\173\140\227\128\145\230\138\128\232\131\189\231\154\132\228\188\164\229\174\179\239\188\13910%"
+  },
+  [741] = {
+    id = 741,
+    Suitid = {
+      41565,
+      42076,
+      143552
+    }
+  },
+  [742] = {
+    id = 742,
+    Suitid = {
+      41565,
+      142076,
+      43552
+    }
+  },
+  [743] = {
+    id = 743,
+    Suitid = {
+      41565,
+      142076,
+      143552
+    }
+  },
+  [744] = {
+    id = 744,
+    Suitid = {
+      141565,
+      42076,
+      43552
+    }
+  },
+  [745] = {
+    id = 745,
+    Suitid = {
+      141565,
+      42076,
+      143552
+    }
+  },
+  [746] = {
+    id = 746,
+    Suitid = {
+      141565,
+      142076,
+      43552
+    }
+  },
+  [747] = {
+    id = 747,
+    Suitid = {
+      141565,
+      142076,
+      143552
+    }
+  },
+  [750] = {
+    id = 750,
+    Suitid = {41567, 61014},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {91000710}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 66,
+    EquipSuitDsc = "[\233\133\184\232\154\128\228\185\139\232\167\166][\229\140\150\229\173\166\233\152\178\230\138\164\230\137\139\229\165\151]",
+    EffectDesc = "\227\128\144\233\133\184\232\154\128\228\185\139\232\167\166\227\128\145\239\188\139\227\128\144\229\140\150\229\173\166\233\152\178\230\138\164\230\137\139\229\165\151\227\128\145\239\188\154\227\128\144\229\188\186\233\133\184\231\129\171\231\131\159\231\147\182\230\138\149\230\142\183\227\128\145\228\188\164\229\174\179\239\188\13915%"
+  },
+  [751] = {
+    id = 751,
+    Suitid = {41567, 161014}
+  },
+  [752] = {
+    id = 752,
+    Suitid = {141567, 61014}
+  },
+  [753] = {
+    id = 753,
+    Suitid = {141567, 161014}
+  },
+  [760] = {
+    id = 760,
+    Suitid = {41871, 42074},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {91000720}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 67,
+    EquipSuitDsc = "[\231\160\180\231\129\173\230\136\152\230\150\167][\231\130\188\233\135\145\233\147\160\231\148\178]",
+    EffectDesc = "\227\128\144\231\160\180\231\129\173\230\136\152\230\150\167\227\128\145\239\188\139\227\128\144\231\130\188\233\135\145\233\147\160\231\148\178\227\128\145\239\188\154\230\175\143\230\172\161\230\153\174\233\128\154\230\148\187\229\135\187\229\143\175\228\189\191\226\128\156\232\137\190\231\177\179\230\150\175\229\143\175\233\178\129\226\128\157\231\137\169\231\144\134\230\148\187\229\135\187\239\188\1393%\239\188\140\230\140\129\231\187\1735\231\167\146\239\188\140\230\156\128\229\164\154\229\143\175\229\143\1603\229\177\130"
+  },
+  [761] = {
+    id = 761,
+    Suitid = {41871, 142074}
+  },
+  [762] = {
+    id = 762,
+    Suitid = {141871, 42074}
+  },
+  [763] = {
+    id = 763,
+    Suitid = {141871, 142074}
+  },
+  [770] = {
+    id = 770,
+    Suitid = {
+      145888,
+      48651,
+      48652,
+      47123,
+      48043
+    },
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = _EmptyTable,
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = {
+      buff = {91000740}
+    },
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 68,
+    EquipSuitDsc = "[\228\188\160\232\175\180\231\191\188\231\155\148][\230\150\151\229\163\171\228\185\139\231\186\185][\230\136\152\231\165\158\230\151\151\229\184\156][\228\188\160\232\175\180\228\185\139\230\157\175][\230\148\182\229\137\178\232\128\133\229\140\149\233\166\150]",
+    EffectDesc = "\227\128\144\228\188\160\232\175\180\231\191\188\231\155\148\227\128\145\239\188\139\227\128\144\230\150\151\229\163\171\228\185\139\231\186\185\227\128\145\239\188\139\227\128\144\230\136\152\231\165\158\230\151\151\229\184\156\227\128\145\239\188\139\227\128\144\228\188\160\232\175\180\228\185\139\230\157\175\227\128\145\239\188\139\227\128\144\230\148\182\229\137\178\232\128\133\229\140\149\233\166\150\227\128\145\239\188\154\231\148\159\229\145\189\228\184\138\233\153\144\239\188\1395000\239\188\140\228\186\186\229\189\162\231\167\141\230\151\143\229\138\160\228\188\164\239\188\13930%"
+  },
+  [780] = {
+    id = 780,
+    Suitid = {42518, 41568},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {91000750}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 69,
+    EquipSuitDsc = "[\233\169\177\233\173\148\229\156\163\231\187\143][\229\142\132\229\136\169\229\176\188\229\142\132\230\150\175\228\185\139\230\157\150]",
+    EffectDesc = "\228\189\191\231\148\168\227\128\144\229\141\129\229\173\151\233\169\177\233\173\148\230\148\187\229\135\187\227\128\145\228\188\164\229\174\179\230\143\144\229\141\13520%"
+  },
+  [781] = {
+    id = 781,
+    Suitid = {42518, 141568}
+  },
+  [782] = {
+    id = 782,
+    Suitid = {142518, 41568}
+  },
+  [783] = {
+    id = 783,
+    Suitid = {142518, 141568}
+  },
+  [790] = {
+    id = 790,
+    Suitid = {43016, 40671},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {91000760}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 70,
+    EquipSuitDsc = "[\230\152\159\229\177\145\233\190\153\228\185\139\230\157\150][\231\148\159\229\173\152\230\150\151\231\175\183]",
+    EffectDesc = "\227\128\144\230\152\159\229\177\145\233\190\153\228\185\139\230\157\150\227\128\145\239\188\139\227\128\144\231\148\159\229\173\152\230\150\151\231\175\183\227\128\145\239\188\154\231\137\169\228\188\164\229\135\143\229\133\141\239\188\13910%\227\128\129\227\128\144\231\148\159\229\173\152\230\150\151\231\175\183\227\128\145\230\175\143\231\178\190\231\130\188\239\188\1391\239\188\140\231\137\169\228\188\164\229\135\143\229\133\141\239\188\1391%\239\188\140\230\156\128\229\164\154\229\143\175\232\190\19010%"
+  },
+  [791] = {
+    id = 791,
+    Suitid = {43016, 140671}
+  },
+  [792] = {
+    id = 792,
+    Suitid = {143016, 40671}
+  },
+  [793] = {
+    id = 793,
+    Suitid = {143016, 140671}
+  },
+  [800] = {
+    id = 800,
+    Suitid = {63440, 42557},
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = {
+      buff = {91000770}
+    },
+    SuitThreeAdd = _EmptyTable,
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 71,
+    EquipSuitDsc = "[\231\165\158\232\180\164\231\154\132\230\137\139\232\180\166\230\156\172][\231\129\181\231\138\128\229\174\157\231\143\160]",
+    EffectDesc = "\227\128\144\231\165\158\232\180\164\231\154\132\230\137\139\232\180\166\230\156\172\227\128\145\239\188\139\227\128\144\231\129\181\231\138\128\229\174\157\231\143\160\227\128\145\239\188\154\228\189\191\227\128\144\231\129\171\231\174\173\230\156\175\227\128\145\227\128\144\229\134\176\231\174\173\230\156\175\227\128\145\227\128\144\233\155\183\229\135\187\230\156\175\227\128\145\231\154\132\228\188\164\229\174\179\239\188\13915%"
+  },
+  [801] = {
+    id = 801,
+    Suitid = {63440, 142557}
+  },
+  [802] = {
+    id = 802,
+    Suitid = {163440, 42557}
+  },
+  [803] = {
+    id = 803,
+    Suitid = {163440, 142557}
+  },
+  [810] = {
+    id = 810,
+    Suitid = {
+      145201,
+      47055,
+      48049
+    },
+    SuitOneAdd = _EmptyTable,
+    SuitTwoAdd = _EmptyTable,
+    SuitThreeAdd = {
+      buff = {91000780}
+    },
+    SuitFourAdd = _EmptyTable,
+    SuitFiveAdd = _EmptyTable,
+    SuitSixAdd = _EmptyTable,
+    RefineBuff = _EmptyTable,
+    SameTeam = 72,
+    EquipSuitDsc = "[\230\129\182\229\133\189\229\164\180\229\134\160][\227\128\144\229\185\180\227\128\145][\230\129\182\229\133\189\228\185\139\229\176\190]",
+    EffectDesc = "\231\167\187\229\138\168\233\128\159\229\186\166\239\188\13915%"
+  }
 }
-setmetatable(Table_EquipSuit[101],{__index = Table_EquipSuit[100]})
-setmetatable(Table_EquipSuit[102],{__index = Table_EquipSuit[100]})
-setmetatable(Table_EquipSuit[103],{__index = Table_EquipSuit[100]})
-setmetatable(Table_EquipSuit[104],{__index = Table_EquipSuit[100]})
-setmetatable(Table_EquipSuit[105],{__index = Table_EquipSuit[100]})
-setmetatable(Table_EquipSuit[106],{__index = Table_EquipSuit[100]})
-setmetatable(Table_EquipSuit[107],{__index = Table_EquipSuit[100]})
-setmetatable(Table_EquipSuit[111],{__index = Table_EquipSuit[110]})
-setmetatable(Table_EquipSuit[112],{__index = Table_EquipSuit[110]})
-setmetatable(Table_EquipSuit[113],{__index = Table_EquipSuit[110]})
-setmetatable(Table_EquipSuit[114],{__index = Table_EquipSuit[110]})
-setmetatable(Table_EquipSuit[115],{__index = Table_EquipSuit[110]})
-setmetatable(Table_EquipSuit[116],{__index = Table_EquipSuit[110]})
-setmetatable(Table_EquipSuit[117],{__index = Table_EquipSuit[110]})
-setmetatable(Table_EquipSuit[121],{__index = Table_EquipSuit[120]})
-setmetatable(Table_EquipSuit[131],{__index = Table_EquipSuit[130]})
-setmetatable(Table_EquipSuit[132],{__index = Table_EquipSuit[130]})
-setmetatable(Table_EquipSuit[133],{__index = Table_EquipSuit[130]})
-setmetatable(Table_EquipSuit[134],{__index = Table_EquipSuit[130]})
-setmetatable(Table_EquipSuit[135],{__index = Table_EquipSuit[130]})
-setmetatable(Table_EquipSuit[136],{__index = Table_EquipSuit[130]})
-setmetatable(Table_EquipSuit[137],{__index = Table_EquipSuit[130]})
-setmetatable(Table_EquipSuit[141],{__index = Table_EquipSuit[140]})
-setmetatable(Table_EquipSuit[142],{__index = Table_EquipSuit[140]})
-setmetatable(Table_EquipSuit[143],{__index = Table_EquipSuit[140]})
-setmetatable(Table_EquipSuit[151],{__index = Table_EquipSuit[150]})
-setmetatable(Table_EquipSuit[152],{__index = Table_EquipSuit[150]})
-setmetatable(Table_EquipSuit[153],{__index = Table_EquipSuit[150]})
-setmetatable(Table_EquipSuit[161],{__index = Table_EquipSuit[160]})
-setmetatable(Table_EquipSuit[162],{__index = Table_EquipSuit[160]})
-setmetatable(Table_EquipSuit[163],{__index = Table_EquipSuit[160]})
-setmetatable(Table_EquipSuit[171],{__index = Table_EquipSuit[170]})
-setmetatable(Table_EquipSuit[172],{__index = Table_EquipSuit[170]})
-setmetatable(Table_EquipSuit[173],{__index = Table_EquipSuit[170]})
-setmetatable(Table_EquipSuit[181],{__index = Table_EquipSuit[180]})
-setmetatable(Table_EquipSuit[182],{__index = Table_EquipSuit[180]})
-setmetatable(Table_EquipSuit[183],{__index = Table_EquipSuit[180]})
-setmetatable(Table_EquipSuit[191],{__index = Table_EquipSuit[190]})
-setmetatable(Table_EquipSuit[192],{__index = Table_EquipSuit[190]})
-setmetatable(Table_EquipSuit[193],{__index = Table_EquipSuit[190]})
-setmetatable(Table_EquipSuit[201],{__index = Table_EquipSuit[200]})
-setmetatable(Table_EquipSuit[202],{__index = Table_EquipSuit[200]})
-setmetatable(Table_EquipSuit[203],{__index = Table_EquipSuit[200]})
-setmetatable(Table_EquipSuit[204],{__index = Table_EquipSuit[200]})
-setmetatable(Table_EquipSuit[205],{__index = Table_EquipSuit[200]})
-setmetatable(Table_EquipSuit[206],{__index = Table_EquipSuit[200]})
-setmetatable(Table_EquipSuit[207],{__index = Table_EquipSuit[200]})
-setmetatable(Table_EquipSuit[211],{__index = Table_EquipSuit[210]})
-setmetatable(Table_EquipSuit[212],{__index = Table_EquipSuit[210]})
-setmetatable(Table_EquipSuit[213],{__index = Table_EquipSuit[210]})
-setmetatable(Table_EquipSuit[214],{__index = Table_EquipSuit[210]})
-setmetatable(Table_EquipSuit[215],{__index = Table_EquipSuit[210]})
-setmetatable(Table_EquipSuit[216],{__index = Table_EquipSuit[210]})
-setmetatable(Table_EquipSuit[217],{__index = Table_EquipSuit[210]})
-setmetatable(Table_EquipSuit[221],{__index = Table_EquipSuit[220]})
-setmetatable(Table_EquipSuit[222],{__index = Table_EquipSuit[220]})
-setmetatable(Table_EquipSuit[223],{__index = Table_EquipSuit[220]})
-setmetatable(Table_EquipSuit[231],{__index = Table_EquipSuit[230]})
-setmetatable(Table_EquipSuit[232],{__index = Table_EquipSuit[230]})
-setmetatable(Table_EquipSuit[233],{__index = Table_EquipSuit[230]})
-setmetatable(Table_EquipSuit[241],{__index = Table_EquipSuit[240]})
-setmetatable(Table_EquipSuit[251],{__index = Table_EquipSuit[250]})
-setmetatable(Table_EquipSuit[261],{__index = Table_EquipSuit[260]})
-setmetatable(Table_EquipSuit[271],{__index = Table_EquipSuit[270]})
-setmetatable(Table_EquipSuit[281],{__index = Table_EquipSuit[280]})
-setmetatable(Table_EquipSuit[282],{__index = Table_EquipSuit[280]})
-setmetatable(Table_EquipSuit[283],{__index = Table_EquipSuit[280]})
-setmetatable(Table_EquipSuit[291],{__index = Table_EquipSuit[290]})
-setmetatable(Table_EquipSuit[292],{__index = Table_EquipSuit[290]})
-setmetatable(Table_EquipSuit[293],{__index = Table_EquipSuit[290]})
-setmetatable(Table_EquipSuit[301],{__index = Table_EquipSuit[300]})
-setmetatable(Table_EquipSuit[302],{__index = Table_EquipSuit[300]})
-setmetatable(Table_EquipSuit[303],{__index = Table_EquipSuit[300]})
-setmetatable(Table_EquipSuit[311],{__index = Table_EquipSuit[310]})
-setmetatable(Table_EquipSuit[312],{__index = Table_EquipSuit[310]})
-setmetatable(Table_EquipSuit[313],{__index = Table_EquipSuit[310]})
-setmetatable(Table_EquipSuit[321],{__index = Table_EquipSuit[320]})
-setmetatable(Table_EquipSuit[322],{__index = Table_EquipSuit[320]})
-setmetatable(Table_EquipSuit[323],{__index = Table_EquipSuit[320]})
-setmetatable(Table_EquipSuit[331],{__index = Table_EquipSuit[330]})
-setmetatable(Table_EquipSuit[332],{__index = Table_EquipSuit[330]})
-setmetatable(Table_EquipSuit[333],{__index = Table_EquipSuit[330]})
-setmetatable(Table_EquipSuit[341],{__index = Table_EquipSuit[340]})
-setmetatable(Table_EquipSuit[351],{__index = Table_EquipSuit[350]})
-setmetatable(Table_EquipSuit[352],{__index = Table_EquipSuit[350]})
-setmetatable(Table_EquipSuit[353],{__index = Table_EquipSuit[350]})
-setmetatable(Table_EquipSuit[361],{__index = Table_EquipSuit[360]})
-setmetatable(Table_EquipSuit[362],{__index = Table_EquipSuit[360]})
-setmetatable(Table_EquipSuit[363],{__index = Table_EquipSuit[360]})
-setmetatable(Table_EquipSuit[371],{__index = Table_EquipSuit[370]})
-setmetatable(Table_EquipSuit[372],{__index = Table_EquipSuit[370]})
-setmetatable(Table_EquipSuit[373],{__index = Table_EquipSuit[370]})
-setmetatable(Table_EquipSuit[381],{__index = Table_EquipSuit[380]})
-setmetatable(Table_EquipSuit[382],{__index = Table_EquipSuit[380]})
-setmetatable(Table_EquipSuit[383],{__index = Table_EquipSuit[380]})
-setmetatable(Table_EquipSuit[391],{__index = Table_EquipSuit[390]})
-setmetatable(Table_EquipSuit[392],{__index = Table_EquipSuit[390]})
-setmetatable(Table_EquipSuit[393],{__index = Table_EquipSuit[390]})
-setmetatable(Table_EquipSuit[401],{__index = Table_EquipSuit[400]})
-setmetatable(Table_EquipSuit[402],{__index = Table_EquipSuit[400]})
-setmetatable(Table_EquipSuit[403],{__index = Table_EquipSuit[400]})
-setmetatable(Table_EquipSuit[430],{__index = Table_EquipSuit[420]})
-setmetatable(Table_EquipSuit[451],{__index = Table_EquipSuit[450]})
-setmetatable(Table_EquipSuit[452],{__index = Table_EquipSuit[450]})
-setmetatable(Table_EquipSuit[453],{__index = Table_EquipSuit[450]})
-setmetatable(Table_EquipSuit[461],{__index = Table_EquipSuit[460]})
-setmetatable(Table_EquipSuit[462],{__index = Table_EquipSuit[460]})
-setmetatable(Table_EquipSuit[463],{__index = Table_EquipSuit[460]})
-setmetatable(Table_EquipSuit[464],{__index = Table_EquipSuit[460]})
-setmetatable(Table_EquipSuit[465],{__index = Table_EquipSuit[460]})
-setmetatable(Table_EquipSuit[466],{__index = Table_EquipSuit[460]})
-setmetatable(Table_EquipSuit[467],{__index = Table_EquipSuit[460]})
-setmetatable(Table_EquipSuit[471],{__index = Table_EquipSuit[470]})
-setmetatable(Table_EquipSuit[472],{__index = Table_EquipSuit[470]})
-setmetatable(Table_EquipSuit[473],{__index = Table_EquipSuit[470]})
-setmetatable(Table_EquipSuit[481],{__index = Table_EquipSuit[480]})
-setmetatable(Table_EquipSuit[482],{__index = Table_EquipSuit[480]})
-setmetatable(Table_EquipSuit[483],{__index = Table_EquipSuit[480]})
-setmetatable(Table_EquipSuit[491],{__index = Table_EquipSuit[490]})
-setmetatable(Table_EquipSuit[492],{__index = Table_EquipSuit[490]})
-setmetatable(Table_EquipSuit[493],{__index = Table_EquipSuit[490]})
-setmetatable(Table_EquipSuit[501],{__index = Table_EquipSuit[500]})
-setmetatable(Table_EquipSuit[502],{__index = Table_EquipSuit[500]})
-setmetatable(Table_EquipSuit[503],{__index = Table_EquipSuit[500]})
-setmetatable(Table_EquipSuit[504],{__index = Table_EquipSuit[500]})
-setmetatable(Table_EquipSuit[505],{__index = Table_EquipSuit[500]})
-setmetatable(Table_EquipSuit[506],{__index = Table_EquipSuit[500]})
-setmetatable(Table_EquipSuit[507],{__index = Table_EquipSuit[500]})
-setmetatable(Table_EquipSuit[511],{__index = Table_EquipSuit[510]})
-setmetatable(Table_EquipSuit[512],{__index = Table_EquipSuit[510]})
-setmetatable(Table_EquipSuit[513],{__index = Table_EquipSuit[510]})
-setmetatable(Table_EquipSuit[521],{__index = Table_EquipSuit[520]})
-setmetatable(Table_EquipSuit[522],{__index = Table_EquipSuit[520]})
-setmetatable(Table_EquipSuit[523],{__index = Table_EquipSuit[520]})
-setmetatable(Table_EquipSuit[531],{__index = Table_EquipSuit[530]})
-setmetatable(Table_EquipSuit[532],{__index = Table_EquipSuit[530]})
-setmetatable(Table_EquipSuit[533],{__index = Table_EquipSuit[530]})
-setmetatable(Table_EquipSuit[541],{__index = Table_EquipSuit[540]})
-setmetatable(Table_EquipSuit[561],{__index = Table_EquipSuit[560]})
-setmetatable(Table_EquipSuit[562],{__index = Table_EquipSuit[560]})
-setmetatable(Table_EquipSuit[563],{__index = Table_EquipSuit[560]})
-setmetatable(Table_EquipSuit[571],{__index = Table_EquipSuit[570]})
-setmetatable(Table_EquipSuit[572],{__index = Table_EquipSuit[570]})
-setmetatable(Table_EquipSuit[573],{__index = Table_EquipSuit[570]})
-setmetatable(Table_EquipSuit[574],{__index = Table_EquipSuit[570]})
-setmetatable(Table_EquipSuit[575],{__index = Table_EquipSuit[570]})
-setmetatable(Table_EquipSuit[576],{__index = Table_EquipSuit[570]})
-setmetatable(Table_EquipSuit[577],{__index = Table_EquipSuit[570]})
-setmetatable(Table_EquipSuit[582],{__index = Table_EquipSuit[581]})
-setmetatable(Table_EquipSuit[583],{__index = Table_EquipSuit[581]})
-setmetatable(Table_EquipSuit[584],{__index = Table_EquipSuit[581]})
-setmetatable(Table_EquipSuit[591],{__index = Table_EquipSuit[590]})
-setmetatable(Table_EquipSuit[592],{__index = Table_EquipSuit[590]})
-setmetatable(Table_EquipSuit[593],{__index = Table_EquipSuit[590]})
+setmetatable(Table_EquipSuit[101], {
+  __index = Table_EquipSuit[100]
+})
+setmetatable(Table_EquipSuit[102], {
+  __index = Table_EquipSuit[100]
+})
+setmetatable(Table_EquipSuit[103], {
+  __index = Table_EquipSuit[100]
+})
+setmetatable(Table_EquipSuit[104], {
+  __index = Table_EquipSuit[100]
+})
+setmetatable(Table_EquipSuit[105], {
+  __index = Table_EquipSuit[100]
+})
+setmetatable(Table_EquipSuit[106], {
+  __index = Table_EquipSuit[100]
+})
+setmetatable(Table_EquipSuit[107], {
+  __index = Table_EquipSuit[100]
+})
+setmetatable(Table_EquipSuit[111], {
+  __index = Table_EquipSuit[110]
+})
+setmetatable(Table_EquipSuit[112], {
+  __index = Table_EquipSuit[110]
+})
+setmetatable(Table_EquipSuit[113], {
+  __index = Table_EquipSuit[110]
+})
+setmetatable(Table_EquipSuit[114], {
+  __index = Table_EquipSuit[110]
+})
+setmetatable(Table_EquipSuit[115], {
+  __index = Table_EquipSuit[110]
+})
+setmetatable(Table_EquipSuit[116], {
+  __index = Table_EquipSuit[110]
+})
+setmetatable(Table_EquipSuit[117], {
+  __index = Table_EquipSuit[110]
+})
+setmetatable(Table_EquipSuit[121], {
+  __index = Table_EquipSuit[120]
+})
+setmetatable(Table_EquipSuit[131], {
+  __index = Table_EquipSuit[130]
+})
+setmetatable(Table_EquipSuit[132], {
+  __index = Table_EquipSuit[130]
+})
+setmetatable(Table_EquipSuit[133], {
+  __index = Table_EquipSuit[130]
+})
+setmetatable(Table_EquipSuit[134], {
+  __index = Table_EquipSuit[130]
+})
+setmetatable(Table_EquipSuit[135], {
+  __index = Table_EquipSuit[130]
+})
+setmetatable(Table_EquipSuit[136], {
+  __index = Table_EquipSuit[130]
+})
+setmetatable(Table_EquipSuit[137], {
+  __index = Table_EquipSuit[130]
+})
+setmetatable(Table_EquipSuit[141], {
+  __index = Table_EquipSuit[140]
+})
+setmetatable(Table_EquipSuit[142], {
+  __index = Table_EquipSuit[140]
+})
+setmetatable(Table_EquipSuit[143], {
+  __index = Table_EquipSuit[140]
+})
+setmetatable(Table_EquipSuit[151], {
+  __index = Table_EquipSuit[150]
+})
+setmetatable(Table_EquipSuit[152], {
+  __index = Table_EquipSuit[150]
+})
+setmetatable(Table_EquipSuit[153], {
+  __index = Table_EquipSuit[150]
+})
+setmetatable(Table_EquipSuit[161], {
+  __index = Table_EquipSuit[160]
+})
+setmetatable(Table_EquipSuit[162], {
+  __index = Table_EquipSuit[160]
+})
+setmetatable(Table_EquipSuit[163], {
+  __index = Table_EquipSuit[160]
+})
+setmetatable(Table_EquipSuit[171], {
+  __index = Table_EquipSuit[170]
+})
+setmetatable(Table_EquipSuit[172], {
+  __index = Table_EquipSuit[170]
+})
+setmetatable(Table_EquipSuit[173], {
+  __index = Table_EquipSuit[170]
+})
+setmetatable(Table_EquipSuit[181], {
+  __index = Table_EquipSuit[180]
+})
+setmetatable(Table_EquipSuit[182], {
+  __index = Table_EquipSuit[180]
+})
+setmetatable(Table_EquipSuit[183], {
+  __index = Table_EquipSuit[180]
+})
+setmetatable(Table_EquipSuit[191], {
+  __index = Table_EquipSuit[190]
+})
+setmetatable(Table_EquipSuit[192], {
+  __index = Table_EquipSuit[190]
+})
+setmetatable(Table_EquipSuit[193], {
+  __index = Table_EquipSuit[190]
+})
+setmetatable(Table_EquipSuit[201], {
+  __index = Table_EquipSuit[200]
+})
+setmetatable(Table_EquipSuit[202], {
+  __index = Table_EquipSuit[200]
+})
+setmetatable(Table_EquipSuit[203], {
+  __index = Table_EquipSuit[200]
+})
+setmetatable(Table_EquipSuit[204], {
+  __index = Table_EquipSuit[200]
+})
+setmetatable(Table_EquipSuit[205], {
+  __index = Table_EquipSuit[200]
+})
+setmetatable(Table_EquipSuit[206], {
+  __index = Table_EquipSuit[200]
+})
+setmetatable(Table_EquipSuit[207], {
+  __index = Table_EquipSuit[200]
+})
+setmetatable(Table_EquipSuit[211], {
+  __index = Table_EquipSuit[210]
+})
+setmetatable(Table_EquipSuit[212], {
+  __index = Table_EquipSuit[210]
+})
+setmetatable(Table_EquipSuit[213], {
+  __index = Table_EquipSuit[210]
+})
+setmetatable(Table_EquipSuit[214], {
+  __index = Table_EquipSuit[210]
+})
+setmetatable(Table_EquipSuit[215], {
+  __index = Table_EquipSuit[210]
+})
+setmetatable(Table_EquipSuit[216], {
+  __index = Table_EquipSuit[210]
+})
+setmetatable(Table_EquipSuit[217], {
+  __index = Table_EquipSuit[210]
+})
+setmetatable(Table_EquipSuit[221], {
+  __index = Table_EquipSuit[220]
+})
+setmetatable(Table_EquipSuit[222], {
+  __index = Table_EquipSuit[220]
+})
+setmetatable(Table_EquipSuit[223], {
+  __index = Table_EquipSuit[220]
+})
+setmetatable(Table_EquipSuit[231], {
+  __index = Table_EquipSuit[230]
+})
+setmetatable(Table_EquipSuit[232], {
+  __index = Table_EquipSuit[230]
+})
+setmetatable(Table_EquipSuit[233], {
+  __index = Table_EquipSuit[230]
+})
+setmetatable(Table_EquipSuit[241], {
+  __index = Table_EquipSuit[240]
+})
+setmetatable(Table_EquipSuit[251], {
+  __index = Table_EquipSuit[250]
+})
+setmetatable(Table_EquipSuit[261], {
+  __index = Table_EquipSuit[260]
+})
+setmetatable(Table_EquipSuit[271], {
+  __index = Table_EquipSuit[270]
+})
+setmetatable(Table_EquipSuit[281], {
+  __index = Table_EquipSuit[280]
+})
+setmetatable(Table_EquipSuit[282], {
+  __index = Table_EquipSuit[280]
+})
+setmetatable(Table_EquipSuit[283], {
+  __index = Table_EquipSuit[280]
+})
+setmetatable(Table_EquipSuit[291], {
+  __index = Table_EquipSuit[290]
+})
+setmetatable(Table_EquipSuit[292], {
+  __index = Table_EquipSuit[290]
+})
+setmetatable(Table_EquipSuit[293], {
+  __index = Table_EquipSuit[290]
+})
+setmetatable(Table_EquipSuit[301], {
+  __index = Table_EquipSuit[300]
+})
+setmetatable(Table_EquipSuit[302], {
+  __index = Table_EquipSuit[300]
+})
+setmetatable(Table_EquipSuit[303], {
+  __index = Table_EquipSuit[300]
+})
+setmetatable(Table_EquipSuit[311], {
+  __index = Table_EquipSuit[310]
+})
+setmetatable(Table_EquipSuit[312], {
+  __index = Table_EquipSuit[310]
+})
+setmetatable(Table_EquipSuit[313], {
+  __index = Table_EquipSuit[310]
+})
+setmetatable(Table_EquipSuit[321], {
+  __index = Table_EquipSuit[320]
+})
+setmetatable(Table_EquipSuit[322], {
+  __index = Table_EquipSuit[320]
+})
+setmetatable(Table_EquipSuit[323], {
+  __index = Table_EquipSuit[320]
+})
+setmetatable(Table_EquipSuit[331], {
+  __index = Table_EquipSuit[330]
+})
+setmetatable(Table_EquipSuit[332], {
+  __index = Table_EquipSuit[330]
+})
+setmetatable(Table_EquipSuit[333], {
+  __index = Table_EquipSuit[330]
+})
+setmetatable(Table_EquipSuit[341], {
+  __index = Table_EquipSuit[340]
+})
+setmetatable(Table_EquipSuit[351], {
+  __index = Table_EquipSuit[350]
+})
+setmetatable(Table_EquipSuit[352], {
+  __index = Table_EquipSuit[350]
+})
+setmetatable(Table_EquipSuit[353], {
+  __index = Table_EquipSuit[350]
+})
+setmetatable(Table_EquipSuit[361], {
+  __index = Table_EquipSuit[360]
+})
+setmetatable(Table_EquipSuit[362], {
+  __index = Table_EquipSuit[360]
+})
+setmetatable(Table_EquipSuit[363], {
+  __index = Table_EquipSuit[360]
+})
+setmetatable(Table_EquipSuit[371], {
+  __index = Table_EquipSuit[370]
+})
+setmetatable(Table_EquipSuit[372], {
+  __index = Table_EquipSuit[370]
+})
+setmetatable(Table_EquipSuit[373], {
+  __index = Table_EquipSuit[370]
+})
+setmetatable(Table_EquipSuit[381], {
+  __index = Table_EquipSuit[380]
+})
+setmetatable(Table_EquipSuit[382], {
+  __index = Table_EquipSuit[380]
+})
+setmetatable(Table_EquipSuit[383], {
+  __index = Table_EquipSuit[380]
+})
+setmetatable(Table_EquipSuit[391], {
+  __index = Table_EquipSuit[390]
+})
+setmetatable(Table_EquipSuit[392], {
+  __index = Table_EquipSuit[390]
+})
+setmetatable(Table_EquipSuit[393], {
+  __index = Table_EquipSuit[390]
+})
+setmetatable(Table_EquipSuit[401], {
+  __index = Table_EquipSuit[400]
+})
+setmetatable(Table_EquipSuit[402], {
+  __index = Table_EquipSuit[400]
+})
+setmetatable(Table_EquipSuit[403], {
+  __index = Table_EquipSuit[400]
+})
+setmetatable(Table_EquipSuit[430], {
+  __index = Table_EquipSuit[420]
+})
+setmetatable(Table_EquipSuit[451], {
+  __index = Table_EquipSuit[450]
+})
+setmetatable(Table_EquipSuit[452], {
+  __index = Table_EquipSuit[450]
+})
+setmetatable(Table_EquipSuit[453], {
+  __index = Table_EquipSuit[450]
+})
+setmetatable(Table_EquipSuit[461], {
+  __index = Table_EquipSuit[460]
+})
+setmetatable(Table_EquipSuit[462], {
+  __index = Table_EquipSuit[460]
+})
+setmetatable(Table_EquipSuit[463], {
+  __index = Table_EquipSuit[460]
+})
+setmetatable(Table_EquipSuit[464], {
+  __index = Table_EquipSuit[460]
+})
+setmetatable(Table_EquipSuit[465], {
+  __index = Table_EquipSuit[460]
+})
+setmetatable(Table_EquipSuit[466], {
+  __index = Table_EquipSuit[460]
+})
+setmetatable(Table_EquipSuit[467], {
+  __index = Table_EquipSuit[460]
+})
+setmetatable(Table_EquipSuit[471], {
+  __index = Table_EquipSuit[470]
+})
+setmetatable(Table_EquipSuit[472], {
+  __index = Table_EquipSuit[470]
+})
+setmetatable(Table_EquipSuit[473], {
+  __index = Table_EquipSuit[470]
+})
+setmetatable(Table_EquipSuit[481], {
+  __index = Table_EquipSuit[480]
+})
+setmetatable(Table_EquipSuit[482], {
+  __index = Table_EquipSuit[480]
+})
+setmetatable(Table_EquipSuit[483], {
+  __index = Table_EquipSuit[480]
+})
+setmetatable(Table_EquipSuit[491], {
+  __index = Table_EquipSuit[490]
+})
+setmetatable(Table_EquipSuit[492], {
+  __index = Table_EquipSuit[490]
+})
+setmetatable(Table_EquipSuit[493], {
+  __index = Table_EquipSuit[490]
+})
+setmetatable(Table_EquipSuit[501], {
+  __index = Table_EquipSuit[500]
+})
+setmetatable(Table_EquipSuit[502], {
+  __index = Table_EquipSuit[500]
+})
+setmetatable(Table_EquipSuit[503], {
+  __index = Table_EquipSuit[500]
+})
+setmetatable(Table_EquipSuit[504], {
+  __index = Table_EquipSuit[500]
+})
+setmetatable(Table_EquipSuit[505], {
+  __index = Table_EquipSuit[500]
+})
+setmetatable(Table_EquipSuit[506], {
+  __index = Table_EquipSuit[500]
+})
+setmetatable(Table_EquipSuit[507], {
+  __index = Table_EquipSuit[500]
+})
+setmetatable(Table_EquipSuit[511], {
+  __index = Table_EquipSuit[510]
+})
+setmetatable(Table_EquipSuit[512], {
+  __index = Table_EquipSuit[510]
+})
+setmetatable(Table_EquipSuit[513], {
+  __index = Table_EquipSuit[510]
+})
+setmetatable(Table_EquipSuit[521], {
+  __index = Table_EquipSuit[520]
+})
+setmetatable(Table_EquipSuit[522], {
+  __index = Table_EquipSuit[520]
+})
+setmetatable(Table_EquipSuit[523], {
+  __index = Table_EquipSuit[520]
+})
+setmetatable(Table_EquipSuit[531], {
+  __index = Table_EquipSuit[530]
+})
+setmetatable(Table_EquipSuit[532], {
+  __index = Table_EquipSuit[530]
+})
+setmetatable(Table_EquipSuit[533], {
+  __index = Table_EquipSuit[530]
+})
+setmetatable(Table_EquipSuit[541], {
+  __index = Table_EquipSuit[540]
+})
+setmetatable(Table_EquipSuit[561], {
+  __index = Table_EquipSuit[560]
+})
+setmetatable(Table_EquipSuit[562], {
+  __index = Table_EquipSuit[560]
+})
+setmetatable(Table_EquipSuit[563], {
+  __index = Table_EquipSuit[560]
+})
+setmetatable(Table_EquipSuit[571], {
+  __index = Table_EquipSuit[570]
+})
+setmetatable(Table_EquipSuit[572], {
+  __index = Table_EquipSuit[570]
+})
+setmetatable(Table_EquipSuit[573], {
+  __index = Table_EquipSuit[570]
+})
+setmetatable(Table_EquipSuit[574], {
+  __index = Table_EquipSuit[570]
+})
+setmetatable(Table_EquipSuit[575], {
+  __index = Table_EquipSuit[570]
+})
+setmetatable(Table_EquipSuit[576], {
+  __index = Table_EquipSuit[570]
+})
+setmetatable(Table_EquipSuit[577], {
+  __index = Table_EquipSuit[570]
+})
+setmetatable(Table_EquipSuit[582], {
+  __index = Table_EquipSuit[581]
+})
+setmetatable(Table_EquipSuit[583], {
+  __index = Table_EquipSuit[581]
+})
+setmetatable(Table_EquipSuit[584], {
+  __index = Table_EquipSuit[581]
+})
+setmetatable(Table_EquipSuit[591], {
+  __index = Table_EquipSuit[590]
+})
+setmetatable(Table_EquipSuit[592], {
+  __index = Table_EquipSuit[590]
+})
+setmetatable(Table_EquipSuit[593], {
+  __index = Table_EquipSuit[590]
+})
+setmetatable(Table_EquipSuit[601], {
+  __index = Table_EquipSuit[600]
+})
+setmetatable(Table_EquipSuit[602], {
+  __index = Table_EquipSuit[600]
+})
+setmetatable(Table_EquipSuit[603], {
+  __index = Table_EquipSuit[600]
+})
+setmetatable(Table_EquipSuit[611], {
+  __index = Table_EquipSuit[610]
+})
+setmetatable(Table_EquipSuit[612], {
+  __index = Table_EquipSuit[610]
+})
+setmetatable(Table_EquipSuit[613], {
+  __index = Table_EquipSuit[610]
+})
+setmetatable(Table_EquipSuit[621], {
+  __index = Table_EquipSuit[620]
+})
+setmetatable(Table_EquipSuit[622], {
+  __index = Table_EquipSuit[620]
+})
+setmetatable(Table_EquipSuit[623], {
+  __index = Table_EquipSuit[620]
+})
+setmetatable(Table_EquipSuit[631], {
+  __index = Table_EquipSuit[630]
+})
+setmetatable(Table_EquipSuit[632], {
+  __index = Table_EquipSuit[630]
+})
+setmetatable(Table_EquipSuit[633], {
+  __index = Table_EquipSuit[630]
+})
+setmetatable(Table_EquipSuit[641], {
+  __index = Table_EquipSuit[640]
+})
+setmetatable(Table_EquipSuit[642], {
+  __index = Table_EquipSuit[640]
+})
+setmetatable(Table_EquipSuit[643], {
+  __index = Table_EquipSuit[640]
+})
+setmetatable(Table_EquipSuit[651], {
+  __index = Table_EquipSuit[650]
+})
+setmetatable(Table_EquipSuit[652], {
+  __index = Table_EquipSuit[650]
+})
+setmetatable(Table_EquipSuit[653], {
+  __index = Table_EquipSuit[650]
+})
+setmetatable(Table_EquipSuit[661], {
+  __index = Table_EquipSuit[660]
+})
+setmetatable(Table_EquipSuit[662], {
+  __index = Table_EquipSuit[660]
+})
+setmetatable(Table_EquipSuit[663], {
+  __index = Table_EquipSuit[660]
+})
+setmetatable(Table_EquipSuit[671], {
+  __index = Table_EquipSuit[670]
+})
+setmetatable(Table_EquipSuit[672], {
+  __index = Table_EquipSuit[670]
+})
+setmetatable(Table_EquipSuit[673], {
+  __index = Table_EquipSuit[670]
+})
+setmetatable(Table_EquipSuit[681], {
+  __index = Table_EquipSuit[680]
+})
+setmetatable(Table_EquipSuit[682], {
+  __index = Table_EquipSuit[680]
+})
+setmetatable(Table_EquipSuit[683], {
+  __index = Table_EquipSuit[680]
+})
+setmetatable(Table_EquipSuit[691], {
+  __index = Table_EquipSuit[690]
+})
+setmetatable(Table_EquipSuit[692], {
+  __index = Table_EquipSuit[690]
+})
+setmetatable(Table_EquipSuit[693], {
+  __index = Table_EquipSuit[690]
+})
+setmetatable(Table_EquipSuit[701], {
+  __index = Table_EquipSuit[700]
+})
+setmetatable(Table_EquipSuit[702], {
+  __index = Table_EquipSuit[700]
+})
+setmetatable(Table_EquipSuit[703], {
+  __index = Table_EquipSuit[700]
+})
+setmetatable(Table_EquipSuit[711], {
+  __index = Table_EquipSuit[710]
+})
+setmetatable(Table_EquipSuit[712], {
+  __index = Table_EquipSuit[710]
+})
+setmetatable(Table_EquipSuit[713], {
+  __index = Table_EquipSuit[710]
+})
+setmetatable(Table_EquipSuit[721], {
+  __index = Table_EquipSuit[720]
+})
+setmetatable(Table_EquipSuit[722], {
+  __index = Table_EquipSuit[720]
+})
+setmetatable(Table_EquipSuit[723], {
+  __index = Table_EquipSuit[720]
+})
+setmetatable(Table_EquipSuit[731], {
+  __index = Table_EquipSuit[730]
+})
+setmetatable(Table_EquipSuit[732], {
+  __index = Table_EquipSuit[730]
+})
+setmetatable(Table_EquipSuit[733], {
+  __index = Table_EquipSuit[730]
+})
+setmetatable(Table_EquipSuit[741], {
+  __index = Table_EquipSuit[740]
+})
+setmetatable(Table_EquipSuit[742], {
+  __index = Table_EquipSuit[740]
+})
+setmetatable(Table_EquipSuit[743], {
+  __index = Table_EquipSuit[740]
+})
+setmetatable(Table_EquipSuit[744], {
+  __index = Table_EquipSuit[740]
+})
+setmetatable(Table_EquipSuit[745], {
+  __index = Table_EquipSuit[740]
+})
+setmetatable(Table_EquipSuit[746], {
+  __index = Table_EquipSuit[740]
+})
+setmetatable(Table_EquipSuit[747], {
+  __index = Table_EquipSuit[740]
+})
+setmetatable(Table_EquipSuit[751], {
+  __index = Table_EquipSuit[750]
+})
+setmetatable(Table_EquipSuit[752], {
+  __index = Table_EquipSuit[750]
+})
+setmetatable(Table_EquipSuit[753], {
+  __index = Table_EquipSuit[750]
+})
+setmetatable(Table_EquipSuit[761], {
+  __index = Table_EquipSuit[760]
+})
+setmetatable(Table_EquipSuit[762], {
+  __index = Table_EquipSuit[760]
+})
+setmetatable(Table_EquipSuit[763], {
+  __index = Table_EquipSuit[760]
+})
+setmetatable(Table_EquipSuit[781], {
+  __index = Table_EquipSuit[780]
+})
+setmetatable(Table_EquipSuit[782], {
+  __index = Table_EquipSuit[780]
+})
+setmetatable(Table_EquipSuit[783], {
+  __index = Table_EquipSuit[780]
+})
+setmetatable(Table_EquipSuit[791], {
+  __index = Table_EquipSuit[790]
+})
+setmetatable(Table_EquipSuit[792], {
+  __index = Table_EquipSuit[790]
+})
+setmetatable(Table_EquipSuit[793], {
+  __index = Table_EquipSuit[790]
+})
+setmetatable(Table_EquipSuit[801], {
+  __index = Table_EquipSuit[800]
+})
+setmetatable(Table_EquipSuit[802], {
+  __index = Table_EquipSuit[800]
+})
+setmetatable(Table_EquipSuit[803], {
+  __index = Table_EquipSuit[800]
+})
 return Table_EquipSuit

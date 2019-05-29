@@ -1,10 +1,7 @@
 autoImport("TestEffects")
-
 TestSystem = {}
-
 function TestSystem.CheckIsTest(content)
-	return false
+  return false
 end
-
 function TestSystem.HandleTest(content)
 end

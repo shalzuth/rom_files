@@ -1,16 +1,11 @@
 local SelfClass = {}
-setmetatable(SelfClass, {__index = SkillLogic_TargetPoint})
-
+setmetatable(SelfClass, {
+  __index = SkillLogic_TargetPoint
+})
 local SuperClass = SkillLogic_TargetPoint
-
 function SelfClass.GetPointEffectSize(skillInfo, creature)
-	return skillInfo:GetTargetRange(creature)*2
+  return skillInfo:GetTargetRange(creature) * 2
 end
-
--- override begin
-function SelfClass.Client_DoDeterminTargets(self, creature, creatureArray, maxCount)
-	-- no targets(server select)
+function SelfClass:Client_DoDeterminTargets(creature, creatureArray, maxCount)
 end
--- override end
-
 return SelfClass

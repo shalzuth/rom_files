@@ -1,41 +1,255 @@
---md5:971707214290d9a9b3f01fd567f5ccc4
-Table_Couture = { 
-	[1] = {id = 1, NameZh = '符文骑士·男', ColorH = 'DD4454FF', ColorD = 'C1192BFF', ClothColor = 1},
-	[2] = {id = 2, NameZh = '符文骑士·女', ColorH = 'DD4454FF', ColorD = 'C1192BFF', ClothColor = 1},
-	[3] = {id = 3, NameZh = '皇家卫士·男', ColorH = 'EC9A3BFF', ColorD = 'E88A1CFF', ClothColor = 1},
-	[4] = {id = 4, NameZh = '皇家卫士·女', ColorH = 'F0A651FF', ColorD = 'F09F41FF', ClothColor = 1},
-	[5] = {id = 5, NameZh = '大法师·男', ColorH = '634148FF', ColorD = '633540FF', ClothColor = 1},
-	[6] = {id = 6, NameZh = '大法师·女', ColorH = '634148FF', ColorD = '633540FF', ClothColor = 1},
-	[7] = {id = 7, NameZh = '十字切割着·男', ColorH = 'A55D63FF', ColorD = '9F424BFF', ClothColor = 1},
-	[8] = {id = 8, NameZh = '十字切割着·女', ColorH = 'AE6269FF', ColorD = 'A84A52FF', ClothColor = 1},
-	[9] = {id = 9, NameZh = '逐影·男', ColorH = '945E63FF', ColorD = '935056FF', ClothColor = 1},
-	[10] = {id = 10, NameZh = '逐影·女', ColorH = '945E63FF', ColorD = '935056FF', ClothColor = 1},
-	[11] = {id = 11, NameZh = '游侠·男', ColorH = '6B856FFF', ColorD = '5A8760FF', ClothColor = 1},
-	[12] = {id = 12, NameZh = '游侠·女', ColorH = '486C4DFF', ColorD = '356E3DFF', ClothColor = 1},
-	[13] = {id = 13, NameZh = '大主教·男', ColorH = '6E76DDFF', ColorD = '535DDCFF', ClothColor = 1},
-	[14] = {id = 14, NameZh = '大主教·女', ColorH = '6E76DDFF', ColorD = '535DDCFF', ClothColor = 1},
-	[15] = {id = 15, NameZh = '修罗·男', ColorH = 'DD4454FF', ColorD = 'C1192BFF', ClothColor = 1},
-	[16] = {id = 16, NameZh = '修罗·女', ColorH = 'DD4454FF', ColorD = 'C1192BFF', ClothColor = 1},
-	[17] = {id = 17, NameZh = '机匠·男', ColorH = 'D7787EFF', ColorD = 'D75D65FF', ClothColor = 1},
-	[18] = {id = 18, NameZh = '机匠·女', ColorH = 'C6906AFF', ColorD = 'C37944FF', ClothColor = 1},
-	[19] = {id = 19, NameZh = '基因学者·男', ColorH = '7D3344FF', ColorD = '802137FF', ClothColor = 1},
-	[20] = {id = 20, NameZh = '基因学者·女', ColorH = '7D3344FF', ColorD = '802137FF', ClothColor = 1},
-	[101] = {id = 101, NameZh = '硫华菊·橘红', ColorH = 'F96740FF', ColorD = 'D84B25FF', ClothColor = 5},
-	[102] = {id = 102, NameZh = '鸢尾花·天蓝', ColorH = '48A0E1FF', ColorD = '318ED2FF', ClothColor = 11},
-	[103] = {id = 103, NameZh = '君子兰·墨绿', ColorH = '3F614CFF', ColorD = '2D523BFF', ClothColor = 14},
-	[104] = {id = 104, NameZh = '琥珀啡·栗褐', ColorH = '8A5448FF', ColorD = '7F4A3EFF', ClothColor = 15},
-	[105] = {id = 105, NameZh = '矢车菊·藏蓝', ColorH = '374174FF', ColorD = '273474FF', ClothColor = 10},
-	[106] = {id = 106, NameZh = '忘忧草·橙色', ColorH = 'EC8947FF', ColorD = 'E86E1DFF', ClothColor = 6},
-	[107] = {id = 107, NameZh = '酢浆草·紫红', ColorH = 'C159A9FF', ColorD = 'BD379FFF', ClothColor = 9},
-	[108] = {id = 108, NameZh = '木绣球·蓝绿', ColorH = '5AC5CCFF', ColorD = '34ADB5FF', ClothColor = 12},
-	[109] = {id = 109, NameZh = '野蔷薇·玫红', ColorH = 'CA518DFF', ColorD = 'B6276EFF', ClothColor = 3},
-	[110] = {id = 110, NameZh = '金盏花·雌黄', ColorH = 'FDBB4EFF', ColorD = 'F8AB2BFF', ClothColor = 7},
-	[111] = {id = 111, NameZh = '薰衣草·淡紫', ColorH = '9C70D2FF', ColorD = '8243D0FF', ClothColor = 8},
-	[112] = {id = 112, NameZh = '玄英子·黛黑', ColorH = '343434FF', ColorD = '323232FF', ClothColor = 16},
-	[113] = {id = 113, NameZh = '风信子·浅驼', ColorH = 'ECD5BDFF', ColorD = 'EABF92FF', ClothColor = 4},
-	[114] = {id = 114, NameZh = '芬落香·樱花', ColorH = 'FFBFF7FF', ColorD = 'FB91EFFF', ClothColor = 2},
-	[115] = {id = 115, NameZh = '玉兰花·银白', ColorH = 'F5F5F5FF', ColorD = 'F9EEEEFF', ClothColor = 13},
+Table_Couture = {
+  [1] = {
+    id = 1,
+    NameZh = "\231\172\166\230\150\135\233\170\145\229\163\171\194\183\231\148\183",
+    ColorH = "DD4454FF",
+    ColorD = "C1192BFF",
+    ClothColor = 1
+  },
+  [2] = {
+    id = 2,
+    NameZh = "\231\172\166\230\150\135\233\170\145\229\163\171\194\183\229\165\179",
+    ColorH = "DD4454FF",
+    ColorD = "C1192BFF",
+    ClothColor = 1
+  },
+  [3] = {
+    id = 3,
+    NameZh = "\231\154\135\229\174\182\229\141\171\229\163\171\194\183\231\148\183",
+    ColorH = "EC9A3BFF",
+    ColorD = "E88A1CFF",
+    ClothColor = 1
+  },
+  [4] = {
+    id = 4,
+    NameZh = "\231\154\135\229\174\182\229\141\171\229\163\171\194\183\229\165\179",
+    ColorH = "F0A651FF",
+    ColorD = "F09F41FF",
+    ClothColor = 1
+  },
+  [5] = {
+    id = 5,
+    NameZh = "\229\164\167\230\179\149\229\184\136\194\183\231\148\183",
+    ColorH = "634148FF",
+    ColorD = "633540FF",
+    ClothColor = 1
+  },
+  [6] = {
+    id = 6,
+    NameZh = "\229\164\167\230\179\149\229\184\136\194\183\229\165\179",
+    ColorH = "634148FF",
+    ColorD = "633540FF",
+    ClothColor = 1
+  },
+  [7] = {
+    id = 7,
+    NameZh = "\229\141\129\229\173\151\229\136\135\229\137\178\231\157\128\194\183\231\148\183",
+    ColorH = "A55D63FF",
+    ColorD = "9F424BFF",
+    ClothColor = 1
+  },
+  [8] = {
+    id = 8,
+    NameZh = "\229\141\129\229\173\151\229\136\135\229\137\178\231\157\128\194\183\229\165\179",
+    ColorH = "AE6269FF",
+    ColorD = "A84A52FF",
+    ClothColor = 1
+  },
+  [9] = {
+    id = 9,
+    NameZh = "\233\128\144\229\189\177\194\183\231\148\183",
+    ColorH = "945E63FF",
+    ColorD = "935056FF",
+    ClothColor = 1
+  },
+  [10] = {
+    id = 10,
+    NameZh = "\233\128\144\229\189\177\194\183\229\165\179",
+    ColorH = "945E63FF",
+    ColorD = "935056FF",
+    ClothColor = 1
+  },
+  [11] = {
+    id = 11,
+    NameZh = "\230\184\184\228\190\160\194\183\231\148\183",
+    ColorH = "6B856FFF",
+    ColorD = "5A8760FF",
+    ClothColor = 1
+  },
+  [12] = {
+    id = 12,
+    NameZh = "\230\184\184\228\190\160\194\183\229\165\179",
+    ColorH = "486C4DFF",
+    ColorD = "356E3DFF",
+    ClothColor = 1
+  },
+  [13] = {
+    id = 13,
+    NameZh = "\229\164\167\228\184\187\230\149\153\194\183\231\148\183",
+    ColorH = "6E76DDFF",
+    ColorD = "535DDCFF",
+    ClothColor = 1
+  },
+  [14] = {
+    id = 14,
+    NameZh = "\229\164\167\228\184\187\230\149\153\194\183\229\165\179",
+    ColorH = "6E76DDFF",
+    ColorD = "535DDCFF",
+    ClothColor = 1
+  },
+  [15] = {
+    id = 15,
+    NameZh = "\228\191\174\231\189\151\194\183\231\148\183",
+    ColorH = "DD4454FF",
+    ColorD = "C1192BFF",
+    ClothColor = 1
+  },
+  [16] = {
+    id = 16,
+    NameZh = "\228\191\174\231\189\151\194\183\229\165\179",
+    ColorH = "DD4454FF",
+    ColorD = "C1192BFF",
+    ClothColor = 1
+  },
+  [17] = {
+    id = 17,
+    NameZh = "\230\156\186\229\140\160\194\183\231\148\183",
+    ColorH = "D7787EFF",
+    ColorD = "D75D65FF",
+    ClothColor = 1
+  },
+  [18] = {
+    id = 18,
+    NameZh = "\230\156\186\229\140\160\194\183\229\165\179",
+    ColorH = "C6906AFF",
+    ColorD = "C37944FF",
+    ClothColor = 1
+  },
+  [19] = {
+    id = 19,
+    NameZh = "\229\159\186\229\155\160\229\173\166\232\128\133\194\183\231\148\183",
+    ColorH = "7D3344FF",
+    ColorD = "802137FF",
+    ClothColor = 1
+  },
+  [20] = {
+    id = 20,
+    NameZh = "\229\159\186\229\155\160\229\173\166\232\128\133\194\183\229\165\179",
+    ColorH = "7D3344FF",
+    ColorD = "802137FF",
+    ClothColor = 1
+  },
+  [101] = {
+    id = 101,
+    NameZh = "\231\161\171\229\141\142\232\143\138\194\183\230\169\152\231\186\162",
+    ColorH = "F96740FF",
+    ColorD = "D84B25FF",
+    ClothColor = 5
+  },
+  [102] = {
+    id = 102,
+    NameZh = "\233\184\162\229\176\190\232\138\177\194\183\229\164\169\232\147\157",
+    ColorH = "48A0E1FF",
+    ColorD = "318ED2FF",
+    ClothColor = 11
+  },
+  [103] = {
+    id = 103,
+    NameZh = "\229\144\155\229\173\144\229\133\176\194\183\229\162\168\231\187\191",
+    ColorH = "3F614CFF",
+    ColorD = "2D523BFF",
+    ClothColor = 14
+  },
+  [104] = {
+    id = 104,
+    NameZh = "\231\144\165\231\143\128\229\149\161\194\183\230\160\151\232\164\144",
+    ColorH = "8A5448FF",
+    ColorD = "7F4A3EFF",
+    ClothColor = 15
+  },
+  [105] = {
+    id = 105,
+    NameZh = "\231\159\162\232\189\166\232\143\138\194\183\232\151\143\232\147\157",
+    ColorH = "374174FF",
+    ColorD = "273474FF",
+    ClothColor = 10
+  },
+  [106] = {
+    id = 106,
+    NameZh = "\229\191\152\229\191\167\232\141\137\194\183\230\169\153\232\137\178",
+    ColorH = "EC8947FF",
+    ColorD = "E86E1DFF",
+    ClothColor = 6
+  },
+  [107] = {
+    id = 107,
+    NameZh = "\233\133\162\230\181\134\232\141\137\194\183\231\180\171\231\186\162",
+    ColorH = "C159A9FF",
+    ColorD = "BD379FFF",
+    ClothColor = 9
+  },
+  [108] = {
+    id = 108,
+    NameZh = "\230\156\168\231\187\163\231\144\131\194\183\232\147\157\231\187\191",
+    ColorH = "5AC5CCFF",
+    ColorD = "34ADB5FF",
+    ClothColor = 12
+  },
+  [109] = {
+    id = 109,
+    NameZh = "\233\135\142\232\148\183\232\150\135\194\183\231\142\171\231\186\162",
+    ColorH = "CA518DFF",
+    ColorD = "B6276EFF",
+    ClothColor = 3
+  },
+  [110] = {
+    id = 110,
+    NameZh = "\233\135\145\231\155\143\232\138\177\194\183\233\155\140\233\187\132",
+    ColorH = "FDBB4EFF",
+    ColorD = "F8AB2BFF",
+    ClothColor = 7
+  },
+  [111] = {
+    id = 111,
+    NameZh = "\232\150\176\232\161\163\232\141\137\194\183\230\183\161\231\180\171",
+    ColorH = "9C70D2FF",
+    ColorD = "8243D0FF",
+    ClothColor = 8
+  },
+  [112] = {
+    id = 112,
+    NameZh = "\231\142\132\232\139\177\229\173\144\194\183\233\187\155\233\187\145",
+    ColorH = "343434FF",
+    ColorD = "323232FF",
+    ClothColor = 16
+  },
+  [113] = {
+    id = 113,
+    NameZh = "\233\163\142\228\191\161\229\173\144\194\183\230\181\133\233\169\188",
+    ColorH = "ECD5BDFF",
+    ColorD = "EABF92FF",
+    ClothColor = 4
+  },
+  [114] = {
+    id = 114,
+    NameZh = "\232\138\172\232\144\189\233\166\153\194\183\230\168\177\232\138\177",
+    ColorH = "FFBFF7FF",
+    ColorD = "FB91EFFF",
+    ClothColor = 2
+  },
+  [115] = {
+    id = 115,
+    NameZh = "\231\142\137\229\133\176\232\138\177\194\183\233\147\182\231\153\189",
+    ColorH = "F5F5F5FF",
+    ColorD = "F9EEEEFF",
+    ClothColor = 13
+  }
 }
-
-Table_Couture_fields = { "id","NameZh","ColorH","ColorD","ClothColor",}
+Table_Couture_fields = {
+  "id",
+  "NameZh",
+  "ColorH",
+  "ColorD",
+  "ClothColor"
+}
 return Table_Couture

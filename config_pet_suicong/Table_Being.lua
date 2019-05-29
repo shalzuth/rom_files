@@ -1,9 +1,53 @@
---md5:0ba05849d6e39c99fd0ef47f24d173dc
-Table_Being = { 
-	[600010] = {id = 600010, Name = '丽芙', StaticSkill = 439001, Skill_1 = {460001,0}, Skill_2 = {436001,1}, Skill_3 = {437001,1}, Skill_4 = {438001,1}, Color = '6d3190'},
-	[600020] = {id = 600020, Name = '艾米斯可鲁', StaticSkill = 443001, Skill_1 = {461001,0}, Skill_2 = {440001,1}, Skill_3 = {441001,1}, Skill_4 = {442001,1}, Color = '248f63'},
-	[600030] = {id = 600030, Name = '巴尼米乐斯', StaticSkill = 447001, Skill_1 = {462001,0}, Skill_2 = {444001,1}, Skill_3 = {445001,1}, Skill_4 = {446001,1}, Color = 'ffc630'},
+Table_Being = {
+  [600010] = {
+    id = 600010,
+    Name = "\228\184\189\232\138\153",
+    StaticSkill = 439001,
+    Skill_1 = {460001, 0},
+    Skill_2 = {436001, 1},
+    Skill_3 = {437001, 1},
+    Skill_4 = {438001, 1},
+    Color = "6d3190"
+  },
+  [600020] = {
+    id = 600020,
+    Name = "\232\137\190\231\177\179\230\150\175\229\143\175\233\178\129",
+    StaticSkill = 443001,
+    Skill_1 = {461001, 0},
+    Skill_2 = {440001, 1},
+    Skill_3 = {441001, 1},
+    Skill_4 = {442001, 1},
+    Color = "248f63"
+  },
+  [600030] = {
+    id = 600030,
+    Name = "\229\183\180\229\176\188\231\177\179\228\185\144\230\150\175",
+    StaticSkill = 447001,
+    Skill_1 = {462001, 0},
+    Skill_2 = {444001, 1},
+    Skill_3 = {445001, 1},
+    Skill_4 = {446001, 1},
+    Color = "ffc630"
+  },
+  [591010] = {
+    id = 591010,
+    Name = "\228\188\138\231\144\179\232\175\186\233\155\133",
+    StaticSkill = 384001,
+    Skill_1 = {385001, 0},
+    Skill_2 = {380001, 1},
+    Skill_3 = {381001, 1},
+    Skill_4 = {382001, 1},
+    Color = "0f7af1"
+  }
 }
-
-Table_Being_fields = { "id","Name","StaticSkill","Skill_1","Skill_2","Skill_3","Skill_4","Color",}
+Table_Being_fields = {
+  "id",
+  "Name",
+  "StaticSkill",
+  "Skill_1",
+  "Skill_2",
+  "Skill_3",
+  "Skill_4",
+  "Color"
+}
 return Table_Being

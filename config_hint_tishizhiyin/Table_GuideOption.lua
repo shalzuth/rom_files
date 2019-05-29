@@ -1,9 +1,23 @@
---md5:5b74a5eacfb294e23744039fac3bd949
-Table_GuideOption = { 
-	[1] = {id = 1, Explain = '检查人物剩余素质点', content = {type="<",value=2,}},
-	[2] = {id = 2, Explain = '检测购买药水数量是否达到5瓶及以上', content = {type=">",value=4,}},
-	[3] = {id = 3, Explain = '检查剩余技能点数', content = {type="<",value=1,}},
+Table_GuideOption = {
+  [1] = {
+    id = 1,
+    Explain = "\230\163\128\230\159\165\228\186\186\231\137\169\229\137\169\228\189\153\231\180\160\232\180\168\231\130\185",
+    content = {type = "<", value = 2}
+  },
+  [2] = {
+    id = 2,
+    Explain = "\230\163\128\230\181\139\232\180\173\228\185\176\232\141\175\230\176\180\230\149\176\233\135\143\230\152\175\229\144\166\232\190\190\229\136\1765\231\147\182\229\143\138\228\187\165\228\184\138",
+    content = {type = ">", value = 4}
+  },
+  [3] = {
+    id = 3,
+    Explain = "\230\163\128\230\159\165\229\137\169\228\189\153\230\138\128\232\131\189\231\130\185\230\149\176",
+    content = {type = "<", value = 1}
+  }
 }
-
-Table_GuideOption_fields = { "id","Explain","content",}
+Table_GuideOption_fields = {
+  "id",
+  "Explain",
+  "content"
+}
 return Table_GuideOption

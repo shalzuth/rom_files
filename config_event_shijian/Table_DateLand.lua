@@ -1,9 +1,31 @@
---md5:458829ee42d43a93bbe02923a609d6e2
-Table_DateLand = { 
-	[1] = {id = 1, Name = '摩天轮', invite_overtime = 5, ticket_item = 5035, countdown = 20},
-	[2] = {id = 2, Name = '约束之丘·花海', invite_overtime = 5, ticket_item = 5035, countdown = 20},
-	[3] = {id = 3, Name = '猫猫之家', invite_overtime = 5, ticket_item = 5035, countdown = 20},
+Table_DateLand = {
+  [1] = {
+    id = 1,
+    Name = "\230\145\169\229\164\169\232\189\174",
+    invite_overtime = 5,
+    ticket_item = {5035, 5025},
+    countdown = 20
+  },
+  [2] = {
+    id = 2,
+    Name = "\231\186\166\230\157\159\228\185\139\228\184\152\194\183\232\138\177\230\181\183",
+    invite_overtime = 5,
+    ticket_item = {5035},
+    countdown = 20
+  },
+  [3] = {
+    id = 3,
+    Name = "\231\140\171\231\140\171\228\185\139\229\174\182",
+    invite_overtime = 5,
+    ticket_item = {5035},
+    countdown = 20
+  }
 }
-
-Table_DateLand_fields = { "id","Name","invite_overtime","ticket_item","countdown",}
+Table_DateLand_fields = {
+  "id",
+  "Name",
+  "invite_overtime",
+  "ticket_item",
+  "countdown"
+}
 return Table_DateLand

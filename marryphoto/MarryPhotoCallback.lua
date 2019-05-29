@@ -1,3 +1,2 @@
-autoImport('PhotoCallback')
-
-MarryPhotoCallback = class('MarryPhotoCallback', PhotoCallback)
+autoImport("PhotoCallback")
+MarryPhotoCallback = class("MarryPhotoCallback", PhotoCallback)

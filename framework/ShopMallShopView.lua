@@ -1,5 +1,3 @@
-ShopMallShopView = class("ShopMallShopView",SubView)
-
+ShopMallShopView = class("ShopMallShopView", SubView)
 function ShopMallShopView:Init()
-
 end

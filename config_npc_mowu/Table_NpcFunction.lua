@@ -1,207 +1,2247 @@
---md5:f201173e0237e3406d40df2667d751ca
 Table_NpcFunction = {
-	[1] = {id = 1, NameZh = '离开', NameEn = 'Close', Type = '', Parama = _EmptyTable},
-	[100] = {id = 100, NameZh = '仓库', NameEn = 'storehouse', Type = '', Parama = _EmptyTable},
-	[101] = {id = 101, NameZh = '委托板', NameEn = 'wanted', Type = 'wanted', Parama = _EmptyTable},
-	[200] = {id = 200, NameZh = '转职', NameEn = 'Transfer', Type = '', Parama = _EmptyTable},
-	[300] = {id = 300, NameZh = '精炼', NameEn = 'Refine', Type = '', Parama = _EmptyTable},
-	[301] = {id = 301, NameZh = '装备修理', NameEn = 'Repair', Type = '', Parama = _EmptyTable},
-	[302] = {id = 302, NameZh = '装备分解', NameEn = 'DeCompose', Type = '', Parama = _EmptyTable},
-	[303] = {id = 303, NameZh = '装备强化', NameEn = 'strengthen', Type = '', Parama = _EmptyTable},
-	[304] = {id = 304, NameZh = '制作头饰', NameEn = 'PicMake', Type = '', Parama = _EmptyTable},
-	[305] = {id = 305, NameZh = '初级附魔', NameEn = 'PrimaryEnchant', Type = '', Parama = _EmptyTable},
-	[306] = {id = 306, NameZh = '中级附魔', NameEn = 'MediumEnchant', Type = '', Parama = _EmptyTable},
-	[307] = {id = 307, NameZh = '高级附魔', NameEn = 'SeniorEnchant', Type = '', Parama = _EmptyTable},
-	[308] = {id = 308, NameZh = '炼金合成', NameEn = 'EquipAlchemy', Type = '', Parama = _EmptyTable},
-	[310] = {id = 310, NameZh = '装备打洞', NameEn = 'EquipReplace', Type = 'EquipReplace', Parama = _EmptyTable},
-	[320] = {id = 320, NameZh = '装备制作', NameEn = 'EquipMake', Type = '', Parama = _EmptyTable},
-	[330] = {id = 330, NameZh = '装备升级', NameEn = 'EquipUpgrade', Type = 'EquipUpgrade', Parama = _EmptyTable},
-	[340] = {id = 340, NameZh = '装备还原', NameEn = 'EquipRecover', Type = '', Parama = _EmptyTable},
-	[350] = {id = 350, NameZh = '炼金制作', NameEn = 'AlchemyRecover', Type = '', Parama = _EmptyTable},
-	[400] = {id = 400, NameZh = 'PVP地图传送', NameEn = 'gopvp', Type = '', Parama = _EmptyTable},
-	[450] = {id = 450, NameZh = '职业等级突破上限', NameEn = 'UpJobLevel', Type = 'UpJobLevel', Parama = _EmptyTable},
-	[500] = {id = 500, NameZh = '理发', NameEn = 'haircut', Type = '', Parama = _EmptyTable},
-	[600] = {id = 600, NameZh = '杂货店', NameEn = 'VarietyShop', Type = 'Common_Shop', Parama = {ItemID={100}}},
-	[605] = {id = 605, NameZh = '七彩贝壳店', NameEn = 'PetShop', Type = 'Common_Shop', Parama = {ItemID={151,5525}}},
-	[610] = {id = 610, NameZh = '购买材料', NameEn = 'VarietyShop', Type = 'Common_Shop', Parama = {ItemID={100}}},
-	[650] = {id = 650, NameZh = 'B格猫金币商店', NameEn = 'BcatGoldShop', Type = 'Common_Shop', Parama = {ItemID={151}}},
-	[700] = {id = 700, NameZh = '武器商店', NameEn = 'WeaponShop', Type = 'Common_Shop', Parama = {ItemID={100}}},
-	[750] = {id = 750, NameZh = '防具商店', NameEn = 'ArmorShop', Type = 'Common_Shop', Parama = {ItemID={100}}},
-	[800] = {id = 800, NameZh = '购买图纸', NameEn = 'HeadShop', Type = 'Common_Shop', Parama = {ItemID={110}}},
-	[850] = {id = 850, NameZh = '友情之证兑换店', NameEn = 'FriendshipShop', Type = 'Common_Shop', Parama = {ItemID={147,100}}},
-	[900] = {id = 900, NameZh = '训练场积分', NameEn = 'LaboratoryShop', Type = 'Common_Shop', Parama = {moneytype={142}}},
-	[901] = {id = 901, NameZh = '酉神之店', NameEn = 'GodShop', Type = 'Common_Shop', Parama = {ItemID={500507}}},
-	[902] = {id = 902, NameZh = '复活节商店', NameEn = 'EasterShop', Type = 'Common_Shop', Parama = {ItemID={700013,700014}}},
-	[904] = {id = 904, NameZh = '克雷斯特皇家礼物', NameEn = 'BadgeShop', Type = 'Common_Shop', Parama = {ItemID={5250}}},
-	[905] = {id = 905, NameZh = '限定特典定制头饰', NameEn = 'HeadDressShop', Type = 'Common_Shop', Parama = {ItemType={47}}},
-	[906] = {id = 906, NameZh = '星座商店', NameEn = 'AstrologyShop', Type = 'Common_Shop', Parama = {ItemID={100,710001}}},
-	[907] = {id = 907, NameZh = '活动头饰', NameEn = 'MonthHeadShop', Type = 'Common_Shop', Parama = {ItemID={100}}},
-	[908] = {id = 908, NameZh = '斗币商店', NameEn = 'PVPShop', Type = 'Common_Shop', Parama = {ItemID={150,5260}}},
-	[909] = {id = 909, NameZh = '爱情小店', NameEn = 'LoveShop', Type = 'Common_Shop', Parama = {ItemID={100,710100}}},
-	[910] = {id = 910, NameZh = '食材商店', NameEn = 'IngredientsShop', Type = 'Common_Shop', Parama = {ItemID={100}}},
-	[911] = {id = 911, NameZh = '巡礼商店', NameEn = 'TourShop', Type = 'Common_Shop', Parama = {ItemID={100,700107}}},
-	[912] = {id = 912, NameZh = '时光馈赠', NameEn = 'TimeShop', Type = 'Common_Shop', Parama = {ItemID={52624}}},
-	[913] = {id = 913, NameZh = '国庆活动商店', NameEn = 'TourShop2', Type = 'Common_Shop', Parama = {ItemID={151,700109}}},
-	[914] = {id = 914, NameZh = '艾希商店', NameEn = 'IceyShop', Type = 'Common_Shop', Parama = {ItemID={100}}},
-	[915] = {id = 915, NameZh = '运营活动通用商店', NameEn = 'CatAndDog', Type = 'Common_Shop', Parama = {ItemID={100,151}}},
-	[916] = {id = 916, NameZh = '白色恋季精品店', NameEn = 'WhiteLoveShop', Type = 'Common_Shop', Parama = {ItemID={700018,110}}},
-	[917] = {id = 917, NameZh = 'KFC上校店', NameEn = 'KFCShop', Type = 'Common_Shop', Parama = {ItemID={6081}}},
-	[918] = {id = 918, NameZh = '奥特曼宇宙气息商店', NameEn = 'UltramanShop', Type = 'Common_Shop', Parama = {ItemID={700135}}},
-	[921] = {id = 921, NameZh = '导师商店', NameEn = 'TutorShop', Type = 'Common_Shop', Parama = {ItemID={100,5528}}},
-	[922] = {id = 922, NameZh = '英灵殿商店', NameEn = 'HeroShop', Type = 'Common_Shop', Parama = {ItemID={5502}}},
-	[923] = {id = 923, NameZh = '公会吧台猫老板', NameEn = 'GuildStoreCat', Type = 'Common_Shop', Parama = {ItemID={159},AnimationName="functional_action",Desc="喵？一只黑色的猫趴着，慵懒的望着你。"}},
-	[924] = {id = 924, NameZh = '公会自动贩卖机', NameEn = 'GuildStoreAuto', Type = 'Common_Shop', Parama = {ItemID={156},ShowSkip =false,AnimationName="state4001",SkipType="VendingMachine",Desc="叮……叮叮……这个奇特的贩卖机正泛着奇异的灯光。"}},
-	[925] = {id = 925, NameZh = '雪绒花商店', NameEn = 'SnowShop', Type = 'Common_Shop', Parama = {ItemID={52626}}},
-	[926] = {id = 926, NameZh = '公会福利猫砂盆', NameEn = 'CatLitterBox', Type = '', Parama = _EmptyTable},
-	[927] = {id = 927, NameZh = '米特装备商店', NameEn = '', Type = 'Common_Shop', Parama = {ItemID={5803}}},
-	[928] = {id = 928, NameZh = '冒险丸子', NameEn = '', Type = 'Common_Shop', Parama = {ItemID={5503}}},
-	[929] = {id = 929, NameZh = '神器兑换', NameEn = 'GVGBattleShop', Type = 'Common_Shop', Parama = {ItemID={5543},Source=1}},
-	[930] = {id = 930, NameZh = 'VIP商店', NameEn = 'VipShop', Type = 'Common_Shop', Parama = {ItemID={6000}}},
-	[931] = {id = 931, NameZh = '波利奖章商店', NameEn = '', Type = 'Common_Shop', Parama = {ItemID={700130}}},
-	[932] = {id = 932, NameZh = '美瞳兑换商店', NameEn = '', Type = 'Common_Shop', Parama = {ItemID={6085}}},
-	[933] = {id = 933, NameZh = '发型兑换商店', NameEn = '', Type = 'Common_Shop', Parama = {ItemID={6086}}},
-	[934] = {id = 934, NameZh = '料理兑换商店', NameEn = '', Type = 'Common_Shop', Parama = {ItemID={6087}}},
-	[940] = {id = 940, NameZh = '黑猫雷蒙盖顿', NameEn = 'AnniversaryShop', Type = 'Common_Shop', Parama = {ItemID={5516}}},
-	[941] = {id = 941, NameZh = '次元壁商店', NameEn = 'DimensionShop', Type = 'Common_Shop', Parama = _EmptyTable},
-	[942] = {id = 942, NameZh = '活动商店', NameEn = '', Type = 'Common_Shop', Parama = {ItemID={6002}}},
-	[943] = {id = 943, NameZh = '魔王水晶商店', NameEn = '', Type = 'Common_Shop', Parama = {ItemID={6001}}},
-	[944] = {id = 944, NameZh = '端午巡礼商店', NameEn = '', Type = 'Common_Shop', Parama = {ItemID={6096}}},
-	[945] = {id = 945, NameZh = '炎魂武器兑换', NameEn = '', Type = 'Common_Shop', Parama = {ItemID={5804}}},
-	[946] = {id = 946, NameZh = '碎雪武器兑换', NameEn = '', Type = 'Common_Shop', Parama = {ItemID={5805}}},
-	[947] = {id = 947, NameZh = '告白气球兑换', NameEn = '', Type = 'Common_Shop', Parama = {ItemID={700144}}},
-	[950] = {id = 950, NameZh = '更换发型', NameEn = 'ChangeHairStyle', Type = '', Parama = _EmptyTable},
-	[960] = {id = 960, NameZh = '更换美瞳', NameEn = 'ChangeEyeLenses', Type = '', Parama = _EmptyTable},
-	[961] = {id = 961, NameZh = '服装店', NameEn = 'ChangeClothColor', Type = '', Parama = _EmptyTable},
-	[980] = {id = 980, NameZh = '公会设施', NameEn = 'GuildBuilding', Type = '', Parama = _EmptyTable},
-	[981] = {id = 981, NameZh = '升级设施', NameEn = 'BuildingSubmitMaterial', Type = '', Parama = _EmptyTable},
-	[982] = {id = 982, NameZh = '开启大门', NameEn = 'OpenGuildFunction', Type = '', Parama = _EmptyTable},
-	[983] = {id = 983, NameZh = '公会挑战', NameEn = 'OpenView', Type = '', Parama = _EmptyTable},
-	[984] = {id = 984, NameZh = '精炼强化', NameEn = 'HighRefine', Type = '', Parama = _EmptyTable},
-	[985] = {id = 985, NameZh = '神器打造', NameEn = 'ArtifactMake', Type = '', Parama = _EmptyTable},
-	[986] = {id = 986, NameZh = '神器归还', NameEn = 'ReturnArtifact', Type = '', Parama = _EmptyTable},
-	[990] = {id = 990, NameZh = '开启据点宝箱', NameEn = 'GuildHoldTreasure', Type = '', Parama = _EmptyTable},
-	[991] = {id = 991, NameZh = '购买华丽宝箱', NameEn = 'GuildTreasure', Type = '', Parama = _EmptyTable},
-	[992] = {id = 992, NameZh = '预览据点宝箱', NameEn = 'GuildTreasurePreview', Type = '', Parama = _EmptyTable},
-	[993] = {id = 993, NameZh = '退出公会', NameEn = 'ExitGuild', Type = '', Parama = _EmptyTable},
-	[1000] = {id = 1000, NameZh = '恩德勒斯塔', NameEn = 'EndLessTower', Type = '', Parama = _EmptyTable},
-	[1001] = {id = 1001, NameZh = '便捷组队', NameEn = 'EndLessTeam', Type = '', Parama = {teamGoal=10100}},
-	[1100] = {id = 1100, NameZh = '进入训练场', NameEn = 'Laboratory', Type = '', Parama = {raid=30001}},
-	[1101] = {id = 1101, NameZh = '训练场组队', NameEn = 'LaboratoryTeam', Type = '', Parama = {teamGoal=10200}},
-	[1200] = {id = 1200, NameZh = '查询次数', NameEn = 'QueryDefeatBossTime', Type = '', Parama = _EmptyTable},
-	[1201] = {id = 1201, NameZh = '抗击魔潮', NameEn = 'DefeatBoss', Type = '', Parama = _EmptyTable},
-	[1300] = {id = 1300, NameZh = '修复时空裂隙', NameEn = 'seal', Type = 'seal', Parama = _EmptyTable},
-	[1310] = {id = 1310, NameZh = '快速组队', NameEn = 'QuickTeam', Type = '', Parama = _EmptyTable},
-	[1400] = {id = 1400, NameZh = '学习冒险技能', NameEn = 'AdventureSkill', Type = '', Parama = {ItemID={100,125}}},
-	[1450] = {id = 1450, NameZh = '挑战道场', NameEn = 'Dojo', Type = '', Parama = _EmptyTable},
-	[1451] = {id = 1451, NameZh = '便捷组队', NameEn = 'DojoTeam', Type = '', Parama = _EmptyTable},
-	[1500] = {id = 1500, NameZh = '采集种子', NameEn = 'ShakeTree', Type = 'ShakeTree', Parama = _EmptyTable},
-	[1501] = {id = 1501, NameZh = '皇家武器库', NameEn = 'WeaponExteriorShop', Type = 'Common_Shop', Parama = {ItemID={53057}}},
-	[1502] = {id = 1502, NameZh = '金蛇秘藏', NameEn = 'SnakeShop', Type = 'Common_Shop', Parama = {ItemID={53097}}},
-	[1503] = {id = 1503, NameZh = '手推车商店', NameEn = 'PushcartShop', Type = 'Common_Shop', Parama = {ItemID={100}}},
-	[1600] = {id = 1600, NameZh = '邀请爱慕之人', NameEn = 'Invitethepersonoflove', Type = 'Common_InvitethePersonoflove', Parama = {id=1,dialog=1312543}},
-	[1601] = {id = 1601, NameZh = '关于[摩天轮]', NameEn = 'AboutSTARring', Type = 'Common_AboutDateLand', Parama = {msgId=884}},
-	[1602] = {id = 1602, NameZh = '邀请爱慕之人', NameEn = 'Invitetoflowerland', Type = 'Common_InvitethePersonoflove', Parama = {id=2,dialog=1312552}},
-	[1603] = {id = 1603, NameZh = '关于[约束之地]', NameEn = 'Aboutflowerland', Type = 'Common_AboutDateLand', Parama = {msgId=938}},
-	[1604] = {id = 1604, NameZh = '邀请爱慕之人', NameEn = 'Invitetobigcat', Type = 'Common_InvitethePersonoflove', Parama = {id=3,dialog=1312553}},
-	[1605] = {id = 1605, NameZh = '关于[猫之家]', NameEn = 'Aboutbigcat', Type = 'Common_AboutDateLand', Parama = {msgId=940}},
-	[1700] = {id = 1700, NameZh = '卡片重制', NameEn = 'CardRandomMake', Type = '', Parama = _EmptyTable},
-	[1701] = {id = 1701, NameZh = '高级定制', NameEn = 'CardMake', Type = '', Parama = _EmptyTable},
-	[1702] = {id = 1702, NameZh = '卡片分解', NameEn = 'CardDecompose', Type = '', Parama = _EmptyTable},
-	[2000] = {id = 2000, NameZh = '存档', NameEn = 'RecordingSpot', Type = '', Parama = _EmptyTable},
-	[2100] = {id = 2100, NameZh = '出售', NameEn = 'Sell', Type = '', Parama = _EmptyTable},
-	[2200] = {id = 2200, NameZh = '头饰扭蛋', NameEn = 'Lottery', Type = '', Parama = _EmptyTable},
-	[2201] = {id = 2201, NameZh = '装备扭蛋', NameEn = 'Lottery2', Type = '', Parama = _EmptyTable},
-	[2202] = {id = 2202, NameZh = '卡片扭蛋', NameEn = 'Lottery3', Type = '', Parama = _EmptyTable},
-	[2203] = {id = 2203, NameZh = '魔力扭蛋机', NameEn = 'MagicLottery', Type = '', Parama = _EmptyTable},
-	[3000] = {id = 3000, NameZh = '限量食材商店', NameEn = 'LimitIngredientsShop', Type = 'Common_Shop', Parama = {ItemID={100}}},
-	[3001] = {id = 3001, NameZh = '传送', NameEn = 'Teleporter', Type = '', Parama = _EmptyTable},
-	[3002] = {id = 3002, NameZh = '打斗场传送', NameEn = 'ArenaTeleporter', Type = '', Parama = _EmptyTable},
-	[3003] = {id = 3003, NameZh = '乐园团幸运商店', NameEn = 'LuckyShop', Type = 'Common_Shop', Parama = {ItemID={110}}},
-	[3004] = {id = 3004, NameZh = '账号随机商店（占坑）', NameEn = 'LuckyShop1', Type = 'Common_Shop', Parama = {ItemID={100,52626}}},
-	[3005] = {id = 3005, NameZh = '品客胡子商店', NameEn = 'Pringles1', Type = 'Common_Shop', Parama = {ItemID={5505}}},
-	[3006] = {id = 3006, NameZh = '兑换礼盒', NameEn = 'Pringles2', Type = 'Common_Hyperlink', Parama = {url = "http://pringles.bigecko.com/"}},
-	[3007] = {id = 3007, NameZh = '每日随机+账号限购商店', NameEn = 'AccLimitShop', Type = 'Common_Shop', Parama = {ItemID={100}}},
-	[3008] = {id = 3008, NameZh = '波利乱斗商店', NameEn = 'PoringFight', Type = 'Common_Shop', Parama = {ItemID={158}}},
-	[3009] = {id = 3009, NameZh = '波利乱斗报名', NameEn = 'ReportPoringFight', Type = '', Parama = _EmptyTable},
-	[3100] = {id = 3100, NameZh = '加入争夺战', NameEn = 'ReportMvpFight', Type = '', Parama = _EmptyTable},
-	[3205] = {id = 3205, NameZh = 'B格猫庆典福利券商店', NameEn = '', Type = 'Common_Shop', Parama = {ItemID={700177}}},
-	[4000] = {id = 4000, NameZh = '创建公会', NameEn = 'CreateGuild', Type = 'Guild', Parama = _EmptyTable},
-	[4001] = {id = 4001, NameZh = '加入公会', NameEn = 'ApplyGuild', Type = 'Guild', Parama = _EmptyTable},
-	[4002] = {id = 4002, NameZh = '公会改名', NameEn = 'ChangeGuildName', Type = 'Guild', Parama = _EmptyTable},
-	[4010] = {id = 4010, NameZh = '公会领地', NameEn = 'GuildManor', Type = 'Guild', Parama = _EmptyTable},
-	[4011] = {id = 4011, NameZh = 'LV40', NameEn = 'Unlock', Type = 'Common_GuildRaid', Parama = {parama={40}}},
-	[4012] = {id = 4012, NameZh = 'LV60', NameEn = 'Unlock', Type = 'Common_GuildRaid', Parama = {parama={60}}},
-	[4013] = {id = 4013, NameZh = 'LV80', NameEn = 'Unlock', Type = 'Common_GuildRaid', Parama = {parama={80}}},
-	[4014] = {id = 4014, NameZh = 'LV100', NameEn = 'Unlock', Type = 'Common_GuildRaid', Parama = {parama={100}}},
-	[4015] = {id = 4015, NameZh = '尝试开启', NameEn = 'Open', Type = 'Common_GuildRaid', Parama = _EmptyTable},
-	[4016] = {id = 4016, NameZh = '组队进入', NameEn = 'Enter', Type = 'Common_GuildRaid', Parama = _EmptyTable},
-	[4020] = {id = 4020, NameZh = '公会升级', NameEn = 'UpgradeGuild', Type = 'Guild', Parama = _EmptyTable},
-	[4021] = {id = 4021, NameZh = '解散公会', NameEn = 'DisMissGuild', Type = 'Guild', Parama = _EmptyTable},
-	[4022] = {id = 4022, NameZh = '取消解散', NameEn = 'CancelDissolution', Type = 'Guild', Parama = _EmptyTable},
-	[4023] = {id = 4023, NameZh = '祈祷', NameEn = 'GuildPary', Type = '', Parama = _EmptyTable},
-	[4024] = {id = 4024, NameZh = '贡献', NameEn = 'GuildDonate', Type = '', Parama = _EmptyTable},
-	[4025] = {id = 4025, NameZh = '兑换礼包码', NameEn = 'GetCdkey', Type = '', Parama = _EmptyTable},
-	[4026] = {id = 4026, NameZh = '参加发布会', NameEn = 'ReleaseActivity', Type = '', Parama = _EmptyTable},
-	[4027] = {id = 4027, NameZh = '领雪糕头饰', NameEn = 'GetIceCream', Type = '', Parama = _EmptyTable},
-	[4028] = {id = 4028, NameZh = '我要找GM', NameEn = 'FindGM', Type = '', Parama = _EmptyTable},
-	[4029] = {id = 4029, NameZh = '问卷调查', NameEn = 'QuestionSurvey', Type = '', Parama = _EmptyTable},
-	[4030] = {id = 4030, NameZh = '秋日冒险', NameEn = 'AutumnAdventure', Type = '', Parama = _EmptyTable},
-	[4031] = {id = 4031, NameZh = '答题任务', NameEn = 'QuestActAnswer', Type = '', Parama = _EmptyTable},
-	[4032] = {id = 4032, NameZh = '打赏返还', NameEn = 'GetOldConsume', Type = '', Parama = _EmptyTable},
-	[4033] = {id = 4033, NameZh = '领枫叶头饰', NameEn = 'GetAutumnEquip', Type = '', Parama = _EmptyTable},
-	[4034] = {id = 4034, NameZh = '百万击破回馈', NameEn = 'MillionHitThanks', Type = '', Parama = _EmptyTable},
-	[4035] = {id = 4035, NameZh = '集结补给包', NameEn = 'AppointmentThanks', Type = '', Parama = _EmptyTable},
-	[4036] = {id = 4036, NameZh = '新春福利', NameEn = 'ChinaNewYear', Type = '', Parama = _EmptyTable},
-	[4037] = {id = 4037, NameZh = '安全的馈赠', NameEn = 'Safetyrewards', Type = '', Parama = _EmptyTable},
-	[4038] = {id = 4038, NameZh = '女神祝福', NameEn = 'GvGPvPPray', Type = '', Parama = _EmptyTable},
-	[4040] = {id = 4040, NameZh = '阿萨神碑', NameEn = 'Astrolabe', Type = '', Parama = _EmptyTable},
-	[4041] = {id = 4041, NameZh = '特典福利·I', NameEn = 'MonthCard', Type = '', Parama = _EmptyTable},
-	[4042] = {id = 4042, NameZh = '特典福利·II', NameEn = 'MonthCard', Type = '', Parama = _EmptyTable},
-	[4043] = {id = 4043, NameZh = '特典福利·III', NameEn = 'MonthCard', Type = '', Parama = _EmptyTable},
-	[4500] = {id = 4500, NameZh = '缝纫机强化', NameEn = 'SewingStrengthen', Type = '', Parama = _EmptyTable},
-	[4501] = {id = 4501, NameZh = '缝纫机精炼', NameEn = 'SewingRefine', Type = '', Parama = _EmptyTable},
-	[5000] = {id = 5000, NameZh = '交易所', NameEn = 'Exchange', Type = '', Parama = _EmptyTable},
-	[5001] = {id = 5001, NameZh = '拍卖行', NameEn = 'AuctionShop', Type = 'Auction', Parama = _EmptyTable},
-	[6000] = {id = 6000, NameZh = '前往异次元', NameEn = 'ChangeLine', Type = 'ChangeLine', Parama = _EmptyTable},
-	[6001] = {id = 6001, NameZh = '返回公会次元', NameEn = 'BackGuildLine', Type = 'ChangeLine', Parama = _EmptyTable},
-	[6002] = {id = 6002, NameZh = '公会搬家', NameEn = 'ChangeGuildLine', Type = '', Parama = _EmptyTable},
-	[6003] = {id = 6003, NameZh = '天天打波利', NameEn = 'PlayingBoli', Type = 'Common_Hyperlink', Parama = {url = "https://l.tapdb.net/4k2d9ysU"}},
-	[6004] = {id = 6004, NameZh = '白色情人节', NameEn = 'Valentine', Type = 'Common_Augury', Parama = {type=4}},
-	[6005] = {id = 6005, NameZh = '打开礼盒', NameEn = 'Opengift', Type = '', Parama = _EmptyTable},
-	[6006] = {id = 6006, NameZh = '招行特典', NameEn = 'Zhaohang', Type = 'Common_Hyperlink', Parama = {url = "http://ro.xd.com/credit/?source=rogame"}},
-	[6007] = {id = 6007, NameZh = '查看婚期', NameEn = 'WeddingDay', Type = '', Parama = _EmptyTable},
-	[6008] = {id = 6008, NameZh = '预订婚期', NameEn = 'BookingWedding', Type = '', Parama = _EmptyTable},
-	[6009] = {id = 6009, NameZh = '取消婚期', NameEn = 'CancelWedding', Type = '', Parama = _EmptyTable},
-	[6010] = {id = 6010, NameZh = '协议离婚', NameEn = 'ConsentDivorce', Type = '', Parama = _EmptyTable},
-	[6011] = {id = 6011, NameZh = '单方面离婚', NameEn = 'UnilateralDivorce', Type = '', Parama = _EmptyTable},
-	[6014] = {id = 6014, NameZh = '结婚仪式', NameEn = 'EnterWeddingMap', Type = '', Parama = {raid=10008}},
-	[6015] = {id = 6015, NameZh = '婚戒商店', NameEn = 'WeddingRingShop', Type = '', Parama = {ItemID={151}}},
-	[6016] = {id = 6016, NameZh = '神圣仪式', NameEn = 'WeddingCememony', Type = '', Parama = _EmptyTable},
-	[6017] = {id = 6017, NameZh = '蜜月过山车', NameEn = 'EnterRollerCoaster', Type = '', Parama = _EmptyTable},
-	[6018] = {id = 6018, NameZh = '蜜月马车', NameEn = 'TakeMarryCarriage', Type = '', Parama = _EmptyTable},
-	[7000] = {id = 7000, NameZh = '打开', NameEn = 'Open1', Type = 'NotifyServer', Parama = _EmptyTable},
-	[8005] = {id = 8005, NameZh = '恋爱的季节', NameEn = 'AuguryLove', Type = 'Common_Augury', Parama = {type=1}},
-	[8006] = {id = 8006, NameZh = '星座的指引', NameEn = 'AuguryStar', Type = 'Common_Augury', Parama = {type=2}},
-	[8007] = {id = 8007, NameZh = '冒险的极意', NameEn = 'Auguryadventure', Type = 'Common_Augury', Parama = {type=3}},
-	[8008] = {id = 8008, NameZh = '关于[恋之占卜]', NameEn = 'AboutAuguryStar', Type = 'Common_AboutAugury', Parama = {helpId=20001}},
-	[8009] = {id = 8009, NameZh = '关于[星座占卜]', NameEn = 'AboutAuguryLove', Type = 'Common_AboutAugury', Parama = {helpId=20000}},
-	[8010] = {id = 8010, NameZh = '关于[冒险占卜]', NameEn = 'AboutAuguryadventure', Type = 'Common_AboutAugury', Parama = {helpId=111}},
-	[8011] = {id = 8011, NameZh = '庆典占卜', NameEn = 'Auguryadventure', Type = 'Common_Augury', Parama = {type=5}},
-	[8012] = {id = 8012, NameZh = '关于[庆典占卜]', NameEn = 'AboutAuguryactivity', Type = 'Common_AboutAugury', Parama = {helpId=20002}},
-	[8013] = {id = 8013, NameZh = '摇摇乐', NameEn = 'YoyoSeat', Type = '', Parama = _EmptyTable},
-	[10000] = {id = 10000, NameZh = '副本', NameEn = 'Raid', Type = 'Raid', Parama = _EmptyTable},
-	[10001] = {id = 10001, NameZh = '进入副本', NameEn = 'EnterPveCard', Type = '', Parama = _EmptyTable},
-	[10002] = {id = 10002, NameZh = '查看卡牌', NameEn = 'ShowPveCard', Type = '', Parama = _EmptyTable},
-	[10003] = {id = 10003, NameZh = '开始游戏', NameEn = 'PveCard_StartFight', Type = '', Parama = _EmptyTable},
-	[10004] = {id = 10004, NameZh = 'GVG决战', NameEn = 'GVGPortal', Type = '', Parama = _EmptyTable},
-	[10005] = {id = 10005, NameZh = '进入[地球裂隙]', NameEn = 'EnterAltmanRaid', Type = '', Parama = _EmptyTable},
-	[10006] = {id = 10006, NameZh = '进入卡普空', NameEn = 'EnterCapraActivity', Type = '', Parama = _EmptyTable},
-	[10009] = {id = 10009, NameZh = '我的评级', NameEn = 'GetAltmanRankInfo', Type = '', Parama = _EmptyTable},
-	[10010] = {id = 10010, NameZh = '关于[地球裂隙]', NameEn = 'AboutAltman', Type = 'Common_AboutAugury', Parama = {helpId=20003}},
-	[100000] = {id = 100000, NameZh = '10w-20w海外专用', NameEn = '', Type = '', Parama = _EmptyTable},
-	[150000] = {id = 150000, NameZh = '泰莉莎商店', NameEn = 'KRShop', Type = 'Common_Shop', Parama = {ItemID={700016,700017}}},
-	[150001] = {id = 150001, NameZh = '哥布灵商店', NameEn = 'KRShop', Type = 'Common_Shop', Parama = {ItemID={52502,52506}}},
-	[300000] = {id = 300000, NameZh = '分享', NameEn = 'OpenKFCShareView', Type = '', Parama = _EmptyTable},
+  [1] = {
+    id = 1,
+    NameZh = "\231\166\187\229\188\128",
+    NameEn = "Close",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [100] = {
+    id = 100,
+    NameZh = "\228\187\147\229\186\147",
+    NameEn = "storehouse",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [101] = {
+    id = 101,
+    NameZh = "\229\167\148\230\137\152\230\157\191",
+    NameEn = "wanted",
+    Type = "wanted",
+    Parama = _EmptyTable
+  },
+  [200] = {
+    id = 200,
+    NameZh = "\232\189\172\232\129\140",
+    NameEn = "Transfer",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [300] = {
+    id = 300,
+    NameZh = "\231\178\190\231\130\188",
+    NameEn = "Refine",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [301] = {
+    id = 301,
+    NameZh = "\232\163\133\229\164\135\228\191\174\231\144\134",
+    NameEn = "Repair",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [302] = {
+    id = 302,
+    NameZh = "\232\163\133\229\164\135\229\136\134\232\167\163",
+    NameEn = "DeCompose",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [303] = {
+    id = 303,
+    NameZh = "\232\163\133\229\164\135\229\188\186\229\140\150",
+    NameEn = "strengthen",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [304] = {
+    id = 304,
+    NameZh = "\229\136\182\228\189\156\229\164\180\233\165\176",
+    NameEn = "PicMake",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [305] = {
+    id = 305,
+    NameZh = "\229\136\157\231\186\167\233\153\132\233\173\148",
+    NameEn = "PrimaryEnchant",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [306] = {
+    id = 306,
+    NameZh = "\228\184\173\231\186\167\233\153\132\233\173\148",
+    NameEn = "MediumEnchant",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [307] = {
+    id = 307,
+    NameZh = "\233\171\152\231\186\167\233\153\132\233\173\148",
+    NameEn = "SeniorEnchant",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [308] = {
+    id = 308,
+    NameZh = "\231\130\188\233\135\145\229\144\136\230\136\144",
+    NameEn = "EquipAlchemy",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [310] = {
+    id = 310,
+    NameZh = "\232\163\133\229\164\135\230\137\147\230\180\158",
+    NameEn = "EquipReplace",
+    Type = "EquipReplace",
+    Parama = _EmptyTable
+  },
+  [320] = {
+    id = 320,
+    NameZh = "\232\163\133\229\164\135\229\136\182\228\189\156",
+    NameEn = "EquipMake",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [330] = {
+    id = 330,
+    NameZh = "\232\163\133\229\164\135\229\141\135\231\186\167",
+    NameEn = "EquipUpgrade",
+    Type = "EquipUpgrade",
+    Parama = _EmptyTable
+  },
+  [340] = {
+    id = 340,
+    NameZh = "\232\163\133\229\164\135\232\191\152\229\142\159",
+    NameEn = "EquipRecover",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [350] = {
+    id = 350,
+    NameZh = "\231\130\188\233\135\145\229\136\182\228\189\156",
+    NameEn = "AlchemyRecover",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [400] = {
+    id = 400,
+    NameZh = "PVP\229\156\176\229\155\190\228\188\160\233\128\129",
+    NameEn = "gopvp",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [450] = {
+    id = 450,
+    NameZh = "\232\129\140\228\184\154\231\173\137\231\186\167\231\170\129\231\160\180\228\184\138\233\153\144",
+    NameEn = "UpJobLevel",
+    Type = "UpJobLevel",
+    Parama = _EmptyTable
+  },
+  [451] = {
+    id = 451,
+    NameZh = "\230\143\144\228\186\164\228\186\161\232\128\133\230\176\148\230\129\175",
+    NameEn = "DialogGoddessOfferDead",
+    Type = "DialogGoddessOfferDead",
+    Parama = _EmptyTable
+  },
+  [500] = {
+    id = 500,
+    NameZh = "\231\144\134\229\143\145",
+    NameEn = "haircut",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [600] = {
+    id = 600,
+    NameZh = "\230\157\130\232\180\167\229\186\151",
+    NameEn = "VarietyShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {100, 151}
+    }
+  },
+  [605] = {
+    id = 605,
+    NameZh = "\228\184\131\229\189\169\232\180\157\229\163\179\229\186\151",
+    NameEn = "PetShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {151, 5525}
+    }
+  },
+  [610] = {
+    id = 610,
+    NameZh = "\232\180\173\228\185\176\230\157\144\230\150\153",
+    NameEn = "VarietyShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {100}
+    }
+  },
+  [650] = {
+    id = 650,
+    NameZh = "B\230\160\188\231\140\171\233\135\145\229\184\129\229\149\134\229\186\151",
+    NameEn = "BcatGoldShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {151}
+    }
+  },
+  [700] = {
+    id = 700,
+    NameZh = "\230\173\166\229\153\168\229\149\134\229\186\151",
+    NameEn = "WeaponShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {100}
+    }
+  },
+  [750] = {
+    id = 750,
+    NameZh = "\233\152\178\229\133\183\229\149\134\229\186\151",
+    NameEn = "ArmorShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {100}
+    }
+  },
+  [800] = {
+    id = 800,
+    NameZh = "\232\180\173\228\185\176\229\155\190\231\186\184",
+    NameEn = "HeadShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {110}
+    }
+  },
+  [810] = {
+    id = 810,
+    NameZh = "\233\173\148\229\165\179\230\180\190\229\175\185\229\149\134\229\186\151",
+    NameEn = "SuccubaShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {6098}
+    }
+  },
+  [812] = {
+    id = 812,
+    NameZh = "\231\177\179\231\137\185\229\149\134\229\186\151",
+    NameEn = "BoyShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {100, 151}
+    }
+  },
+  [850] = {
+    id = 850,
+    NameZh = "\229\143\139\230\131\133\228\185\139\232\175\129\229\133\145\230\141\162\229\186\151",
+    NameEn = "FriendshipShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {147, 100}
+    }
+  },
+  [851] = {
+    id = 851,
+    NameZh = "\232\137\190\232\142\137\229\132\191\231\154\132\232\181\160\231\164\188\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {5810}
+    }
+  },
+  [852] = {
+    id = 852,
+    NameZh = "\230\158\170\229\137\145\229\133\145\230\141\162\229\136\184\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {5811}
+    }
+  },
+  [853] = {
+    id = 853,
+    NameZh = "\233\148\164\230\157\150\229\133\145\230\141\162\229\136\184\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {5812}
+    }
+  },
+  [854] = {
+    id = 854,
+    NameZh = "\229\136\186\229\174\162\229\133\172\228\188\154\231\154\132\232\181\160\231\164\188\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {5813}
+    }
+  },
+  [855] = {
+    id = 855,
+    NameZh = "\233\173\148\230\179\149\229\173\166\233\153\162\231\154\132\232\181\160\231\164\188\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {5814}
+    }
+  },
+  [856] = {
+    id = 856,
+    NameZh = "\229\149\134\228\188\154\231\154\132\232\181\160\231\164\188\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {5815}
+    }
+  },
+  [857] = {
+    id = 857,
+    NameZh = "\230\173\166\233\129\147\233\166\134\231\154\132\232\181\160\231\164\188\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {5816}
+    }
+  },
+  [858] = {
+    id = 858,
+    NameZh = "\230\181\129\230\176\147\229\133\172\228\188\154\231\154\132\232\181\160\231\164\188\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {5817}
+    }
+  },
+  [900] = {
+    id = 900,
+    NameZh = "\232\174\173\231\187\131\229\156\186\231\167\175\229\136\134",
+    NameEn = "LaboratoryShop",
+    Type = "Common_Shop",
+    Parama = {
+      moneytype = {142}
+    }
+  },
+  [901] = {
+    id = 901,
+    NameZh = "\233\133\137\231\165\158\228\185\139\229\186\151",
+    NameEn = "GodShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {500507}
+    }
+  },
+  [902] = {
+    id = 902,
+    NameZh = "\229\164\141\230\180\187\232\138\130\229\149\134\229\186\151",
+    NameEn = "EasterShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {700013, 700014}
+    }
+  },
+  [903] = {
+    id = 903,
+    NameZh = "\230\152\159\231\149\140\230\173\166\229\153\168",
+    NameEn = "StarShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {100}
+    }
+  },
+  [904] = {
+    id = 904,
+    NameZh = "\229\133\139\233\155\183\230\150\175\231\137\185\231\154\135\229\174\182\231\164\188\231\137\169",
+    NameEn = "BadgeShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {5250}
+    }
+  },
+  [905] = {
+    id = 905,
+    NameZh = "\233\153\144\229\174\154\231\137\185\229\133\184\229\174\154\229\136\182\229\164\180\233\165\176",
+    NameEn = "HeadDressShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemType = {47}
+    }
+  },
+  [906] = {
+    id = 906,
+    NameZh = "\230\152\159\229\186\167\229\149\134\229\186\151",
+    NameEn = "AstrologyShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {100, 710001}
+    }
+  },
+  [907] = {
+    id = 907,
+    NameZh = "\230\180\187\229\138\168\229\164\180\233\165\176",
+    NameEn = "MonthHeadShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {100}
+    }
+  },
+  [908] = {
+    id = 908,
+    NameZh = "\230\150\151\229\184\129\229\149\134\229\186\151",
+    NameEn = "PVPShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {150, 5260}
+    }
+  },
+  [909] = {
+    id = 909,
+    NameZh = "\231\136\177\230\131\133\229\176\143\229\186\151",
+    NameEn = "LoveShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {100, 710100}
+    }
+  },
+  [910] = {
+    id = 910,
+    NameZh = "\233\163\159\230\157\144\229\149\134\229\186\151",
+    NameEn = "IngredientsShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {100}
+    }
+  },
+  [911] = {
+    id = 911,
+    NameZh = "\229\183\161\231\164\188\229\149\134\229\186\151",
+    NameEn = "TourShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {100, 700107}
+    }
+  },
+  [912] = {
+    id = 912,
+    NameZh = "\230\151\182\229\133\137\233\166\136\232\181\160",
+    NameEn = "TimeShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {52624}
+    }
+  },
+  [913] = {
+    id = 913,
+    NameZh = "\229\155\189\229\186\134\230\180\187\229\138\168\229\149\134\229\186\151",
+    NameEn = "TourShop2",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {151, 700109}
+    }
+  },
+  [914] = {
+    id = 914,
+    NameZh = "\232\137\190\229\184\140\229\149\134\229\186\151",
+    NameEn = "IceyShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {100}
+    }
+  },
+  [915] = {
+    id = 915,
+    NameZh = "\232\191\144\232\144\165\230\180\187\229\138\168\233\128\154\231\148\168\229\149\134\229\186\151",
+    NameEn = "CatAndDog",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {100, 151}
+    }
+  },
+  [916] = {
+    id = 916,
+    NameZh = "\231\153\189\232\137\178\230\129\139\229\173\163\231\178\190\229\147\129\229\186\151",
+    NameEn = "WhiteLoveShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {700018, 110}
+    }
+  },
+  [917] = {
+    id = 917,
+    NameZh = "KFC\228\184\138\230\160\161\229\186\151",
+    NameEn = "KFCShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {6081}
+    }
+  },
+  [918] = {
+    id = 918,
+    NameZh = "\229\165\165\231\137\185\230\155\188\229\174\135\229\174\153\230\176\148\230\129\175\229\149\134\229\186\151",
+    NameEn = "UltramanShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {700135}
+    }
+  },
+  [920] = {
+    id = 920,
+    NameZh = "\229\188\151\233\155\183\231\161\172\229\184\129\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {162}
+    }
+  },
+  [921] = {
+    id = 921,
+    NameZh = "\229\175\188\229\184\136\229\149\134\229\186\151",
+    NameEn = "TutorShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {100, 5528}
+    }
+  },
+  [922] = {
+    id = 922,
+    NameZh = "\232\139\177\231\129\181\230\174\191\229\149\134\229\186\151",
+    NameEn = "HeroShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {5502}
+    }
+  },
+  [923] = {
+    id = 923,
+    NameZh = "\229\133\172\228\188\154\229\144\167\229\143\176\231\140\171\232\128\129\230\157\191",
+    NameEn = "GuildStoreCat",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {159, 100},
+      AnimationName = "functional_action",
+      Desc = "\229\150\181\239\188\159\228\184\128\229\143\170\233\187\145\232\137\178\231\154\132\231\140\171\232\182\180\231\157\128\239\188\140\230\133\181\230\135\146\231\154\132\230\156\155\231\157\128\228\189\160\227\128\130"
+    }
+  },
+  [924] = {
+    id = 924,
+    NameZh = "\229\133\172\228\188\154\232\135\170\229\138\168\232\180\169\229\141\150\230\156\186",
+    NameEn = "GuildStoreAuto",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {156},
+      ShowSkip = false,
+      AnimationName = "state4001",
+      SkipType = "VendingMachine",
+      Desc = "\229\143\174\226\128\166\226\128\166\229\143\174\229\143\174\226\128\166\226\128\166\232\191\153\228\184\170\229\165\135\231\137\185\231\154\132\232\180\169\229\141\150\230\156\186\230\173\163\230\179\155\231\157\128\229\165\135\229\188\130\231\154\132\231\129\175\229\133\137\227\128\130"
+    }
+  },
+  [925] = {
+    id = 925,
+    NameZh = "\233\155\170\231\187\146\232\138\177\229\149\134\229\186\151",
+    NameEn = "SnowShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {52626}
+    }
+  },
+  [926] = {
+    id = 926,
+    NameZh = "\229\133\172\228\188\154\231\166\143\229\136\169\231\140\171\231\160\130\231\155\134",
+    NameEn = "CatLitterBox",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [927] = {
+    id = 927,
+    NameZh = "\230\173\166\229\153\168\231\154\174\232\130\164\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {6082, 6084}
+    }
+  },
+  [928] = {
+    id = 928,
+    NameZh = "\229\134\146\233\153\169\228\184\184\229\173\144",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {5503}
+    }
+  },
+  [929] = {
+    id = 929,
+    NameZh = "\231\165\158\229\153\168\229\133\145\230\141\162",
+    NameEn = "GVGBattleShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {5543},
+      Source = 1
+    }
+  },
+  [930] = {
+    id = 930,
+    NameZh = "VIP\229\149\134\229\186\151",
+    NameEn = "VipShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {6000}
+    }
+  },
+  [931] = {
+    id = 931,
+    NameZh = "\230\179\162\229\136\169\229\165\150\231\171\160\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {700130, 100}
+    }
+  },
+  [932] = {
+    id = 932,
+    NameZh = "\231\190\142\231\158\179\229\133\145\230\141\162\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {6085}
+    }
+  },
+  [933] = {
+    id = 933,
+    NameZh = "\229\143\145\229\158\139\229\133\145\230\141\162\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {6086}
+    }
+  },
+  [934] = {
+    id = 934,
+    NameZh = "\230\150\153\231\144\134\229\133\145\230\141\162\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {6087}
+    }
+  },
+  [935] = {
+    id = 935,
+    NameZh = "\233\152\159\229\145\152\230\156\141\229\133\145\230\141\162\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {51133}
+    }
+  },
+  [936] = {
+    id = 936,
+    NameZh = "Ep\230\157\144\230\150\153\229\133\145\230\141\162\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {6100}
+    }
+  },
+  [940] = {
+    id = 940,
+    NameZh = "\233\187\145\231\140\171\233\155\183\232\146\153\231\155\150\233\161\191",
+    NameEn = "AnniversaryShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {5516}
+    }
+  },
+  [941] = {
+    id = 941,
+    NameZh = "\230\172\161\229\133\131\229\163\129\229\149\134\229\186\151",
+    NameEn = "DimensionShop",
+    Type = "Common_Shop",
+    Parama = _EmptyTable
+  },
+  [942] = {
+    id = 942,
+    NameZh = "\230\180\187\229\138\168\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {6002}
+    }
+  },
+  [943] = {
+    id = 943,
+    NameZh = "\233\173\148\231\142\139\230\176\180\230\153\182\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {6001}
+    }
+  },
+  [944] = {
+    id = 944,
+    NameZh = "\231\171\175\229\141\136\229\183\161\231\164\188\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {6096}
+    }
+  },
+  [945] = {
+    id = 945,
+    NameZh = "\231\130\142\233\173\130\230\173\166\229\153\168\229\133\145\230\141\162",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {5804}
+    }
+  },
+  [946] = {
+    id = 946,
+    NameZh = "\231\162\142\233\155\170\230\173\166\229\153\168\229\133\145\230\141\162",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {5805}
+    }
+  },
+  [947] = {
+    id = 947,
+    NameZh = "\229\145\138\231\153\189\230\176\148\231\144\131\229\133\145\230\141\162",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {700144}
+    }
+  },
+  [948] = {
+    id = 948,
+    NameZh = "\232\155\139\233\187\132\229\147\165\231\165\158\231\167\152\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {700146}
+    }
+  },
+  [950] = {
+    id = 950,
+    NameZh = "\230\155\180\230\141\162\229\143\145\229\158\139",
+    NameEn = "ChangeHairStyle",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [960] = {
+    id = 960,
+    NameZh = "\230\155\180\230\141\162\231\190\142\231\158\179",
+    NameEn = "ChangeEyeLenses",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [961] = {
+    id = 961,
+    NameZh = "\230\156\141\232\163\133\229\186\151",
+    NameEn = "ChangeClothColor",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [970] = {
+    id = 970,
+    NameZh = "\230\148\190\229\188\131\230\141\174\231\130\185",
+    NameEn = "GiveUpGuildLand",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [972] = {
+    id = 972,
+    NameZh = "\233\129\151\232\191\185\229\143\164\229\184\129\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {52628}
+    }
+  },
+  [973] = {
+    id = 973,
+    NameZh = "\230\156\136\230\163\177\233\149\156\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {6099}
+    }
+  },
+  [974] = {
+    id = 974,
+    NameZh = "\230\176\180\230\137\139\230\156\141\229\133\145\230\141\162\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {700148}
+    }
+  },
+  [975] = {
+    id = 975,
+    NameZh = "\229\173\166\233\153\162\229\164\180\233\165\176\229\133\145\230\141\162\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {700150}
+    }
+  },
+  [976] = {
+    id = 976,
+    NameZh = "\232\180\157\233\155\183\229\184\189\229\133\145\230\141\162\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {700149}
+    }
+  },
+  [977] = {
+    id = 977,
+    NameZh = "\229\141\161\232\191\170\232\175\186\231\154\132\230\150\153\231\144\134\233\147\186\229\173\144",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {700147}
+    }
+  },
+  [978] = {
+    id = 978,
+    NameZh = "\230\150\153\231\144\134\229\184\129\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {700147}
+    }
+  },
+  [979] = {
+    id = 979,
+    NameZh = "\231\187\132\233\152\159\231\171\158\230\138\128\232\181\155\229\149\134\229\186\151",
+    NameEn = "teampvpShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {156}
+    }
+  },
+  [980] = {
+    id = 980,
+    NameZh = "\229\133\172\228\188\154\232\174\190\230\150\189",
+    NameEn = "GuildBuilding",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [981] = {
+    id = 981,
+    NameZh = "\229\141\135\231\186\167\232\174\190\230\150\189",
+    NameEn = "BuildingSubmitMaterial",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [982] = {
+    id = 982,
+    NameZh = "\229\188\128\229\144\175\229\164\167\233\151\168",
+    NameEn = "OpenGuildFunction",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [983] = {
+    id = 983,
+    NameZh = "\229\133\172\228\188\154\230\140\145\230\136\152",
+    NameEn = "OpenView",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [984] = {
+    id = 984,
+    NameZh = "\231\178\190\231\130\188\229\188\186\229\140\150",
+    NameEn = "HighRefine",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [985] = {
+    id = 985,
+    NameZh = "\231\165\158\229\153\168\230\137\147\233\128\160",
+    NameEn = "ArtifactMake",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [986] = {
+    id = 986,
+    NameZh = "\231\165\158\229\153\168\229\189\146\232\191\152",
+    NameEn = "ReturnArtifact",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [987] = {
+    id = 987,
+    NameZh = "\229\174\160\231\137\169\229\190\189\231\171\160\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {700162, 700163}
+    }
+  },
+  [988] = {
+    id = 988,
+    NameZh = "\231\165\158\229\153\168\230\150\185\229\176\150\231\162\145",
+    NameEn = "GuildMaterialShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {151, 140},
+      Desc = "\230\150\185\229\176\150\231\162\145\228\184\138\231\154\132\231\172\166\230\150\135\233\151\170\231\131\129\231\157\128\229\165\135\231\137\185\231\154\132\229\133\137\232\138\146\227\128\130"
+    }
+  },
+  [989] = {
+    id = 989,
+    NameZh = "\229\156\163\232\175\158\230\152\159\232\190\176\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {700158}
+    }
+  },
+  [990] = {
+    id = 990,
+    NameZh = "\229\188\128\229\144\175\230\141\174\231\130\185\229\174\157\231\174\177",
+    NameEn = "GuildHoldTreasure",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [991] = {
+    id = 991,
+    NameZh = "\232\180\173\228\185\176\229\141\142\228\184\189\229\174\157\231\174\177",
+    NameEn = "GuildTreasure",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [992] = {
+    id = 992,
+    NameZh = "\233\162\132\232\167\136\230\141\174\231\130\185\229\174\157\231\174\177",
+    NameEn = "GuildTreasurePreview",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [993] = {
+    id = 993,
+    NameZh = "\233\128\128\229\135\186\229\133\172\228\188\154",
+    NameEn = "ExitGuild",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [994] = {
+    id = 994,
+    NameZh = "\230\158\171\229\143\182\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {6523}
+    }
+  },
+  [995] = {
+    id = 995,
+    NameZh = "\230\178\153\230\188\160\230\173\166\229\153\168\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {6525}
+    }
+  },
+  [996] = {
+    id = 996,
+    NameZh = "\230\131\138\230\130\154\229\141\151\231\147\156\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {52630}
+    }
+  },
+  [997] = {
+    id = 997,
+    NameZh = "\229\164\180\233\165\176\229\136\184\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "",
+    Parama = {
+      ItemID = {700167}
+    }
+  },
+  [998] = {
+    id = 998,
+    NameZh = "\229\164\180\233\165\176\229\133\145\230\141\162\229\136\184\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "",
+    Parama = {
+      ItemID = {700168}
+    }
+  },
+  [999] = {
+    id = 999,
+    NameZh = "\230\173\166\229\153\168\229\185\187\229\140\150\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "",
+    Parama = {
+      ItemID = {700174}
+    }
+  },
+  [1000] = {
+    id = 1000,
+    NameZh = "\230\129\169\229\190\183\229\139\146\230\150\175\229\161\148",
+    NameEn = "EndLessTower",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [1001] = {
+    id = 1001,
+    NameZh = "\228\190\191\230\141\183\231\187\132\233\152\159",
+    NameEn = "EndLessTeam",
+    Type = "",
+    Parama = {teamGoal = 10100}
+  },
+  [1010] = {
+    id = 1010,
+    NameZh = "\230\180\187\229\138\168\194\183\230\129\169\229\190\183\229\139\146\230\150\175\229\161\148",
+    NameEn = "",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [1020] = {
+    id = 1020,
+    NameZh = "\230\180\187\229\138\168\194\183\228\191\174\229\164\141\230\151\182\231\169\186\232\163\130\233\154\153",
+    NameEn = "",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [1100] = {
+    id = 1100,
+    NameZh = "\232\191\155\229\133\165\232\174\173\231\187\131\229\156\186",
+    NameEn = "Laboratory",
+    Type = "",
+    Parama = {raid = 30001}
+  },
+  [1101] = {
+    id = 1101,
+    NameZh = "\232\174\173\231\187\131\229\156\186\231\187\132\233\152\159",
+    NameEn = "LaboratoryTeam",
+    Type = "",
+    Parama = {teamGoal = 10200}
+  },
+  [1200] = {
+    id = 1200,
+    NameZh = "\230\159\165\232\175\162\230\172\161\230\149\176",
+    NameEn = "QueryDefeatBossTime",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [1201] = {
+    id = 1201,
+    NameZh = "\230\138\151\229\135\187\233\173\148\230\189\174",
+    NameEn = "DefeatBoss",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [1300] = {
+    id = 1300,
+    NameZh = "\228\191\174\229\164\141\230\151\182\231\169\186\232\163\130\233\154\153",
+    NameEn = "seal",
+    Type = "seal",
+    Parama = _EmptyTable
+  },
+  [1310] = {
+    id = 1310,
+    NameZh = "\229\191\171\233\128\159\231\187\132\233\152\159",
+    NameEn = "QuickTeam",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [1400] = {
+    id = 1400,
+    NameZh = "\229\173\166\228\185\160\229\134\146\233\153\169\230\138\128\232\131\189",
+    NameEn = "AdventureSkill",
+    Type = "",
+    Parama = {
+      ItemID = {100, 125}
+    }
+  },
+  [1450] = {
+    id = 1450,
+    NameZh = "\230\140\145\230\136\152\233\129\147\229\156\186",
+    NameEn = "Dojo",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [1451] = {
+    id = 1451,
+    NameZh = "\228\190\191\230\141\183\231\187\132\233\152\159",
+    NameEn = "DojoTeam",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [1500] = {
+    id = 1500,
+    NameZh = "\233\135\135\233\155\134\231\167\141\229\173\144",
+    NameEn = "ShakeTree",
+    Type = "ShakeTree",
+    Parama = _EmptyTable
+  },
+  [1501] = {
+    id = 1501,
+    NameZh = "\231\154\135\229\174\182\230\173\166\229\153\168\229\186\147",
+    NameEn = "WeaponExteriorShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {53057}
+    }
+  },
+  [1502] = {
+    id = 1502,
+    NameZh = "\233\135\145\232\155\135\231\167\152\232\151\143",
+    NameEn = "SnakeShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {53097}
+    }
+  },
+  [1503] = {
+    id = 1503,
+    NameZh = "\230\137\139\230\142\168\232\189\166\229\149\134\229\186\151",
+    NameEn = "PushcartShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {100, 151}
+    }
+  },
+  [1600] = {
+    id = 1600,
+    NameZh = "\233\130\128\232\175\183\231\136\177\230\133\149\228\185\139\228\186\186",
+    NameEn = "Invitethepersonoflove",
+    Type = "Common_InvitethePersonoflove",
+    Parama = {
+      id = 1,
+      dialog = 1312543,
+      msgId = 31010
+    }
+  },
+  [1601] = {
+    id = 1601,
+    NameZh = "\229\133\179\228\186\142[\230\145\169\229\164\169\232\189\174]",
+    NameEn = "AboutSTARring",
+    Type = "Common_AboutDateLand",
+    Parama = {msgId = 884}
+  },
+  [1602] = {
+    id = 1602,
+    NameZh = "\233\130\128\232\175\183\231\136\177\230\133\149\228\185\139\228\186\186",
+    NameEn = "Invitetoflowerland",
+    Type = "Common_InvitethePersonoflove",
+    Parama = {
+      id = 2,
+      dialog = 1312552,
+      msgId = 874
+    }
+  },
+  [1603] = {
+    id = 1603,
+    NameZh = "\229\133\179\228\186\142[\231\186\166\230\157\159\228\185\139\229\156\176]",
+    NameEn = "Aboutflowerland",
+    Type = "Common_AboutDateLand",
+    Parama = {msgId = 938}
+  },
+  [1604] = {
+    id = 1604,
+    NameZh = "\233\130\128\232\175\183\231\136\177\230\133\149\228\185\139\228\186\186",
+    NameEn = "Invitetobigcat",
+    Type = "Common_InvitethePersonoflove",
+    Parama = {
+      id = 3,
+      dialog = 1312553,
+      msgId = 874
+    }
+  },
+  [1605] = {
+    id = 1605,
+    NameZh = "\229\133\179\228\186\142[\231\140\171\228\185\139\229\174\182]",
+    NameEn = "Aboutbigcat",
+    Type = "Common_AboutDateLand",
+    Parama = {msgId = 940}
+  },
+  [1700] = {
+    id = 1700,
+    NameZh = "\229\141\161\231\137\135\233\135\141\229\136\182",
+    NameEn = "CardRandomMake",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [1701] = {
+    id = 1701,
+    NameZh = "\233\171\152\231\186\167\229\174\154\229\136\182",
+    NameEn = "CardMake",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [1702] = {
+    id = 1702,
+    NameZh = "\229\141\161\231\137\135\229\136\134\232\167\163",
+    NameEn = "CardDecompose",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [1703] = {
+    id = 1703,
+    NameZh = "\229\145\189\232\191\144\229\144\136\230\136\144",
+    NameEn = "BossCardCompose",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [2000] = {
+    id = 2000,
+    NameZh = "\229\173\152\230\161\163",
+    NameEn = "RecordingSpot",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [2100] = {
+    id = 2100,
+    NameZh = "\229\135\186\229\148\174",
+    NameEn = "Sell",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [2200] = {
+    id = 2200,
+    NameZh = "\229\164\180\233\165\176\230\137\173\232\155\139",
+    NameEn = "Lottery",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [2201] = {
+    id = 2201,
+    NameZh = "\232\163\133\229\164\135\230\137\173\232\155\139",
+    NameEn = "Lottery2",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [2202] = {
+    id = 2202,
+    NameZh = "\229\141\161\231\137\135\230\137\173\232\155\139",
+    NameEn = "Lottery3",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [2203] = {
+    id = 2203,
+    NameZh = "\233\173\148\229\138\155\230\137\173\232\155\139\230\156\186",
+    NameEn = "MagicLottery",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [2204] = {
+    id = 2204,
+    NameZh = "\229\165\165\231\137\185\230\155\188\230\137\173\232\155\139\230\156\186",
+    NameEn = "UltramanLottery",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [2205] = {
+    id = 2205,
+    NameZh = "\233\173\148\229\138\155\230\137\173\232\155\139\230\156\1862\229\143\183",
+    NameEn = "MagicLottery2",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [3000] = {
+    id = 3000,
+    NameZh = "\233\153\144\233\135\143\233\163\159\230\157\144\229\149\134\229\186\151",
+    NameEn = "LimitIngredientsShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {100}
+    }
+  },
+  [3001] = {
+    id = 3001,
+    NameZh = "\228\188\160\233\128\129",
+    NameEn = "Teleporter",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [3002] = {
+    id = 3002,
+    NameZh = "\230\137\147\230\150\151\229\156\186\228\188\160\233\128\129",
+    NameEn = "ArenaTeleporter",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [3003] = {
+    id = 3003,
+    NameZh = "\228\185\144\229\155\173\229\155\162\229\185\184\232\191\144\229\149\134\229\186\151",
+    NameEn = "LuckyShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {110}
+    }
+  },
+  [3004] = {
+    id = 3004,
+    NameZh = "\232\180\166\229\143\183\233\154\143\230\156\186\229\149\134\229\186\151\239\188\136\229\141\160\229\157\145\239\188\137",
+    NameEn = "LuckyShop1",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {100, 52626}
+    }
+  },
+  [3005] = {
+    id = 3005,
+    NameZh = "\229\147\129\229\174\162\232\131\161\229\173\144\229\149\134\229\186\151",
+    NameEn = "Pringles1",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {5505}
+    }
+  },
+  [3006] = {
+    id = 3006,
+    NameZh = "\229\133\145\230\141\162\231\164\188\231\155\146",
+    NameEn = "Pringles2",
+    Type = "Common_Hyperlink",
+    Parama = {
+      url = "http://pringles.bigecko.com/"
+    }
+  },
+  [3007] = {
+    id = 3007,
+    NameZh = "\230\175\143\230\151\165\233\154\143\230\156\186+\232\180\166\229\143\183\233\153\144\232\180\173\229\149\134\229\186\151",
+    NameEn = "AccLimitShop",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {100}
+    }
+  },
+  [3008] = {
+    id = 3008,
+    NameZh = "\230\179\162\229\136\169\228\185\177\230\150\151\229\149\134\229\186\151",
+    NameEn = "PoringFight",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {158}
+    }
+  },
+  [3009] = {
+    id = 3009,
+    NameZh = "\230\179\162\229\136\169\228\185\177\230\150\151\230\138\165\229\144\141",
+    NameEn = "ReportPoringFight",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [3100] = {
+    id = 3100,
+    NameZh = "\229\138\160\229\133\165\228\186\137\229\164\186\230\136\152",
+    NameEn = "ReportMvpFight",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [3200] = {
+    id = 3200,
+    NameZh = "\231\187\146\233\155\170\233\162\130\230\173\140\230\151\182\232\163\133\231\164\188\229\136\184\229\149\134\229\186\151\t",
+    NameEn = "",
+    Type = "",
+    Parama = {
+      ItemID = {6543}
+    }
+  },
+  [3201] = {
+    id = 3201,
+    NameZh = "\230\154\150\229\191\131\229\156\163\232\175\158\231\164\188\229\136\184\t\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "",
+    Parama = {
+      ItemID = {6544}
+    }
+  },
+  [3202] = {
+    id = 3202,
+    NameZh = "\229\156\163\232\175\158\231\142\139\229\134\160\231\164\188\229\136\184\t\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "",
+    Parama = {
+      ItemID = {6545}
+    }
+  },
+  [3203] = {
+    id = 3203,
+    NameZh = "\230\162\166\231\189\151\229\133\139\230\180\187\229\138\168\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {6527}
+    }
+  },
+  [3204] = {
+    id = 3204,
+    NameZh = "\233\173\148\231\142\139\230\173\166\229\153\168\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {700178}
+    }
+  },
+  [3205] = {
+    id = 3205,
+    NameZh = "B\230\160\188\231\140\171\229\186\134\229\133\184\231\166\143\229\136\169\229\136\184\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {700177}
+    }
+  },
+  [3207] = {
+    id = 3207,
+    NameZh = "\228\186\165\231\165\158\229\183\161\231\164\188\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "",
+    Parama = {
+      ItemID = {700155}
+    }
+  },
+  [3208] = {
+    id = 3208,
+    NameZh = "\231\165\165\231\145\158\232\181\144\231\166\143\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "",
+    Parama = {
+      ItemID = {700156}
+    }
+  },
+  [3209] = {
+    id = 3209,
+    NameZh = "\230\152\165\232\138\130\230\151\182\232\163\133\231\164\188\229\136\184\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "",
+    Parama = {
+      ItemID = {6569}
+    }
+  },
+  [3210] = {
+    id = 3210,
+    NameZh = "\230\152\165\232\138\130\229\164\180\233\165\176\231\164\188\229\136\184\229\149\134\229\186\151I",
+    NameEn = "",
+    Type = "",
+    Parama = {
+      ItemID = {6570}
+    }
+  },
+  [3211] = {
+    id = 3211,
+    NameZh = "\230\152\165\232\138\130\229\164\180\233\165\176\231\164\188\229\136\184\229\149\134\229\186\151II",
+    NameEn = "",
+    Type = "",
+    Parama = {
+      ItemID = {6571}
+    }
+  },
+  [3212] = {
+    id = 3212,
+    NameZh = "nerv\229\190\189\231\171\160\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "",
+    Parama = {
+      ItemID = {700173}
+    }
+  },
+  [3213] = {
+    id = 3213,
+    NameZh = "EVA\230\173\166\229\153\168\229\133\145\230\141\162\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "",
+    Parama = {
+      ItemID = {700181}
+    }
+  },
+  [3214] = {
+    id = 3214,
+    NameZh = "\230\179\162\229\136\169\231\142\139\229\155\189\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "",
+    Parama = {
+      ItemID = {700184}
+    }
+  },
+  [3219] = {
+    id = 3219,
+    NameZh = "\230\137\167\228\186\139\229\133\145\230\141\162\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "",
+    Parama = {
+      ItemID = {5828},
+      ShowType = 1,
+      Desc = "\229\174\140\230\136\144\230\137\167\228\186\139\230\136\144\233\149\191\232\174\161\229\136\146\226\133\165\232\142\183\229\143\150\230\137\167\228\186\139\229\133\145\230\141\162\229\136\184\194\183\232\149\190\229\168\156"
+    }
+  },
+  [3220] = {
+    id = 3220,
+    NameZh = "\230\137\167\228\186\139\229\133\145\230\141\162\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "",
+    Parama = {
+      ItemID = {5828},
+      ShowType = 1,
+      Desc = "\229\174\140\230\136\144\230\137\167\228\186\139EP4.0\231\137\136\230\156\172\230\140\145\230\136\152\232\142\183\229\143\150\230\137\167\228\186\139\229\133\145\230\141\162\229\136\184\194\183\229\186\183\229\168\156"
+    }
+  },
+  [3221] = {
+    id = 3221,
+    NameZh = "\230\137\167\228\186\139\229\133\145\230\141\162\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "",
+    Parama = {
+      ItemID = {5828},
+      ShowType = 1,
+      Desc = "\232\142\183\229\143\150\230\137\167\228\186\139\229\133\145\230\141\162\229\136\184\232\167\163\233\148\129\230\137\167\228\186\139\239\188\140\229\188\128\229\144\175\230\155\180\229\164\154\229\149\134\229\186\151"
+    }
+  },
+  [3222] = {
+    id = 3222,
+    NameZh = "\230\137\167\228\186\139\229\133\145\230\141\162\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "",
+    Parama = {
+      ItemID = {5828},
+      ShowType = 1,
+      Desc = "\229\137\141\229\190\128\229\174\152\230\150\185\230\180\187\229\138\168\232\144\140\230\173\163\229\164\170\232\180\173\228\185\176\230\137\167\228\186\139\229\133\145\230\141\162\229\136\184\194\183\229\143\175\229\143\175"
+    }
+  },
+  [3223] = {
+    id = 3223,
+    NameZh = "\230\137\167\228\186\139\229\133\145\230\141\162\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "",
+    Parama = {
+      ItemID = {5828},
+      ShowType = 1,
+      Desc = "\229\174\140\230\136\144\230\137\167\228\186\139EP4.0\231\137\136\230\156\172\230\140\145\230\136\152\232\142\183\229\143\150\230\137\167\228\186\139\229\133\145\230\141\162\229\136\184\194\183\228\188\138\230\150\175\232\143\178\229\176\148"
+    }
+  },
+  [3224] = {
+    id = 3224,
+    NameZh = "\230\137\167\228\186\139\229\133\145\230\141\162\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "",
+    Parama = {
+      ItemID = {5828},
+      ShowType = 1,
+      Desc = "\229\174\140\230\136\144\230\137\167\228\186\139\230\136\144\233\149\191\232\174\161\229\136\146\226\133\165\232\142\183\229\143\150\230\137\167\228\186\139\229\133\145\230\141\162\229\136\184\194\183\230\152\159\231\187\156"
+    }
+  },
+  [3225] = {
+    id = 3225,
+    NameZh = "\230\137\167\228\186\139\229\133\145\230\141\162\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "",
+    Parama = {
+      ItemID = {5828},
+      ShowType = 1,
+      Desc = "\232\142\183\229\143\150\230\137\167\228\186\139\229\133\145\230\141\162\229\136\184\232\167\163\233\148\129\230\137\167\228\186\139\239\188\140\229\188\128\229\144\175\230\155\180\229\164\154\229\149\134\229\186\151"
+    }
+  },
+  [3226] = {
+    id = 3226,
+    NameZh = "\230\137\167\228\186\139\229\133\145\230\141\162\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "",
+    Parama = {
+      ItemID = {5828},
+      ShowType = 1,
+      Desc = "\229\137\141\229\190\128\229\174\152\230\150\185\230\180\187\229\138\168\232\144\140\230\173\163\229\164\170\232\180\173\228\185\176\230\137\167\228\186\139\229\133\145\230\141\162\229\136\184\194\183\231\177\179\229\139\146"
+    }
+  },
+  [3228] = {
+    id = 3228,
+    NameZh = "\229\173\153\231\135\149\229\167\191\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "",
+    Parama = {
+      ItemID = {5828},
+      ShowType = 1,
+      Desc = "\229\174\140\230\136\144\230\137\167\228\186\139\229\173\153\231\135\149\229\167\191\228\187\187\229\138\161\232\142\183\229\190\151\230\137\167\228\186\139\229\133\145\230\141\162\229\136\184\194\183\229\173\153\231\135\149\229\167\191"
+    }
+  },
+  [4000] = {
+    id = 4000,
+    NameZh = "\229\136\155\229\187\186\229\133\172\228\188\154",
+    NameEn = "CreateGuild",
+    Type = "Guild",
+    Parama = _EmptyTable
+  },
+  [4001] = {
+    id = 4001,
+    NameZh = "\229\138\160\229\133\165\229\133\172\228\188\154",
+    NameEn = "ApplyGuild",
+    Type = "Guild",
+    Parama = _EmptyTable
+  },
+  [4002] = {
+    id = 4002,
+    NameZh = "\229\133\172\228\188\154\230\148\185\229\144\141",
+    NameEn = "ChangeGuildName",
+    Type = "Guild",
+    Parama = _EmptyTable
+  },
+  [4010] = {
+    id = 4010,
+    NameZh = "\229\133\172\228\188\154\233\162\134\229\156\176",
+    NameEn = "GuildManor",
+    Type = "Guild",
+    Parama = _EmptyTable
+  },
+  [4011] = {
+    id = 4011,
+    NameZh = "LV40",
+    NameEn = "Unlock",
+    Type = "Common_GuildRaid",
+    Parama = {
+      parama = {40}
+    }
+  },
+  [4012] = {
+    id = 4012,
+    NameZh = "LV60",
+    NameEn = "Unlock",
+    Type = "Common_GuildRaid",
+    Parama = {
+      parama = {60}
+    }
+  },
+  [4013] = {
+    id = 4013,
+    NameZh = "LV80",
+    NameEn = "Unlock",
+    Type = "Common_GuildRaid",
+    Parama = {
+      parama = {80}
+    }
+  },
+  [4014] = {
+    id = 4014,
+    NameZh = "LV100",
+    NameEn = "Unlock",
+    Type = "Common_GuildRaid",
+    Parama = {
+      parama = {100}
+    }
+  },
+  [4015] = {
+    id = 4015,
+    NameZh = "\229\176\157\232\175\149\229\188\128\229\144\175",
+    NameEn = "Open",
+    Type = "Common_GuildRaid",
+    Parama = _EmptyTable
+  },
+  [4016] = {
+    id = 4016,
+    NameZh = "\231\187\132\233\152\159\232\191\155\229\133\165",
+    NameEn = "Enter",
+    Type = "Common_GuildRaid",
+    Parama = _EmptyTable
+  },
+  [4020] = {
+    id = 4020,
+    NameZh = "\229\133\172\228\188\154\229\141\135\231\186\167",
+    NameEn = "UpgradeGuild",
+    Type = "Guild",
+    Parama = _EmptyTable
+  },
+  [4021] = {
+    id = 4021,
+    NameZh = "\232\167\163\230\149\163\229\133\172\228\188\154",
+    NameEn = "DisMissGuild",
+    Type = "Guild",
+    Parama = _EmptyTable
+  },
+  [4022] = {
+    id = 4022,
+    NameZh = "\229\143\150\230\182\136\232\167\163\230\149\163",
+    NameEn = "CancelDissolution",
+    Type = "Guild",
+    Parama = _EmptyTable
+  },
+  [4023] = {
+    id = 4023,
+    NameZh = "\231\165\136\231\165\183",
+    NameEn = "GuildPary",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [4024] = {
+    id = 4024,
+    NameZh = "\232\180\161\231\140\174",
+    NameEn = "GuildDonate",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [4025] = {
+    id = 4025,
+    NameZh = "\229\133\145\230\141\162\231\164\188\229\140\133\231\160\129",
+    NameEn = "GetCdkey",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [4026] = {
+    id = 4026,
+    NameZh = "\229\143\130\229\138\160\229\143\145\229\184\131\228\188\154",
+    NameEn = "ReleaseActivity",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [4027] = {
+    id = 4027,
+    NameZh = "\233\162\134\233\155\170\231\179\149\229\164\180\233\165\176",
+    NameEn = "GetIceCream",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [4028] = {
+    id = 4028,
+    NameZh = "\230\136\145\232\166\129\230\137\190GM",
+    NameEn = "FindGM",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [4029] = {
+    id = 4029,
+    NameZh = "\233\151\174\229\141\183\232\176\131\230\159\165",
+    NameEn = "QuestionSurvey",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [4030] = {
+    id = 4030,
+    NameZh = "\231\167\139\230\151\165\229\134\146\233\153\169",
+    NameEn = "AutumnAdventure",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [4031] = {
+    id = 4031,
+    NameZh = "\231\173\148\233\162\152\228\187\187\229\138\161",
+    NameEn = "QuestActAnswer",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [4032] = {
+    id = 4032,
+    NameZh = "\230\137\147\232\181\143\232\191\148\232\191\152",
+    NameEn = "GetOldConsume",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [4033] = {
+    id = 4033,
+    NameZh = "\233\162\134\230\158\171\229\143\182\229\164\180\233\165\176",
+    NameEn = "GetAutumnEquip",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [4034] = {
+    id = 4034,
+    NameZh = "\231\153\190\228\184\135\229\135\187\231\160\180\229\155\158\233\166\136",
+    NameEn = "MillionHitThanks",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [4035] = {
+    id = 4035,
+    NameZh = "\233\155\134\231\187\147\232\161\165\231\187\153\229\140\133",
+    NameEn = "AppointmentThanks",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [4036] = {
+    id = 4036,
+    NameZh = "\230\150\176\230\152\165\231\166\143\229\136\169",
+    NameEn = "ChinaNewYear",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [4037] = {
+    id = 4037,
+    NameZh = "\229\174\137\229\133\168\231\154\132\233\166\136\232\181\160",
+    NameEn = "Safetyrewards",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [4038] = {
+    id = 4038,
+    NameZh = "\229\165\179\231\165\158\231\165\157\231\166\143",
+    NameEn = "GvGPvPPray",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [4040] = {
+    id = 4040,
+    NameZh = "\233\152\191\232\144\168\231\165\158\231\162\145",
+    NameEn = "Astrolabe",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [4041] = {
+    id = 4041,
+    NameZh = "\231\137\185\229\133\184\231\166\143\229\136\169\194\183I",
+    NameEn = "MonthCard",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [4042] = {
+    id = 4042,
+    NameZh = "\231\137\185\229\133\184\231\166\143\229\136\169\194\183II",
+    NameEn = "MonthCard",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [4043] = {
+    id = 4043,
+    NameZh = "\231\137\185\229\133\184\231\166\143\229\136\169\194\183III",
+    NameEn = "MonthCard",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [4500] = {
+    id = 4500,
+    NameZh = "\231\188\157\231\186\171\230\156\186\229\188\186\229\140\150",
+    NameEn = "SewingStrengthen",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [4501] = {
+    id = 4501,
+    NameZh = "\231\188\157\231\186\171\230\156\186\231\178\190\231\130\188",
+    NameEn = "SewingRefine",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [5000] = {
+    id = 5000,
+    NameZh = "\228\186\164\230\152\147\230\137\128",
+    NameEn = "Exchange",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [5001] = {
+    id = 5001,
+    NameZh = "\230\139\141\229\141\150\232\161\140",
+    NameEn = "AuctionShop",
+    Type = "Auction",
+    Parama = _EmptyTable
+  },
+  [6000] = {
+    id = 6000,
+    NameZh = "\229\137\141\229\190\128\229\188\130\230\172\161\229\133\131",
+    NameEn = "ChangeLine",
+    Type = "ChangeLine",
+    Parama = _EmptyTable
+  },
+  [6001] = {
+    id = 6001,
+    NameZh = "\232\191\148\229\155\158\229\133\172\228\188\154\230\172\161\229\133\131",
+    NameEn = "BackGuildLine",
+    Type = "ChangeLine",
+    Parama = _EmptyTable
+  },
+  [6002] = {
+    id = 6002,
+    NameZh = "\229\133\172\228\188\154\230\144\172\229\174\182",
+    NameEn = "ChangeGuildLine",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [6003] = {
+    id = 6003,
+    NameZh = "\229\164\169\229\164\169\230\137\147\230\179\162\229\136\169",
+    NameEn = "PlayingBoli",
+    Type = "Common_Hyperlink",
+    Parama = {
+      url = "https://l.tapdb.net/4k2d9ysU"
+    }
+  },
+  [6004] = {
+    id = 6004,
+    NameZh = "\231\153\189\232\137\178\230\131\133\228\186\186\232\138\130",
+    NameEn = "Valentine",
+    Type = "Common_Augury",
+    Parama = {type = 4}
+  },
+  [6005] = {
+    id = 6005,
+    NameZh = "\230\137\147\229\188\128\231\164\188\231\155\146",
+    NameEn = "Opengift",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [6006] = {
+    id = 6006,
+    NameZh = "\230\139\155\232\161\140\231\137\185\229\133\184",
+    NameEn = "Zhaohang",
+    Type = "Common_Hyperlink",
+    Parama = {
+      url = "http://ro.xd.com/credit/?source=rogame"
+    }
+  },
+  [6007] = {
+    id = 6007,
+    NameZh = "\230\159\165\231\156\139\229\169\154\230\156\159",
+    NameEn = "WeddingDay",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [6008] = {
+    id = 6008,
+    NameZh = "\233\162\132\232\174\162\229\169\154\230\156\159",
+    NameEn = "BookingWedding",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [6009] = {
+    id = 6009,
+    NameZh = "\229\143\150\230\182\136\229\169\154\230\156\159",
+    NameEn = "CancelWedding",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [6010] = {
+    id = 6010,
+    NameZh = "\229\141\143\232\174\174\231\166\187\229\169\154",
+    NameEn = "ConsentDivorce",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [6011] = {
+    id = 6011,
+    NameZh = "\229\141\149\230\150\185\233\157\162\231\166\187\229\169\154",
+    NameEn = "UnilateralDivorce",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [6014] = {
+    id = 6014,
+    NameZh = "\231\187\147\229\169\154\228\187\170\229\188\143",
+    NameEn = "EnterWeddingMap",
+    Type = "",
+    Parama = {raid = 10008}
+  },
+  [6015] = {
+    id = 6015,
+    NameZh = "\229\169\154\230\136\146\229\149\134\229\186\151",
+    NameEn = "WeddingRingShop",
+    Type = "",
+    Parama = {
+      ItemID = {151}
+    }
+  },
+  [6016] = {
+    id = 6016,
+    NameZh = "\231\165\158\229\156\163\228\187\170\229\188\143",
+    NameEn = "WeddingCememony",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [6017] = {
+    id = 6017,
+    NameZh = "\232\156\156\230\156\136\232\191\135\229\177\177\232\189\166",
+    NameEn = "EnterRollerCoaster",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [6018] = {
+    id = 6018,
+    NameZh = "\232\156\156\230\156\136\233\169\172\232\189\166",
+    NameEn = "TakeMarryCarriage",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [6019] = {
+    id = 6019,
+    NameZh = "\229\144\159\229\148\177\232\175\151\229\143\165",
+    NameEn = "SummonDeadBoss",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [7000] = {
+    id = 7000,
+    NameZh = "\230\137\147\229\188\128",
+    NameEn = "Open1",
+    Type = "NotifyServer",
+    Parama = _EmptyTable
+  },
+  [8005] = {
+    id = 8005,
+    NameZh = "\230\129\139\231\136\177\231\154\132\229\173\163\232\138\130",
+    NameEn = "AuguryLove",
+    Type = "Common_Augury",
+    Parama = {type = 1}
+  },
+  [8006] = {
+    id = 8006,
+    NameZh = "\230\152\159\229\186\167\231\154\132\230\140\135\229\188\149",
+    NameEn = "AuguryStar",
+    Type = "Common_Augury",
+    Parama = {type = 2}
+  },
+  [8007] = {
+    id = 8007,
+    NameZh = "\229\134\146\233\153\169\231\154\132\230\158\129\230\132\143",
+    NameEn = "Auguryadventure",
+    Type = "Common_Augury",
+    Parama = {type = 3}
+  },
+  [8008] = {
+    id = 8008,
+    NameZh = "\229\133\179\228\186\142[\230\129\139\228\185\139\229\141\160\229\141\156]",
+    NameEn = "AboutAuguryStar",
+    Type = "Common_AboutAugury",
+    Parama = {helpId = 20001}
+  },
+  [8009] = {
+    id = 8009,
+    NameZh = "\229\133\179\228\186\142[\230\152\159\229\186\167\229\141\160\229\141\156]",
+    NameEn = "AboutAuguryLove",
+    Type = "Common_AboutAugury",
+    Parama = {helpId = 20000}
+  },
+  [8010] = {
+    id = 8010,
+    NameZh = "\229\133\179\228\186\142[\229\134\146\233\153\169\229\141\160\229\141\156]",
+    NameEn = "AboutAuguryadventure",
+    Type = "Common_AboutAugury",
+    Parama = {helpId = 111}
+  },
+  [8011] = {
+    id = 8011,
+    NameZh = "\229\186\134\229\133\184\229\141\160\229\141\156",
+    NameEn = "Auguryadventure",
+    Type = "Common_Augury",
+    Parama = {type = 5}
+  },
+  [8012] = {
+    id = 8012,
+    NameZh = "\229\133\179\228\186\142[\229\186\134\229\133\184\229\141\160\229\141\156]",
+    NameEn = "AboutAuguryactivity",
+    Type = "Common_AboutAugury",
+    Parama = {helpId = 20002}
+  },
+  [8013] = {
+    id = 8013,
+    NameZh = "\230\145\135\230\145\135\228\185\144",
+    NameEn = "YoyoSeat",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [8100] = {
+    id = 8100,
+    NameZh = "\228\189\163\229\133\181\231\140\171\233\155\135\228\189\163",
+    NameEn = "HireCatConfirm",
+    Type = "",
+    Parama = {
+      _EmptyTable
+    }
+  },
+  [10000] = {
+    id = 10000,
+    NameZh = "\229\137\175\230\156\172",
+    NameEn = "Raid",
+    Type = "Raid",
+    Parama = _EmptyTable
+  },
+  [10001] = {
+    id = 10001,
+    NameZh = "\232\191\155\229\133\165\229\137\175\230\156\172",
+    NameEn = "EnterPveCard",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [10002] = {
+    id = 10002,
+    NameZh = "\230\159\165\231\156\139\229\141\161\231\137\140",
+    NameEn = "ShowPveCard",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [10003] = {
+    id = 10003,
+    NameZh = "\229\188\128\229\167\139\230\184\184\230\136\143",
+    NameEn = "PveCard_StartFight",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [10004] = {
+    id = 10004,
+    NameZh = "GVG\229\134\179\230\136\152",
+    NameEn = "GVGPortal",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [10005] = {
+    id = 10005,
+    NameZh = "\232\191\155\229\133\165[\229\156\176\231\144\131\232\163\130\233\154\153]",
+    NameEn = "EnterAltmanRaid",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [10006] = {
+    id = 10006,
+    NameZh = "\229\141\161\230\153\174\230\139\137\228\191\157\229\141\171\230\136\152",
+    NameEn = "EnterCapraActivity",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [10007] = {
+    id = 10007,
+    NameZh = "\230\180\187\229\138\168\232\175\166\230\131\133",
+    NameEn = "Internet",
+    Type = "Common_Hyperlink",
+    Parama = {
+      url = "https://ro.com/"
+    }
+  },
+  [10008] = {
+    id = 10008,
+    NameZh = "\232\191\155\229\133\165\230\179\162\229\136\169\229\178\155",
+    NameEn = "EnterPoringFight",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [10009] = {
+    id = 10009,
+    NameZh = "\230\136\145\231\154\132\232\175\132\231\186\167",
+    NameEn = "GetAltmanRankInfo",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [10010] = {
+    id = 10010,
+    NameZh = "\229\133\179\228\186\142[\229\156\176\231\144\131\232\163\130\233\154\153]",
+    NameEn = "AboutAltman",
+    Type = "Common_AboutAugury",
+    Parama = {helpId = 20003}
+  },
+  [10012] = {
+    id = 10012,
+    NameZh = "\230\173\187\228\186\161\229\155\189\229\186\166\228\188\160\233\128\129\231\149\140\233\157\162",
+    NameEn = "DeathTransfer",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [10013] = {
+    id = 10013,
+    NameZh = "\233\173\148\232\131\189\231\129\140\230\179\168\229\138\159\232\131\189",
+    NameEn = "EquipCompose",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [10014] = {
+    id = 10014,
+    NameZh = "\230\179\149\229\138\155\229\144\158\229\153\172",
+    NameEn = "SelectTeamPwsEffect",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [10017] = {
+    id = 10017,
+    NameZh = "\229\188\130\228\184\150\231\149\140\194\183\232\163\130\231\151\149",
+    NameEn = "MoroccSeal",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [10018] = {
+    id = 10018,
+    NameZh = "\230\136\145\231\136\177\230\137\147\230\179\162\229\136\169",
+    NameEn = "BeatPoring",
+    Type = "BeatBoli",
+    Parama = _EmptyTable
+  },
+  [10019] = {
+    id = 10019,
+    NameZh = "\231\187\143\233\170\140\229\137\175\230\156\172\231\142\169\230\179\149",
+    NameEn = "ExpRaidShop",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [10020] = {
+    id = 10020,
+    NameZh = "\233\162\134\229\143\150\231\165\158\232\176\149\229\137\175\230\156\172\229\165\150\229\138\177",
+    NameEn = "GetPveCardReward",
+    Type = "PveCardReward",
+    Parama = _EmptyTable
+  },
+  [10021] = {
+    id = 10021,
+    NameZh = "\229\188\128\229\167\139\232\176\131\230\159\165",
+    NameEn = "ExpRaidBegin",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [10022] = {
+    id = 10022,
+    NameZh = "\233\173\148\231\137\169\231\160\148\231\169\182\230\137\128",
+    NameEn = "ExpRaidEntrance",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [10023] = {
+    id = 10023,
+    NameZh = "\230\159\165\231\156\139[\229\139\135\230\176\148\230\142\146\232\161\140]",
+    NameEn = "CourageRanking",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [10024] = {
+    id = 10024,
+    NameZh = "\231\172\172\228\184\137\230\150\176\228\184\156\228\186\172\229\184\130",
+    NameEn = "EvaRaid",
+    Type = "EvaRaid",
+    Parama = _EmptyTable
+  },
+  [100000] = {
+    id = 100000,
+    NameZh = "10w-20w\230\181\183\229\164\150\228\184\147\231\148\168",
+    NameEn = "",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [100001] = {
+    id = 100001,
+    NameZh = "\229\185\187\230\131\179\230\153\182\230\156\171\229\133\145\230\141\162\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {1000001}
+    }
+  },
+  [100002] = {
+    id = 100002,
+    NameZh = "\229\185\187\230\131\179\229\142\159\231\159\179\229\133\145\230\141\162\229\149\134\229\186\151",
+    NameEn = "",
+    Type = "Common_Shop",
+    Parama = {
+      ItemID = {1000002}
+    }
+  },
+  [300000] = {
+    id = 300000,
+    NameZh = "\230\180\187\229\138\168\229\136\134\228\186\171",
+    NameEn = "OpenKFCShareView",
+    Type = "",
+    Parama = _EmptyTable
+  },
+  [300001] = {
+    id = 300001,
+    NameZh = "\233\159\179\228\185\144\228\188\154\229\136\134\228\186\171",
+    NameEn = "OpenConcertShareView",
+    Type = "",
+    Parama = _EmptyTable
+  }
 }
-Table_NpcFunction_fields = { "id","NameZh","NameEn","Type","Parama",}
+Table_NpcFunction_fields = {
+  "id",
+  "NameZh",
+  "NameEn",
+  "Type",
+  "Parama"
+}
 return Table_NpcFunction

@@ -1,18 +1,14 @@
 local baseCell = autoImport("BaseCell")
 WeddingBuyDescCell = class("WeddingBuyDescCell", baseCell)
-
 function WeddingBuyDescCell:Init()
-	self:FindObjs()
+  self:FindObjs()
 end
-
 function WeddingBuyDescCell:FindObjs()
-	self.content = self.gameObject:GetComponent(UILabel)
+  self.content = self.gameObject:GetComponent(UILabel)
 end
-
 function WeddingBuyDescCell:SetData(data)
-	self.data = data
-
-	if data then
-		self.content.text = data
-	end
+  self.data = data
+  if data then
+    self.content.text = data
+  end
 end

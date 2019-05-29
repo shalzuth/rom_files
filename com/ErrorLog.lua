@@ -1,9 +1,4 @@
-errorLog = function (...)
-	-- test remove bugly error log
-	-- local errMsg = string.format("<color=red>%s</color>", tostring(...))
-	-- buglyError(errMsg)
+function errorLog()
 end
-
-errorLogTest = function (...)
-	
+function errorLogTest()
 end

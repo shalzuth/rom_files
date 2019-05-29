@@ -1,43 +1,16 @@
-Table_AdventureValue={
-	item={
-		ride={
-			count=29,
-			adventureValues=29000
-		},
-		card={
-			count=230,
-			adventureValues=13520
-		},
-		fashionClothes={
-			count=401,
-			adventureValues=49333
-		}
-	},
-	monster={
-		mini={
-			count=27,
-			adventureValues=1771
-		},
-		mvp={
-			count=33,
-			adventureValues=3403
-		},
-		monster={
-			count=166,
-			adventureValues=5319
-		}
-	},
-	map=0,
-	monthlyVIP={
-		count=234,
-		adventureValues=22892
-	},
-	npc={
-		count=136,
-		adventureValues=4655
-	},
-	viewSpot={
-		count=205,
-		adventureValues=34373
-	}
+Table_AdventureValue = {
+  monster = {
+    monster = {count = 179, adventureValues = 5932},
+    mini = {count = 29, adventureValues = 1948},
+    mvp = {count = 39, adventureValues = 4175}
+  },
+  monthlyVIP = {count = 341, adventureValues = 34239},
+  item = {
+    fashionClothes = {count = 483, adventureValues = 68486},
+    card = {count = 322, adventureValues = 18335},
+    ride = {count = 30, adventureValues = 30000}
+  },
+  map = 0,
+  viewSpot = {count = 247, adventureValues = 39532},
+  npc = {count = 156, adventureValues = 5375}
 }

@@ -1,68 +1,1292 @@
---md5:237e1f0451f915b4eab9ca5ddf6de485
-Table_AddPointSolution = { 
-	[1] = {id = 1, Title = '均衡', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 3, Dsc = 'Str 75, Agi 75, Vit 75, Dex 75', RecomandSkill = '挑衅,霸体,怪物互击,领主光环', tips = '攻击不俗,防守得当！'},
-	[2] = {id = 2, Title = '枪骑', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 1, Dsc = 'Str 112, Vit 89, Dex 59', RecomandSkill = '霸体,连刺攻击,螺旋击刺,狂怒之枪', tips = '高攻击的勇猛战士'},
-	[3] = {id = 3, Title = '敏剑', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 1, Dsc = 'Str 103, Agi 81, Vit 53, Luk 53', RecomandSkill = '狂击,剑速增加,灵气剑,伤害增压', tips = '高攻击高攻速的迅捷剑客！'},
-	[4] = {id = 4, Title = '体骑', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 2, Dsc = 'Str 93, Vit 115, Dex 47', RecomandSkill = '快速回复,反击,双剑格挡,生命点燃', tips = '高生存的勇猛战士！'},
-	[5] = {id = 5, Title = '火念', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 3, Dsc = 'Int 112, Dex 112', RecomandSkill = '火箭术,禅心,火球术,点燃,火焰冲击', tips = '火系法师,擅长使用火元素伤敌！'},
-	[6] = {id = 6, Title = '冰雷', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 1, Dsc = 'Int 112, Dex 112', RecomandSkill = '冰箭术,禅心,暴风雪,霜冻之术', tips = '冰系法师,擅长使用水元素伤敌！'},
-	[7] = {id = 7, Title = '平衡', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 2, Dsc = 'Int 112, Dex 112', RecomandSkill = '冰冻术,崩裂术,暗之壁障,石化术', tips = '辅助法师,擅长使用各种控制手段！'},
-	[8] = {id = 8, Title = '野兽', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 1, Dsc = 'Int 112, Dex 112', RecomandSkill = '驯兽术,猎鹰突击,猎杀突击,震慑', tips = '通灵猎人,擅长和野兽并肩战斗！'},
-	[9] = {id = 9, Title = '输出', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 1, Dsc = 'Agi 99, Dex 99, Luk 65', RecomandSkill = '二连矢,箭雨,分裂箭,重伤箭,多重扫射', tips = '高攻击高攻速高闪避的强力猎人！'},
-	[10] = {id = 10, Title = '陷阱', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 2, Dsc = 'Int 112, Dex 112', RecomandSkill = '定位陷阱,冰霜陷阱,爆散陷阱,引爆', tips = '陷阱猎人擅长使用各种陷阱伤敌！'},
-	[11] = {id = 11, Title = '赞美', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 1, Dsc = 'Int 112, Vit 80, Dex 70', RecomandSkill = '治愈术,霸邪之阵,光耀之堂,复活术,', tips = '会治疗伤者能复活灵魂的治疗系！'},
-	[12] = {id = 12, Title = '驱魔', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 3, Dsc = 'Int 112, Vit 59, Dex 89', RecomandSkill = '神圣之击,十字驱魔,缓速术,沉默之术', tips = '可支援,可团战,有一定生存能力！'},
-	[13] = {id = 13, Title = '暴力', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 3, Dsc = 'Str 112, Agi 89, Luk 59', RecomandSkill = '钝器熟练度,光之壁障,圣母之歌颂,暗之壁障', tips = '辅助牧师,擅长使用各种辅助手段！'},
-	[14] = {id = 14, Title = '毒刺', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 1, Dsc = 'Str 82, Agi 102, Dex 53, Vit 54', RecomandSkill = '涂毒,毒刃,剧毒暗器,病毒散播,致命涂毒', tips = '控制系,能施毒,有一定生存能力！'},
-	[15] = {id = 15, Title = '暴刺', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 1, Dsc = 'Str 103, Agi 102, Luk 53', RecomandSkill = '残影,拳刃修炼,刺杀之心,刺杀光环', tips = '超高爆发,支援团战,超高暴击！'},
-	[16] = {id = 16, Title = '隐刺', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 2, Dsc = 'Str 112, Agi 45, Dex 70, Vit 59', RecomandSkill = '隐匿,伏击,后退回避,音速投掷,黑暗瞬间', tips = '快速破魔,法系克星！'},
-	[17] = {id = 17, Title = '战斗', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 1, Dsc = 'Str 116, Agi 82, Dex 61', RecomandSkill = '金钱攻击,大地之击,手推车终结技,横劈', tips = ''},
-	[18] = {id = 18, Title = '制造', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 2, Dsc = 'Dex 112, Luk 112', RecomandSkill = '武器制作,魔石制作,尖锐和金制作', tips = ''},
-	[19] = {id = 19, Title = '阿霸', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 3, Dsc = 'Str 112, Int 112', RecomandSkill = '阿修罗霸凰拳,爆气,运气调息', tips = ''},
-	[20] = {id = 20, Title = '金刚', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 1, Dsc = 'Str 75, Agi 75, Vit 95, Dex 49', RecomandSkill = '金刚不坏,运气调息,真剑百破道,移花接木', tips = ''},
-	[21] = {id = 21, Title = '极速', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 3, Dsc = 'Str 75, Int 75, Dex 49, Agi 95', RecomandSkill = '六合拳,连环全身掌,猛龙夸强,伏虎拳,气绝崩击', tips = ''},
-	[22] = {id = 22, Title = '审判', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 1, Dsc = 'Str 92, Int 92, Vit 61, Dex 47', RecomandSkill = '圣十字攻击,圣十字审判,天使之护,神佑之光,惩戒,信任', tips = ''},
-	[23] = {id = 23, Title = '盾击', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 2, Dsc = 'Str 105, Vit 97, Dex 59', RecomandSkill = '盾击,自动防御,牺牲,光之盾,连续盾击,回旋盾击,舍命庇护', tips = ''},
-	[24] = {id = 24, Title = '长矛加速', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 3, Dsc = 'Str 89, Vit 59, Luk 59, Agi 89', RecomandSkill = '长矛加速术,自动防御,反射盾,舍命攻击,恩赐,惩戒', tips = ''},
-	[25] = {id = 25, Title = '药剂', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 1, Dsc = 'Str 112, Int 112', RecomandSkill = '火烟瓶投掷,强酸火烟瓶投掷,强化火烟瓶投掷,知识药水,配药', tips = ''},
-	[26] = {id = 26, Title = '召唤', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 3, Dsc = 'Str 89, Int 89, Vit 89', RecomandSkill = '生命体召唤,复活生命体,生命通灵,超生命通灵', tips = ''},
-	[27] = {id = 27, Title = '破坏', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 3, Dsc = 'Str 89, Dex 89, Luk 89', RecomandSkill = '强酸火烟瓶投掷,化学武器破化,化学头盔破坏,化学盾牌破坏', tips = ''},
-	[28] = {id = 28, Title = '刺杀', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 3, Dsc = 'Str 112, Agi 89, Dex 59', RecomandSkill = '背刺,潜击,擒拿,销声匿迹', tips = ''},
-	[29] = {id = 29, Title = '影猎', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 1, Dsc = 'Agi 112, Dex 112', RecomandSkill = '致残袭击,销声匿迹,苍鹰之眼,三连矢', tips = ''},
-	[30] = {id = 30, Title = '卸甲', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 2, Dsc = 'Str 89, Dex 89, Luk 89', RecomandSkill = '卸除武器,卸除饰品,双倍饰品卸除,双倍防具卸除', tips = ''},
-	[1000] = {id = 1000, Title = '输出', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 1, Dsc = 'Str 20', RecomandSkill = '重击,紧急治疗', tips = '冒险就是用力量！'},
-	[31] = {id = 31, Title = '狂击', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 1, Dsc = 'Str 112, Vit 89, Dex 59', RecomandSkill = '附魔之刃,孤注一掷,符文之力', tips = ''},
-	[32] = {id = 32, Title = '枪骑', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 1, Dsc = 'Str 112, Vit 80, Dex 70', RecomandSkill = '急速戳刺,伤害加深,幻影刺击', tips = ''},
-	[33] = {id = 33, Title = '龙息', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 2, Dsc = 'Str 112, Int 80, Dex 70', RecomandSkill = '训龙术,龙之咆哮,龙之吐息,龙之庇护', tips = ''},
-	[34] = {id = 34, Title = '敏剑', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 3, Dsc = 'Agi 99, Str 99, Luk 65', RecomandSkill = '符文掌握,孤注一掷,附魔之刃', tips = ''},
-	[35] = {id = 35, Title = '火念', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 3, Dsc = 'Int 112, Dex 89, Vit 59, ', RecomandSkill = '元素强化,元素漩涡,魔法理解,魔法速读', tips = ''},
-	[36] = {id = 36, Title = '冰雷', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 1, Dsc = 'Int 112, Dex 89, Vit 59, ', RecomandSkill = '连锁闪电,魔法理解,魔法速读,冰雾,元素漩涡', tips = ''},
-	[37] = {id = 37, Title = '敏捷', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 2, Dsc = 'Agi 102, Int 103, Vit 53', RecomandSkill = '生命吸取,元素强化,魔法速读,魔法理解', tips = ''},
-	[38] = {id = 38, Title = '输出', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 1, Dsc = 'Agi 102, Dex 103, Luk 53', RecomandSkill = '蓄势待发,屠戮射击,箭矢风暴,自然守护', tips = ''},
-	[39] = {id = 39, Title = '野兽', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 1, Dsc = 'Agi 82, Int 116, Dex 61', RecomandSkill = '狼牙,骑狼术,狼突击,猎物追踪', tips = ''},
-	[40] = {id = 40, Title = '陷阱', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 2, Dsc = 'Int 112, Dex 112', RecomandSkill = '电击陷阱,器械专家,自然守护', tips = ''},
-	[41] = {id = 41, Title = '赞美', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 1, Dsc = 'Int 112, Vit 80, Dex 70', RecomandSkill = '圣灵降临,治愈之光,圣礼,缓毒术', tips = ''},
-	[42] = {id = 42, Title = '驱魔', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 3, Dsc = 'Int 112, Dex 80, Vit 70', RecomandSkill = '祷告,赞歌,圣子光辉,领悟', tips = ''},
-	[43] = {id = 43, Title = '暴力', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 3, Dsc = 'Str 112, Agi 70, Dex 45, Luk 59', RecomandSkill = '赎罪,否决,双重圣光,劝诫', tips = ''},
-	[44] = {id = 44, Title = '机械', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 2, Dsc = 'Str 112, Dex 80, Vit 70', RecomandSkill = '魔导机械,自爆,加农炮,喷射飞拳,悬浮,磁场', tips = ''},
-	[45] = {id = 45, Title = '斧头', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 1, Dsc = 'Str 115, Vit 93, Dex 47', RecomandSkill = '斧修炼,利诱', tips = ''},
-	[46] = {id = 46, Title = '暴刺', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 1, Dsc = 'Agi 102, Str 103, Luk 53', RecomandSkill = '疾风步,伤口恶化,回旋利刃,回旋十字斩', tips = ''},
-	[47] = {id = 47, Title = '毒刺', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 1, Dsc = 'Agi 112, Str 80, Dex 70', RecomandSkill = '高级解毒,剧毒武器,新毒研究,毒雾', tips = ''},
-	[48] = {id = 48, Title = '隐刺', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 2, Dsc = 'Str 112, Agi 80, Dex 70', RecomandSkill = '心灵震慑,暗影步,疾风步,武器格挡', tips = ''},
-	[49] = {id = 49, Title = '极速', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 3, Dsc = 'Agi 99, Str 99, Dex 65', RecomandSkill = '超凡入圣,濒死觉醒,狮子吼,潜龙升天', tips = ''},
-	[50] = {id = 50, Title = '连招', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 1, Dsc = 'Str 116, Agi 82, Dex 61', RecomandSkill = '双龙摆尾,大锤崩落,虎炮,潜龙升天,咒缚阵', tips = ''},
-	[51] = {id = 51, Title = '阿霸', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 3, Dsc = 'Str 115, Int 93, Dex 47', RecomandSkill = '虎炮,罗刹破凰拳,潜龙升天,超凡入圣', tips = ''},
-	[52] = {id = 52, Title = '辅助', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 2, Dsc = 'Dex 89, Luk 89, Agi 89', RecomandSkill = '嗜血渴望,黑洞陷阱,混乱恐慌,魔力陷阱', tips = ''},
-	[53] = {id = 53, Title = '影猎', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 1, Dsc = 'Agi 102, Dex 103, Luk 53', RecomandSkill = '死亡标记,隐蔽射击,暗影追击', tips = ''},
-	[54] = {id = 54, Title = '刺杀', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 3, Dsc = 'Str 112, Agi 89, Dex 59', RecomandSkill = '威胁恐吓,逐一击破,霸王魂,致命感染', tips = ''},
-	[55] = {id = 55, Title = '破坏', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 3, Dsc = 'Str 89, Int 89, Dex 89', RecomandSkill = '疯狂火焰,灼热风暴,火焰爆炸', tips = ''},
-	[56] = {id = 56, Title = '手推车', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 2, Dsc = 'Str 89, Vit 89, Dex 89', RecomandSkill = '手推车爆发,手推车加农炮', tips = ''},
-	[57] = {id = 57, Title = '植物', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 1, Dsc = 'Int 75, Str 75, Vit 75, Dex 75', RecomandSkill = '荆棘陷阱,疯狂野草,曼陀罗嚎叫', tips = ''},
-	[58] = {id = 58, Title = '召唤', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 1, Dsc = 'Str 75, Int 75, Vit 75, Dex 75', RecomandSkill = '生命链接,基因调节,生命融合', tips = ''},
-	[59] = {id = 59, Title = '审判', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 1, Dsc = 'Str 115, Int 93, Dex 47', RecomandSkill = '大地猛击,虔诚,圣音,圣灵感应,正义戒律,威望', tips = ''},
-	[60] = {id = 60, Title = '长矛加速', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 3, Dsc = 'Str 112, Vit 80, Dex 70', RecomandSkill = '枪阵-血十字,长枪突刺,无畏无惧,威望', tips = ''},
-	[61] = {id = 61, Title = '敏剑', AddPoint = {{key="Str",value=1},{key="Int",value=1},{key="Agi",value=1},{key="Vit",value=1},{key="Dex",value=1},{key="Luk",value=1}}, Icon = 3, Dsc = 'Agi 99, Str 99, Dex 65', RecomandSkill = '圣灵感应,指挥冲锋,无畏无惧,威望', tips = ''},
+Table_AddPointSolution = {
+  [1] = {
+    id = 1,
+    Title = "\229\157\135\232\161\161",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 3,
+    Dsc = "Str 82, Agi 82, Vit 82, Dex 82",
+    RecomandSkill = "\230\140\145\232\161\133,\233\156\184\228\189\147,\230\128\170\231\137\169\228\186\146\229\135\187,\233\162\134\228\184\187\229\133\137\231\142\175",
+    tips = "\230\148\187\229\135\187\228\184\141\228\191\151,\233\152\178\229\174\136\229\190\151\229\189\147\239\188\129"
+  },
+  [2] = {
+    id = 2,
+    Title = "\230\158\170\233\170\145",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Str 114, Vit 97, Dex 76",
+    RecomandSkill = "\233\156\184\228\189\147,\232\191\158\229\136\186\230\148\187\229\135\187,\232\158\186\230\151\139\229\135\187\229\136\186,\231\139\130\230\128\146\228\185\139\230\158\170",
+    tips = "\233\171\152\230\148\187\229\135\187\231\154\132\229\139\135\231\140\155\230\136\152\229\163\171"
+  },
+  [3] = {
+    id = 3,
+    Title = "\230\149\143\229\137\145",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Str 114, Agi 93, Vit 54, Luk 54",
+    RecomandSkill = "\231\139\130\229\135\187,\229\137\145\233\128\159\229\162\158\229\138\160,\231\129\181\230\176\148\229\137\145,\228\188\164\229\174\179\229\162\158\229\142\139",
+    tips = "\233\171\152\230\148\187\229\135\187\233\171\152\230\148\187\233\128\159\231\154\132\232\191\133\230\141\183\229\137\145\229\174\162\239\188\129"
+  },
+  [4] = {
+    id = 4,
+    Title = "\228\189\147\233\170\145",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 2,
+    Dsc = "Str 97, Vit 119, Dex 69",
+    RecomandSkill = "\229\191\171\233\128\159\229\155\158\229\164\141,\229\143\141\229\135\187,\229\143\140\229\137\145\230\160\188\230\140\161,\231\148\159\229\145\189\231\130\185\231\135\131",
+    tips = "\233\171\152\231\148\159\229\173\152\231\154\132\229\139\135\231\140\155\230\136\152\229\163\171\239\188\129"
+  },
+  [5] = {
+    id = 5,
+    Title = "\231\129\171\229\191\181",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 3,
+    Dsc = "Int 119, Dex 119",
+    RecomandSkill = "\231\129\171\231\174\173\230\156\175,\231\166\133\229\191\131,\231\129\171\231\144\131\230\156\175,\231\130\185\231\135\131,\231\129\171\231\132\176\229\134\178\229\135\187",
+    tips = "\231\129\171\231\179\187\230\179\149\229\184\136,\230\147\133\233\149\191\228\189\191\231\148\168\231\129\171\229\133\131\231\180\160\228\188\164\230\149\140\239\188\129"
+  },
+  [6] = {
+    id = 6,
+    Title = "\229\134\176\233\155\183",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Int 119, Dex 119",
+    RecomandSkill = "\229\134\176\231\174\173\230\156\175,\231\166\133\229\191\131,\230\154\180\233\163\142\233\155\170,\233\156\156\229\134\187\228\185\139\230\156\175",
+    tips = "\229\134\176\231\179\187\230\179\149\229\184\136,\230\147\133\233\149\191\228\189\191\231\148\168\230\176\180\229\133\131\231\180\160\228\188\164\230\149\140\239\188\129"
+  },
+  [7] = {
+    id = 7,
+    Title = "\229\185\179\232\161\161",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 2,
+    Dsc = "Int 119, Dex 119",
+    RecomandSkill = "\229\134\176\229\134\187\230\156\175,\229\180\169\232\163\130\230\156\175,\230\154\151\228\185\139\229\163\129\233\154\156,\231\159\179\229\140\150\230\156\175",
+    tips = "\232\190\133\229\138\169\230\179\149\229\184\136,\230\147\133\233\149\191\228\189\191\231\148\168\229\144\132\231\167\141\230\142\167\229\136\182\230\137\139\230\174\181\239\188\129"
+  },
+  [8] = {
+    id = 8,
+    Title = "\233\135\142\229\133\189",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Int 119, Dex 119",
+    RecomandSkill = "\233\169\175\229\133\189\230\156\175,\231\140\142\233\185\176\231\170\129\229\135\187,\231\140\142\230\157\128\231\170\129\229\135\187,\233\156\135\230\133\145",
+    tips = "\233\128\154\231\129\181\231\140\142\228\186\186,\230\147\133\233\149\191\229\146\140\233\135\142\229\133\189\229\185\182\232\130\169\230\136\152\230\150\151\239\188\129"
+  },
+  [9] = {
+    id = 9,
+    Title = "\232\190\147\229\135\186",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Agi 103, Dex 104, Luk 82",
+    RecomandSkill = "\228\186\140\232\191\158\231\159\162,\231\174\173\233\155\168,\229\136\134\232\163\130\231\174\173,\233\135\141\228\188\164\231\174\173,\229\164\154\233\135\141\230\137\171\229\176\132",
+    tips = "\233\171\152\230\148\187\229\135\187\233\171\152\230\148\187\233\128\159\233\171\152\233\151\170\233\129\191\231\154\132\229\188\186\229\138\155\231\140\142\228\186\186\239\188\129"
+  },
+  [10] = {
+    id = 10,
+    Title = "\233\153\183\233\152\177",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 2,
+    Dsc = "Int 119, Dex 119",
+    RecomandSkill = "\229\174\154\228\189\141\233\153\183\233\152\177,\229\134\176\233\156\156\233\153\183\233\152\177,\231\136\134\230\149\163\233\153\183\233\152\177,\229\188\149\231\136\134",
+    tips = "\233\153\183\233\152\177\231\140\142\228\186\186\230\147\133\233\149\191\228\189\191\231\148\168\229\144\132\231\167\141\233\153\183\233\152\177\228\188\164\230\149\140\239\188\129"
+  },
+  [11] = {
+    id = 11,
+    Title = "\232\181\158\231\190\142",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Int 108, Vit 97, Dex 85",
+    RecomandSkill = "\230\178\187\230\132\136\230\156\175,\233\156\184\233\130\170\228\185\139\233\152\181,\229\133\137\232\128\128\228\185\139\229\160\130,\229\164\141\230\180\187\230\156\175,",
+    tips = "\228\188\154\230\178\187\231\150\151\228\188\164\232\128\133\232\131\189\229\164\141\230\180\187\231\129\181\233\173\130\231\154\132\230\178\187\231\150\151\231\179\187\239\188\129"
+  },
+  [12] = {
+    id = 12,
+    Title = "\233\169\177\233\173\148",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 3,
+    Dsc = "Int 108, Vit 85, Dex 97",
+    RecomandSkill = "\231\165\158\229\156\163\228\185\139\229\135\187,\229\141\129\229\173\151\233\169\177\233\173\148,\231\188\147\233\128\159\230\156\175,\230\178\137\233\187\152\228\185\139\230\156\175",
+    tips = "\229\143\175\230\148\175\230\143\180,\229\143\175\229\155\162\230\136\152,\230\156\137\228\184\128\229\174\154\231\148\159\229\173\152\232\131\189\229\138\155\239\188\129"
+  },
+  [13] = {
+    id = 13,
+    Title = "\230\154\180\229\138\155",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 3,
+    Dsc = "Str 119, Agi 82, Luk 69",
+    RecomandSkill = "\233\146\157\229\153\168\231\134\159\231\187\131\229\186\166,\229\133\137\228\185\139\229\163\129\233\154\156,\229\156\163\230\175\141\228\185\139\230\173\140\233\162\130,\230\154\151\228\185\139\229\163\129\233\154\156",
+    tips = "\232\190\133\229\138\169\231\137\167\229\184\136,\230\147\133\233\149\191\228\189\191\231\148\168\229\144\132\231\167\141\232\190\133\229\138\169\230\137\139\230\174\181\239\188\129"
+  },
+  [14] = {
+    id = 14,
+    Title = "\230\175\146\229\136\186",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Str 94, Agi 113, Dex 54, Vit 54",
+    RecomandSkill = "\230\182\130\230\175\146,\230\175\146\229\136\131,\229\137\167\230\175\146\230\154\151\229\153\168,\231\151\133\230\175\146\230\149\163\230\146\173,\232\135\180\229\145\189\230\182\130\230\175\146",
+    tips = "\230\142\167\229\136\182\231\179\187,\232\131\189\230\150\189\230\175\146,\230\156\137\228\184\128\229\174\154\231\148\159\229\173\152\232\131\189\229\138\155\239\188\129"
+  },
+  [15] = {
+    id = 15,
+    Title = "\230\154\180\229\136\186",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Str 104, Agi 103, Luk 82",
+    RecomandSkill = "\230\174\139\229\189\177,\230\139\179\229\136\131\228\191\174\231\130\188,\229\136\186\230\157\128\228\185\139\229\191\131,\229\136\186\230\157\128\229\133\137\231\142\175",
+    tips = "\232\182\133\233\171\152\231\136\134\229\143\145,\230\148\175\230\143\180\229\155\162\230\136\152,\232\182\133\233\171\152\230\154\180\229\135\187\239\188\129"
+  },
+  [16] = {
+    id = 16,
+    Title = "\233\154\144\229\136\186",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 2,
+    Dsc = "Str 113, Agi 54, Dex 82, Vit 69",
+    RecomandSkill = "\233\154\144\229\140\191,\228\188\143\229\135\187,\229\144\142\233\128\128\229\155\158\233\129\191,\233\159\179\233\128\159\230\138\149\230\142\183,\233\187\145\230\154\151\231\158\172\233\151\180",
+    tips = "\229\191\171\233\128\159\231\160\180\233\173\148,\230\179\149\231\179\187\229\133\139\230\152\159\239\188\129"
+  },
+  [17] = {
+    id = 17,
+    Title = "\230\136\152\230\150\151",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Str 113, Agi 93, Dex 82",
+    RecomandSkill = "\233\135\145\233\146\177\230\148\187\229\135\187,\229\164\167\229\156\176\228\185\139\229\135\187,\230\137\139\230\142\168\232\189\166\231\187\136\231\187\147\230\138\128,\230\168\170\229\138\136",
+    tips = ""
+  },
+  [18] = {
+    id = 18,
+    Title = "\229\136\182\233\128\160",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 2,
+    Dsc = "Dex 119, Luk 119",
+    RecomandSkill = "\230\173\166\229\153\168\229\136\182\228\189\156,\233\173\148\231\159\179\229\136\182\228\189\156,\229\176\150\233\148\144\229\146\140\233\135\145\229\136\182\228\189\156",
+    tips = ""
+  },
+  [19] = {
+    id = 19,
+    Title = "\233\152\191\233\156\184",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 3,
+    Dsc = "Str 119, Int 119",
+    RecomandSkill = "\233\152\191\228\191\174\231\189\151\233\156\184\229\135\176\230\139\179,\231\136\134\230\176\148,\232\191\144\230\176\148\232\176\131\230\129\175",
+    tips = ""
+  },
+  [20] = {
+    id = 20,
+    Title = "\233\135\145\229\136\154",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Str 83, Agi 82, Vit 93, Dex 69",
+    RecomandSkill = "\233\135\145\229\136\154\228\184\141\229\157\143,\232\191\144\230\176\148\232\176\131\230\129\175,\231\156\159\229\137\145\231\153\190\231\160\180\233\129\147,\231\167\187\232\138\177\230\142\165\230\156\168",
+    tips = ""
+  },
+  [21] = {
+    id = 21,
+    Title = "\230\158\129\233\128\159",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 3,
+    Dsc = "Str 83, Int 82, Dex 69, Agi 93",
+    RecomandSkill = "\229\133\173\229\144\136\230\139\179,\232\191\158\231\142\175\229\133\168\232\186\171\230\142\140,\231\140\155\233\190\153\229\164\184\229\188\186,\228\188\143\232\153\142\230\139\179,\230\176\148\231\187\157\229\180\169\229\135\187",
+    tips = ""
+  },
+  [22] = {
+    id = 22,
+    Title = "\229\174\161\229\136\164",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Str 94, Int 93, Vit 82, Dex 54",
+    RecomandSkill = "\229\156\163\229\141\129\229\173\151\230\148\187\229\135\187,\229\156\163\229\141\129\229\173\151\229\174\161\229\136\164,\229\164\169\228\189\191\228\185\139\230\138\164,\231\165\158\228\189\145\228\185\139\229\133\137,\230\131\169\230\136\146,\228\191\161\228\187\187",
+    tips = ""
+  },
+  [23] = {
+    id = 23,
+    Title = "\231\155\190\229\135\187",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 2,
+    Dsc = "Str 114, Vit 103, Dex 69",
+    RecomandSkill = "\231\155\190\229\135\187,\232\135\170\229\138\168\233\152\178\229\190\161,\231\137\186\231\137\178,\229\133\137\228\185\139\231\155\190,\232\191\158\231\187\173\231\155\190\229\135\187,\229\155\158\230\151\139\231\155\190\229\135\187,\232\136\141\229\145\189\229\186\135\230\138\164",
+    tips = ""
+  },
+  [24] = {
+    id = 24,
+    Title = "\233\149\191\231\159\155\229\138\160\233\128\159",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 3,
+    Dsc = "Str 94, Vit 69, Luk 69, Agi 93",
+    RecomandSkill = "\233\149\191\231\159\155\229\138\160\233\128\159\230\156\175,\232\135\170\229\138\168\233\152\178\229\190\161,\229\143\141\229\176\132\231\155\190,\232\136\141\229\145\189\230\148\187\229\135\187,\230\129\169\232\181\144,\230\131\169\230\136\146",
+    tips = ""
+  },
+  [25] = {
+    id = 25,
+    Title = "\232\141\175\229\137\130",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Str 119, Int 119",
+    RecomandSkill = "\231\129\171\231\131\159\231\147\182\230\138\149\230\142\183,\229\188\186\233\133\184\231\129\171\231\131\159\231\147\182\230\138\149\230\142\183,\229\188\186\229\140\150\231\129\171\231\131\159\231\147\182\230\138\149\230\142\183,\231\159\165\232\175\134\232\141\175\230\176\180,\233\133\141\232\141\175",
+    tips = ""
+  },
+  [26] = {
+    id = 26,
+    Title = "\229\143\172\229\148\164",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 3,
+    Dsc = "Str 104, Int 93, Vit 93",
+    RecomandSkill = "\231\148\159\229\145\189\228\189\147\229\143\172\229\148\164,\229\164\141\230\180\187\231\148\159\229\145\189\228\189\147,\231\148\159\229\145\189\233\128\154\231\129\181,\232\182\133\231\148\159\229\145\189\233\128\154\231\129\181",
+    tips = ""
+  },
+  [27] = {
+    id = 27,
+    Title = "\231\160\180\229\157\143",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 3,
+    Dsc = "Str 104, Dex 93, Luk 93",
+    RecomandSkill = "\229\188\186\233\133\184\231\129\171\231\131\159\231\147\182\230\138\149\230\142\183,\229\140\150\229\173\166\230\173\166\229\153\168\231\160\180\229\140\150,\229\140\150\229\173\166\229\164\180\231\155\148\231\160\180\229\157\143,\229\140\150\229\173\166\231\155\190\231\137\140\231\160\180\229\157\143",
+    tips = ""
+  },
+  [28] = {
+    id = 28,
+    Title = "\229\136\186\230\157\128",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 3,
+    Dsc = "Str 114, Agi 93, Dex 82",
+    RecomandSkill = "\232\131\140\229\136\186,\230\189\156\229\135\187,\230\147\146\230\139\191,\233\148\128\229\163\176\229\140\191\232\191\185",
+    tips = ""
+  },
+  [29] = {
+    id = 29,
+    Title = "\229\189\177\231\140\142",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Agi 119, Dex 119",
+    RecomandSkill = "\232\135\180\230\174\139\232\162\173\229\135\187,\233\148\128\229\163\176\229\140\191\232\191\185,\232\139\141\233\185\176\228\185\139\231\156\188,\228\184\137\232\191\158\231\159\162",
+    tips = ""
+  },
+  [30] = {
+    id = 30,
+    Title = "\229\141\184\231\148\178",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 2,
+    Dsc = "Str 104, Dex 93, Luk 93",
+    RecomandSkill = "\229\141\184\233\153\164\230\173\166\229\153\168,\229\141\184\233\153\164\233\165\176\229\147\129,\229\143\140\229\128\141\233\165\176\229\147\129\229\141\184\233\153\164,\229\143\140\229\128\141\233\152\178\229\133\183\229\141\184\233\153\164",
+    tips = ""
+  },
+  [1000] = {
+    id = 1000,
+    Title = "\232\190\147\229\135\186",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Str 20",
+    RecomandSkill = "\233\135\141\229\135\187,\231\180\167\230\128\165\230\178\187\231\150\151",
+    tips = "\229\134\146\233\153\169\229\176\177\230\152\175\231\148\168\229\138\155\233\135\143\239\188\129"
+  },
+  [31] = {
+    id = 31,
+    Title = "\231\139\130\229\135\187",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Str 114, Vit 97, Dex 76",
+    RecomandSkill = "\233\153\132\233\173\148\228\185\139\229\136\131,\229\173\164\230\179\168\228\184\128\230\142\183,\231\172\166\230\150\135\228\185\139\229\138\155",
+    tips = ""
+  },
+  [32] = {
+    id = 32,
+    Title = "\230\158\170\233\170\145",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Str 113, Vit 93, Dex 82",
+    RecomandSkill = "\230\128\165\233\128\159\230\136\179\229\136\186,\228\188\164\229\174\179\229\138\160\230\183\177,\229\185\187\229\189\177\229\136\186\229\135\187",
+    tips = ""
+  },
+  [33] = {
+    id = 33,
+    Title = "\233\190\153\230\129\175",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 2,
+    Dsc = "Str 113, Int 93, Dex 82",
+    RecomandSkill = "\232\174\173\233\190\153\230\156\175,\233\190\153\228\185\139\229\146\134\229\147\174,\233\190\153\228\185\139\229\144\144\230\129\175,\233\190\153\228\185\139\229\186\135\230\138\164",
+    tips = ""
+  },
+  [34] = {
+    id = 34,
+    Title = "\230\149\143\229\137\145",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 3,
+    Dsc = "Agi 103, Str 104, Luk 82",
+    RecomandSkill = "\231\172\166\230\150\135\230\142\140\230\143\161,\229\173\164\230\179\168\228\184\128\230\142\183,\233\153\132\233\173\148\228\185\139\229\136\131",
+    tips = ""
+  },
+  [35] = {
+    id = 35,
+    Title = "\231\129\171\229\191\181",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 3,
+    Dsc = "Int 108, Dex 97, Vit 85, ",
+    RecomandSkill = "\229\133\131\231\180\160\229\188\186\229\140\150,\229\133\131\231\180\160\230\188\169\230\182\161,\233\173\148\230\179\149\231\144\134\232\167\163,\233\173\148\230\179\149\233\128\159\232\175\187",
+    tips = ""
+  },
+  [36] = {
+    id = 36,
+    Title = "\229\134\176\233\155\183",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Int 108, Dex 97, Vit 85, ",
+    RecomandSkill = "\232\191\158\233\148\129\233\151\170\231\148\181,\233\173\148\230\179\149\231\144\134\232\167\163,\233\173\148\230\179\149\233\128\159\232\175\187,\229\134\176\233\155\190,\229\133\131\231\180\160\230\188\169\230\182\161",
+    tips = ""
+  },
+  [37] = {
+    id = 37,
+    Title = "\230\149\143\230\141\183",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 2,
+    Dsc = "Agi 103, Int 104, Vit 82",
+    RecomandSkill = "\231\148\159\229\145\189\229\144\184\229\143\150,\229\133\131\231\180\160\229\188\186\229\140\150,\233\173\148\230\179\149\233\128\159\232\175\187,\233\173\148\230\179\149\231\144\134\232\167\163",
+    tips = ""
+  },
+  [38] = {
+    id = 38,
+    Title = "\232\190\147\229\135\186",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Agi 103, Dex 104, Luk 82",
+    RecomandSkill = "\232\147\132\229\138\191\229\190\133\229\143\145,\229\177\160\230\136\174\229\176\132\229\135\187,\231\174\173\231\159\162\233\163\142\230\154\180,\232\135\170\231\132\182\229\174\136\230\138\164",
+    tips = ""
+  },
+  [39] = {
+    id = 39,
+    Title = "\233\135\142\229\133\189",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Agi 93, Int 119, Dex 69",
+    RecomandSkill = "\231\139\188\231\137\153,\233\170\145\231\139\188\230\156\175,\231\139\188\231\170\129\229\135\187,\231\140\142\231\137\169\232\191\189\232\184\170",
+    tips = ""
+  },
+  [40] = {
+    id = 40,
+    Title = "\233\153\183\233\152\177",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 2,
+    Dsc = "Int 119, Dex 119",
+    RecomandSkill = "\231\148\181\229\135\187\233\153\183\233\152\177,\229\153\168\230\162\176\228\184\147\229\174\182,\232\135\170\231\132\182\229\174\136\230\138\164",
+    tips = ""
+  },
+  [41] = {
+    id = 41,
+    Title = "\232\181\158\231\190\142",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Int 108, Vit 97, Dex 85",
+    RecomandSkill = "\229\156\163\231\129\181\233\153\141\228\184\180,\230\178\187\230\132\136\228\185\139\229\133\137,\229\156\163\231\164\188,\231\188\147\230\175\146\230\156\175",
+    tips = ""
+  },
+  [42] = {
+    id = 42,
+    Title = "\233\169\177\233\173\148",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 3,
+    Dsc = "Int 113, Dex 93, Vit 82",
+    RecomandSkill = "\231\165\183\229\145\138,\232\181\158\230\173\140,\229\156\163\229\173\144\229\133\137\232\190\137,\233\162\134\230\130\159",
+    tips = ""
+  },
+  [43] = {
+    id = 43,
+    Title = "\230\154\180\229\138\155",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 3,
+    Dsc = "Str 113, Agi 82, Dex 54, Luk 69",
+    RecomandSkill = "\232\181\142\231\189\170,\229\144\166\229\134\179,\229\143\140\233\135\141\229\156\163\229\133\137,\229\138\157\232\175\171",
+    tips = ""
+  },
+  [44] = {
+    id = 44,
+    Title = "\230\156\186\230\162\176",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 2,
+    Dsc = "Str 113, Dex 93, Vit 82",
+    RecomandSkill = "\233\173\148\229\175\188\230\156\186\230\162\176,\232\135\170\231\136\134,\229\138\160\229\134\156\231\130\174,\229\150\183\229\176\132\233\163\158\230\139\179,\230\130\172\230\181\174,\231\163\129\229\156\186",
+    tips = ""
+  },
+  [45] = {
+    id = 45,
+    Title = "\230\150\167\229\164\180",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Str 114, Vit 103, Dex 69",
+    RecomandSkill = "\230\150\167\228\191\174\231\130\188,\229\136\169\232\175\177",
+    tips = ""
+  },
+  [46] = {
+    id = 46,
+    Title = "\230\154\180\229\136\186",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Agi 103, Str 104, Luk 82",
+    RecomandSkill = "\231\150\190\233\163\142\230\173\165,\228\188\164\229\143\163\230\129\182\229\140\150,\229\155\158\230\151\139\229\136\169\229\136\131,\229\155\158\230\151\139\229\141\129\229\173\151\230\150\169",
+    tips = ""
+  },
+  [47] = {
+    id = 47,
+    Title = "\230\175\146\229\136\186",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Agi 113, Str 93, Dex 82",
+    RecomandSkill = "\233\171\152\231\186\167\232\167\163\230\175\146,\229\137\167\230\175\146\230\173\166\229\153\168,\230\150\176\230\175\146\231\160\148\231\169\182,\230\175\146\233\155\190",
+    tips = ""
+  },
+  [48] = {
+    id = 48,
+    Title = "\233\154\144\229\136\186",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 2,
+    Dsc = "Str 113, Agi 93, Dex 82",
+    RecomandSkill = "\229\191\131\231\129\181\233\156\135\230\133\145,\230\154\151\229\189\177\230\173\165,\231\150\190\233\163\142\230\173\165,\230\173\166\229\153\168\230\160\188\230\140\161",
+    tips = ""
+  },
+  [49] = {
+    id = 49,
+    Title = "\230\158\129\233\128\159",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 3,
+    Dsc = "Agi 103, Str 104, Dex 82",
+    RecomandSkill = "\232\182\133\229\135\161\229\133\165\229\156\163,\230\191\146\230\173\187\232\167\137\233\134\146,\231\139\174\229\173\144\229\144\188,\230\189\156\233\190\153\229\141\135\229\164\169",
+    tips = ""
+  },
+  [50] = {
+    id = 50,
+    Title = "\232\191\158\230\139\155",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Str 119, Agi 93, Dex 69",
+    RecomandSkill = "\229\143\140\233\190\153\230\145\134\229\176\190,\229\164\167\233\148\164\229\180\169\232\144\189,\232\153\142\231\130\174,\230\189\156\233\190\153\229\141\135\229\164\169,\229\146\146\231\188\154\233\152\181",
+    tips = ""
+  },
+  [51] = {
+    id = 51,
+    Title = "\233\152\191\233\156\184",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 3,
+    Dsc = "Str 114, Int 103, Dex 69",
+    RecomandSkill = "\232\153\142\231\130\174,\231\189\151\229\136\185\231\160\180\229\135\176\230\139\179,\230\189\156\233\190\153\229\141\135\229\164\169,\232\182\133\229\135\161\229\133\165\229\156\163",
+    tips = ""
+  },
+  [52] = {
+    id = 52,
+    Title = "\232\190\133\229\138\169",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 2,
+    Dsc = "Dex 104, Luk 93, Agi 93",
+    RecomandSkill = "\229\151\156\232\161\128\230\184\180\230\156\155,\233\187\145\230\180\158\233\153\183\233\152\177,\230\183\183\228\185\177\230\129\144\230\133\140,\233\173\148\229\138\155\233\153\183\233\152\177",
+    tips = ""
+  },
+  [53] = {
+    id = 53,
+    Title = "\229\189\177\231\140\142",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Agi 113, Dex 113, Luk 54",
+    RecomandSkill = "\230\173\187\228\186\161\230\160\135\232\174\176,\233\154\144\232\148\189\229\176\132\229\135\187,\230\154\151\229\189\177\232\191\189\229\135\187",
+    tips = ""
+  },
+  [54] = {
+    id = 54,
+    Title = "\229\136\186\230\157\128",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 3,
+    Dsc = "Str 113, Agi 93, Dex 82",
+    RecomandSkill = "\229\168\129\232\131\129\230\129\144\229\144\147,\233\128\144\228\184\128\229\135\187\231\160\180,\233\156\184\231\142\139\233\173\130,\232\135\180\229\145\189\230\132\159\230\159\147",
+    tips = ""
+  },
+  [55] = {
+    id = 55,
+    Title = "\231\160\180\229\157\143",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 3,
+    Dsc = "Str 104, Int 93, Dex 93",
+    RecomandSkill = "\231\150\175\231\139\130\231\129\171\231\132\176,\231\129\188\231\131\173\233\163\142\230\154\180,\231\129\171\231\132\176\231\136\134\231\130\184",
+    tips = ""
+  },
+  [56] = {
+    id = 56,
+    Title = "\230\137\139\230\142\168\232\189\166",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 2,
+    Dsc = "Str 104, Vit 93, Dex 93",
+    RecomandSkill = "\230\137\139\230\142\168\232\189\166\231\136\134\229\143\145,\230\137\139\230\142\168\232\189\166\229\138\160\229\134\156\231\130\174",
+    tips = ""
+  },
+  [57] = {
+    id = 57,
+    Title = "\230\164\141\231\137\169",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Int 82, Str 82, Vit 82, Dex 82",
+    RecomandSkill = "\232\141\134\230\163\152\233\153\183\233\152\177,\231\150\175\231\139\130\233\135\142\232\141\137,\230\155\188\233\153\128\231\189\151\229\154\142\229\143\171",
+    tips = ""
+  },
+  [58] = {
+    id = 58,
+    Title = "\229\143\172\229\148\164",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Str 82, Int 82, Vit 82, Dex 82",
+    RecomandSkill = "\231\148\159\229\145\189\233\147\190\230\142\165,\229\159\186\229\155\160\232\176\131\232\138\130,\231\148\159\229\145\189\232\158\141\229\144\136",
+    tips = ""
+  },
+  [59] = {
+    id = 59,
+    Title = "\229\174\161\229\136\164",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Str 114, Int 103, Dex 69",
+    RecomandSkill = "\229\164\167\229\156\176\231\140\155\229\135\187,\232\153\148\232\175\154,\229\156\163\233\159\179,\229\156\163\231\129\181\230\132\159\229\186\148,\230\173\163\228\185\137\230\136\146\229\190\139,\229\168\129\230\156\155",
+    tips = ""
+  },
+  [60] = {
+    id = 60,
+    Title = "\233\149\191\231\159\155\229\138\160\233\128\159",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 3,
+    Dsc = "Str 113, Vit 93, Dex 82",
+    RecomandSkill = "\230\158\170\233\152\181-\232\161\128\229\141\129\229\173\151,\233\149\191\230\158\170\231\170\129\229\136\186,\230\151\160\231\149\143\230\151\160\230\131\167,\229\168\129\230\156\155",
+    tips = ""
+  },
+  [61] = {
+    id = 61,
+    Title = "\230\149\143\229\137\145",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 3,
+    Dsc = "Agi 104, Str 103, Dex 82",
+    RecomandSkill = "\229\156\163\231\129\181\230\132\159\229\186\148,\230\140\135\230\140\165\229\134\178\233\148\139,\230\151\160\231\149\143\230\151\160\230\131\167,\229\168\129\230\156\155",
+    tips = ""
+  },
+  [62] = {
+    id = 62,
+    Title = "\229\191\181\229\146\146",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 3,
+    Dsc = "Int 119, Dex 119",
+    RecomandSkill = "\231\129\171\231\174\173\230\156\175,\232\135\170\231\148\177\230\150\189\230\148\190,\233\128\159\232\175\187\230\156\175,\231\166\133\229\191\131,\232\131\189\233\135\143\229\164\150\229\165\151",
+    tips = ""
+  },
+  [63] = {
+    id = 63,
+    Title = "\230\149\143\230\141\183",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 2,
+    Dsc = "Agi 119, Int 119",
+    RecomandSkill = "\232\191\155\229\140\150\228\185\139\228\185\166,\232\135\170\229\138\168\229\191\181\229\146\146,\229\143\140\229\128\141\230\138\149\230\142\183,\232\131\189\233\135\143\229\164\150\229\165\151",
+    tips = ""
+  },
+  [64] = {
+    id = 64,
+    Title = "\232\190\133\229\138\169",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Vit 113, Int 94, Dex 82",
+    RecomandSkill = "\229\156\176\229\133\131\231\180\160\233\162\134\229\159\159,\229\191\181\229\146\146\230\139\134\233\153\164,\231\178\190\231\165\158\232\128\151\229\188\177\230\156\175,\233\173\148\230\179\149\230\149\136\230\158\156\232\167\163\233\153\164",
+    tips = ""
+  },
+  [65] = {
+    id = 65,
+    Title = "\232\190\147\229\135\186",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Int 119, Dex 119",
+    RecomandSkill = "\231\174\173\233\155\168,\231\187\131\228\185\160\232\136\158\232\185\136,\228\185\144\229\153\168\230\148\187\229\135\187,\229\165\165\228\185\137\231\174\173\228\185\177\232\136\158,\228\185\144\229\153\168\231\178\190\233\128\154",
+    tips = ""
+  },
+  [66] = {
+    id = 66,
+    Title = "\230\188\148\229\165\143",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 2,
+    Dsc = "Dex 103, Int 94, Vit 93",
+    RecomandSkill = "\228\184\141\229\146\140\232\176\144\233\159\179,\231\187\131\228\185\160\232\136\158\232\185\136,\229\174\137\229\143\175,\228\184\141\232\166\129\230\139\152\230\157\159\230\136\145,\229\176\188\228\188\175\233\190\153\230\160\185\231\154\132\230\140\135\231\142\175",
+    tips = ""
+  },
+  [67] = {
+    id = 67,
+    Title = "\232\190\133\229\138\169",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 3,
+    Dsc = "Vit 104, Int 82, Dex 69, Agi 69",
+    RecomandSkill = "\229\136\186\229\174\162\231\154\132\233\187\132\230\152\143,\233\135\145\229\133\136\231\148\159\230\152\175\230\156\137\233\146\177\228\186\186,\229\130\128\229\132\161\229\184\136\231\154\132\230\138\138\230\136\143,\232\167\166\229\170\146\228\185\139\230\137\128",
+    tips = ""
+  },
+  [68] = {
+    id = 68,
+    Title = "\232\190\147\229\135\186",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Int 119, Dex 119",
+    RecomandSkill = "\231\174\173\233\155\168,\230\147\141\230\142\167\228\185\144\229\153\168,\231\188\160\231\174\173\230\138\149\230\142\183,\229\165\165\228\185\137\231\174\173\228\185\177\232\136\158",
+    tips = ""
+  },
+  [69] = {
+    id = 69,
+    Title = "\230\188\148\229\165\143",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 2,
+    Dsc = "Dex 103, Int 94, Vit 93",
+    RecomandSkill = "\228\184\145\233\153\139\228\185\139\232\136\158,\231\187\131\228\185\160\232\136\158\232\185\136,\230\145\135\231\175\174\230\155\178,\228\184\141\232\166\129\230\139\152\230\157\159\230\136\145,\229\176\188\228\188\175\233\190\153\230\160\185\231\154\132\230\140\135\231\142\175",
+    tips = ""
+  },
+  [70] = {
+    id = 70,
+    Title = "\232\190\133\229\138\169",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 3,
+    Dsc = "Vit 104, Int 82, Dex 69, Agi 69",
+    RecomandSkill = "\230\131\138\229\163\176\229\176\150\229\143\171,\229\147\188\229\148\177\228\185\139\233\159\179,\230\145\135\231\175\174\230\155\178,\229\165\179\231\165\158\228\185\139\229\144\187,\230\180\155\229\165\135\231\154\132\230\130\178\233\184\163",
+    tips = ""
+  },
+  [71] = {
+    id = 71,
+    Title = "\229\191\181\229\146\146",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 3,
+    Dsc = "Int 119, Dex 119",
+    RecomandSkill = "\233\148\144\229\136\169\230\173\166\229\153\168,\233\146\187\231\159\179\230\152\159\229\176\152,\229\178\169\230\158\170,\229\143\172\229\148\164\229\133\131\231\180\160,\231\178\190\231\165\158\229\134\178\229\135\187,\233\151\170\231\148\181\228\185\139\230\158\170",
+    tips = ""
+  },
+  [72] = {
+    id = 72,
+    Title = "\230\149\143\230\141\183",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 2,
+    Dsc = "Agi 119, Int 119",
+    RecomandSkill = "\233\148\144\229\136\169\230\173\166\229\153\168,\233\173\148\229\138\155\228\185\139\230\139\179,\229\143\172\229\148\164\229\133\131\231\180\160,\229\133\131\231\180\160\228\186\164\230\181\129",
+    tips = ""
+  },
+  [73] = {
+    id = 73,
+    Title = "\232\190\133\229\138\169",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Vit 113, Int 94, Dex 82",
+    RecomandSkill = "\230\154\150\233\163\142,\231\190\164\228\189\147\229\130\172\231\156\160,\231\178\190\231\165\158\229\134\178\229\135\187,\229\143\172\229\148\164\229\133\131\231\180\160,\229\133\131\231\180\160\228\186\164\230\181\129",
+    tips = ""
+  },
+  [74] = {
+    id = 74,
+    Title = "\232\190\147\229\135\186",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Int 119, Dex 119",
+    RecomandSkill = "\231\139\130\233\163\142\230\154\180\233\155\168,\230\140\175\229\138\168\229\155\158\229\147\141,\230\140\175\229\138\168\233\162\134\229\159\159,\233\135\145\229\177\158\230\145\135\230\187\154",
+    tips = ""
+  },
+  [75] = {
+    id = 75,
+    Title = "\230\188\148\229\165\143",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 2,
+    Dsc = "Dex 103, Int 94, Vit 93",
+    RecomandSkill = "\230\188\148\229\165\143\232\175\190\231\168\139,\231\170\129\232\162\173\228\185\139\230\173\140,\232\191\156\229\143\164\229\164\149\233\152\179\228\185\139\230\173\140,\228\184\142\231\139\188\229\133\177\232\136\158",
+    tips = ""
+  },
+  [76] = {
+    id = 76,
+    Title = "\232\190\133\229\138\169",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 3,
+    Dsc = "Vit 104, Int 82, Dex 69, Agi 69",
+    RecomandSkill = "\229\155\158\229\189\146\228\185\139\230\173\140,\229\190\170\231\142\175\232\135\170\231\132\182\228\185\139\229\163\176,\232\191\156\229\143\164\229\164\149\233\152\179\228\185\139\230\173\140,\233\155\183\230\139\137\229\190\183\231\154\132\230\153\168\233\156\178",
+    tips = ""
+  },
+  [77] = {
+    id = 77,
+    Title = "\232\190\147\229\135\186",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 1,
+    Dsc = "Int 119, Dex 119",
+    RecomandSkill = "\231\139\130\233\163\142\230\154\180\233\155\168,\230\140\175\229\138\168\229\155\158\229\147\141,\230\140\175\229\138\168\233\162\134\229\159\159,\233\135\145\229\177\158\230\145\135\230\187\154",
+    tips = ""
+  },
+  [78] = {
+    id = 78,
+    Title = "\230\188\148\229\165\143",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 2,
+    Dsc = "Dex 103, Int 94, Vit 93",
+    RecomandSkill = "\230\188\148\229\165\143\232\175\190\231\168\139,\231\136\177\228\185\139\228\186\164\229\147\141\230\155\178,\232\191\156\229\143\164\229\164\149\233\152\179\228\185\139\230\173\140,\228\184\142\231\139\188\229\133\177\232\136\158",
+    tips = ""
+  },
+  [79] = {
+    id = 79,
+    Title = "\232\190\133\229\138\169",
+    AddPoint = {
+      {key = "Str", value = 1},
+      {key = "Int", value = 1},
+      {key = "Agi", value = 1},
+      {key = "Vit", value = 1},
+      {key = "Dex", value = 1},
+      {key = "Luk", value = 1}
+    },
+    Icon = 3,
+    Dsc = "Vit 104, Int 82, Dex 69, Agi 69",
+    RecomandSkill = "\229\155\158\229\189\146\228\185\139\230\173\140,\229\190\170\231\142\175\232\135\170\231\132\182\228\185\139\229\163\176,\232\191\156\229\143\164\229\164\149\233\152\179\228\185\139\230\173\140,\233\155\183\230\139\137\229\190\183\231\154\132\230\153\168\233\156\178",
+    tips = ""
+  }
 }
-
-Table_AddPointSolution_fields = { "id","Title","AddPoint","Icon","Dsc","RecomandSkill","tips",}
+Table_AddPointSolution_fields = {
+  "id",
+  "Title",
+  "AddPoint",
+  "Icon",
+  "Dsc",
+  "RecomandSkill",
+  "tips"
+}
 return Table_AddPointSolution

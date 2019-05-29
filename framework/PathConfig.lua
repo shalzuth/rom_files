@@ -1,4 +1,1 @@
-PathConfig = {
-	PhotographPath="photo",
-	TempShare = "TempShare",
-}
+PathConfig = {PhotographPath = "photo", TempShare = "TempShare"}

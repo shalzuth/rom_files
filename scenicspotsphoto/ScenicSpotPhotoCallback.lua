@@ -1,3 +1,2 @@
-autoImport('PhotoCallback')
-
-ScenicSpotPhotoCallback = class('ScenicSpotPhotoCallback', PhotoCallback)
+autoImport("PhotoCallback")
+ScenicSpotPhotoCallback = class("ScenicSpotPhotoCallback", PhotoCallback)

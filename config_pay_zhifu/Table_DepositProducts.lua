@@ -1,32 +1,374 @@
---md5:65d950780e89526ceaab918f87412a8e
 Table_DepositProducts = {
-	[1] = {id = 1, DepositID = 100, ProductID = 'com.gravity.romg.zeny12', CurrencyType = 'USD', Rmb = 1.99},
-	[2] = {id = 2, DepositID = 101, ProductID = 'com.gravity.romg.zeny30', CurrencyType = 'USD', Rmb = 4.99},
-	[3] = {id = 3, DepositID = 102, ProductID = 'com.gravity.romg.zeny68', CurrencyType = 'USD', Rmb = 9.99},
-	[4] = {id = 4, DepositID = 103, ProductID = 'com.gravity.romg.zeny128', CurrencyType = 'USD', Rmb = 19.99},
-	[5] = {id = 5, DepositID = 104, ProductID = 'com.gravity.romg.zeny223', CurrencyType = 'USD', Rmb = 32.99},
-	[6] = {id = 6, DepositID = 105, ProductID = 'com.gravity.romg.zeny328', CurrencyType = 'USD', Rmb = 49.99},
-	[7] = {id = 7, DepositID = 106, ProductID = 'com.gravity.romg.zeny648', CurrencyType = 'USD', Rmb = 99.99},
-	[8] = {id = 8, DepositID = 201, ProductID = 'com.gravity.romg.coin30', CurrencyType = 'USD', Rmb = 4.99},
-	[9] = {id = 9, DepositID = 202, ProductID = 'com.gravity.romg.coin128', CurrencyType = 'USD', Rmb = 19.99},
-	[10] = {id = 10, DepositID = 203, ProductID = 'com.gravity.romg.coin328', CurrencyType = 'USD', Rmb = 49.99},
-	[11] = {id = 11, DepositID = 204, ProductID = 'com.gravity.romg.coin648', CurrencyType = 'USD', Rmb = 99.99},
-	[12] = {id = 12, DepositID = 9999, ProductID = 'com.gravity.romg.yueka', CurrencyType = 'USD', Rmb = 7.99},
-	[15] = {id = 15, DepositID = 4100, ProductID = 'com.gravity.romg.ep02_card50', CurrencyType = 'USD', Rmb = 7.99},
-	[16] = {id = 16, DepositID = 4110, ProductID = 'com.gravity.romg.ep02_card73', CurrencyType = 'USD', Rmb = 10.99},
-	[17] = {id = 17, DepositID = 4200, ProductID = 'com.gravity.romg.ep03_card50', CurrencyType = 'USD', Rmb = 7.99},
-	[18] = {id = 18, DepositID = 4210, ProductID = 'com.gravity.romg.ep03_card73', CurrencyType = 'USD', Rmb = 10.99},
-	[19] = {id = 19, DepositID = 4300, ProductID = 'com.gravity.romg.ep04_card50', CurrencyType = 'USD', Rmb = 7.99},
-	[20] = {id = 20, DepositID = 4310, ProductID = 'com.gravity.romg.ep04_card73', CurrencyType = 'USD', Rmb = 10.99},
-	[21] = {id = 21, DepositID = 500, ProductID = 'com.gravity.romg.webzeny02', CurrencyType = 'CNY', Rmb = 0.2},
-	[22] = {id = 22, DepositID = 501, ProductID = 'com.gravity.romg.webzeny1', CurrencyType = 'CNY', Rmb = 1},
-	[23] = {id = 23, DepositID = 502, ProductID = 'com.gravity.romg.webzeny2', CurrencyType = 'CNY', Rmb = 2},
-	[24] = {id = 24, DepositID = 503, ProductID = 'com.gravity.romg.webzeny5', CurrencyType = 'CNY', Rmb = 5},
-	[25] = {id = 25, DepositID = 600, ProductID = 'com.gravity.romg.webcoin1', CurrencyType = 'CNY', Rmb = 1},
-	[26] = {id = 26, DepositID = 601, ProductID = 'com.gravity.romg.webcoin2', CurrencyType = 'CNY', Rmb = 2},
-	[27] = {id = 27, DepositID = 602, ProductID = 'com.gravity.romg.webcoin5', CurrencyType = 'CNY', Rmb = 5},
-	[28] = {id = 28, DepositID = 9999, ProductID = 'com.gravity.romg.webmonthcard', CurrencyType = 'USD', Rmb = 7.99},
-	[29] = {id = 29, DepositID = 702, ProductID = 'com.gravity.romg.webmonthcard2', CurrencyType = 'USD', Rmb = 7.99},
+  [1] = {
+    id = 1,
+    DepositID = 1000,
+    ProductID = "jp.gungho.ragnarokm_ios_coin_A",
+    CurrencyType = "JPY",
+    Rmb = 120
+  },
+  [2] = {
+    id = 2,
+    DepositID = 1001,
+    ProductID = "jp.gungho.ragnarokm_ios_coin_B",
+    CurrencyType = "JPY",
+    Rmb = 600
+  },
+  [3] = {
+    id = 3,
+    DepositID = 1002,
+    ProductID = "jp.gungho.ragnarokm_ios_coin_C",
+    CurrencyType = "JPY",
+    Rmb = 1200
+  },
+  [4] = {
+    id = 4,
+    DepositID = 1003,
+    ProductID = "jp.gungho.ragnarokm_ios_coin_D",
+    CurrencyType = "JPY",
+    Rmb = 2400
+  },
+  [5] = {
+    id = 5,
+    DepositID = 1004,
+    ProductID = "jp.gungho.ragnarokm_ios_coin_E",
+    CurrencyType = "JPY",
+    Rmb = 4800
+  },
+  [6] = {
+    id = 6,
+    DepositID = 1005,
+    ProductID = "jp.gungho.ragnarokm_ios_coin_F",
+    CurrencyType = "JPY",
+    Rmb = 6000
+  },
+  [7] = {
+    id = 7,
+    DepositID = 1006,
+    ProductID = "jp.gungho.ragnarokm_ios_coin_G",
+    CurrencyType = "JPY",
+    Rmb = 9800
+  },
+  [8] = {
+    id = 8,
+    DepositID = 2000,
+    ProductID = "jp.gungho.ragnarokm_ios_pack",
+    CurrencyType = "JPY",
+    Rmb = 960
+  },
+  [9] = {
+    id = 9,
+    DepositID = 2200,
+    ProductID = "jp.gungho.ragnarokm_ios_ep02_A",
+    CurrencyType = "JPY",
+    Rmb = 960
+  },
+  [10] = {
+    id = 10,
+    DepositID = 2201,
+    ProductID = "jp.gungho.ragnarokm_ios_ep02_B",
+    CurrencyType = "JPY",
+    Rmb = 960
+  },
+  [11] = {
+    id = 11,
+    DepositID = 2300,
+    ProductID = "jp.gungho.ragnarokm_ios_ep03_A",
+    CurrencyType = "JPY",
+    Rmb = 960
+  },
+  [12] = {
+    id = 12,
+    DepositID = 2301,
+    ProductID = "jp.gungho.ragnarokm_ios_ep03_B",
+    CurrencyType = "JPY",
+    Rmb = 960
+  },
+  [13] = {
+    id = 13,
+    DepositID = 2400,
+    ProductID = "jp.gungho.ragnarokm_ios_ep04_A",
+    CurrencyType = "JPY",
+    Rmb = 960
+  },
+  [14] = {
+    id = 14,
+    DepositID = 2401,
+    ProductID = "jp.gungho.ragnarokm_ios_ep04_B",
+    CurrencyType = "JPY",
+    Rmb = 1300
+  },
+  [15] = {
+    id = 15,
+    DepositID = 2500,
+    ProductID = "jp.gungho.ragnarokm_ios_ep05_A",
+    CurrencyType = "JPY",
+    Rmb = 960
+  },
+  [16] = {
+    id = 16,
+    DepositID = 2501,
+    ProductID = "jp.gungho.ragnarokm_ios_ep05_B",
+    CurrencyType = "JPY",
+    Rmb = 1300
+  },
+  [17] = {
+    id = 17,
+    DepositID = 3000,
+    ProductID = "jp.gungho.ragnarokm_ios_eventpack_A",
+    CurrencyType = "JPY",
+    Rmb = 5000
+  },
+  [18] = {
+    id = 18,
+    DepositID = 3001,
+    ProductID = "jp.gungho.ragnarokm_ios_eventpack_B",
+    CurrencyType = "JPY",
+    Rmb = 5000
+  },
+  [19] = {
+    id = 19,
+    DepositID = 3002,
+    ProductID = "jp.gungho.ragnarokm_ios_eventpack_C",
+    CurrencyType = "JPY",
+    Rmb = 5000
+  },
+  [20] = {
+    id = 20,
+    DepositID = 3003,
+    ProductID = "jp.gungho.ragnarokm_ios_eventpack_D",
+    CurrencyType = "JPY",
+    Rmb = 5000
+  },
+  [21] = {
+    id = 21,
+    DepositID = 3004,
+    ProductID = "jp.gungho.ragnarokm_ios_eventpack_E",
+    CurrencyType = "JPY",
+    Rmb = 5000
+  },
+  [22] = {
+    id = 22,
+    DepositID = 3005,
+    ProductID = "jp.gungho.ragnarokm_ios_eventpack_F",
+    CurrencyType = "JPY",
+    Rmb = 5000
+  },
+  [23] = {
+    id = 23,
+    DepositID = 3006,
+    ProductID = "jp.gungho.ragnarokm_ios_eventpack_G",
+    CurrencyType = "JPY",
+    Rmb = 5000
+  },
+  [24] = {
+    id = 24,
+    DepositID = 3007,
+    ProductID = "jp.gungho.ragnarokm_ios_eventpack_H",
+    CurrencyType = "JPY",
+    Rmb = 5000
+  },
+  [25] = {
+    id = 25,
+    DepositID = 3008,
+    ProductID = "jp.gungho.ragnarokm_ios_eventpack_I",
+    CurrencyType = "JPY",
+    Rmb = 5000
+  },
+  [26] = {
+    id = 26,
+    DepositID = 3009,
+    ProductID = "jp.gungho.ragnarokm_ios_eventpack_J",
+    CurrencyType = "JPY",
+    Rmb = 5000
+  },
+  [27] = {
+    id = 27,
+    DepositID = 1000,
+    ProductID = "jp.gungho.ragnarokm_and_coin_a",
+    CurrencyType = "JPY",
+    Rmb = 120
+  },
+  [28] = {
+    id = 28,
+    DepositID = 1001,
+    ProductID = "jp.gungho.ragnarokm_and_coin_b",
+    CurrencyType = "JPY",
+    Rmb = 600
+  },
+  [29] = {
+    id = 29,
+    DepositID = 1002,
+    ProductID = "jp.gungho.ragnarokm_and_coin_c",
+    CurrencyType = "JPY",
+    Rmb = 1200
+  },
+  [30] = {
+    id = 30,
+    DepositID = 1003,
+    ProductID = "jp.gungho.ragnarokm_and_coin_d",
+    CurrencyType = "JPY",
+    Rmb = 2400
+  },
+  [31] = {
+    id = 31,
+    DepositID = 1004,
+    ProductID = "jp.gungho.ragnarokm_and_coin_e",
+    CurrencyType = "JPY",
+    Rmb = 4800
+  },
+  [32] = {
+    id = 32,
+    DepositID = 1005,
+    ProductID = "jp.gungho.ragnarokm_and_coin_f",
+    CurrencyType = "JPY",
+    Rmb = 6000
+  },
+  [33] = {
+    id = 33,
+    DepositID = 1006,
+    ProductID = "jp.gungho.ragnarokm_and_coin_g",
+    CurrencyType = "JPY",
+    Rmb = 9800
+  },
+  [34] = {
+    id = 34,
+    DepositID = 2000,
+    ProductID = "jp.gungho.ragnarokm_and_pack",
+    CurrencyType = "JPY",
+    Rmb = 960
+  },
+  [35] = {
+    id = 35,
+    DepositID = 2200,
+    ProductID = "jp.gungho.ragnarokm_and_ep02_a",
+    CurrencyType = "JPY",
+    Rmb = 960
+  },
+  [36] = {
+    id = 36,
+    DepositID = 2201,
+    ProductID = "jp.gungho.ragnarokm_and_ep02_b",
+    CurrencyType = "JPY",
+    Rmb = 960
+  },
+  [37] = {
+    id = 37,
+    DepositID = 2300,
+    ProductID = "jp.gungho.ragnarokm_and_ep03_a",
+    CurrencyType = "JPY",
+    Rmb = 960
+  },
+  [38] = {
+    id = 38,
+    DepositID = 2301,
+    ProductID = "jp.gungho.ragnarokm_and_ep03_b",
+    CurrencyType = "JPY",
+    Rmb = 960
+  },
+  [39] = {
+    id = 39,
+    DepositID = 2400,
+    ProductID = "jp.gungho.ragnarokm_and_ep04_a",
+    CurrencyType = "JPY",
+    Rmb = 960
+  },
+  [40] = {
+    id = 40,
+    DepositID = 2401,
+    ProductID = "jp.gungho.ragnarokm_and_ep04_b",
+    CurrencyType = "JPY",
+    Rmb = 1300
+  },
+  [41] = {
+    id = 41,
+    DepositID = 2500,
+    ProductID = "jp.gungho.ragnarokm_and_ep05_a",
+    CurrencyType = "JPY",
+    Rmb = 960
+  },
+  [42] = {
+    id = 42,
+    DepositID = 2501,
+    ProductID = "jp.gungho.ragnarokm_and_ep05_b",
+    CurrencyType = "JPY",
+    Rmb = 1300
+  },
+  [43] = {
+    id = 43,
+    DepositID = 3000,
+    ProductID = "jp.gungho.ragnarokm_and_eventpack_a",
+    CurrencyType = "JPY",
+    Rmb = 5000
+  },
+  [44] = {
+    id = 44,
+    DepositID = 3001,
+    ProductID = "jp.gungho.ragnarokm_and_eventpack_b",
+    CurrencyType = "JPY",
+    Rmb = 5000
+  },
+  [45] = {
+    id = 45,
+    DepositID = 3002,
+    ProductID = "jp.gungho.ragnarokm_and_eventpack_c",
+    CurrencyType = "JPY",
+    Rmb = 5000
+  },
+  [46] = {
+    id = 46,
+    DepositID = 3003,
+    ProductID = "jp.gungho.ragnarokm_and_eventpack_d",
+    CurrencyType = "JPY",
+    Rmb = 5000
+  },
+  [47] = {
+    id = 47,
+    DepositID = 3004,
+    ProductID = "jp.gungho.ragnarokm_and_eventpack_e",
+    CurrencyType = "JPY",
+    Rmb = 5000
+  },
+  [48] = {
+    id = 48,
+    DepositID = 3005,
+    ProductID = "jp.gungho.ragnarokm_and_eventpack_f",
+    CurrencyType = "JPY",
+    Rmb = 5000
+  },
+  [49] = {
+    id = 49,
+    DepositID = 3006,
+    ProductID = "jp.gungho.ragnarokm_and_eventpack_g",
+    CurrencyType = "JPY",
+    Rmb = 5000
+  },
+  [50] = {
+    id = 50,
+    DepositID = 3007,
+    ProductID = "jp.gungho.ragnarokm_and_eventpack_h",
+    CurrencyType = "JPY",
+    Rmb = 5000
+  },
+  [51] = {
+    id = 51,
+    DepositID = 3008,
+    ProductID = "jp.gungho.ragnarokm_and_eventpack_i",
+    CurrencyType = "JPY",
+    Rmb = 5000
+  },
+  [52] = {
+    id = 52,
+    DepositID = 3009,
+    ProductID = "jp.gungho.ragnarokm_and_eventpack_j",
+    CurrencyType = "JPY",
+    Rmb = 5000
+  }
 }
-Table_DepositProducts_fields = { "id","DepositID","ProductID","CurrencyType","Rmb",}
+Table_DepositProducts_fields = {
+  "id",
+  "DepositID",
+  "ProductID",
+  "CurrencyType",
+  "Rmb"
+}
 return Table_DepositProducts

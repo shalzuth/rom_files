@@ -1,241 +1,404 @@
---[[
-    --说明:
-        界面显示/隐藏的方式枚举
-    --配置说明:
-        CreateAndDestroy 创建/销毁
-        ActiveAndDeactive 设置激活/非激活
-        MoveOutAndMoveIn 移除到远处/移动回来
-]]
-LayerShowHideMode = {
-    ActiveAndDeactive = 1,
-    MoveOutAndMoveIn = 2
-}
-
---[[
-    --说明：
-        层级的配置
-        此配置由策划维护
-    --配置格式:
-        xxLayer         每个layer的配置
-        name            层级的名字
-        depth           层级深度，数值越大，显示越前面，并且每个layer下可最多同时出现15个UIPanel
-        reEntnerNotDestory          再该层级已打开的情况下，不会销毁原来的层级
-        hideOtherLayer  该层级显示时，需隐藏的其他层级
-        closeOtherLayer 该层级显示时，需关闭的其他层级
-        coliderColor    层级挡板的颜色（不配置该项的话，便认作为此层级无底部挡板)
-        showHideMode    显示隐藏模式
-]]
+LayerShowHideMode = {ActiveAndDeactive = 1, MoveOutAndMoveIn = 2}
 UIViewType = {
-    SceneNameLayer = {
-        name = "角色场景UI" ,
-        depth = 0
+  SceneNameLayer = {
+    name = "\232\167\146\232\137\178\229\156\186\230\153\175UI",
+    depth = 0
+  },
+  BlindLayer = {
+    name = "\229\156\186\230\153\175\232\135\180\231\155\178\233\129\174\231\189\169",
+    depth = 1
+  },
+  MainLayer = {
+    name = "\228\184\187\231\149\140\233\157\162",
+    depth = 2,
+    reEntnerNotDestory = true,
+    showHideMode = LayerShowHideMode.ActiveAndDeactive
+  },
+  ReviveLayer = {
+    name = "\229\164\141\230\180\187\229\177\130\231\186\167",
+    depth = 3,
+    closeOtherLayer = {
+      CheckLayer = {},
+      NormalLayer = {},
+      PopUpLayer = {},
+      TipLayer = {},
+      FocusLayer = {},
+      DialogLayer = {},
+      ChatroomLayer = {},
+      ChitchatLayer = {},
+      ChatLayer = {},
+      ShieldingLayer = {}
     },
-    BlindLayer = {
-        name = "场景致盲遮罩" ,
-        depth = 1
+    hideOtherLayer = {
+      GuideLayer = {},
+      Popup10Layer = {},
+      SystemOpenLayer = {},
+      GOGuideLayer = {}
+    }
+  },
+  ChatroomLayer = {
+    name = "\229\165\189\229\143\139",
+    depth = 4,
+    closeOtherLayer = {
+      FocusLayer = {},
+      DialogLayer = {},
+      TipLayer = {},
+      TeamLayer = {},
+      ChatLayer = {}
+    }
+  },
+  BoothLayer = {
+    name = "\230\145\134\230\145\138",
+    depth = 5,
+    hideOtherLayer = {
+      MainLayer = {}
     },
-    MainLayer = {
-        name = "主界面" ,
-        depth = 2,
-        reEntnerNotDestory = true,
-        showHideMode = LayerShowHideMode.ActiveAndDeactive,
+    closeOtherLayer = {
+      FocusLayer = {},
+      DialogLayer = {},
+      TipLayer = {},
+      TeamLayer = {},
+      ChatLayer = {}
+    }
+  },
+  InterstitialLayer = {
+    name = "\229\133\168\229\177\143\231\149\140\233\157\162",
+    depth = 6,
+    coliderColor = Color(0, 0, 0, 0.00392156862745098),
+    hideOtherLayer = {
+      ChatroomLayer = {},
+      DialogLayer = {},
+      BoothLayer = {},
+      MainLayer = {}
     },
-    ReviveLayer = {
-        name = "复活层级" ,
-        depth = 3,
-        closeOtherLayer = {CheckLayer={},NormalLayer={},PopUpLayer={},TipLayer={},FocusLayer={},DialogLayer={},ChatroomLayer={},ChitchatLayer={},ChatLayer={},ShieldingLayer={}},
-        hideOtherLayer = {GuideLayer={},Popup10Layer={},SystemOpenLayer={},GOGuideLayer={}},
+    closeOtherLayer = {
+      ChatLayer = {},
+      FocusLayer = {},
+      TeamLayer = {},
+      NormalLayer = {}
+    }
+  },
+  ChitchatLayer = {
+    name = "\232\129\138\229\164\169\230\160\143(\229\183\166)",
+    depth = 7,
+    closeOtherLayer = {
+      FocusLayer = {},
+      DialogLayer = {},
+      TipLayer = {},
+      TeamLayer = {},
+      ChatLayer = {},
+      NormalLayer = {}
     },
-    ChatroomLayer = {
-        name = "好友" ,
-        depth = 4,
-        closeOtherLayer = {FocusLayer={},DialogLayer={},TipLayer={},TeamLayer={},ChatLayer={}},
+    reEntnerNotDestory = true
+  },
+  TeamLayer = {
+    name = "\231\187\132\233\152\159\231\149\140\233\157\162\239\188\136\228\184\141\229\177\143\232\148\189\228\184\187\231\149\140\233\157\162\239\188\137",
+    depth = 8,
+    coliderColor = Color(0, 0, 0, 0.00392156862745098),
+    hideOtherLayer = {
+      ChatroomLayer = {},
+      NormalLayer = {},
+      ChitchatLayer = {},
+      BoothLayer = {}
     },
-    BoothLayer = {
-        name = "摆摊" ,
-        depth = 5,
-		hideOtherLayer = {MainLayer={}},
-        closeOtherLayer = {FocusLayer={},DialogLayer={},TipLayer={},TeamLayer={},ChatLayer={}},
+    closeOtherLayer = {
+      ChatLayer = {},
+      TipLayer = {}
+    }
+  },
+  UIScreenEffectLayer = {
+    name = "\229\133\168\229\177\143UI\231\137\185\230\149\136\229\177\130",
+    depth = 9
+  },
+  FocusLayer = {
+    name = "\232\129\154\231\132\166\229\177\130\231\186\167",
+    depth = 10,
+    hideOtherLayer = {
+      MainLayer = {},
+      CheckLayer = {},
+      NormalLayer = {},
+      TipLayer = {},
+      ChatroomLayer = {},
+      BoothLayer = {},
+      ChitchatLayer = {},
+      TeamLayer = {}
     },
-	InterstitialLayer = {
-        name = "全屏界面" ,
-        depth = 6,
-        coliderColor = Color(0,0,0,1/255),
-        hideOtherLayer = {ChatroomLayer={},DialogLayer={},BoothLayer={}},
-        closeOtherLayer = {ChatLayer={},FocusLayer={},TeamLayer={},NormalLayer={}},
+    closeOtherLayer = {
+      ChatLayer = {}
+    }
+  },
+  DialogLayer = {
+    name = "\229\175\185\232\175\157\229\177\130\231\186\167",
+    depth = 11,
+    hideOtherLayer = {
+      CheckLayer = {},
+      MainLayer = {},
+      NormalLayer = {},
+      ChatroomLayer = {},
+      BoothLayer = {},
+      ChitchatLayer = {},
+      TeamLayer = {},
+      MovieLayer = {}
     },
-    ChitchatLayer = {
-        name = "聊天栏(左)" ,
-        depth = 7,
-        closeOtherLayer = {FocusLayer={},DialogLayer={},TipLayer={},TeamLayer={},ChatLayer={},NormalLayer={}},
-        reEntnerNotDestory = true,
+    closeOtherLayer = {
+      FocusLayer = {},
+      PopUpLayer = {},
+      TipLayer = {},
+      ChatLayer = {}
+    }
+  },
+  ChatLayer = {
+    name = "\232\161\168\230\131\133\232\129\138\229\164\169\229\177\130\231\186\167",
+    depth = 12
+  },
+  NormalLayer = {
+    name = "\228\186\140\231\186\167\231\149\140\233\157\162\229\177\130\231\186\167",
+    depth = 13,
+    coliderColor = Color(0, 0, 0, 0.00392156862745098),
+    hideOtherLayer = {
+      MainLayer = {},
+      ChatroomLayer = {},
+      ChitchatLayer = {}
     },
-    TeamLayer = {
-        name = "组队界面（不屏蔽主界面）" ,
-        depth = 8,
-        coliderColor = Color(0,0,0,1/255),
-        hideOtherLayer = {ChatroomLayer={},NormalLayer={},ChitchatLayer={},BoothLayer={}},
-        closeOtherLayer = {ChatLayer={},TipLayer={}},
+    closeOtherLayer = {
+      ChatLayer = {},
+      FocusLayer = {}
+    }
+  },
+  PopUpLayer = {
+    name = "\228\184\137\231\186\167\229\188\185\229\135\186\231\149\140\233\157\162\229\177\130\231\186\167",
+    depth = 14,
+    coliderColor = Color(0, 0, 0, 0.7843137254901961)
+  },
+  CheckLayer = {
+    name = "\230\159\165\231\156\139\232\175\166\230\131\133\229\177\130\231\186\167",
+    depth = 15,
+    hideOtherLayer = {
+      MainLayer = {},
+      ChatroomLayer = {},
+      ChitchatLayer = {},
+      PopUpLayer = {},
+      NormalLayer = {},
+      TeamLayer = {}
     },
-    UIScreenEffectLayer = {
-        name = "全屏UI特效层",
-        depth = 9,
+    closeOtherLayer = {
+      ChatLayer = {}
+    }
+  },
+  DragLayer = {
+    name = "\230\139\150\229\138\168\229\177\130\231\186\167",
+    depth = 16
+  },
+  TipLayer = {
+    name = "\230\143\144\231\164\186\231\149\140\233\157\162\229\177\130\231\186\167",
+    depth = 17
+  },
+  Lv4PopUpLayer = {
+    name = "\229\155\155\231\186\167\229\188\185\229\135\186\229\177\130\231\186\167",
+    depth = 18,
+    coliderColor = Color(0, 0, 0, 0.7843137254901961)
+  },
+  IConfirmLayer = {
+    name = "\233\130\128\232\175\183\231\161\174\232\174\164\229\177\130\231\186\167",
+    depth = 19,
+    hideOtherLayer = {},
+    closeOtherLayer = {
+      FocusLayer = {}
+    }
+  },
+  ConfirmLayer = {
+    name = "\231\161\174\232\174\164\230\161\134\229\177\130\231\186\167",
+    depth = 20,
+    coliderColor = Color(0, 0, 0, 0.00392156862745098)
+  },
+  GuideLayer = {
+    name = "\229\188\149\229\175\188\229\177\130\231\186\167",
+    depth = 21
+  },
+  SystemOpenLayer = {
+    name = "\231\179\187\231\187\159\229\188\128\229\144\175\229\177\130\231\186\167",
+    depth = 22,
+    hideOtherLayer = {
+      FocusLayer = {},
+      CheckLayer = {},
+      NormalLayer = {},
+      PopUpLayer = {},
+      TipLayer = {},
+      GuideLayer = {},
+      ConfirmLayer = {},
+      Popup10Layer = {},
+      ChatroomLayer = {},
+      ChitchatLayer = {},
+      TeamLayer = {}
     },
-    FocusLayer = {
-        name = "聚焦层级" ,
-        depth = 10,
-        hideOtherLayer = {MainLayer={},CheckLayer={},NormalLayer={},TipLayer={},ChatroomLayer={},BoothLayer={},ChitchatLayer={},TeamLayer={}},
-        closeOtherLayer = {ChatLayer={}},
+    closeOtherLayer = {
+      ChatLayer = {}
     },
-    DialogLayer = {
-        name = "对话层级" ,
-        depth = 11,
-        hideOtherLayer = {CheckLayer={},MainLayer={},NormalLayer={},ChatroomLayer={},BoothLayer={},ChitchatLayer={},TeamLayer={},MovieLayer={}},
-        closeOtherLayer = {FocusLayer={},PopUpLayer={},TipLayer={},ChatLayer={}},
+    coliderColor = Color(0, 0, 0, 0.00392156862745098),
+    reEntnerNotDestory = true,
+    showHideMode = LayerShowHideMode.ActiveAndDeactive
+  },
+  MovieLayer = {
+    name = "\232\167\130\231\156\139\231\148\181\229\189\177\229\177\130\231\186\167",
+    depth = 23,
+    hideOtherLayer = {
+      FocusLayer = {},
+      MainLayer = {},
+      CheckLayer = {},
+      NormalLayer = {},
+      PopUpLayer = {},
+      TipLayer = {},
+      BoardLayer = {},
+      GuideLayer = {},
+      DragLayer = {},
+      ConfirmLayer = {},
+      Popup10Layer = {},
+      ChatroomLayer = {},
+      ChitchatLayer = {}
     },
-    ChatLayer = {
-        name = "表情聊天层级" ,
-        depth = 12,
+    closeOtherLayer = {
+      ChatLayer = {}
     },
-    NormalLayer = {
-        name = "二级界面层级" ,
-        depth = 13,
-        coliderColor = Color(0,0,0,1/255),
-        hideOtherLayer = {MainLayer={},ChatroomLayer={},ChitchatLayer={}},
-        closeOtherLayer = {ChatLayer={},FocusLayer={}},
+    coliderColor = Color(0, 0, 0, 0.00392156862745098)
+  },
+  GOGuideLayer = {
+    name = "\229\188\149\229\175\188\229\188\128\229\167\139\231\161\174\232\174\164\229\177\130",
+    depth = 24,
+    closeOtherLayer = {
+      FocusLayer = {},
+      CheckLayer = {},
+      NormalLayer = {},
+      PopUpLayer = {},
+      TipLayer = {},
+      GuideLayer = {},
+      ConfirmLayer = {},
+      Popup10Layer = {},
+      ChatLayer = {},
+      ChatroomLayer = {},
+      ChitchatLayer = {},
+      TeamLayer = {},
+      Show3D2DLayer = {},
+      ProcessLayer = {}
     },
-    PopUpLayer = {
-        name = "三级弹出界面层级" ,
-        depth = 14,
-        coliderColor = Color(0,0,0,200/255),
+    coliderColor = Color(0, 0, 0, 0.00392156862745098),
+    reEntnerNotDestory = true
+  },
+  Show3D2DLayer = {
+    name = "3D/2D\229\177\149\231\164\186\229\177\130\231\186\167",
+    depth = 25,
+    hideOtherLayer = {
+      FocusLayer = {},
+      TipLayer = {},
+      Popup10Layer = {},
+      DialogLayer = {},
+      SystemOpenLayer = {},
+      MainLayer = {},
+      NormalLayer = {},
+      PopUpLayer = {},
+      CheckLayer = {},
+      TeamLayer = {},
+      ChitchatLayer = {},
+      ChatroomLayer = {}
     },
-    CheckLayer = {
-        name = "查看详情层级" ,
-        depth = 15,
-        hideOtherLayer = {MainLayer={},ChatroomLayer={},ChitchatLayer={},PopUpLayer={},NormalLayer={},TeamLayer={},},
-        closeOtherLayer = {ChatLayer={}},
+    coliderColor = Color(0, 0, 0, 0.7843137254901961)
+  },
+  ShareLayer = {
+    name = "\229\136\134\228\186\171\229\177\130\231\186\167",
+    depth = 26,
+    hideOtherLayer = {
+      FocusLayer = {},
+      TipLayer = {},
+      Popup10Layer = {},
+      DialogLayer = {},
+      SystemOpenLayer = {},
+      MainLayer = {},
+      NormalLayer = {},
+      PopUpLayer = {},
+      CheckLayer = {},
+      TeamLayer = {},
+      ChitchatLayer = {},
+      ChatroomLayer = {},
+      Show3D2DLayer = {}
+    }
+  },
+  FloatLayer = {
+    name = "\230\181\174\229\138\168\230\161\134\229\177\130\231\186\167",
+    depth = 27
+  },
+  Popup10Layer = {
+    name = "\229\188\185\230\161\13410\229\177\130\231\186\167",
+    depth = 28,
+    coliderColor = Color(0, 0, 0, 0.00392156862745098),
+    reEntnerNotDestory = true,
+    closeOtherLayer = {
+      TipLayer = {},
+      TeamLayer = {},
+      ChatLayer = {}
     },
-    DragLayer = {
-        name = "拖动层级" ,
-        depth = 16,
+    showHideMode = LayerShowHideMode.ActiveAndDeactive
+  },
+  LoadingLayer = {
+    name = "\229\138\160\232\189\189\231\149\140\233\157\162\229\177\130\231\186\167",
+    depth = 29,
+    hideOtherLayer = {
+      MainLayer = {},
+      ChatLayer = {}
     },
-    TipLayer = {
-        name = "提示界面层级" ,
-        depth = 17,
+    closeOtherLayer = {
+      FocusLayer = {}
     },
-    Lv4PopUpLayer = {
-        name = "四级弹出层级" ,
-        depth = 18,
-        coliderColor = Color(0,0,0,200/255),
+    coliderColor = Color(0, 0, 0, 0.00392156862745098)
+  },
+  TouchLayer = {
+    name = "UI\232\167\166\230\145\184\229\143\141\233\166\136\229\177\130\231\186\167",
+    depth = 30
+  },
+  ToolsLayer = {
+    name = "\229\183\165\229\133\183\229\177\130\231\186\167",
+    depth = 31
+  },
+  WarnLayer = {
+    name = "\232\173\166\229\145\138\230\161\134\229\177\130\231\186\167",
+    depth = 32,
+    reEntnerNotDestory = true
+  },
+  ShieldingLayer = {
+    name = "\229\177\143\228\191\157\229\177\130\231\186\167",
+    depth = 33,
+    coliderColor = Color(0, 0, 0, 0.00392156862745098)
+  },
+  VideoLayer = {
+    name = "\232\167\134\233\162\145\239\188\136\231\143\141\232\151\143\229\147\129\239\188\137\230\146\173\230\148\190\229\177\130\231\186\167",
+    depth = 34,
+    hideOtherLayer = {
+      IConfirmLayer = {},
+      BoardLayer = {},
+      ConfirmLayer = {},
+      Popup10Layer = {},
+      ChatroomLayer = {},
+      ChitchatLayer = {},
+      ReviveLayer = {}
     },
-    IConfirmLayer = {
-        name = "邀请确认层级" ,
-        depth = 19,
-        hideOtherLayer = {},
-        closeOtherLayer = {FocusLayer={}},
-    },
-    ConfirmLayer = {
-        name = "确认框层级" ,
-        depth = 20,
-        coliderColor = Color(0,0,0,1/255),
-    },
-    GuideLayer = {
-        name = "引导层级" ,
-        depth = 21,
-    },
-    SystemOpenLayer = {
-        name = "系统开启层级" ,
-        depth = 22,
-        hideOtherLayer = {FocusLayer={},CheckLayer={},NormalLayer={},PopUpLayer={},TipLayer={},GuideLayer={},ConfirmLayer={},Popup10Layer={},ChatroomLayer={},ChitchatLayer={},TeamLayer={}},
-        closeOtherLayer = {ChatLayer={}},
-        coliderColor = Color(0,0,0,1/255),
-        reEntnerNotDestory = true,
-        showHideMode = LayerShowHideMode.ActiveAndDeactive,
-    },
-    MovieLayer = {
-        name = "观看电影层级" ,
-        depth = 23,
-        hideOtherLayer = {FocusLayer={},MainLayer={},CheckLayer={},NormalLayer={},PopUpLayer={},TipLayer={},BoardLayer={},GuideLayer={},DragLayer={},ConfirmLayer={},Popup10Layer={},ChatroomLayer={},ChitchatLayer={}},
-        closeOtherLayer = {ChatLayer={}},
-        coliderColor = Color(0,0,0,1/255),
-    },
-    GOGuideLayer = {
-        name = "引导开始确认层" ,
-        depth = 24,
-        closeOtherLayer = {FocusLayer={},CheckLayer={},NormalLayer={},PopUpLayer={},TipLayer={},GuideLayer={},ConfirmLayer={},Popup10Layer={},ChatLayer={},ChatroomLayer={},ChitchatLayer={},TeamLayer={},Show3D2DLayer={},ProcessLayer={}},
-        coliderColor = Color(0,0,0,1/255),
-        reEntnerNotDestory = true,
-    },
-    Show3D2DLayer = {
-        name = "3D/2D展示层级" ,
-        depth = 25,
-        hideOtherLayer = {FocusLayer={},TipLayer={},Popup10Layer={},DialogLayer={},SystemOpenLayer={},MainLayer={},NormalLayer={},PopUpLayer={},CheckLayer={},TeamLayer={},ChitchatLayer={},ChatroomLayer={}},
-        coliderColor = Color(0,0,0,200/255),
-    },
-    ShareLayer = {
-        name = "分享层级" ,
-        depth = 26,
-        hideOtherLayer = {FocusLayer={},TipLayer={},Popup10Layer={},DialogLayer={},SystemOpenLayer={},MainLayer={},NormalLayer={},PopUpLayer={},CheckLayer={},TeamLayer={},ChitchatLayer={},ChatroomLayer={},Show3D2DLayer={}},
-    },
-    FloatLayer = {
-        name = "浮动框层级" ,
-        depth = 27,
-    },
-    Popup10Layer = {
-        name = "弹框10层级" ,
-        depth = 28,
-        coliderColor = Color(0,0,0,1/255),
-        reEntnerNotDestory = true,
-        closeOtherLayer = {TipLayer={},TeamLayer={},ChatLayer={}},
-        showHideMode = LayerShowHideMode.ActiveAndDeactive,
-    },
-    LoadingLayer = {
-        name = "加载界面层级" ,
-        depth = 29,
-        hideOtherLayer = {MainLayer={},ChatLayer={}},
-        closeOtherLayer = {FocusLayer={}},
-        coliderColor = Color(0,0,0,1/255),
-    },
-    TouchLayer = {
-        name = "UI触摸反馈层级" ,
-        depth = 30,
-
-    },
-    ToolsLayer = {
-        name = "工具层级" ,
-        depth = 31,
-    },
-    WarnLayer = {
-        name = "警告框层级" ,
-        depth = 32,
-        reEntnerNotDestory = true,
-    },
-    ShieldingLayer = {
-        name = "屏保层级" ,
-        depth = 33,
-        coliderColor = Color(0,0,0,1/255),
-    },
-    VideoLayer = {
-        name = "视频（珍藏品）播放层级" ,
-        depth = 34,
-        hideOtherLayer = {IConfirmLayer={},BoardLayer={},ConfirmLayer={},Popup10Layer={},ChatroomLayer={},ChitchatLayer={},ReviveLayer={}},
-        coliderColor = Color(0,0,0,1/255),
-    },
-    ProcessLayer = {
-        name = "弹幕层级" ,
-        depth = 35,
-        reEntnerNotDestory = true,
-    },
-    BoardLayer = {
-        name = "公告层级" ,
-        depth = 36,
-        reEntnerNotDestory = true,
-    },
+    coliderColor = Color(0, 0, 0, 0.00392156862745098)
+  },
+  ProcessLayer = {
+    name = "\229\188\185\229\185\149\229\177\130\231\186\167",
+    depth = 35,
+    reEntnerNotDestory = true
+  },
+  BoardLayer = {
+    name = "\229\133\172\229\145\138\229\177\130\231\186\167",
+    depth = 36,
+    reEntnerNotDestory = true
+  }
 }
-
-    ----------界面返回属性的配置----------------------
-    UIRollBackID = {
-    353,352,3,720,495,1070,547,1620
+UIRollBackID = {
+  353,
+  352,
+  3,
+  720,
+  495,
+  1070,
+  547,
+  1620
 }
-
-

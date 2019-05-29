@@ -1,3 +1,2 @@
-SceneInfo={
-}
+SceneInfo = {}
 return SceneInfo

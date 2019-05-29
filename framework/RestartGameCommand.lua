@@ -1,7 +1,5 @@
-local RestartGameCommand = class("RestartGameCommand",pm.SimpleCommand)
-
+local RestartGameCommand = class("RestartGameCommand", pm.SimpleCommand)
 function RestartGameCommand:execute(note)
-	FunctionNetError.Me():ErrorBackToLogin()
+  FunctionNetError.Me():ErrorBackToLogin()
 end
-
 return RestartGameCommand

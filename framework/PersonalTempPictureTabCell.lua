@@ -1,35 +1,27 @@
 local baseCell = autoImport("BaseCell")
-PersonalTempPictureTabCell = class("PersonalTempPictureTabCell",baseCell)
-
+PersonalTempPictureTabCell = class("PersonalTempPictureTabCell", baseCell)
 function PersonalTempPictureTabCell:Init()
-	self:initView()
-	self:initData()
+  self:initView()
+  self:initData()
 end
-
-function PersonalTempPictureTabCell:initView(  )
-	-- body
-	self.label = self:FindComponent("PersonalTabLabel",UILabel)
+function PersonalTempPictureTabCell:initView()
+  self.label = self:FindComponent("PersonalTabLabel", UILabel)
 end
-
-function PersonalTempPictureTabCell:initData(  )
-	-- body
+function PersonalTempPictureTabCell:initData()
 end
-
-local tempColor = LuaColor(38/255,72/255,148/255)
-function PersonalTempPictureTabCell:setIsSelected( isSelected )
-	-- body
-	if self.isSelected ~= isSelected then
-		self.isSelected = isSelected
-		if(isSelected)then
-			self.label.effectStyle = UILabel.Effect.Outline8
-			self.label.effectColor = tempColor
-		else			
-			self.label.effectStyle = UILabel.Effect.None
-		end
-	end
+local tempColor = LuaColor(0.14901960784313725, 0.2823529411764706, 0.5803921568627451)
+function PersonalTempPictureTabCell:setIsSelected(isSelected)
+  if self.isSelected ~= isSelected then
+    self.isSelected = isSelected
+    if isSelected then
+      self.label.effectStyle = UILabel.Effect.Outline8
+      self.label.effectColor = tempColor
+    else
+      self.label.effectStyle = UILabel.Effect.None
+    end
+  end
 end
-
 function PersonalTempPictureTabCell:SetData(data)
-	self.data = data
-	self.label.text = data.name
+  self.data = data
+  self.label.text = data.name
 end
